@@ -1,0 +1,290 @@
+﻿#无魔法建筑
+pm_not_magic_building = {
+texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1 
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 1
+			building_input_fabric_add = 1
+			building_input_iron_add = 1
+			building_input_tools_add = 1
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1
+			building_employment_machinists_add = 1
+			building_employment_laborers_add = 1
+		}
+	}
+	
+	state_modifiers = {
+		unscaled = {
+			state_construction_mult = 1
+		}	
+	}
+}
+
+#材料强化建筑
+pm_materials_reinforce_magic = {
+texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 1
+			building_input_fabric_add = 1
+			building_input_iron_add = 1
+			building_input_tools_add = 1
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1
+			building_employment_machinists_add = 1
+			building_employment_laborers_add = 1
+		}
+	}
+	
+	state_modifiers = {
+		unscaled = {
+			state_construction_mult = 1
+		}	
+	}
+}
+
+#法术立场加固
+pm_magic_force_field_reinforce = {
+texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1 
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 1
+			building_input_fabric_add = 1
+			building_input_iron_add = 1
+			building_input_tools_add = 1
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1
+			building_employment_machinists_add = 1
+			building_employment_laborers_add = 1
+		}
+	}
+	
+	state_modifiers = {
+		unscaled = {
+			state_construction_mult = 1
+		}	
+	}
+}
+
+#魔导建筑结构
+pm_magic_building_structure = {
+texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 1
+			building_input_fabric_add = 1
+			building_input_iron_add = 1
+			building_input_tools_add = 1
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1
+			building_employment_machinists_add = 1
+			building_employment_laborers_add = 1
+		}
+	}
+	
+	state_modifiers = {
+		unscaled = {
+			state_construction_mult = 1
+		}	
+	}
+}
+
+#无科学建筑
+pm_not_science_building = {
+texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 1
+			building_input_fabric_add = 1
+			building_input_iron_add = 1
+			building_input_tools_add = 1
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1
+			building_employment_machinists_add = 1
+			building_employment_laborers_add = 1
+		}
+	}
+	
+	state_modifiers = {
+		unscaled = {
+			state_construction_mult = 1
+		}	
+	}
+}
+
+#木质建筑
+pm_wooden_building = {
+texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 1
+			building_input_fabric_add = 1
+			building_input_iron_add = 1
+			building_input_tools_add = 1
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1
+			building_employment_machinists_add = 1
+			building_employment_laborers_add = 1
+		}
+	}
+	
+	state_modifiers = {
+		unscaled = {
+			state_construction_mult = 1
+		}	
+	}
+}
+
+#钢筋混凝土结构
+pm_reinforced_concrete_building = {
+texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 20
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 50
+			building_input_fabric_add = 30
+			building_input_iron_add = 30
+			building_input_tools_add = 30
+			building_output_construction_add = 20
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 750
+			building_employment_machinists_add = 1500
+			building_employment_laborers_add = 2500
+		}
+	}
+	
+	state_modifiers = {
+		unscaled = {
+			state_construction_mult = 1
+		}	
+	}
+}
+
+#蒸汽动力一体化构造
+pm_steam_power_integrated_structure = {
+	texture = "gfx/interface/icons/production_method_icons/arc_welded_buildings.dds"
+
+	unlocking_technologies = {
+		arc_welding
+	}
+		
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 35
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_steel_add = 100
+			building_input_glass_add = 50
+			building_input_tools_add = 50
+			building_input_electricity_add = 50
+			building_output_construction_add = 35
+		} 
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 250
+			building_employment_engineers_add = 1250
+			building_employment_machinists_add = 2000
+			building_employment_laborers_add = 1500
+		}
+	}
+	
+	state_modifiers = {
+		unscaled = {
+			state_construction_mult = 0.25
+		}	
+	}
+}

@@ -1,0 +1,142 @@
+﻿#农场 魔法生产
+pmg_magical_base_building_farm = {
+	production_methods = {
+		no_magic_farm
+		pm_benediction_farm
+		pm_vitalize_farm
+		pm_rapidly_growing_farm
+	}
+}
+#农场 基础生产
+pmg_base_building_farm = {
+	production_methods = {
+		pm_simple_farming
+		pm_soil_enriching_farming
+		pm_fertilization
+		pm_chemical_fertilizer
+	}
+}
+#农场 魔法自动化
+pmg_magical_automation_building_farm = {
+	production_methods = {
+		pm_no_magic_automation_farm
+		pm_basic_doll_farm
+		pm_intelligent_doll_farm
+	}
+}
+
+pmg_secondary_building_rye_farm = {
+	production_methods = {
+		pm_no_secondary
+		pm_potatoes
+		pm_apple_orchards
+	}
+}
+#农场 收割过程
+pmg_harvesting_process_building_farm = {
+	production_methods = {
+		pm_tools_disabled
+		pm_tools
+		pm_steam_threshers
+		pm_tractors_building_farm
+		pm_compression_ignition_tractors_building_farm
+	}
+}
+#农场 所有制
+pmg_ownership_land_building_farm = {
+	production_methods = {
+		pm_privately_owned_argo
+		pm_publicly_traded_argo
+		pm_government_run_argo
+		pm_worker_cooperative_argo
+		pm_church_owned_argo
+	}
+}
+
+pmg_secondary_building_wheat_farm = {
+	production_methods = {
+		pm_no_secondary
+		pm_citrus_orchards
+		pm_vineyards
+	}
+}
+
+pmg_secondary_building_rice_farm = {
+	production_methods = {
+		pm_no_secondary
+		pm_fig_orchards
+	}
+}
+
+pmg_secondary_building_maize_farm = {
+	production_methods = {
+		pm_no_secondary
+		pm_citrus_orchards
+		pm_vineyards_building_maize_farm
+	}
+}
+
+pmg_secondary_building_millet_farm = {
+	production_methods = {
+		pm_no_secondary
+		pm_fig_orchards
+	}
+}
+
+pmg_base_building_livestock_ranch = {
+	production_methods = {
+		pm_simple_ranch
+		pm_intensive_grazing_ranch
+	}
+}
+#畜牧场 魔法生产
+pmg_magic_base_building_livestock_ranch = {
+	production_methods = {
+		pm_no_magic_building_livestock_ranch
+		pm_benediction_livestock_ranch
+		pm_vitalize_livestock_ranch
+	}
+}
+#畜牧场 魔法自动化
+pmg_magical_automation_building_livestock_ranch = {
+	production_methods = {
+		pm_no_magic_automation_building_livestock_ranch
+		pm_basic_doll_livestock_ranch
+		pm_intelligent_doll_farm_livestock_ranch
+		}
+}
+
+pmg_slaughtering = {
+	production_methods = {
+		pm_open_air_stockyards
+		pm_butchering_tools
+		pm_slaughterhouses
+		pm_mechanized_slaughtering
+	}
+}
+
+pmg_fencing = {
+	production_methods = {
+		pm_standard_fences
+		pm_barbed_wire_fences
+		pm_electric_fencing
+	}
+}
+#畜牧场 储存
+pmg_refrigeration_building_livestock_ranch = {
+	production_methods = {
+		pm_unrefrigerated
+		pm_temeprature_control_building_livestock_ranch
+		pm_psionic_immiting_building_livestock_ranch
+	}
+}
+#畜牧场 所有制
+pmg_ownership_land_building_livestock_ranch = {
+	production_methods = {
+		pm_privately_owned_argo
+		pm_publicly_traded_argo
+		pm_government_run_argo
+		pm_worker_cooperative_argo
+		pm_church_owned_argo
+	}
+}

@@ -1,0 +1,406 @@
+﻿# MANUFACTURING INDUSTRIES
+#魔偶工厂
+building_magical_dolls_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/magical_dolls_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		magical_dolls
+	}
+	
+	production_method_groups = {
+		pmg_magical_dolls_industry_methods
+		pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+	
+}
+
+# 炼金
+building_Refinerymagic_extraction = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/Refinery_extraction"
+	city_type = city
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_Refinery_extraction_method
+		pmg_magical_automation
+		pmg_magiscientia_automation
+		pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+	
+}
+
+# 泽洛
+building_zro_extraction = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/zro_extraction"
+	city_type = city
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_zro_extraction_method
+		pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+	
+}
+
+# 食品厂
+building_food_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_food_industry
+		pmg_canning
+		pmg_distillery
+		pmg_automation_building_food_industry
+		pmg_ownership_capital_industry
+	}
+
+	required_construction = construction_cost_medium
+	
+}
+
+# 酿酒厂
+building_liquor_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/liquor_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_liquor_factory
+		pmg_ownership_capital_heavy_industry
+		pmg_automation_building_liquor_factory
+	}
+
+	required_construction = construction_cost_medium
+	
+}
+# 纺织厂
+building_textile_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	production_method_groups = {
+		pmg_base_building_textile_mills
+		pmg_luxury_building_textile_mills
+		pmg_automation_building_textile_mills
+		pmg_ownership_capital_industry
+		pmg_magical_automation_building
+		pmg_magiscientia_automation
+	}
+	
+	required_construction = construction_cost_medium
+}
+
+# 家具厂
+building_furniture_manufacturies = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_furniture_manufacturies
+		pmg_luxury_building_furniture_manufacturies
+		pmg_automation_building_furniture_manufacturies
+		pmg_ownership_capital_industry
+		pmg_magical_automation
+		pmg_magiscientia_automation
+	}
+
+	required_construction = construction_cost_medium
+
+# 魔能武器厂
+building_magic_rifle_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/magic_rifle_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		#
+	}
+
+	production_method_groups = {
+		pmg_magic_rifle_manufacturing
+		pmg_magical_atuomation
+		pmg_magiscientia_atuomation
+		pmg_ownership_capital_heavy_industry
+	}
+		
+	required_construction = construction_cost_medium
+}
+
+	
+# 玻璃厂
+building_glassworks = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/glassworks.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_glassworks
+		pmg_luxury_building_glassworks
+		pmg_glassblowing
+		pmg_ownership_capital_industry
+	}
+	
+	required_construction = construction_cost_medium
+}
+
+
+# 工具作坊
+building_tooling_workshops = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_tooling_workshops
+		pmg_automation_building_tooling_workshops
+		pmg_magical_atuomation
+		pmg_magiscientia_atuomation
+		pmg_ownership_capital_industry
+	}
+
+	required_construction = construction_cost_medium
+}
+
+building_paper_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/paper_mills.dds"
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_paper_mills
+		pmg_automation_building_paper_mills
+		pmg_ownership_capital_industry
+	}
+	
+	required_construction = construction_cost_medium
+}
+
+# 化工厂
+building_chemical_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/chemicals_industry.dds"
+	
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_fertilizer_production
+		pmg_explosives_building_chemical_plants
+		pmg_magical_atuomation
+		pmg_ownership_capital_heavy_industry
+	}
+
+	required_construction = construction_cost_high
+}
+
+# 钢铁厂
+building_steel_mills = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		steelworking
+	}
+	
+	production_method_groups = {
+		pmg_steelmaking_process
+		pmg_automation_building_steel_mills
+		pmg_ownership_capital_heavy_industry
+		pmg_magic_steelmaking_process
+		pmg_magical_atuomation
+		pmg_magiscientia_atuomation
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#动力机械厂
+building_motor_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/motor_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+
+	production_method_groups = {
+		pmg_base_building_motor_industry
+		pmg_automobile_production
+		pmg_automation_building_motor_industry
+		pmg_magical_autoomation
+		pmg_magiscientia_automation
+		pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+#魔能装备厂
+building_magical_equipment_industry
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/magical_equipment_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_psionic_crystal_production
+		pmg_magical_floating_vehicle_production
+		pmg_automation_building_magical_equipment_industry
+		pmg_magical_automation
+		pmg_magiscientia_automation
+		pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+}
+
+building_shipyards = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/shipyards.dds"
+	city_type = port
+	
+	unlocking_technologies = {
+		navigation
+	}
+
+	production_method_groups = {
+		pmg_base_building_shipyards
+		pmg_military_base
+		pmg_ownership_capital_industry
+	}
+
+	required_construction = construction_cost_medium
+	
+	can_build = {
+		error_check = {
+			severity = fail
+			has_coast = yes
+		}
+	}
+}
+
+# 科学军械厂
+building_war_machine_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		military_aviation
+	}
+
+	production_method_groups = {
+		pmg_aeroplanes
+		pmg_science_mech_production
+		pmg_automation
+		pmg_magical_automation
+		pmg_magiscientia_automation
+		pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+# 魔法军械厂
+building_magic_war_machine_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		military_aviation
+	}
+
+	production_method_groups = {
+		pmg_magical_aerocraft
+		pmg_magical_mech_production
+		pmg_magical_automation
+		pmg_magiscientia_automation
+		pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+# 科学武器厂
+building_arms_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/arms_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		gunsmithing
+	}
+
+	production_method_groups = {
+		pmg_firearms_manufacturing
+		pmg_foundries
+		pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_medium
+}
