@@ -1,0 +1,1 @@
+gui/widget_imperial_parliament.gui = widget_imperial_parliament
