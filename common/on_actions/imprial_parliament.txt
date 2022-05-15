@@ -1,0 +1,6 @@
+#每月收集投票
+on_monthly_pulse_country = {
+  events = {
+    ip_poll.3
+  }
+}
