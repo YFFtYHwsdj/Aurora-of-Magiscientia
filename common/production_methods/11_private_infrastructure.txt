@@ -8,11 +8,11 @@
 	building_modifiers = {
 		level_scaled = {
 			building_input_zro_add = 10
-			building_input_psionic_crystal_add = 20
-			building_output_transportation_add = 60
+			building_input_psionic_crystal_add = 30
+			building_output_transportation_add = 120
 			building_output_services_add = 20
 			building_employment_laborers_add = 1500
-			building_employment_machinists_add = 500
+			building_employment_magiciteain_add = 500
 		}
 		state_modifiers = {
 			workforce_scaled = {
@@ -30,12 +30,11 @@ pm_scaled_teleport = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_input_zro_add = 15
-			building_input_psionic_crystal_add = 25
-			building_output_transportation_add = 80
-			building_output_services_add = 40
-			building_employment_laborers_add = 1750
-			building_employment_machinists_add = 1000
+			building_input_zro_add = 20
+			building_input_psionic_crystal_add = 35
+			building_output_transportation_add = 180
+			building_employment_laborers_add = 1000
+			building_employment_magiciteain_add = 1000
 		}
 		state_modifiers = {
 			workforce_scaled = {
@@ -56,11 +55,10 @@ pm_permanent_teleport = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_input_zro_add = 20
-			building_input_psionic_crystal_add = 35
-			building_output_transportation_add = 100
-			building_output_services_add = 60
-			building_employment_laborers_add = 2000
+			building_input_zro_add = 25
+			building_input_psionic_crystal_add = 45
+			building_output_transportation_add = 240
+			building_employment_laborers_add = 500
 			building_employment_machinists_add = 1500
 		}
 		state_modifiers = {
@@ -80,8 +78,9 @@ pm_leveled_road = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_output_transportation_add = 5
-			building_employment_laborers_add = 1500
+			building_output_transportation_add = 15
+			building_input_tools_add = 10
+			building_employment_laborers_add = 3000
 		}
 		state_modifiers = {
 			workforce_scaled = {
@@ -100,8 +99,10 @@ pm_cobblestone_road = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_output_transportation_add = 10
-			building_employment_laborers_add = 2000
+			building_output_transportation_add = 30
+			building_input_tools_add = 19
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 500
 		}
 		state_modifiers = {
 			workforce_scaled = {
@@ -122,7 +123,9 @@ pm_bitumen_road = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_output_transportation_add = 20
+			building_output_transportation_add = 60
+			building_input_tools_add = 25
+			building_input_coal_add = 10
 			building_employment_laborers_add = 1500
 			building_employment_machinists_add = 500
 			building_employment_engineers_add = 250
@@ -145,11 +148,13 @@ pm_manpower_transportation_road = {
 	building_modifiers = {
 		level_scaled = {
 			building_output_transportation_add = 15
-			building_employment_laborers_add = 3000
+			building_input_tools_add = 5
+			building_input_grain_add = 10
+			building_employment_laborers_add = 2000
 		}
 		state_modifiers = {
 			workforce_scaled = {
-				state_infrastructure_add = 20
+				state_infrastructure_add = 5
 			}
 		}
 	}
@@ -164,13 +169,14 @@ pm_animal_transportation_road = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_input_grain_add = 60
-			building_output_transportation_add = 20
-			building_employment_laborers_add = 1000
+			building_input_grain_add = 25
+			building_input_tools_add = 15
+			building_output_transportation_add = 45
+			building_employment_laborers_add = 1500
 		}
 		state_modifiers = {
 			workforce_scaled = {
-				state_infrastructure_add = 20
+				state_infrastructure_add = 15
 			}
 		}
 	}
@@ -185,18 +191,15 @@ pm_magical_vehicle_transportation_road = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_input_magical_vehicle_add = 10
-			building_input_psionic_crystal_add = 5
-			building_output_transportation_add = 80
-			building_output_services_add = 40
-			building_employment_laborers_add = 500
-			building_employment_machinists_add = 500
-			building_employment_engineers_add = 250
-			building_employment_magicians_add = 250
+			building_input_magical_vehicle_add = 20
+			building_input_psionic_crystal_add = 20
+			building_output_transportation_add = 150
+			building_employment_laborers_add = 1000
+			building_employment_magiciteain_add = 500
 		}
 		state_modifiers = {
 			workforce_scaled = {
-				state_infrastructure_add = 60
+				state_infrastructure_add = 50
 			}
 		}
 	}
@@ -316,9 +319,10 @@ pm_steam_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 10
-			building_input_coal_add = 10
-			building_output_transportation_add = 50
+			building_input_engines_add = 5
+			building_input_coal_add = 15
+			building_input_steel_add = 10
+			building_output_transportation_add = 60
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -327,7 +331,7 @@ pm_steam_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 30
+			state_infrastructure_add = 20
 		}
 	}
 }
@@ -343,18 +347,20 @@ pm_high_pressure_trains = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_engines_add = 15
-			building_input_electricity_add = 15
-			building_output_transportation_add = 75
+			building_input_coal_add = 25
+			building_input_steel_add = 20
+			building_output_transportation_add = 120
 		}
 		level_scaled = {
-			building_employment_laborers_add = 2000
-			building_employment_machinists_add = 2000
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 500
 		}
 	}
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 60
+			state_infrastructure_add = 40
 		}
 	}
 }
@@ -369,123 +375,24 @@ pm_super_fluid_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 20
-			building_input_zro_add = 20
-			building_output_transportation_add = 100
-			building_output_services = 20
+			building_input_engines_add = 15
+			building_input_zro_add = 5
+			building_input_mithril_add = 5
+			building_input_coal_add = 30
+			building_input_steel_add = 20
+			building_output_transportation_add = 180
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1500
-			building_employment_machinists_add = 2500
-			building_employment_magicians_add = 500
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+			building_employment_magiciteain_add = 500
 		}
 	}
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 80
-		}
-	}
-}
-
-pm_no_passenger_trains = {
-	texture = "gfx/interface/icons/production_method_icons/no_passenger_trains.dds"
-}
-
-pm_wooden_passenger_carriages = {
-	texture = "gfx/interface/icons/production_method_icons/passenger_trains.dds"
-	pollution_generation = 10
-
-	building_modifiers = {
-		workforce_scaled = {
-			building_input_wood_add = 5
-			building_output_services_add = 20
-		}
-		level_scaled = {
-			building_employment_machinists_add = -250
-		}
-	}
-	
-	state_modifiers = {
-		workforce_scaled = {
-			state_infrastructure_add = -10
-		}
-	}				
-}
-
-pm_steel_passenger_carriages = {
-	texture = "gfx/interface/icons/production_method_icons/passenger_carriages.dds"
-	pollution_generation = 10
-	
-	unlocking_production_methods = {
-		pm_diesel_trains
-		pm_electric_trains
-	}
-
-	unlocking_technologies = {
-		steel_railway_cars
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			building_input_steel_add = 5
-			building_output_services_add = 40
-		}
-		level_scaled = {
-			building_employment_machinists_add = -500
-		}
-	}
-	
-	state_modifiers = {
-		workforce_scaled = {
-			state_infrastructure_add = -10
-		}
-	}				
-}
-
-pm_no_military_trains = {
-	texture = "gfx/interface/icons/production_method_icons/no_armored_trains.dds"
-}
-
-pm_armored_trains = {
-	texture = "gfx/interface/icons/production_method_icons/armored_trains.dds"
-
-	unlocking_technologies = {
-		steel_railway_cars
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			building_input_steel_add = 75
-			building_input_rifle_add = 50
-		}
-	}
-	
-	state_modifiers = {
-		workforce_scaled = {
-			unit_army_defense_add = 20
-		}
-	}
-}
-
-pm_railway_guns = {
-	texture = "gfx/interface/icons/production_method_icons/railway_guns.dds"
-
-	unlocking_technologies = {
-		breech_loading_artillery
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			building_input_steel_add = 75
-			building_input_artillery_add = 20
-		}
-	}
-	
-	state_modifiers = {
-		workforce_scaled = {
-			unit_army_offense_add = 20
-			unit_army_defense_add = 20
+			state_infrastructure_add = 60
 		}
 	}
 }
