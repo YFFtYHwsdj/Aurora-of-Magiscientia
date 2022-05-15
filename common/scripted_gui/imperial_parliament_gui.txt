@@ -18,6 +18,8 @@ set_country_voting_pro = {
 			name = pro_modifier
 			months = -1
 		}
+		remove_modifier = con_modifier
+		remove_modifier = waiver_modifier
 	}
 }
 #反对
@@ -40,6 +42,8 @@ set_country_voting_con = {
 			name = con_modifier
 			months = -1
 		}
+		remove_modifier = pro_modifier
+		remove_modifier = waiver_modifier
 	}
 }
 #弃权
@@ -62,5 +66,7 @@ set_country_voting_waiver = {
 			name = waiver_modifier
 			months = -1
 		}
+		remove_modifier = pro_modifier
+		remove_modifier = con_modifier
 	}
 }
