@@ -84,10 +84,10 @@ widget = {
 	# fullscreens
 	using = information_panels_fullscreens
 
-	# 帝国议会
-		widget_imperial_parliament = {
-			parentanchor = bottom|left
-		}
+	# 帝国议会	
+	widget_imperial_parliament = {
+		parentanchor = bottom|left
+	}
 	
 	# vbox with things that should be reduced in size on Y-axis when opening the lens options
 	vbox = {
