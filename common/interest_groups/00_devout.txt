@@ -1,0 +1,190 @@
+﻿ig_devout = {
+	color = { 100 100 100 }
+	texture = "gfx/interface/icons/ig_icons/devout.dds"
+	
+	ideologies = {
+		ideology_pious
+		ideology_moralist
+		ideology_patriarchal
+	}
+	
+	enable = {
+		always = yes
+	}
+	
+	traits = {
+		ig_trait_be_fruitful_and_multiply
+		ig_trait_divine_right
+		ig_trait_pious_fiction
+	}	
+	
+	on_enable = {}
+	on_disable = {}
+	
+	pop_potential = {
+		religion = owner.religion
+	}
+	
+	pop_weight = {
+		value = 0	
+
+		add = {
+			desc = "POP_CLERGY_STATE_RELIGION"
+			if = {
+				limit = { 
+					is_pop_type = clergymen
+					religion = owner.religion
+				}
+				value = 200
+			}
+		}	
+		
+		add = {
+			desc = "POP_ARISTOCRATS_STATE_RELIGION"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+					religion = owner.religion
+				}
+				value = 50
+			}
+		}	
+
+		add = {
+			desc = "POP_PEASANTS_STATE_RELIGION"
+			if = {
+				limit = { 
+					is_pop_type = peasants
+					religion = owner.religion
+				}
+				value = 50
+			}
+		}					
+		
+		add = {
+			desc = "POP_STATE_RELIGION"	
+			
+			if = {
+				limit = { 
+					religion = owner.religion
+				}
+				add = 40
+			}
+		}				
+
+		add = {
+			desc = "LITERACY_50_60"
+			
+			if = {
+				limit = { 
+					literacy_rate >= 0.50
+					literacy_rate < 0.60
+				}
+				add = -2
+			}
+		}		
+
+		add = {
+			desc = "LITERACY_60_70"
+			
+			if = {
+				limit = { 
+					literacy_rate >= 0.60
+					literacy_rate < 0.70
+				}
+				add = -4
+			}
+		}
+
+		add = {
+			desc = "LITERACY_70_80"
+			
+			if = {
+				limit = { 
+					literacy_rate >= 0.70
+					literacy_rate < 0.80
+				}
+				add = -6
+			}
+		}		
+	
+		add = {
+			desc = "LITERACY_80_90"
+			
+			if = {
+				limit = { 
+					literacy_rate >= 0.80
+					literacy_rate < 0.90
+				}
+				add = -8
+			}
+		}		
+
+		add = {
+			desc = "LITERACY_90_100"
+			
+			if = {
+				limit = { 
+					literacy_rate >= 0.90
+				}
+				add = -10
+			}
+		}					
+	}
+	
+	monarch_weight = {
+		value = 1.0
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.5
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.05
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.05
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.05
+			}
+		}
+	}
+}

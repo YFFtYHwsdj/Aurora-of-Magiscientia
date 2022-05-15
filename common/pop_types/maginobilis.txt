@@ -5,7 +5,7 @@ maginobilis = {
 	start_quality_of_life = 20
 	can_build = yes
 	wage_weight = 6
-	literacy_target = 0.70
+	literacy_target = 1.0
 	dependent_wage = 0.0	# per year
 	unemployment = yes
 	
@@ -22,6 +22,7 @@ maginobilis = {
 		if = {
 			limit = {
 				wealth > 10
+				literacy_rate > 0.6
 			}
 			# baseline: ( wealth - 10 ) / 10 + ( literacy * 2 ), norm 2 for Wealth 20 and Literacy 50%
 			add = {
@@ -37,7 +38,7 @@ maginobilis = {
 			}
 			if = {
 				limit = {
-					is_pop_type = shopkeepers
+					is_pop_type = magistratus
 				}
 				multiply = {
 					value = 5
@@ -46,7 +47,7 @@ maginobilis = {
 			}
 			if = {
 				limit = {
-					is_pop_type = engineers
+					is_pop_type = captalists
 				}
 				multiply = {
 					value = 5

@@ -1,0 +1,9 @@
+#livestock死亡率
+building_livestock_mortality_mult = {
+	good = no
+	percent = yes
+}
+building_livestock_fertility_mult = {
+	good = no
+	percent = yes
+}
