@@ -93,6 +93,10 @@ lawgroup_rights_of_women = {
 	law_group_category = human_rights
 }
 
+lawgroup_zro_extraction = {
+	law_group_category = human_rights
+}
+
 lawgroup_welfare = {
 	law_group_category = human_rights
 }

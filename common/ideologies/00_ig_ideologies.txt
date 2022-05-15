@@ -58,6 +58,12 @@ ideology_laissez_faire = {
 		law_command_economy = strongly_disapprove
 	}
 	
+	law_group_zro_extraction = {
+		law_no_zro_extraction = disapprove
+		law_secret_zro_extraction = approve
+		law_confessed_zro_extraction = approve
+	}
+	
 	lawgroup_trade_policy = {		
 		law_free_trade = approve	
 		law_mercantilism = neutral
@@ -134,7 +140,13 @@ ideology_stratocratic = {
 		law_proportional_taxation = disapprove
 		law_graduated_taxation = strongly_disapprove
 	}
-
+	
+	lawgroup_zro_extraction = {
+		law_no_zro_extraction = disapprove
+		law_secret_zro_extraction = approve
+		law_confessed_zro_extraction = neutral
+	}
+	
 	lawgroup_welfare = {
 		law_no_social_security = approve
 		law_poor_laws = neutral
@@ -152,6 +164,12 @@ ideology_pious = {
 		law_agrarianism = approve
 		law_laissez_faire = disapprove
 		law_command_economy = strongly_disapprove
+	}
+	
+	law_group_zro_extraction = {
+		law_no_zro_extraction = neutral
+		law_secret_zro_extraction = strongly_approve
+		law_confessed_zro_extraction = disapprove
 	}
 	
 	lawgroup_health_system = {
@@ -174,6 +192,7 @@ ideology_agrarian = {
 	
 	lawgroup_economic_system = {		
 		law_agrarianism = approve
+		law_theoratic_economy = neutral
 		law_traditionalism = neutral
 		law_interventionism = neutral
 		law_laissez_faire = disapprove
@@ -367,6 +386,12 @@ ideology_liberal = {
 		law_secret_police = disapprove
 	}
 	
+	law_group_zro_extraction = {
+		law_no_zro_extraction = strongly_approve
+		law_secret_zro_extraction = disapprove
+		law_confessed_zro_extraction = strongly_disapprove
+	}
+	
 	lawgroup_free_speech = {
 		law_protected_speech = strongly_approve
 		law_right_of_assembly = approve
@@ -396,6 +421,10 @@ ideology_anti_clerical = {
 		law_total_separation = strongly_approve
 		law_freedom_of_conscience = approve
 		law_state_religion = disapprove
+	}
+	
+	lawgroup_economic_system = {
+		law_theoratic_economy = strongly_disapprove
 	}
 	
 	lawgroup_education_system = {
