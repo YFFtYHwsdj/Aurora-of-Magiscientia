@@ -25,7 +25,7 @@ magiciteain = {
 	qualifications = {
 		if = {
 			limit = {
-				literacy_rate > 0.2
+				literacy_rate > 0.3
 			}
 			# baseline: ( literacy - 0.2 ) * 5 + ( wealth / 20 ), norm 2.5 for Wealth 20 and Literacy 50%
 			add = {
