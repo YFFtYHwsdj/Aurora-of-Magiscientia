@@ -1,0 +1,126 @@
+﻿ig_landowners = {
+	color = { 108 64 179 }
+	texture = "gfx/interface/icons/ig_icons/landowners.dds"
+	
+	ideologies = {
+		ideology_paternalistic
+		ideology_stratocratic
+		ideology_patriarchal
+	}
+	
+	enable = {
+		always = yes
+	}
+	
+	traits = {
+		ig_trait_noblesse_oblige
+		ig_trait_family_ties
+		ig_trait_noble_privileges
+	}
+	
+	on_enable = {}
+	on_disable = {}
+	
+	pop_potential = {
+		OR = {
+			is_pop_type = aristocrats
+			is_pop_type = clergymen
+			is_pop_type = officers
+		}		
+	}
+	
+	pop_weight = {
+		value = 0
+	
+		add = {
+			desc = "POP_ARISTOCRATS"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+				}
+				value = 200
+			}
+		}
+
+		add = {
+			desc = "POP_CLERGYMEN"
+			if = {
+				limit = { 
+					is_pop_type = clergymen
+				}
+				value = 50
+			}
+		}
+
+		add = {
+			desc = "POP_OFFICERS"
+			if = {
+				limit = { 
+					is_pop_type = officers
+				}
+				value = 50
+			}
+		}		
+	}
+	
+	monarch_weight = {
+		value = 2.0
+	}
+	
+	commander_weight = {
+		value = 2.0
+	}	
+	
+	noble_chance = {
+		value = 1.0
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.05
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.05
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.05
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	commander_leader_chance = {
+		value = 0.5
+	}	
+}
