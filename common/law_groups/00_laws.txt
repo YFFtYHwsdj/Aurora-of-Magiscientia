@@ -44,7 +44,16 @@ lawgroup_internal_security = {
 }
 
 lawgroup_economic_system = {
-	law_group_category = economy	
+	law_group_category = economy
+	
+	change_allowed_trigger = {
+		NOT = {
+			has_diplomatic_pact = {
+				who = root
+				type = subject_church_vassal
+			}
+		}
+	}
 }
 
 lawgroup_trade_policy = {
