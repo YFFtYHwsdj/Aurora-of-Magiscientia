@@ -1,0 +1,14 @@
+#金融中心
+building_finance_center = {
+	building_group = bg_finance
+	texture = "gfx/interface/icons/building_icons/magical_dolls_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	production_method_group = {
+		pmg_default_building_finance_center
+		pmg_ownership_building_finance_center
+	}
+	
+	required_construction = construction_cost_medium
+}

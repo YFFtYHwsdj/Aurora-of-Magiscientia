@@ -1,10 +1,10 @@
-building_eiffel_tower = {
+building_gret_wall = {
 	building_group = bg_monuments
 	texture = "gfx/interface/icons/building_icons/building_eiffel_tower.dds"
 	expandable = no
 	downsizeable = no
 	unique = yes
-	locator = "eiffel_tower_locator"
+	locator = "great_wall_locator"
 	
 	entity_not_constructed = { }
 	entity_under_construction = { "building_construction_3x3_entity" }

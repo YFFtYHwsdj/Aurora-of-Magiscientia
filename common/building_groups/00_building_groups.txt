@@ -482,7 +482,12 @@ bg_urban_structures = {
 		default_auto_expand_rule = yes
 	}
 }
-
+#金融
+bg_finance = {
+	parent_group = bg_urban_structures
+	
+	cash_reserves_max = 1000
+}
 bg_arts = {
 	parent_group = bg_urban_structures
 }
