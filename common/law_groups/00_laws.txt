@@ -19,6 +19,29 @@ lawgroup_governance_principles = {
 	}
 }
 
+lawgroup_magic_restrict = {                  #施法限制#
+	law_group_category = power_structure
+}
+lawgroup_mage_status = {                     #施法者地位#
+	law_group_category = power_structure
+}
+lawgroup_mage_organization = {               #施法者组织#
+	law_group_category = power_structure
+}
+lawgroup_zro_distribution = {                #泽洛分配法#         
+	law_group_category = economy
+}
+lawgroup_magiscientia_policy = {             #魔导政策#         
+	law_group_category = economy
+}
+lawgroup_magic_education = {                 #法术教育#
+	law_group_category = human_rights
+}
+# 泽洛萃取
+lawgroup_zro_extraction = {
+	law_group_category = human_rights
+}
+
 lawgroup_distribution_of_power = {
 	law_group_category = power_structure
 }
@@ -99,10 +122,6 @@ lawgroup_childrens_rights = {
 }
 
 lawgroup_rights_of_women = {
-	law_group_category = human_rights
-}
-
-lawgroup_zro_extraction = {
 	law_group_category = human_rights
 }
 
