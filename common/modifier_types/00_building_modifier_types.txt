@@ -28,7 +28,23 @@ building_output_zro_mult = {
 	good = yes
 	percent = yes
 }
-
+#投资物
+building_input_investment_add = {
+	good = yes
+	percent = no
+}
+building_output_investment_add = {
+	good = yes
+	percent = no
+}
+building_output_investment_mult = {
+	good = yes
+	percent = yes
+}
+building_finance_center_throughput_mult = {
+	good = yes
+	percent = yes
+}
 # 魔能武器——产出
 building_output_magic_rifle_add = {
 	good = yes

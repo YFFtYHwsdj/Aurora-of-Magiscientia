@@ -451,6 +451,12 @@ psionic_crystal = {
 	category = industrial
 }
 
+investment = {
+	texture = "gfx/interface/icons/goods_icons/investment.dds"
+	cost = 60
+	category = industrial
+}
+
 ##########
 # LUXURY #
 ##########
