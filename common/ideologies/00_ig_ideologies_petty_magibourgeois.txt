@@ -1,0 +1,14 @@
+ideology_universal_magocratic = {
+	icon = "gfx/interface/icons/ideology_icons/universal_magocratic.dds"
+	
+	lawgroup_distribution_of_power = {
+		law_landed_voting = strongly_disapprove
+		law_autocracy = neutral
+		law_oligarchy = disapprove
+		law_wealth_voting = disapprove
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_magocratic_census_council = approve
+		law_magocratic_universal_council = strongly_approve
+	}
+}

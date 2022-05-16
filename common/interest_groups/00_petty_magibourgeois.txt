@@ -1,0 +1,10 @@
+ig_petty_magibourgeoisie = {
+	color = { 50 60 198 }
+	texture = "gfx/interface/icons/ig_icons/petty_magibourgeoisie.dds"
+	
+	ideologies = {
+		ideology_universal_magocratic
+		ideology_
+		ideology_
+	}
+}
