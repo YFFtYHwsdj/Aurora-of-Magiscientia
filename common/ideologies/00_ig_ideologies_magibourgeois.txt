@@ -1,0 +1,2 @@
+deology_magocratic = {
+	icon = "gfx/interface/icons/ideology_icons/magicratic.dds"

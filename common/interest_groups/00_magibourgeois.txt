@@ -1,0 +1,9 @@
+ig_magibourgeois = {
+	color = { 229 110 30 }
+	texture = "gfx/interface/icons/ig_icons/magibourgeois.dds"
+	
+	ideologies = {
+		ideology_magocratic
+		ideology_
+		ideology_
+	}
