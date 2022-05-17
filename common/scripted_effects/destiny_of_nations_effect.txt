@@ -1,0 +1,10 @@
+dn_reset_destiny_variable = {
+	set_variable = {
+		name = pro_psionic_power
+		value = 0
+	}
+	set_variable = {
+		name = con_psionic_power
+		value = 0
+	}
+}
