@@ -22,14 +22,6 @@ metal_armor
 	prestige_factor = 5
 }
 
-ammunition = {
-	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
-	cost = 50
-	category = military
-	
-	prestige_factor = 5
-}
-
 small_arms = {
 
 	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
@@ -39,13 +31,6 @@ small_arms = {
 	prestige_factor = 5
 }
 
-magic_ammunition = {
-	texture = "gfx/interface/icons/goods_icons/magic_ammunition.dds"
-	cost = 60
-	category = military
-	
-	prestige_factor = 5
-}
 rifle = {
 	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
 	cost = 60
@@ -351,14 +336,6 @@ rubber = {
 	category = industrial
 	
 	prestige_factor = 5
-}
-
-oil = {
-	texture = "gfx/interface/icons/goods_icons/oil.dds"
-	cost = 40
-	category = industrial
-	
-	prestige_factor = 5
 }	
 
 engines = {
@@ -408,14 +385,6 @@ tools = {
 explosives = {
 	texture = "gfx/interface/icons/goods_icons/explosives.dds"
 	cost = 50
-	category = industrial
-	
-	prestige_factor = 10
-}
-
-magic_scroll ={
-	texture = "gfx/interface/icons/goods_icons/magic_scrolls.dds"
-	cost = 80
 	category = industrial
 	
 	prestige_factor = 10
@@ -529,14 +498,6 @@ wine = {
 	obsession_chance = 2.0
 	prestige_factor = 5
 }
-coffee = {
-	texture = "gfx/interface/icons/goods_icons/coffee.dds"
-	cost = 50
-	category = luxury
-	
-	obsession_chance = 1.5
-	prestige_factor = 4
-}
 
 tea = {
 	texture = "gfx/interface/icons/goods_icons/tea.dds"
@@ -566,16 +527,9 @@ tobacco = {
 	obsession_chance = 2.0
 	prestige_factor = 4
 }
+
 opium = {
 	texture = "gfx/interface/icons/goods_icons/opium.dds"
-	cost = 50
-	category = luxury
-	
-	obsession_chance = 2.0
-	prestige_factor = 4
-}
-herbal = {
-	texture = "gfx/interface/icons/goods_icons/herbal.dds"
 	cost = 50
 	category = luxury
 	
@@ -591,24 +545,6 @@ floatiing_automobiles = {
 	obsession_chance = 1.0
 	prestige_factor = 10
 	convoy_shipping_multiplier = 1.5
-}
-
-telephones = {
-	texture = "gfx/interface/icons/goods_icons/telephones.dds"
-	cost = 70
-	category = luxury
-	
-	obsession_chance = 1.0
-	prestige_factor = 10
-}
-
-radios = {
-	texture = "gfx/interface/icons/goods_icons/radios.dds"
-	cost = 80 
-	category = luxury
-	
-	obsession_chance = 1.0
-	prestige_factor = 10
 }
 
 luxury_clothes = {

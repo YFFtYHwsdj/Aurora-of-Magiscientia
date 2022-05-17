@@ -5,6 +5,6 @@ tags={
 	"Gameplay"
 	"Total Conversion"
 }
-name="大秦东出"
+name="魔导曙光 Aurora of Magiscientia"
 supported_version="0.*.*"
 path="mod/AOM"
