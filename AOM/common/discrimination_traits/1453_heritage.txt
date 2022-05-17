@@ -1,0 +1,10 @@
+﻿mankind_heritage = {
+	heritage = yes
+}
+#文化传承和宗教传承分界线
+holy_heritage = {
+	heritage = yes
+}
+wicked_heritage = {
+	heritage = yes
+}

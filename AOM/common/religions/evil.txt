@@ -1,0 +1,7 @@
+﻿evil = {
+	texture = "gfx\interface\icons\religion_icons\bitcoin_mine.dds"
+	traits = {
+		wicked_heritage	#魔教特质为恶魔传承
+	}
+	color = { 255 255 0 }
+}

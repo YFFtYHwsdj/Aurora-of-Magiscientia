@@ -5,16 +5,16 @@ EMP = {	#初始半岛中央位置的帝国
 
 	tier = empire
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_VILAND
 }
 WEE = {	#帝国西部行省
-	color = { 145 136 64
+	color = { 145 136 64 }
 	country_type = recognized
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_NAVARRA
 }
 SOE = {	#帝国南部行省
@@ -24,7 +24,7 @@ SOE = {	#帝国南部行省
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_TOLEDO
 }
 FBA = {	#法比昂		原NOE帝国东北行省
@@ -34,7 +34,7 @@ FBA = {	#法比昂		原NOE帝国东北行省
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_ESTREMADURA
 }
 ATN = {	#阿塔那
@@ -44,7 +44,7 @@ ATN = {	#阿塔那
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_ESTREMADURA
 }
 DWE = {	#达文
@@ -54,7 +54,7 @@ DWE = {	#达文
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_ESTREMADURA
 }
 LDW = {	#拉多维亚
@@ -64,7 +64,7 @@ LDW = {	#拉多维亚
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_ESTREMADURA
 }
 NSW = {	#尼斯旺
@@ -74,7 +74,7 @@ NSW = {	#尼斯旺
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_ESTREMADURA
 }
 PAS= {	#教国
@@ -84,7 +84,7 @@ PAS= {	#教国
 
 	tier = empire
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_TOLEDO
 }
 SJQ = {	#圣剑骑士团		原TAU教国附属
@@ -94,7 +94,7 @@ SJQ = {	#圣剑骑士团		原TAU教国附属
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_GRANADA
 }
 XLS = {	#西里斯
@@ -104,7 +104,7 @@ XLS = {	#西里斯
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_GRANADA
 }
 MLD = {	#莫兰迪
@@ -114,7 +114,7 @@ MLD = {	#莫兰迪
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_GRANADA
 }
 SUV = {	#苏瓦尔
@@ -124,7 +124,7 @@ SUV = {	#苏瓦尔
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_GRANADA
 }
 SFB = {	#圣凡彼尼
@@ -134,7 +134,7 @@ SFB = {	#圣凡彼尼
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_GRANADA
 }
 FAS = {	#法师同盟会
@@ -144,6 +144,6 @@ FAS = {	#法师同盟会
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { peninsula }
 	capital = STATE_GRANADA
 }
