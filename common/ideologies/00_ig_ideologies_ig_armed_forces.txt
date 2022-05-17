@@ -6,6 +6,9 @@ ideology_jingoist = {
 		law_mass_conscription = approve
 		law_national_militia = disapprove
 		law_peasant_levies = disapprove
+		law_mage_army = strongly_disapprove
+		law_magiscientia_army = approve
+		law_church_army = strongly_disapprove
 	}
 	
 	lawgroup_colonization = {

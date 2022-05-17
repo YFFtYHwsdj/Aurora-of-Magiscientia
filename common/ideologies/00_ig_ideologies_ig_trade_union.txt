@@ -110,6 +110,9 @@ ideology_populist = {
 		law_national_militia = neutral
 		law_peasant_levies = strongly_disapprove
 		law_mass_conscription = strongly_disapprove
+		law_mage_army = neutral
+		law_magiscientia_army = neutral
+		law_church_army = neutral
 	}
 	
 	lawgroup_bureaucracy = {

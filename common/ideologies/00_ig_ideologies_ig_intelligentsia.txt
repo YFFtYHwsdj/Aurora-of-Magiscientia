@@ -48,6 +48,9 @@ ideology_liberal = {
 		law_national_militia = neutral
 		law_peasant_levies = strongly_disapprove
 		law_mass_conscription = strongly_disapprove
+		law_mage_army = disapprove
+		law_magiscientia_army = approve
+		law_church_army = neutral
 	}
 }
 

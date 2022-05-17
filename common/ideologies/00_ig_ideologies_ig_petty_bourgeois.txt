@@ -17,9 +17,12 @@ ideology_meritocratic = {
 	
 	lawgroup_army_model = {
 		law_professional_army = approve
-		law_national_militia = neutral
+		law_national_militia = disapprove
 		law_peasant_levies = disapprove
-		law_mass_conscription = disapprove
+		law_mass_conscription = strongly_disapprove
+		law_mage_army = approve
+		law_magiscientia_army = approve
+		law_church_army = approve
 	}
 }
 

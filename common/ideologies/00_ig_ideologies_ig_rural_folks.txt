@@ -34,6 +34,9 @@ ideology_particularist = {
 		law_professional_army = neutral
 		law_mass_conscription = disapprove
 		law_peasant_levies = strongly_disapprove
+		law_mage_army = neutral
+		law_magiscientia_army = neutral
+		law_church_army = neutral
 	}
 	
 	lawgroup_labor_rights = {

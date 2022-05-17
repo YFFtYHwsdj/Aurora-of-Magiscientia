@@ -59,6 +59,9 @@ ideology_stratocratic = {
 		law_professional_army = neutral
 		law_mass_conscription = neutral
 		law_national_militia = strongly_disapprove
+		law_mage_army = strongly_disapprove
+		law_magiscientia_army = strongly_disapprove
+		law_church_army = strongly_disapprove
 	}
 	
 	lawgroup_labor_rights = {

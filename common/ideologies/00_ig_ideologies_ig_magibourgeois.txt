@@ -12,6 +12,16 @@ ideology_census_magocratic = {
 		law_magocratic_universal_council = approve
 	}
 	
+	lawgroup_army_model = {
+		law_peasant_levies = strongly_disapprove
+		law_professional_army = strongly_disapprove
+		law_mass_conscription = neutral
+		law_national_militia = disapprove
+		law_mage_army = strongly_approve
+		law_magiscientia_army = disapprove
+		law_church_army = strongly_disapprove
+	}
+	
 	lawgroup_governance_principles = {
 		law_monarchy = strongly_disapprove
 		law_theocracy = strongly_disapprove

@@ -9,6 +9,16 @@ ideology_pious = {
 		law_command_economy = strongly_disapprove
 	}
 	
+	lawgroup_army_model = {
+		law_professional_army = disapprove
+		law_mass_conscription = disapprove
+		law_national_militia = strongly_disapprove
+		law_peasant_levies = strongly_disapprove
+		law_mage_army = strongly_disapprove
+		law_magiscientia_army = strongly_disapprove
+		law_church_army = strongly_approve
+	}
+	
 	law_group_zro_extraction = {
 		law_no_zro_extraction = neutral
 		law_secret_zro_extraction = strongly_approve
