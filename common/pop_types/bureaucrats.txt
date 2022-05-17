@@ -8,9 +8,9 @@
 	dependent_wage = 0.5	# per year
 	unemployment = yes
 	
-	# 50% - 100% politically engaged
-	political_engagement_base = 0.5
-	political_engagement_literacy_factor = 0.5
+	# 0-15% politically engaged
+	political_engagement_base = 0.05
+	political_engagement_literacy_factor = 0.1
 	
 	political_engagement_mult = {
 		value = 1		
