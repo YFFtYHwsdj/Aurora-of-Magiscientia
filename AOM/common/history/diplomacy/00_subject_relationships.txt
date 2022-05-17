@@ -1,0 +1,22 @@
+﻿DIPLOMACY = {
+	c:EMP = {
+		create_diplomatic_pact = {
+			country = c:WEE
+			type = protectorate	#puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SOE
+			type = protectorate	#puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NOE
+			type = protectorate	#puppet
+		}
+	}
+	c:PAP = {
+		create_diplomatic_pact = {
+			country = c:TAU
+			type = protectorate
+		}
+	}
+}

@@ -1,0 +1,109 @@
+EMP = {	#初始半岛中央位置的帝国
+	color = { 50 52 152 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { irish }
+	capital = STATE_VILAND
+}
+WEE = {	#帝国西部行省
+	color = { 145 136 64
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_NAVARRA
+}
+SOE = {	#帝国南部行省
+	color = { 13 113 102 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_TOLEDO
+}
+NOE = {	#帝国东北行省
+	color = { 57 160 101 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_ESTREMADURA
+}
+PAS= {	#教国
+	color = { 208 201 178 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { irish }
+	capital = STATE_TOLEDO
+}
+SJQ = {	#圣剑骑士团		原TAU教国附属
+	color = { 246 209 16 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_GRANADA
+}
+XLS = {	#西里斯
+	color = { 249 26 8 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_GRANADA
+}
+MLD = {	#莫兰迪
+	color = { 40 180 201 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_GRANADA
+}
+SWE = {	#苏瓦尔
+	color = { 246 107 10 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_GRANADA
+}
+SFB = {	#圣凡彼尼
+	color = { 186 40 183 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_GRANADA
+}
+FAS = {	#法师同盟会
+	color = { 14 14 112 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_GRANADA
+}

@@ -1,0 +1,26 @@
+﻿POPS = {
+	s:STATE_VILAND = {
+		region_state:WEE = {
+			create_pop = {
+				culture = swedish
+				size = 123456
+			}
+		}
+	}
+	s:STATE_ERLAND = {
+		region_state:WEE = {
+			create_pop = {
+				culture = swedish
+				size = 123456
+			}
+		}
+	}
+	s:STATE_CILAND = {
+		region_state:WEE = {
+			create_pop = {
+				culture = swedish
+				size = 123456
+			}
+		}
+	}
+}
