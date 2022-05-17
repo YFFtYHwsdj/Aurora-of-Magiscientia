@@ -23,7 +23,6 @@ metal_armor
 }
 
 small_arms = {
-
 	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
 	cost = 60
 	category = military
@@ -31,16 +30,8 @@ small_arms = {
 	prestige_factor = 5
 }
 
-rifle = {
-	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
-	cost = 60
-	category = military
-	
-	prestige_factor = 5
-}
-
-magic_rifle = {
-	texture = "gfx/interface/icons/goods_icons/magic_rifle.dds"
+magical_small_arms = {
+	texture = "gfx/interface/icons/goods_icons/magical_small_arms.dds"
 	cost = 70
 	category = military
 	
@@ -74,7 +65,7 @@ mech = {
 	convoy_shipping_multiplier = 1.5
 }
 
-magic_mech = {
+magical_mech = {
 	texture = "gfx/interface/icons/goods_icons/tanks.dds"
 	cost = 140
 	category = military
@@ -85,7 +76,7 @@ magic_mech = {
 
 mixed_mech = {
 	texture = "gfx/interface/icons/goods_icons/tanks.dds"
-	cost = 130
+	cost = 120
 	category = military
 	
 	prestige_factor = 10
@@ -108,24 +99,6 @@ floating_platform = {
 	
 	prestige_factor = 10
 	convoy_shipping_multiplier = 1.5
-}
-
-manowars = {
-	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
-	cost = 70
-	category = military
-	
-	prestige_factor = 5
-	convoy_shipping_multiplier = 2
-}
-
-ironclads = {
-	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
-	cost = 80
-	category = military
-	
-	prestige_factor = 10
-	convoy_shipping_multiplier = 2
 }
 
 ##########
@@ -246,15 +219,6 @@ paper = {
 clippers = {
 	texture = "gfx/interface/icons/goods_icons/clippers.dds"
 	cost = 60
-	category = industrial
-	
-	prestige_factor = 5
-	convoy_shipping_multiplier = 2
-}
-
-steamers = {
-	texture = "gfx/interface/icons/goods_icons/steamers.dds"
-	cost = 70
 	category = industrial
 	
 	prestige_factor = 5
@@ -420,12 +384,6 @@ psionic_crystal = {
 	category = industrial
 }
 
-investment = {
-	texture = "gfx/interface/icons/goods_icons/investment.dds"
-	cost = 60
-	category = industrial
-}
-
 ##########
 # LUXURY #
 ##########
@@ -535,16 +493,6 @@ opium = {
 	
 	obsession_chance = 2.0
 	prestige_factor = 4
-}
-
-floatiing_automobiles = {
-	texture = "gfx/interface/icons/goods_icons/floating_automobiles.dds"
-	cost = 70
-	category = luxury
-	
-	obsession_chance = 1.0
-	prestige_factor = 10
-	convoy_shipping_multiplier = 1.5
 }
 
 luxury_clothes = {
