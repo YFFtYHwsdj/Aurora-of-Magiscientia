@@ -3,11 +3,13 @@ ideology_plutocratic = {
 	
 	lawgroup_distribution_of_power = {
 		law_oligarchy = approve
-		law_wealth_voting = approve
-		law_landed_voting = neutral
+		law_wealth_voting = strongly_approve
+		law_landed_voting = disapprove
 		law_census_voting = neutral
 		law_autocracy = disapprove
 		law_universal_suffrage = strongly_disapprove
+		law_magocratic_census_council = strongly_disapprove
+		law_magocratic_universal_council = strongly_disapprove
 	}
 	
 	lawgroup_taxation = {
@@ -39,7 +41,7 @@ ideology_laissez_faire = {
 	law_group_zro_extraction = {
 		law_no_zro_extraction = disapprove
 		law_secret_zro_extraction = approve
-		law_confessed_zro_extraction = approve
+		law_confessed_zro_extraction = strong_approve
 	}
 	
 	lawgroup_trade_policy = {		
