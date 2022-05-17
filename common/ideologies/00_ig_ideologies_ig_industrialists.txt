@@ -25,6 +25,13 @@ ideology_plutocratic = {
 		law_no_colonial_affairs = neutral
 		law_colonial_resettlement = neutral
 	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = disapprove
+		law_theocratic_bureaucrats = strongly_disapprove
+		law_civil_service_bureaucrats = strongly_approve
+		law_mage_bureaucrats = strongly_disapprove
+	}
 }
 
 ideology_laissez_faire = {

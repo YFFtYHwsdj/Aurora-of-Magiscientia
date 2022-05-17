@@ -19,6 +19,13 @@ ideology_census_magocratic = {
 		law_parliamentary_republic = approve
 		law_council_republic = approve
 	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = strongly_disapprove
+		law_theocratic_bureaucrats = strongly_disapprove
+		law_civil_service_bureaucrats = strongly_disapprove
+		law_mage_bureaucrats = strongly_approve
+	}
 }
 
 #ideology_anti_clerical in intelligentsia

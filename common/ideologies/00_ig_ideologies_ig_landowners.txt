@@ -16,12 +16,15 @@ ideology_paternalistic = {
 		law_wealth_voting = neutral
 		law_census_voting = disapprove
 		law_universal_suffrage = strongly_disapprove
+		law_magocratic_census_council = strongly_disapprove
+		law_magocratic_universal_council = strongly_disapprove
 	}
 	
 	lawgroup_bureaucracy = {
-		law_hereditary_bureaucrats = approve
-		law_appointed_bureaucrats = neutral
-		law_elected_bureaucrats = disapprove
+		law_hereditary_bureaucrats = strongly_approve
+		law_theocratic_bureaucrats = disapprove
+		law_civil_service_bureaucrats = disapprove
+		law_mage_bureaucrats = strongly_disapprove
 	}
 
 	lawgroup_policing = {

@@ -86,7 +86,9 @@ ideology_populist = {
 		law_wealth_voting = disapprove
 		law_landed_voting = disapprove
 		law_oligarchy = strongly_disapprove
-		law_autocracy = strongly_disapprove		
+		law_autocracy = strongly_disapprove	
+		law_magocratic_census_council = strongly_disapprove
+		law_magocratic_universal_council = strongly_disapprove
 	}
 	
 	lawgroup_governance_principles = {
@@ -108,5 +110,12 @@ ideology_populist = {
 		law_national_militia = neutral
 		law_peasant_levies = strongly_disapprove
 		law_mass_conscription = strongly_disapprove
+	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = strongly_disapprove
+		law_theocratic_bureaucrats = strongly_disapprove
+		law_civil_service_bureaucrats = strongly_approve
+		law_mage_bureaucrats = strongly_disapprove
 	}
 }
