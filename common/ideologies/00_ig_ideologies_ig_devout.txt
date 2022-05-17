@@ -37,7 +37,20 @@ ideology_pious = {
 		law_no_schools = neutral
 		law_public_schools = disapprove
 		law_private_schools = disapprove		
-	}	
+	}
+	
+	lawgroup_magiscientia_policy = {
+		law_prohibition_magiscientia = strongly_approve
+		law_restrict_magiscientia = disapprove
+		law_popularization_magiscientia = strongly_disapprove
+	}
+	
+	lawgroup_magic_restrict = {
+		law_forbid_magic = strongly_disapprove
+		law_authority_only = strongly_approve
+		law_magic_restriction = disapprove
+		law_magic_laissez_faire = strongly_disapprove
+	}
 }
 
 ideology_moralist = {

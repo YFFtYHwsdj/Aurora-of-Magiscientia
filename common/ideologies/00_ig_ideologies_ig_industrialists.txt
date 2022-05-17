@@ -45,6 +45,19 @@ ideology_laissez_faire = {
 		law_command_economy = strongly_disapprove
 	}
 	
+	lawgroup_magiscientia_policy = {
+		law_prohibition_magiscientia = strongly_disapprove
+		law_restrict_magiscientia = disapprove
+		law_popularization_magiscientia = strongly_approve
+	}
+	
+	lawgroup_magic_restrict = {
+		law_forbid_magic = strongly_disapprove
+		law_authority_only = disapprove
+		law_magic_restriction = disapprove
+		law_magic_laissez_faire = strongly_approve
+	}
+	
 	law_group_zro_extraction = {
 		law_no_zro_extraction = disapprove
 		law_secret_zro_extraction = approve

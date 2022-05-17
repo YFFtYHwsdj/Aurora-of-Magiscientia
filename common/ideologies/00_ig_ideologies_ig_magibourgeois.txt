@@ -12,6 +12,19 @@ ideology_census_magocratic = {
 		law_magocratic_universal_council = approve
 	}
 	
+	lawgroup_magiscientia_policy = {
+		law_prohibition_magiscientia = disapprove
+		law_restrict_magiscientia = approve
+		law_popularization_magiscientia = neutral
+	}
+	
+	lawgroup_magic_restrict = {
+		law_forbid_magic = strongly_disapprove
+		law_authority_only = disapprove
+		law_magic_restriction = disapprove
+		law_magic_laissez_faire = strongly_approve
+	}
+	
 	lawgroup_army_model = {
 		law_peasant_levies = strongly_disapprove
 		law_professional_army = strongly_disapprove
@@ -39,3 +52,4 @@ ideology_census_magocratic = {
 }
 
 #ideology_anti_clerical in intelligentsia
+#ideology_individualist in industrialists

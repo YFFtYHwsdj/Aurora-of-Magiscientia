@@ -64,6 +64,19 @@ ideology_stratocratic = {
 		law_church_army = strongly_disapprove
 	}
 	
+	lawgroup_magiscientia_policy = {
+		law_prohibition_magiscientia = strongly_approve
+		law_restrict_magiscientia = disapprove
+		law_popularization_magiscientia = strongly_disapprove
+	}
+	
+	lawgroup_magic_restrict = {
+		law_forbid_magic = strongly_disapprove
+		law_authority_only = strongly_approve
+		law_magic_restriction = disapprove
+		law_magic_laissez_faire = strongly_disapprove
+	}
+	
 	lawgroup_labor_rights = {
 		law_serfdom = strongly_approve
 		law_serfdom_banned = neutral

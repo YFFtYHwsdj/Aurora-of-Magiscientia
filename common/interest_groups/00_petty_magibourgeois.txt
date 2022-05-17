@@ -5,6 +5,6 @@ ig_petty_magibourgeoisie = {
 	ideologies = {
 		ideology_universal_magocratic
 		ideology_anti_clerical
-		ideology_
+		ideology_individualist
 	}
 }

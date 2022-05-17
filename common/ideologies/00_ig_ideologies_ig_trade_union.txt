@@ -99,6 +99,19 @@ ideology_populist = {
 		law_monarchy = neutral
 	}
 	
+	lawgroup_magiscientia_policy = {
+		law_prohibition_magiscientia = strongly_disapprove
+		law_restrict_magiscientia = disapprove
+		law_popularization_magiscientia = strongly_approve
+	}
+	
+	lawgroup_magic_restrict = {
+		law_forbid_magic = strongly_disapprove
+		law_authority_only = disapprove
+		law_magic_restriction = disapprove
+		law_magic_laissez_faire = strongly_approve
+	}
+	
 	lawgroup_migration = {
 		law_migration_controls = approve		
 		law_closed_borders = neutral

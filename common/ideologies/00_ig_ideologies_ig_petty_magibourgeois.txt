@@ -12,6 +12,19 @@ ideology_universal_magocratic = {
 		law_magocratic_universal_council = strongly_approve
 	}
 	
+	lawgroup_magiscientia_policy = {
+		law_prohibition_magiscientia = strongly_approve
+		law_restrict_magiscientia = approve
+		law_popularization_magiscientia = disapprove
+	}
+	
+	lawgroup_magic_restrict = {
+		law_forbid_magic = strongly_disapprove
+		law_authority_only = disapprove
+		law_magic_restriction = disapprove
+		law_magic_laissez_faire = strongly_approve
+	}
+	
 	lawgroup_governance_principles = {
 		law_monarchy = strongly_disapprove
 		law_theocracy = strongly_approve
@@ -38,3 +51,4 @@ ideology_universal_magocratic = {
 	}
 }
 #ideology_anti_clerical in intelligentsia
+#ideology_individualist in industrialists

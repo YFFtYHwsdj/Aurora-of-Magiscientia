@@ -5,6 +5,6 @@ ig_magibourgeois = {
 	ideologies = {
 		ideology_census_magocratic
 		ideology_anti_clerical
-		ideology_
+		ideology_individualist
 	}
 }
