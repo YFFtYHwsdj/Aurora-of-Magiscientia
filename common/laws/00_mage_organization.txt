@@ -1,34 +1,34 @@
-#————————————————————————————————————————————————————————————————————————————————————#
-#施法者组织#                            #lawgroup_mage_organization#
+# #————————————————————————————————————————————————————————————————————————————————————#
+# #施法者组织#                            #lawgroup_mage_organization#
 
-law_outlawing_mage_organizations = {                                         #取缔施法者组织#
-	group = lawgroup_mage_organization
+# law_outlawing_mage_organizations = {                                         #取缔施法者组织#
+	# group = lawgroup_mage_organization
 	
-	icon = "gfx/interface/icons/law_icons/outlawing_mage_organizations.dds"
+	# icon = "gfx/interface/icons/law_icons/outlawing_mage_organizations.dds"
 
-	#modifier = {}
-}
+	# #modifier = {}
+# }
 
-law_authority_organizations_only = {                                         #仅限官方#
-	group = lawgroup_mage_organization
+# law_authority_organizations_only = {                                         #仅限官方#
+	# group = lawgroup_mage_organization
 	
-	icon = "gfx/interface/icons/law_icons/authority_organizations_only.dds"
+	# icon = "gfx/interface/icons/law_icons/authority_organizations_only.dds"
 
-	#modifier = {}
-}
+	# #modifier = {}
+# }
 
-law_legal_organizations_association = {                                      #允许合法结社#
-	group = lawgroup_mage_organization
+# law_legal_organizations_association = {                                      #允许合法结社#
+	# group = lawgroup_mage_organization
 	
-	icon = "gfx/interface/icons/law_icons/legal_organizations_association.dds"
+	# icon = "gfx/interface/icons/law_icons/legal_organizations_association.dds"
 
-	#modifier = {}
-}
+	# #modifier = {}
+# }
 
-law_freedom_of_association = {                                                #结社自由#
-	group = lawgroup_mage_organization
+# law_freedom_of_association = {                                                #结社自由#
+	# group = lawgroup_mage_organization
 	
-	icon = "gfx/interface/icons/law_icons/freedom_of_association.dds"
+	# icon = "gfx/interface/icons/law_icons/freedom_of_association.dds"
 
-	#modifier = {}
-}
+	# #modifier = {}
+# }
