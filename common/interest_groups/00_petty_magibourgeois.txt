@@ -1,4 +1,4 @@
-ig_petty_magibourgeoisie = {
+ig_petty_magibourgeois = {
 	color = { 50 60 198 }
 	texture = "gfx/interface/icons/ig_icons/petty_magibourgeoisie.dds"
 	

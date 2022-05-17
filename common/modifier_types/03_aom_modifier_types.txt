@@ -7,3 +7,23 @@ building_livestock_fertility_mult = {
 	good = no
 	percent = yes
 }
+#利益集团政治力量
+interest_group_ig_magibourgeois_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+interest_group_ig_petty_magibourgeois_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+interest_group_ig_magibourgeois_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_petty_magibourgeois_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
