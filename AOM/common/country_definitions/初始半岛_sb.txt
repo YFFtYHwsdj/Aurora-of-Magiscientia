@@ -1,5 +1,5 @@
 EMP = {	#初始半岛中央位置的帝国
-	color = { 50 52 152 }
+	color = { 149 45 102 }	#50 52 152
 
 	country_type = recognized
 
@@ -27,8 +27,48 @@ SOE = {	#帝国南部行省
 	cultures = { irish }
 	capital = STATE_TOLEDO
 }
-NOE = {	#帝国东北行省
-	color = { 57 160 101 }
+FBA = {	#法比昂		原NOE帝国东北行省
+	color = { 44 140 51 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_ESTREMADURA
+}
+ATN = {	#阿塔那
+	color = { 137 136 184 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_ESTREMADURA
+}
+DWE = {	#达文
+	color = { 53 87 85 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_ESTREMADURA
+}
+LDW = {	#拉多维亚
+	color = { 141 76 55 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_ESTREMADURA
+}
+NSW = {	#尼斯旺
+	color = { 59 188 38 }
 
 	country_type = recognized
 
@@ -77,7 +117,7 @@ MLD = {	#莫兰迪
 	cultures = { irish }
 	capital = STATE_GRANADA
 }
-SWE = {	#苏瓦尔
+SUV = {	#苏瓦尔
 	color = { 246 107 10 }
 
 	country_type = recognized

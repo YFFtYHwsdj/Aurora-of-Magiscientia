@@ -21,7 +21,7 @@
 	}
 	s:STATE_CASRLAND = {
 		create_state = {
-			country = c:SWE
+			country = c:SUV
 			owned_provinces = { xE7EA50 }
 		}
 		create_state = {
@@ -37,7 +37,7 @@
 			owned_provinces = { xA95BEF x176FBB }
 		}
 		create_state = {
-			country = c:NOE
+			country = c:NSW
 			owned_provinces = { xE7B5BB }
 		}
 		
@@ -81,7 +81,7 @@
 			owned_provinces = { xA927C3 }
 		}
 		create_state = {
-			country = c:NOE
+			country = c:DWE
 			owned_provinces = { xBC44A7 xCF35A3 }
 		}
 		
@@ -122,10 +122,14 @@
 	s:STATE_TASRLAND = {
 		create_state = {
 			country = c:SJQ
-			owned_provinces = { xBB0595 xFDFBB3 xBE0837 }
+			owned_provinces = { xFDFBB3 xBE0837 }
 		}
 		create_state = {
-			country = c:NOE
+			country = c:MLD
+			owned_provinces = { xBB0595 }
+		}
+		create_state = {
+			country = c:ATN
 			owned_provinces = { x766e10 x8076B7 }
 		}
 		
@@ -165,7 +169,7 @@
 			owned_provinces = { x21B1B9 }
 		}
 		create_state = {
-			country = c:NOE
+			country = c:FBA
 			owned_provinces = { x589E9D x05A405 }
 		}
 		
@@ -173,7 +177,7 @@
 	}
 	s:STATE_SCARLAND = {	#法师同盟会正南内陆
 		create_state = {
-			country = c:NOE
+			country = c:FBA
 			owned_provinces = { x00DC08 x4B5D89 x32759A }
 		}
 		
@@ -181,23 +185,31 @@
 	}
 	s:STATE_OASRLAND = {	#东北帝国2
 		create_state = {
-			country = c:NOE
-			owned_provinces = { xB77161 x3C69F6 x2B1CC4 }
+			country = c:ATN
+			owned_provinces = { xB77161 x3C69F6 }
+		}
+		create_state = {
+			country = c:SJQ
+			owned_provinces = { x2B1CC4 }
 		}
 		
 		add_homeland = irish
 	}
 	s:STATE_XASRLAND = {	#东北帝国3
 		create_state = {
-			country = c:NOE
-			owned_provinces = { x9EB6DD xF4477C x2B0B2B }
+			country = c:FBA
+			owned_provinces = { x9EB6DD x2B0B2B }
+		}
+		create_state = {
+			country = c:ATN
+			owned_provinces = { xF4477C }
 		}
 		
 		add_homeland = irish
 	}
 	s:STATE_ZASRLAND = {	#东北帝国4
 		create_state = {
-			country = c:NOE
+			country = c:ATN
 			owned_provinces = { x94E45D xCBF684 x347ACD }
 		}
 		
@@ -205,11 +217,11 @@
 	}
 	s:STATE_UONSLAND = {	#东北帝国南部1
 		create_state = {
-			country = c:NOE
+			country = c:DWE
 			owned_provinces = { x587A5B x628437 }
 		}
 		create_state = {
-			country = c:SWE
+			country = c:SUV
 			owned_provinces = { x149259 xA45E73 }
 		}
 		
@@ -217,11 +229,11 @@
 	}
 	s:STATE_TONSLAND = {	#东北帝国南部2
 		create_state = {
-			country = c:NOE
+			country = c:LDW
 			owned_provinces = { x30C7E4 x26B630 }
 		}
 		create_state = {
-			country = c:SWE
+			country = c:SUV
 			owned_provinces = { x48D087 }
 		}
 		
@@ -229,15 +241,19 @@
 	}
 	s:STATE_QANSLAND = {	#东北帝国南部3
 		create_state = {
-			country = c:NOE
-			owned_provinces = { xE34DBB x1F1A67 x5D5DDF }
+			country = c:NSW
+			owned_provinces = { xE34DBB x5D5DDF }
+		}
+		create_state = {
+			country = c:LDW
+			owned_provinces = { x1F1A67 }
 		}
 		
 		add_homeland = irish
 	}
 	s:STATE_GANSLAND = {	#东北帝国南部4
 		create_state = {
-			country = c:NOE
+			country = c:LDW
 			owned_provinces = { x38FD8C x15CF49 x787440 }
 		}
 		
@@ -293,7 +309,7 @@
 			owned_provinces = { x623355 xB10AF4 }
 		}
 		create_state = {
-			country = c:NOE
+			country = c:ATN
 			owned_provinces = { x1BEFBF x690540 }
 		}
 		
@@ -305,8 +321,12 @@
 			owned_provinces = { x7D0DDD }
 		}
 		create_state = {
-			country = c:NOE
-			owned_provinces = { x6D034F 2B0B2B }
+			country = c:FBA
+			owned_provinces = { 2B0B2B }
+		}
+		create_state = {
+			country = c:ATN
+			owned_provinces = { x6D034F }
 		}
 		
 		add_homeland = irish
@@ -353,7 +373,7 @@
 			owned_provinces = { xB97641 }
 		}
 		create_state = {
-			country = c:NOE
+			country = c:NSW
 			owned_provinces = { xBF33AF x200A8D x4F5D25 }
 		}
 		
