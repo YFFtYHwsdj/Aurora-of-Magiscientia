@@ -2,10 +2,11 @@ ideology_meritocratic = {
 	icon = "gfx/interface/icons/ideology_icons/meritocratic.dds"
 
 	lawgroup_bureaucracy = {
-		law_appointed_bureaucrats = approve		
-		law_elected_bureaucrats = neutral
 		law_hereditary_bureaucrats = disapprove
-	}	
+		law_theocratic_bureaucrats = strongly_disapprove
+		law_civil_service_bureaucrats = strongly_approve
+		law_mage_bureaucrats = strongly_disapprove
+	}
 	
 	lawgroup_taxation = {
 		law_per_capita_based_taxation = approve
