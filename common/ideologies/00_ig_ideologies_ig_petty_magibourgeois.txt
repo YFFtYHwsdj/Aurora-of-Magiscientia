@@ -11,4 +11,14 @@ ideology_universal_magocratic = {
 		law_magocratic_census_council = approve
 		law_magocratic_universal_council = strongly_approve
 	}
+	
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_disapprove
+		law_theocracy = strongly_approve
+		law_presidential_republic = approve
+		law_parliamentary_republic = strongly_approve
+		law_council_republic = strongly_disapprove
+	}
+	
 }
+#ideology_anti_clerical in intelligentsia

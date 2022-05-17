@@ -68,7 +68,7 @@ ideology_anti_clerical = {
 		law_public_schools = approve
 		law_private_schools = approve
 		law_no_schools = disapprove
-		law_religious_schools = disapprove		
+		law_religious_schools = disapprove
 	}	
 }
 
