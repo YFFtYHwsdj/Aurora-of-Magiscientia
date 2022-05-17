@@ -37,7 +37,7 @@
 			owned_provinces = { xA95BEF x176FBB }
 		}
 		create_state = {
-			country = c:NSW
+			country = c:NDY
 			owned_provinces = { xE7B5BB }
 		}
 		
@@ -241,7 +241,7 @@
 	}
 	s:STATE_QANSLAND = {	#东北帝国南部3
 		create_state = {
-			country = c:NSW
+			country = c:NDY
 			owned_provinces = { xE34DBB x5D5DDF }
 		}
 		create_state = {
@@ -373,7 +373,7 @@
 			owned_provinces = { xB97641 }
 		}
 		create_state = {
-			country = c:NSW
+			country = c:NDY
 			owned_provinces = { xBF33AF x200A8D x4F5D25 }
 		}
 		

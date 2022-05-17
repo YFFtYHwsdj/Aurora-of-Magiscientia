@@ -6,7 +6,7 @@ EMP = {	#初始半岛中央位置的帝国
 	tier = empire
 	
 	cultures = { peninsula }
-	capital = STATE_VILAND
+	capital = STATE_SALAND
 }
 WEE = {	#帝国西部行省
 	color = { 145 136 64 }
@@ -15,7 +15,7 @@ WEE = {	#帝国西部行省
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_NAVARRA
+	capital = STATE_CILAND
 }
 SOE = {	#帝国南部行省
 	color = { 13 113 102 }
@@ -25,7 +25,7 @@ SOE = {	#帝国南部行省
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_TOLEDO
+	capital = STATE_SERLAND
 }
 FBA = {	#法比昂		原NOE帝国东北行省
 	color = { 44 140 51 }
@@ -35,7 +35,7 @@ FBA = {	#法比昂		原NOE帝国东北行省
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_ESTREMADURA
+	capital = STATE_GASRLAND
 }
 ATN = {	#阿塔那
 	color = { 137 136 184 }
@@ -45,7 +45,7 @@ ATN = {	#阿塔那
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_ESTREMADURA
+	capital = STATE_ZASRLAND
 }
 DWE = {	#达文
 	color = { 53 87 85 }
@@ -55,7 +55,7 @@ DWE = {	#达文
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_ESTREMADURA
+	capital = STATE_UONSLAND
 }
 LDW = {	#拉多维亚
 	color = { 141 76 55 }
@@ -65,9 +65,9 @@ LDW = {	#拉多维亚
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_ESTREMADURA
+	capital = STATE_GANSLAND
 }
-NSW = {	#尼斯旺
+NDY = {	#尼达亚
 	color = { 59 188 38 }
 
 	country_type = recognized
@@ -75,7 +75,7 @@ NSW = {	#尼斯旺
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_ESTREMADURA
+	capital = STATE_WANSLAND
 }
 PAS= {	#教国
 	color = { 208 201 178 }
@@ -85,7 +85,7 @@ PAS= {	#教国
 	tier = empire
 	
 	cultures = { peninsula }
-	capital = STATE_TOLEDO
+	capital = STATE_EASRLAND
 }
 SJQ = {	#圣剑骑士团		原TAU教国附属
 	color = { 246 209 16 }
@@ -95,27 +95,27 @@ SJQ = {	#圣剑骑士团		原TAU教国附属
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_GRANADA
+	capital = STATE_ECARLAND
 }
 XLS = {	#西里斯
 	color = { 249 26 8 }
 
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { peninsula }
-	capital = STATE_GRANADA
+	capital = STATE_VASRLAND
 }
 MLD = {	#莫兰迪
 	color = { 40 180 201 }
 
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { peninsula }
-	capital = STATE_GRANADA
+	capital = STATE_FASRLAND
 }
 SUV = {	#苏瓦尔
 	color = { 246 107 10 }
@@ -125,17 +125,17 @@ SUV = {	#苏瓦尔
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_GRANADA
+	capital = STATE_UONSLAND
 }
 SFB = {	#圣凡彼尼
 	color = { 186 40 183 }
 
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { peninsula }
-	capital = STATE_GRANADA
+	capital = STATE_JONSLAND
 }
 FAS = {	#法师同盟会
 	color = { 14 14 112 }
@@ -145,5 +145,35 @@ FAS = {	#法师同盟会
 	tier = kingdom
 	
 	cultures = { peninsula }
-	capital = STATE_GRANADA
+	capital = STATE_PCARLAND
+}
+FLK = {	#芬里克
+	color = { 235 208 92 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { peninsula }
+	capital = STATE_SASRLAND
+}
+YAJ = {	#雅加
+	color = { 235 54 43 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { peninsula }
+	capital = STATE_ECARLAND
+}
+CPA = {	#半岛尼亚
+	color = { 255 0 0 }
+
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { peninsula }
+	capital = STATE_SALAND
 }
