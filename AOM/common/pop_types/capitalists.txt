@@ -4,7 +4,7 @@
 	strata = rich
 	start_quality_of_life = 20
 	can_build = yes
-	wage_weight = 6
+	wage_weight = 18
 	literacy_target = 0.70
 	dependent_wage = 0.0	# per year
 	unemployment = yes
