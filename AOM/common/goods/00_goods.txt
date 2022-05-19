@@ -14,7 +14,7 @@ metal_arms = {
 	prestige_factor = 5
 }
 
-metal_armor
+metal_armor = {
 	texture = "gfx/interface/icons/goods_icons/metal_armor.dds"
 	cost = 40
 	category = military
