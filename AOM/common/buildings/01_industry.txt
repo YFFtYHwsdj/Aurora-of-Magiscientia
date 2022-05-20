@@ -153,7 +153,7 @@ building_magic_rifle_industry = {
 	}
 
 	production_method_groups = {
-		pmg_magic_rifle_manufacturing
+		pmg_magical_small_arms__manufacturing
 		pmg_magical_atuomation
 		pmg_magiscientia_atuomation
 		pmg_ownership_capital_heavy_industry
