@@ -16,21 +16,21 @@ ip_lose_voting_right = {
 }
 
 ip_pro = {
-	add_to_global_list = { voting_countries_pro}
-	remove_from_list = {voting_countries_con}
-	remove_from_list = {voting_countries_waiver}
+	add_to_global_list = voting_countries_pro
+	remove_from_list = voting_countries_con
+	remove_from_list = voting_countries_waiver
 }
 
 ip_con = {
-	remove_from_list = { voting_countries_pro}
-	add_to_global_list = {voting_countries_con}
-	remove_from_list = {voting_countries_waiver}
+	remove_from_list = voting_countries_pro
+	add_to_global_list = voting_countries_con
+	remove_from_list = voting_countries_waiver
 }
 
 ip_waiver = {
-	remove_from_list = { voting_countries_pro}
-	remove_from_list = {voting_countries_con}
-	add_to_global_list = {voting_countries_waiver}
+	remove_from_list = voting_countries_pro
+	remove_from_list = voting_countries_con
+	add_to_global_list = voting_countries_waiver
 }
 
 ip_monthly_poll_pro = {
