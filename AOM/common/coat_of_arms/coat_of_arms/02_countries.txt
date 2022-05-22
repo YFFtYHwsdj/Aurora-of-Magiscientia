@@ -22468,3 +22468,124 @@ BAS = { # Aboriginals
 	}
 }
 
+#### 教国国旗 
+PAS = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian_cross_thin_border.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "yellow"
+		instance = { scale { 0.45 0.45 } position { 0.26 0.32 } }
+	}
+	colored_emblem = {
+		texture = "ce_mitre_no_cross.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "purple"
+		instance = { scale { 0.27 0.27 } position { 0.26 0.3 } }
+	}
+}
+### 盾徽
+PAS_theocracy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian_cross_thin_border.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "yellow"
+		instance = { scale { 0.55 0.55 } position { 0.3 0.35 } }
+	}
+	colored_emblem = {
+		texture = "ce_mitre_no_cross.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "purple"
+		instance = { scale { 0.3 0.3 } position { 0.3 0.34 } }
+	}
+}
+
+### 天秤
+# PAS_theocracy = {
+# 	pattern = "pattern_solid.tga"
+# 	color1 = "white"
+# 	colored_emblem = {
+# 		texture = "ce_stripe_bottom.dds"
+# 		color1 = "yellow"
+# 	}
+# 	colored_emblem = {
+# 		texture = "ce_scales.dds"
+# 		color1 = "yellow"
+# 		color2 = "purple"
+# 		instance = { scale { 0.6 0.6 } position { 0.3 0.35 } }
+# 	}
+# 	colored_emblem = {
+# 		texture = "ce_mitre_no_cross.dds"
+# 		color1 = "white"
+# 		color2 = "yellow"
+# 		color3 = "purple"
+# 		instance = { scale { 0.28 0.28 } position { 0.3 0.3 } }
+# 	}
+# }
+PAS_republic = {
+	# BWR republican is for Rome/Latium
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+}
+PAS_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}		
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.56 0.56 } position = { 0.5 0.5 } } 
+	}	
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.44 0.44 } position = { 0.5 0.5 } } 
+	}
+}
+PAS_fascist = {	
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_chi_rho.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }
+	}	
+}
