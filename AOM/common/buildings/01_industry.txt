@@ -89,7 +89,7 @@ building_liquor_factory = {
 
 	production_method_groups = {
 		pmg_base_building_liquor_factory
-		pmg_ownership_capital_heavy_industry
+		pmg_ownership_capital_light_industry
 		pmg_automation_building_liquor_factory
 	}
 
