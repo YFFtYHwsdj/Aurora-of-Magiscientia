@@ -69,7 +69,7 @@ building_food_industry = {
 		pmg_canning
 		pmg_distillery
 		pmg_automation_building_food_industry
-		pmg_ownership_capital_industry
+		pmg_ownership_capital_light_industry
 	}
 
 	required_construction = construction_cost_medium
@@ -89,8 +89,8 @@ building_liquor_factory = {
 
 	production_method_groups = {
 		pmg_base_building_liquor_factory
-		pmg_ownership_capital_light_industry
 		pmg_automation_building_liquor_factory
+		pmg_ownership_capital_light_industry
 	}
 
 	required_construction = construction_cost_medium
@@ -111,9 +111,9 @@ building_textile_mills = {
 		pmg_base_building_textile_mills
 		pmg_luxury_building_textile_mills
 		pmg_automation_building_textile_mills
-		pmg_ownership_capital_industry
 		pmg_magical_automation_building
 		pmg_magiscientia_automation
+		pmg_ownership_capital_light_industry
 	}
 	
 	required_construction = construction_cost_medium
