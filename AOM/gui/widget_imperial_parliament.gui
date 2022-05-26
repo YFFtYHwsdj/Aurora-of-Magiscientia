@@ -10,13 +10,13 @@ types widget_imperial_parliament_types {
 		using = hud_visibility
 		using = default_fade_in_out
 
-		container = {
+		vbox = {
 			size = { 100% 100% }
-			
 			using = fullscreen_hide
 
 			button = {
 				texture = "gfx/interface/icons/political_parties/conservatism.dds"
+				size = { 80 80 }
 				onclick = "[ExecuteConsoleCommand('GUI.CreateWidget gui/window_imperial_parliament.gui imperial_parliament_window')]"
 				# onclick = "[GetVariableSystem.Toggle( 'imperial_parliament_Toggle')]"
 
@@ -24,6 +24,25 @@ types widget_imperial_parliament_types {
 				using = maplens_generic_sound
 				
 			}
+
+			
+			default_progressbar_horizontal = {
+				size = { 65 4 }
+				
+				blockoverride "values" {
+					max = "100"
+					value = "50"
+				}
+				
+				textbox = {
+					text = "50"
+					parentanchor = top|hcenter
+					align = center
+				}
+			}
+			expand = {}	
+				
+			
 		}
 	}
 }
