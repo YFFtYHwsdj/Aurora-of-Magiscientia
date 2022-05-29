@@ -10,6 +10,7 @@ law_consumption_based_taxation = {
 	modifier = {
 		state_bureaucracy_population_base_cost_factor_mult = -0.25
 		state_tax_waste_add = 0.2
+		country_institution_tax_deparment_max_investment_add = 1
 	}
 	
 	tax_modifier_very_low = {
@@ -44,6 +45,7 @@ law_land_based_taxation = {
 	
 	modifier = {
 		state_tax_waste_add = 0.4
+		country_institution_tax_deparment_max_investment_add = 2
 	}
 	
 	tax_modifier_very_low = {
@@ -94,6 +96,7 @@ law_per_capita_based_taxation = {
 	
 	modifier = {
 		state_tax_waste_add = 0.6
+		country_institution_tax_deparment_max_investment_add = 3
 	}
 	
 	tax_modifier_very_low = {
@@ -149,6 +152,7 @@ law_proportional_taxation = {
 
 	modifier = {
 		state_tax_waste_add = 0.8
+		country_institution_tax_deparment_max_investment_add = 4
 	}
 
 	tax_modifier_very_low = {
@@ -199,6 +203,7 @@ law_graduated_taxation = {
 	
 	modifier = {
 		state_tax_waste_add = 1
+		country_institution_tax_deparment_max_investment_add = 5
 	}
 	
 	tax_modifier_very_low = {
