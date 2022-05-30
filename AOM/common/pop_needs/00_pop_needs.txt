@@ -186,13 +186,6 @@ popneed_intoxicants = {
 		min_weight = 0.0
 	}
 	
-	entry = {
-		goods = opium
-		
-		weight = 1
-		max_weight = 3.0 # Maxes out at 60% of supply share
-		min_weight = 0.0
-	}
 }
 
 popneed_luxury_drinks = {
@@ -200,14 +193,6 @@ popneed_luxury_drinks = {
 
 	entry = {
 		goods = tea
-		
-		weight = 1
-		max_weight = 3.0 # Maxes out at 60% of supply share
-		min_weight = 0.0
-	}
-	
-	entry = {
-		goods = coffee
 		
 		weight = 1
 		max_weight = 3.0 # Maxes out at 60% of supply share
@@ -243,9 +228,9 @@ popneed_free_movement = {
 	}
 	
 	entry = {
-		goods = automobiles
+		goods = magical_vehicle
 		
-		weight = 1
+		weight = 1.5
 		max_weight = 3.0 # Maxes out at 60% of supply share
 		min_weight = 0.0
 	}
@@ -341,13 +326,13 @@ popneed_luxury_items = {
 		max_weight = 2.0 # Maxes out at 40% of supply share
 		min_weight = 0.25
 	}
-	
+
 	entry = {
-		goods = radios
+		goods = magical_dolls
 		
 		weight = 1
-		max_weight = 2.0 # Maxes out at 40% of supply share
-		min_weight = 0.0
+		max_weight = 2.0
+		min_weight = 0
 	}
 }
 
