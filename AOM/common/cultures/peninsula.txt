@@ -1,7 +1,7 @@
 ﻿peninsula = {
 	color={ 0 136 255 }
-	religion = holy	#半岛文化默认宗教为圣教
-	traits = { european_heritage }	#半岛文化特质为人类传承mankind_heritage
+	religion = holy_church	#半岛文化默认宗教为圣教
+	traits = { mankind_heritage }	#半岛文化特质为人类传承mankind_heritage
 	
 	male_common_first_names={
 		a b c d e f g h i j k l m n
