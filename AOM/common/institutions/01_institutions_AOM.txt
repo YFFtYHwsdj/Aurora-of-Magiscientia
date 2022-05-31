@@ -1,0 +1,6 @@
+# 税务部门
+institution_tax_department = {
+	icon = "gfx/interface/icons/institution_icons/tax_department.dds"
+	background_texture = "gfx/interface/illustrations/institutions/tax_department.dds"
+	state_tax_waste_add = -0.2
+}

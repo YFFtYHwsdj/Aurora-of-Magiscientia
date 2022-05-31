@@ -5,7 +5,7 @@
 	start_quality_of_life = 10
 	wage_weight = 3
 	literacy_target = 0.80
-	education_access = 0.5
+	education_access = 0.4
 	dependent_wage = 0.5	# per year
 	unemployment = yes
 
@@ -27,13 +27,13 @@
 			# baseline: ( literacy - 0.2 ) * 10 + ( wealth / 10 ), norm 5
 			add = {
 				value = literacy_rate
-				subtract = 0.2
-				multiply = 20
+				subtract = 0.3
+				multiply = 5
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
 			}
 			add = {
 				value = wealth
-				divide = 10
+				divide = 30
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
 			}
 			if = {
