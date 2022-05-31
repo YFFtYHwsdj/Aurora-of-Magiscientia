@@ -39,6 +39,9 @@ magiciteain = {
 				divide = 200
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
 			}
+			add = {
+				value = 0.01
+			}
 		}
 		else = {		
 			value = {

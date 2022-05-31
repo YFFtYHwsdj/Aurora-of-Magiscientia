@@ -1,15 +1,15 @@
-dwarf = {
-	texture = "gfx/interface/icons/pops_icons/dwarf.dds"
+diggers = {
+	texture = "gfx/interface/icons/pops_icons/diggers.dds"
 	color = { 70 36 29 }
-	strata = poor
+	strata = middle
 	unemployment = yes
 	can_always_hire = yes
-	start_quality_of_life = 5
-	wage_weight = 1
+	start_quality_of_life = 10
+	wage_weight = 2.5
 	dependent_wage = 0.5	# per year
 	
-	# 30% - 80% politically engaged	
-	political_engagement_base = 0.3
+	# 50% - 100% politically engaged	
+	political_engagement_base = 0.5
 	political_engagement_literacy_factor = 0.5
 	
 	qualifications = {
@@ -18,7 +18,7 @@ dwarf = {
 				culture = cu:dwarf
 			}
 			add = {
-				value = 100
+				value = 0.5
 			}
 			else = {		
 			value = {

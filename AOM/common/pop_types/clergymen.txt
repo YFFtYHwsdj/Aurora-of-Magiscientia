@@ -22,6 +22,12 @@
 		if = {
 			limit = {
 				literacy_rate > 0.2
+				OR = {
+					culture = cu:peninsula
+				}
+				OR = {
+					religion = rel:holy_church
+				}
 			}
 			# baseline: ( literacy - 0.2 ) * 20, norm 6 for Literacy 50% and Accepted Religion
 			add = {
