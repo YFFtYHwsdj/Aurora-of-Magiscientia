@@ -15,7 +15,7 @@ dwarf = {
 	qualifications = {
 		if = {
 			limit = {
-				culture = cu:dwarf
+				culture = cu:cave_dwarf
 			}
 			add = {
 				value = 100
