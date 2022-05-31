@@ -1,25 +1,9 @@
-#建筑中Pop生育率与死亡率
+#livestock死亡率
 building_livestock_mortality_mult = {
 	good = no
 	percent = yes
 }
 building_livestock_fertility_mult = {
-	good = no
-	percent = yes
-}
-building_dwarf_mortality_mult = {
-	good = no
-	percent = yes
-}
-building_dwarf_fertility_mult = {
-	good = no
-	percent = yes
-}
-building_diggers_mortality_mult = {
-	good = no
-	percent = yes
-}
-building_diggers_fertility_mult = {
 	good = no
 	percent = yes
 }

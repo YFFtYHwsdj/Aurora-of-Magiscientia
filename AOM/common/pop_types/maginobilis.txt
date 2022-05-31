@@ -22,18 +22,18 @@ maginobilis = {
 		if = {
 			limit = {
 				wealth > 10
-				religion = rel:arcane
+				literacy_rate > 0.6
 			}
 			# baseline: ( wealth - 10 ) / 10 + ( literacy * 2 ), norm 2 for Wealth 20 and Literacy 50%
 			add = {
 				value = wealth
-				substrct = 10
-				divide = 300
+				subtract = 10
+				divide = 5
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
 			}
 			add = {
 				value = literacy_rate
-				multiply = 0.05
+				multiply = 2
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
 			}
 			if = {
@@ -41,13 +41,13 @@ maginobilis = {
 					is_pop_type = magistratus
 				}
 				multiply = {
-					value = 10
+					value = 5
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
 			if = {
 				limit = {
-					is_pop_type = magiciteain
+					is_pop_type = captalists
 				}
 				multiply = {
 					value = 5

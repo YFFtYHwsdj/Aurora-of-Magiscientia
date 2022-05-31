@@ -1,0 +1,7 @@
+﻿holy = {
+	texture = "gfx\interface\icons\religion_icons\bitcoin.dds"
+	traits = {
+		sacred_heritage	#圣教特质为神圣传承
+	}
+	color = { 255 255 0 }
+}

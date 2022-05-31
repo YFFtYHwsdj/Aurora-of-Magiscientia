@@ -1,6 +1,0 @@
-﻿mankind_heritage = {
-	heritage = yes
-}
-dwarf_heritage = {
-	heritage = yes
-}
