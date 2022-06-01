@@ -95,25 +95,25 @@ moved_market_capital_recently = {
 	building_throughput_mult = -0.1
 }
 
-tax_modifier_very_low = {
+tax_consumption_modifier_very_low = {
 	country_legitimacy_base_add = 10
 	state_radicals_from_sol_change_mult = -0.2
 }
 
-tax_modifier_low = {
+tax_consumption_modifier_low = {
 	country_legitimacy_base_add = 5
 	state_radicals_from_sol_change_mult = -0.1
 }	
 
-tax_modifier_medium = {
+tax_consumption_modifier_medium = {
 }	
 
-tax_modifier_high = {
+tax_consumption_modifier_high = {
 	country_legitimacy_base_add = -5
 	state_radicals_from_sol_change_mult = 0.25
 }	
 
-tax_modifier_very_high = {
+tax_consumption_modifier_very_high = {
 	country_legitimacy_base_add = -10
 	state_radicals_from_sol_change_mult = 0.5
 }	
