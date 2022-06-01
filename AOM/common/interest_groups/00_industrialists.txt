@@ -26,6 +26,7 @@
 			is_pop_type = capitalists
 			is_pop_type = engineers
 			is_pop_type = shopkeepers
+			is_pop_type = aristocrats
 		}
 	}
 	
@@ -41,7 +42,21 @@
 				value = 200
 			}
 		}	
-	
+		
+		add = {
+			desc = "POP_ARISTOCRATS"
+			if = {
+				limit = {
+					is_pop_type = aristocrats
+					OR = {
+						pop_employment_building_group = bg_manufacturing 
+						pop_employment_building_group = bg_agriculture
+					}
+				}
+				value = 200
+			}
+		}
+		
 		add = {
 			desc = "POP_ENGINEERS"
 			if = {

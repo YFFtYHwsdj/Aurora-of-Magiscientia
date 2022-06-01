@@ -1,6 +1,13 @@
 je_unity_of_new_empire_main = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
-		
+	
+	immediate = {
+		set_variable = {
+			name = empire_authority
+			value = 50
+		}
+	}
+	
 	on_complete = {
 		trigger_event = {
 			id = unity_of_new_empire.2
@@ -21,8 +28,28 @@ je_unity_of_new_empire_main = {
 		var:empiire_authority <=0
 	}
 	
-	current_value = {
-		value = var:empire_authority
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = high_empire_authority
+				trigger = {
+					var:empire_authority >= 65
+				}
+			}
+			triggered_desc = {
+				desc = medium_empire_authority
+				trigger = {
+					var:empire_authority < 65
+					var:empire_authority > 35
+				}
+			}
+			triggered_desc = {
+				desc = low_empire_authority
+				trigger = {
+					var:empire_authority <= 35
+				}
+			}
+		}
 	}
 	
 	on_monthly_pulse = {

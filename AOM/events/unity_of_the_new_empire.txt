@@ -21,10 +21,6 @@ unity_of_new_empire.1 = {
 	}
 
 	immediate = {
-		set_variable = {
-			name = empire_authority
-			value = 0
-		}
 		add_journal_entry = {
 			type = je_unity_of_new_empire_main
 		}
