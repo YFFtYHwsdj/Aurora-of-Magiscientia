@@ -2,14 +2,18 @@
 	c:EMP = {
 		create_diplomatic_pact = {
 			country = c:WEE
-			type = puppet
+			type = subject_province
 		}
 		create_diplomatic_pact = {
 			country = c:SOE
-			type = puppet
+			type = subject_province
 		}
 	}
 	c:PAS = {
+		create_diplomatic_pact = {
+			country = c:EMP
+			type = subject_treaty_member
+		}
 		create_diplomatic_pact = {
 			country = c:SJQ
 			type = puppet

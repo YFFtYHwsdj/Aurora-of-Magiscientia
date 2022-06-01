@@ -61,10 +61,11 @@ subject_type_church_vassal = {
 	use_for_release_country = no
 	gives_prestige_to_overlord = yes
 	subservient_to_overlord = yes
-	convoy_contribution = 0.5
+	
+	diplomatic_action = subject_church_vassal
 	
 	country_type_change_alternatives = {
-		subject_type_vassal
+		subject_type_puppet
 	}
 	
 	can_change_subject_type_from = {
@@ -110,11 +111,11 @@ subject_type_empire_vassal = {
 	can_have_subjects = no
 	overlord_must_be_higher_rank = yes
 	overlord_must_be_same_country_type = no
-	use_for_release_country = yes
+	use_for_release_country = no
 	gives_prestige_to_overlord = yes
 	subservient_to_overlord = yes
-	convoy_contribution = 0.5
-		
+	
+	diplomatic_action = subject_empire_vassal
 	
 	country_type_change_alternatives = {
 		subject_type_puppet
@@ -155,16 +156,17 @@ subject_type_province = {
 	can_start_own_diplomatic_plays = yes
 	breaks_if_subject_not_protected = yes
 	join_overlord_wars = yes
-	can_have_subjects = no
+	can_have_subjects = yes
 	overlord_must_be_higher_rank = no
 	overlord_must_be_same_country_type = no
 	use_for_release_country = no
 	gives_prestige_to_overlord = yes
 	subservient_to_overlord = yes
-	convoy_contribution = 0.5
+	
+	diplomatic_action = subject_province
 	
 	country_type_change_alternatives = {
-		subject_type_vassal
+		subject_type_puppet
 	}
 	
 	can_change_subject_type_from = {
@@ -205,7 +207,7 @@ subject_type_treaty_member = {
 	use_overlord_map_color = no
 	use_overlord_ruler = no
 	annex_on_country_formation = yes
-	can_start_own_diplomatic_plays = no
+	can_start_own_diplomatic_plays = yes
 	breaks_if_subject_not_protected = yes
 	join_overlord_wars = yes
 	can_have_subjects = yes
@@ -213,11 +215,12 @@ subject_type_treaty_member = {
 	overlord_must_be_same_country_type = no
 	use_for_release_country = no
 	gives_prestige_to_overlord = yes
-	subservient_to_overlord = yes
-	convoy_contribution = 0.5
+	subservient_to_overlord = no
+	
+	diplomatic_action = subject_treaty_member
 	
 	country_type_change_alternatives = {
-		subject_type_vassal
+		subject_type_puppet
 	}
 	
 	can_change_subject_type_from = {
