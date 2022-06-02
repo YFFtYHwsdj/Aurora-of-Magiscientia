@@ -1,0 +1,3 @@
+je_nominal_unity_of_mankind_emp = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+}
