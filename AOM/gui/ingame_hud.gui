@@ -151,8 +151,8 @@ widget = {
 			topbar = {}
 			topfrontend = {
 			}
-			# 帝国议会
-			widget_imperial_parliament = {}
+			### 帝国议会
+			# widget_imperial_parliament = {}
 			timemanip = {}
 		}
 		widget = {
