@@ -22,9 +22,6 @@
 		if = {
 			limit = {
 				wealth > 10
-				OR = {
-					culture = cu:peninsula
-				}
 			}
 			# baseline: ( wealth - 10 ) / 10 + literacy, norm 1.5 for Wealth 20 and Literacy 50%
 			add = {
@@ -32,28 +29,6 @@
 				subtract = 10
 				divide = 5
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
-			}
-			add = {
-				value = literacy_rate
-				desc = "QUALIFICATIONS_LITERACY_FACTOR"
-			}
-			if = {
-				limit = {
-					is_pop_type = bureaucrats
-				}
-				multiply = {
-					value = 5
-					desc = "QUALIFICATIONS_FAVORED_TYPE"
-				}
-			}
-			if = {
-				limit = {
-					is_pop_type = officers
-				}
-				multiply = {
-					value = 5
-					desc = "QUALIFICATIONS_FAVORED_TYPE"
-				}
 			}
 			if = {
 				limit = {

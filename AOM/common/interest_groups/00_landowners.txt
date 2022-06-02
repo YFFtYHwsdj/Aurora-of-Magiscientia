@@ -27,6 +27,10 @@
 			is_pop_type = clergymen
 			is_pop_type = officers
 		}		
+		NOR = {
+			pop_employment_building_group = bg_manufacturing 
+			pop_employment_building_group = bg_agriculture
+		}
 	}
 	
 	pop_weight = {

@@ -50,16 +50,6 @@
 		}		
 
 		add = {
-			desc = "POP_FARMERS"
-			if = {
-				limit = { 
-					is_pop_type = farmers
-				}
-				value = 200
-			}
-		}	
-
-		add = {
 			desc = "POP_PEASANTS"
 			if = {
 				limit = { 
@@ -68,16 +58,6 @@
 				value = 200
 			}
 		}	
-
-		add = {
-			desc = "POP_CLERGYMEN"
-			if = {
-				limit = { 
-					is_pop_type = clergymen
-				}
-				value = 100
-			}
-		}		
 	}
 	
 	monarch_weight = {

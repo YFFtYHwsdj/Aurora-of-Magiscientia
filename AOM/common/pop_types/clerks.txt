@@ -33,10 +33,6 @@
 	qualifications_growth_desc = "CLERKS_QUALIFICATIONS_DESC"
 	qualifications = {
 		# baseline: literacy * 20, norm 10 for Laborers with Literacy 25%
-		if = {
-			limit = {
-				culture = cu:peninsula
-			}
 			add = {
 				value = literacy_rate
 				multiply = 20
@@ -51,12 +47,6 @@
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
-		}
-		else = {
-			add = {
-				value = -5
-			}
-		}
 	}
 	
 	portrait_age = {
