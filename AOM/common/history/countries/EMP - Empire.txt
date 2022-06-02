@@ -13,8 +13,7 @@ COUNTRIES = {
 		
 		set_tax_level = medium
 		
-		trigger_event = {
-			id = unity_of_new_empire.1
+		add_journal_entry = { type = je_unity_of_new_empire_main }
 		}
 	}
 }

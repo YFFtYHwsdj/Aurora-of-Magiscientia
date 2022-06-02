@@ -15,7 +15,6 @@ law_autocracy = {
 	modifier = {
 		country_legitimacy_headofstate_add = 30
 		country_aristocrats_pol_str_mult = 0.5
-		country_authority_add = 250
 	}
 	
 	possible_political_movements = {
@@ -39,7 +38,6 @@ law_oligarchy = {
 		country_legitimacy_govt_total_clout_add = 0.5
 		country_aristocrats_pol_str_mult = 0.5
 		country_capitalists_pol_str_mult = 0.25
-		country_authority_add = 200
 	}
 	
 	possible_political_movements = {
@@ -68,7 +66,6 @@ law_elder_council = {
 		country_aristocrats_pol_str_mult = 0.5
 		country_officers_pol_str_mult = 0.5
 		country_clergymen_pol_str_mult = 0.5
-		country_authority_add = 200
 	}
 	
 	possible_political_movements = {
@@ -96,7 +93,6 @@ law_landed_voting = {
 		country_officers_voting_power_add = 50
 		country_clergymen_voting_power_add = 50
 		country_capitalists_voting_power_add = 50
-		country_authority_add = 150
 	}
 	
 	possible_political_movements = {
@@ -154,7 +150,6 @@ law_wealth_voting = {
 		country_legitimacy_base_add = 20
 		country_voting_power_base_add = 40
 		country_voting_power_wealth_threshold_add = 20
-		country_authority_add = 150
 	}
 	
 	possible_political_movements = {
@@ -185,7 +180,6 @@ law_census_voting = {
 		country_legitimacy_base_add = 20
 		country_voting_power_wealth_threshold_add = 10
 		country_voting_power_from_literacy_add = 30
-		country_authority_add = 100
 	}
 	
 	possible_political_movements = {
@@ -215,7 +209,6 @@ law_universal_suffrage = {
 	modifier = {
 		country_legitimacy_base_add = 20
 		country_voting_power_base_add = 20
-		country_authority_add = 50
 	}
 	
 	possible_political_movements = {

@@ -1,0 +1,81 @@
+set_countries_of_holy_church = {
+	every_country = {
+		if = {
+			limit = {
+				religion = rel:holy_church
+			}
+			add_to_global_list = countries_of_holy_church
+		}
+	}
+}
+
+calculate_total_population_of_holy_church = {
+	set_global_variable = {
+		name = total_population_of_holy_church
+		value = 0
+	}
+	every_in_gobal_list = {
+		list = countries_of_holy_church
+		change_global_variable = {
+			name = total_population_of_holy_church
+			add = root.total_population
+		}
+	}
+}
+
+calculate_mana_of_holy_church_in_a_country = {
+	every_in_gobal_list = {
+		list = countries_of_holy_church
+		if = {
+			limit = {
+				total_population < 5000000
+			}
+			add_modifier = {
+				name = mana_50
+				months = 6
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 10000000
+			}
+			add_modifier = {
+				name = mana_100
+				months = 6
+			}
+		}
+		else = {
+			add_modifier = {
+				name = mana_150
+				months = 6
+			}
+		}
+	}
+}
+
+calculate_mana_of_holy_church_in_papa = {
+	if = {
+		limit = {
+			var:total_population_of_holy_church < 5000000
+		}
+		add_modifier = {
+			name = mana_50
+			months = 6
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 10000000
+		}
+		add_modifier = {
+			name = mana_100
+			months = 6
+		}
+	}
+	else = {
+		add_modifier = {
+			name = mana_150
+			months = 6
+		}
+	}
+}

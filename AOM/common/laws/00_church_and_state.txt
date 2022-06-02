@@ -18,7 +18,6 @@ law_state_religion = {
 	
 	modifier = {
 		interest_group_ig_devout_pol_str_mult = 0.5
-		country_authority_add = 200
 	}
 	
 	possible_political_movements = {
@@ -49,7 +48,6 @@ law_freedom_of_conscience = {
 	
 	modifier = {
 		interest_group_ig_devout_pol_str_mult = 0.25
-		country_authority_add = 100
 	}
 	
 	possible_political_movements = {

@@ -1,0 +1,21 @@
+je_nominal_unity_of_mankind_emp = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	immediate = {
+		effect = {
+			set_countries_of_holy_church = yes
+		}
+	}
+	
+	current_value = {
+		value = var:total_population_of_holy_church
+	
+	on_monthly_pulse = {
+		effect = {
+			calculate_total_population_of_holy_church = yes
+			calculate_mana_of_holy_church_in_a_country = yes
+			calculate_mana_of_holy_church_in_papa = yes
+			calculate_mana_of_holy_church_in_a_country = yes
+		}
+	}
+}

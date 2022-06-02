@@ -21,7 +21,6 @@ law_ethnostate = {
 	}
 	
 	modifier = {
-		country_authority_add = 200
 	}
 	
 	possible_political_movements = {
@@ -47,7 +46,7 @@ law_national_supremacy = {
 	}
 	
 	modifier = {
-		country_authority_add = 200
+		country_bureaucracy_investment_cost_factor_mult = 0.1
 	}
 	
 	possible_political_movements = {
@@ -70,7 +69,7 @@ law_racial_segregation = {
 	}
 	
 	modifier = {
-		country_authority_add = 100
+		country_bureaucracy_investment_cost_factor_mult = 0.2
 	}
 	
 	possible_political_movements = {
@@ -121,7 +120,7 @@ law_cultural_exclusion = {
 	}
 	
 	modifier = {
-		country_authority_add = 50
+		country_bureaucracy_investment_cost_factor_mult = 0.3
 	}
 	
 	possible_political_movements = {
@@ -168,6 +167,10 @@ law_multicultural = {
 	
 	on_enact = {
 		recalculate_pop_ig_support = yes
+	}
+	
+	modifier = {
+		country_bureaucracy_investment_cost_factor_mult = 0.4
 	}
 
 	cultural_acceptance_rule = {

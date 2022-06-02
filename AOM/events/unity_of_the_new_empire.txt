@@ -1,39 +1,9 @@
-#初始设定
-unity_of_new_empire.1 = {
-	type = country_event
-	placement = root
-	title = unity_of_new_empire.1.t
-	desc = unity_of_new_empire.1.d
-	flavor = unity_of_new_empire.1.f
-
-	duration = 3
-
-	event_image = {
-		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
-
-	icon = "gfx/interface/icons/event_icons/event_skull.dds"
-
-	trigger = {
-	}
-
-	immediate = {
-		add_journal_entry = {
-			type = je_unity_of_new_empire_main
-		}
-	}
-}
-
 #成功事件
 unity_of_new_empire.2 = {
 	type = country_event
 	placement = root
 	title = unity_of_new_empire.2.t
 	desc = unity_of_new_empire.2.desc
-	flavor = unity_of_new_empire.2.f
 
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
@@ -56,7 +26,6 @@ unity_of_new_empire.3 = {
 	placement = root
 	title = unity_of_new_empire.3.t
 	desc = unity_of_new_empire.3.d
-	flavor = unity_of_new_empire.3.f
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
 	duration = 3

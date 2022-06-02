@@ -1,13 +1,13 @@
-#每月收集投票
-on_monthly_pulse_country = {
-	on_actions = {  
-		imperial_parliament_on_mothly_pulse_country
-	}
-}
-imperial_parliament_on_mothly_pulse_country = {
-	effect = {
-		ip_monthly_poll_pro = yes
-		ip_monthly_poll_waiver = yes
-		ip_monthly_poll_con = yes
-	}
-}
+# #每月收集投票
+# on_monthly_pulse_country = {
+	# on_actions = {  
+		# imperial_parliament_on_mothly_pulse_country
+	# }
+# }
+# imperial_parliament_on_mothly_pulse_country = {
+	# effect = {
+		# ip_monthly_poll_pro = yes
+		# ip_monthly_poll_waiver = yes
+		# ip_monthly_poll_con = yes
+	# }
+# }
