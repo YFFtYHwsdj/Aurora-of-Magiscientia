@@ -6,7 +6,6 @@ unity_of_new_empire.1 = {
 	placement = root
 	title = unity_of_new_empire.1.t
 	desc = unity_of_new_empire.1.d
-	flavor = unity_of_new_empire.1.f
 
 	duration = 3
 
