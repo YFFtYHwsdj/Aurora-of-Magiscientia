@@ -17,7 +17,11 @@ law_traditionalism = {
 	}
 	
 	modifier = {
+		state_capitalists_investment_pool_contribution_add = 0.75
 		state_bureaucracy_population_base_cost_factor_mult = -0.5
+		state_construction_mult = -0.5
+		building_group_bg_heavy_industry_throughput_mult = -0.2
+		building_group_bg_light_industry_throughput_mult = -0.4
 	}
 	
 	ai_weight = 0 # For now, let's not have the AI change economic system
@@ -35,6 +39,7 @@ theocratic_economy = {
 		state_clergymen_investment_pool_contribution_add = 0.25
 		state_bureaucracy_population_base_cost_factor_mult = 0.25
 		state_clergymen_investment_pool_contribution_add = 0.5
+		state_capitalists_investment_pool_contribution_add = 0.75
 		interest_group_ig_devout_pol_str_mult = 0.5
 		
 		country_subsidies_all = yes
@@ -75,7 +80,7 @@ law_interventionism = {
 	
 	modifier = {
 		state_aristocrats_investment_pool_contribution_add = 0.05
-		state_capitalists_investment_pool_contribution_add = 0.25
+		state_capitalists_investment_pool_contribution_add = 0.75
 			
 		country_subsidies_all = yes
 	}
@@ -110,7 +115,8 @@ law_agrarianism = {
 	}
 	
 	modifier = {
-		state_aristocrats_investment_pool_contribution_add = 0.2	
+		state_aristocrats_investment_pool_contribution_add = 0.3	
+		state_capitalists_investment_pool_contribution_add = 0.75
 		
 		country_subsidies_bg_agriculture = yes
 		country_subsidies_bg_ranching = yes
@@ -147,11 +153,7 @@ law_laissez_faire = {
 	
 	modifier = {
 		country_loan_interest_rate_add = -0.10
-		
-		state_capitalists_investment_pool_contribution_add = 0.5
-		
-		country_encourage_consumption_cost_mult = -0.5
-		country_discourage_consumption_cost_mult = -0.5	
+		state_capitalists_investment_pool_contribution_add = 0.75
 	}
 
 	build_from_investment_pool = {
@@ -186,9 +188,7 @@ law_command_economy = {
 	}
 	
 	modifier = {
-		country_mandate_subsidies = yes
-		
-		country_authority_add = 200										
+		country_mandate_subsidies = yes	
 	}
 
 	ai_weight = 0 # For now, let's not have the AI change economic system

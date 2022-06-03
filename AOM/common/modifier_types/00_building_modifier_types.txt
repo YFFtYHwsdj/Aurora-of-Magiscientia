@@ -547,7 +547,21 @@ building_output_oil_mult = {
 	good = yes
 	percent = yes
 }
-
+#重工业
+building_group_bg_heavy_industry_throughput_mult = {
+	good = yes
+	percent = yes
+}
+#轻工业
+building_group_bg_light_industry_throughput_mult = {
+	good = yes
+	percent = yes
+}
+#农业
+building_group_bg_agriculture_throughput_mult = {
+	good = yes
+	percent = yes
+}
 building_group_bg_service_throughput_mult = {
 	good = yes
 	percent = yes
