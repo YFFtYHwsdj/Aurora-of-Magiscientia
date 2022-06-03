@@ -25,7 +25,7 @@ je_unity_of_new_empire_main = {
 	}
 	
 	fail = {
-		var:empiire_authority <=0
+		var:empire_authority <=0
 	}
 	
 	status_desc = {
