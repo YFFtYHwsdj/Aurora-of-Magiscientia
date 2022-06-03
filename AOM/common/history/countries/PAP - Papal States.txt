@@ -17,5 +17,7 @@ COUNTRIES = {
 			set_ig_promotion = yes
 			set_interest_group_name = ig_roman_curia
 		}
+		
+		add_journal_entry = { type = je_the_leader_of_holy_church }
 	}
 }

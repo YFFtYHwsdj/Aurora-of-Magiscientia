@@ -32,7 +32,7 @@ calculate_mana_of_holy_church_in_a_country = {
 			}
 			add_modifier = {
 				name = mana_50
-				months = 6
+				months = 12
 			}
 		}
 		else_if = {
@@ -41,13 +41,97 @@ calculate_mana_of_holy_church_in_a_country = {
 			}
 			add_modifier = {
 				name = mana_100
-				months = 6
+				months = 12
 			}
 		}
-		else = {
+		else_if = {
+			limit = {
+				total_population < 15000000
+			}
 			add_modifier = {
 				name = mana_150
-				months = 6
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 20000000
+			}
+			add_modifier = {
+				name = mana_200
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 30000000
+			}
+			add_modifier = {
+				name = mana_300
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 40000000
+			}
+			add_modifier = {
+				name = mana_400
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 50000000
+			}
+			add_modifier = {
+				name = mana_500
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 60000000
+			}
+			add_modifier = {
+				name = mana_600
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 70000000
+			}
+			add_modifier = {
+				name = mana_700
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 80000000
+			}
+			add_modifier = {
+				name = mana_800
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 90000000
+			}
+			add_modifier = {
+				name = mana_900
+				months = 12
+			}
+		}
+		else_if = {
+			limit = {
+				total_population < 100000000
+			}
+			add_modifier = {
+				name = mana_1000
+				months = 12
 			}
 		}
 	}
@@ -56,11 +140,11 @@ calculate_mana_of_holy_church_in_a_country = {
 calculate_mana_of_holy_church_in_papa = {
 	if = {
 		limit = {
-			var:total_population_of_holy_church < 5000000
+			var:var:total_population_of_holy_church_of_holy_church < 5000000
 		}
 		add_modifier = {
 			name = mana_50
-			months = 6
+			months = 12
 		}
 	}
 	else_if = {
@@ -69,13 +153,88 @@ calculate_mana_of_holy_church_in_papa = {
 		}
 		add_modifier = {
 			name = mana_100
-			months = 6
+			months = 12
 		}
 	}
-	else = {
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 20000000
+		}
 		add_modifier = {
-			name = mana_150
-			months = 6
+			name = mana_200
+			months = 12
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 30000000
+		}
+		add_modifier = {
+			name = mana_300
+			months = 12
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 40000000
+		}
+		add_modifier = {
+			name = mana_400
+			months = 12
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 50000000
+		}
+		add_modifier = {
+			name = mana_500
+			months = 12
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 60000000
+		}
+		add_modifier = {
+			name = mana_600
+			months = 12
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 70000000
+		}
+		add_modifier = {
+			name = mana_700
+			months = 12
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 80000000
+		}
+		add_modifier = {
+			name = mana_800
+			months = 12
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 90000000
+		}
+		add_modifier = {
+			name = mana_900
+			months = 12
+		}
+	}
+	else_if = {
+		limit = {
+			var:total_population_of_holy_church < 100000000
+		}
+		add_modifier = {
+			name = mana_1000
+			months = 12
 		}
 	}
 }

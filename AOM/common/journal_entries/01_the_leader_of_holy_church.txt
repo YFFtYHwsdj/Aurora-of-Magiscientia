@@ -1,4 +1,4 @@
-je_nominal_unity_of_mankind_emp = {
+je_the_leader_of_holy_church = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 	
 	immediate = {
@@ -9,8 +9,9 @@ je_nominal_unity_of_mankind_emp = {
 	
 	current_value = {
 		value = var:total_population_of_holy_church
+	}
 	
-	on_monthly_pulse = {
+	on_yearly_pulse = {
 		effect = {
 			calculate_total_population_of_holy_church = yes
 			calculate_mana_of_holy_church_in_a_country = yes
