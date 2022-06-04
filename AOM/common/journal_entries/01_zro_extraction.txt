@@ -1,0 +1,153 @@
+je_secret_zro_extraction = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	immediate = {
+		set_variable = {
+			name = visibility
+			value = 0
+		}
+	}
+	
+	on_complete = {
+		add_journal_entry = { type = je_public_zro_extraction }
+	}
+	
+	complete = {
+		var:visibility > 9
+	}
+	
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = sze_nobody_knows
+				trigger = {
+					var:visibility = 0
+				}
+			}
+			triggered_desc = {
+				desc = sze_some_suspect
+				trigger = {
+					var:visibility > 0
+					var:visibility < 5
+				}
+			}
+			triggered_desc = {
+				desc = sze_many_suspect
+				trigger = {
+					var:visibility > 4
+					var:visibility < 8
+				}
+			}
+			triggered_desc = {
+				desc = sze_almost_exposed
+				trigger = {
+					var:visibility > 7
+				}
+			}
+		}
+	}
+	
+	invalid = {
+		OR = {
+			has_law = law_type:law_confessed_zro_extraction
+			has_law = law_type:law_moderate_religion_extraction
+			has_law = law_type:law_no_zro_extraction
+		}
+	}
+	
+	on_monthly_pulse = {
+		random_list = {
+			65 = {
+			}
+			20 = {
+				trigger_event = {
+					id = secret_zro_extraction.1
+				}
+				change_variable = {
+					name = visibility
+					add = 1
+				}
+			10 = {
+				trigger_event = {
+					id = secret_zro_extraction.2
+				}
+				change_variable = {
+					name = visibility
+					add = 2
+				}
+			}
+			5 = {
+				trigger_event = {
+					id = secret_zro_extraction.3
+				}
+				change_variable = {
+					name = visibility
+					add = 3
+				}
+			}
+		}
+		if = {
+			limit = {
+				var:visibility > 0
+				var:visibility < 5
+			}
+			add_radicals = {
+				value = 0.01
+				pop_type = laborers
+			}
+			add_radicals = {
+				value = 0.01
+				pop_type = peasants
+			}
+		}
+		else_if = {
+			limit = {
+				var:visibility > 4
+				var:visibility < 8
+			}
+			add_radicals = {
+				value = 0.05
+				pop_type = laborers
+			}
+			add_radicals = {
+				value = 0.05
+				pop_type = peasants
+			}
+		}
+		else_if = {
+			limit = {
+				var:visibility > 7
+			}
+			add_radicals = {
+				value = 0.1
+				pop_type = laborers
+			}
+			add_radicals = {
+				value = 0.1
+				pop_type = peasants
+			}
+		}
+	}
+}
+
+je_public_zro_extraction = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	on_monthly_pulse = {
+		add_radicals = {
+			value = 0.15
+			pop_type = laborers
+		}
+		add_radicals = {
+			value = 0.15
+			pop_type = peasants
+		}
+	}
+	
+	invalid = {
+		OR = {
+			has_law = law_type:law_moderate_religion_extraction
+			has_law = law_type:law_no_zro_extraction
+		}
+	}
+}
