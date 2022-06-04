@@ -23,5 +23,7 @@ COUNTRIES = {
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
 		}
+		
+		add_journal_entry = { type = je_the_leader_of_holy_church }
 	}
 }

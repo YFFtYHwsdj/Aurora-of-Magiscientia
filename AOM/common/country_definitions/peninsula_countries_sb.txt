@@ -6,6 +6,7 @@ EMP = {	#初始半岛中央位置的帝国
 	tier = empire
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_SALAND
 }
 WEE = {	#帝国西部行省
@@ -15,6 +16,7 @@ WEE = {	#帝国西部行省
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_CILAND
 }
 SOE = {	#帝国南部行省
@@ -25,6 +27,7 @@ SOE = {	#帝国南部行省
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_SERLAND
 }
 FBA = {	#法比昂		原NOE帝国东北行省
@@ -35,6 +38,7 @@ FBA = {	#法比昂		原NOE帝国东北行省
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_GASRLAND
 }
 ATN = {	#阿塔那
@@ -45,6 +49,7 @@ ATN = {	#阿塔那
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_ZASRLAND
 }
 DWE = {	#达文
@@ -55,6 +60,7 @@ DWE = {	#达文
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_UONSLAND
 }
 LDW = {	#拉多维亚
@@ -65,6 +71,7 @@ LDW = {	#拉多维亚
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_GANSLAND
 }
 NDY = {	#尼达亚
@@ -75,6 +82,7 @@ NDY = {	#尼达亚
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_WANSLAND
 }
 PAS= {	#教国
@@ -85,6 +93,7 @@ PAS= {	#教国
 	tier = empire
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_EASRLAND
 }
 SJQ = {	#圣剑骑士团		原TAU教国附属
@@ -95,6 +104,7 @@ SJQ = {	#圣剑骑士团		原TAU教国附属
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_ECARLAND
 }
 XLS = {	#西里斯
@@ -105,6 +115,7 @@ XLS = {	#西里斯
 	tier = principality
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_VASRLAND
 }
 MLD = {	#莫兰迪
@@ -115,6 +126,7 @@ MLD = {	#莫兰迪
 	tier = principality
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_FASRLAND
 }
 SUV = {	#苏瓦尔
@@ -125,6 +137,7 @@ SUV = {	#苏瓦尔
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_UONSLAND
 }
 SFB = {	#圣凡彼尼
@@ -135,6 +148,7 @@ SFB = {	#圣凡彼尼
 	tier = principality
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_JONSLAND
 }
 FAS = {	#法师同盟会
@@ -145,6 +159,7 @@ FAS = {	#法师同盟会
 	tier = kingdom
 	
 	cultures = { peninsula }
+	religion = arcane
 	capital = STATE_PCARLAND
 }
 FLK = {	#芬里克
@@ -155,6 +170,7 @@ FLK = {	#芬里克
 	tier = principality
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_SASRLAND
 }
 YAJ = {	#雅加
@@ -165,6 +181,7 @@ YAJ = {	#雅加
 	tier = principality
 	
 	cultures = { peninsula }
+	religion = holy_church
 	capital = STATE_ECARLAND
 }
 CPA = {	#半岛尼亚
@@ -175,5 +192,6 @@ CPA = {	#半岛尼亚
 	tier = hegemony
 	
 	cultures = { peninsula }
+	religion = holy_churchs
 	capital = STATE_SALAND
 }

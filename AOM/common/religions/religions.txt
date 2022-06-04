@@ -6,6 +6,14 @@
 	color = { 255 255 0 }
 }
 
+arcane = {
+	texture = "gfx\interface\icons\religion_icons\bitcoin.dds"
+	traits = {
+		sacred_heritage	#奥术特质为神圣传承
+	}
+	color = { 255 255 0 }
+}
+
 evil = {
 	texture = "gfx\interface\icons\religion_icons\bitcoin_mine.dds"
 	traits = {

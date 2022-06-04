@@ -15,8 +15,6 @@ je_the_leader_of_holy_church = {
 		effect = {
 			calculate_total_population_of_holy_church = yes
 			calculate_mana_of_holy_church_in_a_country = yes
-			calculate_mana_of_holy_church_in_papa = yes
-			calculate_mana_of_holy_church_in_a_country = yes
 		}
 	}
 }

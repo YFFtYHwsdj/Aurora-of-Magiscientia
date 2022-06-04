@@ -21,6 +21,9 @@ calculate_total_population_of_holy_church = {
 			add = root.total_population
 		}
 	}
+	effect = {
+		calculate_mana_of_holy_church_in_papa = yes
+	}
 }
 
 calculate_mana_of_holy_church_in_a_country = {
