@@ -25,12 +25,12 @@ magiciteain = {
 	qualifications = {
 		if = {
 			limit = {
-				religion = rel:arcane
+				literacy_rate > 0.2
 			}
 			# baseline: ( literacy - 0.2 ) * 5 + ( wealth / 20 ), norm 2.5 for Wealth 20 and Literacy 50%
 			add = {
 				value = literacy_rate
-				subtract = 0.3
+				subtract = 0.2
 				multiply = 0.1
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
 			}
@@ -38,9 +38,6 @@ magiciteain = {
 				value = wealth
 				divide = 200
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
-			}
-			add = {
-				value = 0.01
 			}
 		}
 		else = {		

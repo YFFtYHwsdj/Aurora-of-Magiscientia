@@ -31,12 +31,11 @@
 			}
 			if = {
 				limit = {
-					culture_accepted = yes
-					religion_accepted = yes
+					religion_accepted = no
 				}
 				multiply = {
-					value = 2
-					desc = "POTENTIALS_CULTURAL_RELIGIOUS_ACCEPTANCE"
+					value = 0.1
+					desc = "POTENTIALS_RELIGIOUS_DISCRIMINATION"
 				}
 			}
 			if = {

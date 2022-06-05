@@ -20,9 +20,25 @@
 	qualifications = {
 		if = {
 			limit = {
+				owner = {
+					has_law = law_type:law_peasant_levies
+				}
+				if = {
+					limit = {
+						is_pop_type = aristocrats
+						culture_accepted = yes
+					}
+					add = {
+						value = 3
+						desc = "QUALIFICATIONS_OFFICERS_PEASANT_LEVIES"
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
 				OR = {
 					culture_accepted = yes
-					is_pop_type = soldiers
 				}
 			}
 			# baseline: ( literacy - 0.2 ) * 10, norm 2 for Soldiers with Literacy 30%
@@ -32,27 +48,6 @@
 				min = 0
 				multiply = 10
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
-			}
-			if = {
-				limit = {
-					is_pop_type = aristocrats
-				}
-				multiply = {
-					value = 5
-					desc = "QUALIFICATIONS_FAVORED_TYPE"
-				}
-			}
-			if = {
-				limit = {
-					owner = {
-						has_law = law_type:law_peasant_levies
-					}
-					NOT = { is_pop_type = aristocrats }
-				}
-				multiply = {
-					value = 0.1
-					desc = "QUALIFICATIONS_OFFICERS_PEASANT_LEVIES"
-				}
 			}
 		}
 	}

@@ -22,9 +22,6 @@
 		if = {
 			limit = {
 				literacy_rate > 0.2
-				OR = {
-					religion = rel:holy_church
-				}
 			}
 			# baseline: ( literacy - 0.2 ) * 20, norm 6 for Literacy 50% and Accepted Religion
 			add = {
@@ -32,15 +29,6 @@
 				subtract = 0.2
 				multiply = 40
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
-			}
-			if = {
-				limit = {
-					culture_accepted = no
-				}
-				multiply = {
-					value = 0.05
-					desc = "POTENTIALS_RELIGIOUS_DISCRIMINATION"
-				}
 			}
 		}
 		else = {		

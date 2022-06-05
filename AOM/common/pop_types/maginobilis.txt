@@ -21,47 +21,19 @@ maginobilis = {
 	qualifications = {
 		if = {
 			limit = {
+				is_pop_type = magistratus
+				ulture_accepted = yes
 				wealth > 10
-				religion = rel:arcane
 			}
-			# baseline: ( wealth - 10 ) / 10 + ( literacy * 2 ), norm 2 for Wealth 20 and Literacy 50%
 			add = {
 				value = wealth
-				substrct = 10
-				divide = 300
+				divide = 400
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
 			}
 			add = {
 				value = literacy_rate
 				multiply = 0.05
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
-			}
-			if = {
-				limit = {
-					is_pop_type = magistratus
-				}
-				multiply = {
-					value = 10
-					desc = "QUALIFICATIONS_FAVORED_TYPE"
-				}
-			}
-			if = {
-				limit = {
-					is_pop_type = magiciteain
-				}
-				multiply = {
-					value = 5
-					desc = "QUALIFICATIONS_FAVORED_TYPE"
-				}
-			}
-			if = {
-				limit = {
-					culture_accepted = no
-				}
-				multiply = {
-					value = 0.1
-					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
-				}
 			}
 		}
 		else = {		

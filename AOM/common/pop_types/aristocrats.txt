@@ -22,6 +22,7 @@
 		if = {
 			limit = {
 				wealth > 10
+				culture_accepted = yes
 			}
 			# baseline: ( wealth - 10 ) / 10 + literacy, norm 1.5 for Wealth 20 and Literacy 50%
 			add = {
