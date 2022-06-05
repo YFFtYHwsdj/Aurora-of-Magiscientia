@@ -21,8 +21,8 @@
 	qualifications = {
 		if = {
 			limit = {
-				wealth > 10
 				culture_accepted = yes
+				wealth > 10
 			}
 			add = {
 				value = wealth
