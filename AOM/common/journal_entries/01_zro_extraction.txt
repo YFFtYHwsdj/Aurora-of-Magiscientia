@@ -6,6 +6,9 @@ je_secret_zro_extraction = {
 			name = visibility
 			value = 0
 		}
+		set_variable = {
+			name = sze_times
+			value = 1
 	}
 	
 	on_complete = {
@@ -21,7 +24,7 @@ je_secret_zro_extraction = {
 			triggered_desc = {
 				desc = sze_nobody_knows
 				trigger = {
-					var:visibility = 0
+					var:visibility <= 0
 				}
 			}
 			triggered_desc = {
@@ -128,6 +131,33 @@ je_secret_zro_extraction = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			var:visibility < 0
+		}
+		set_variable = {
+			name = visibility
+			value = 0
+		}
+	}
+	if = {
+		limit = {
+			var:sze_times = 3
+		}
+		effect = {
+			zro_livestock_proportion_visibility_check = yes
+		}
+		set_variable = {
+			name = sze_times
+			value = 1
+		}
+	}
+	else = {
+		change_variable = {
+			name = sze_times
+			add = 1
+		}
+	}		
 }
 
 je_public_zro_extraction = {
