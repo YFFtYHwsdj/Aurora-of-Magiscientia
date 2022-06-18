@@ -15,8 +15,10 @@ diggers = {
 	qualifications = {
 		if = {
 			limit = {
-				culture = cu:cave_dwarf
-			}
+				culture = {
+					has_discriminiation_tratit = diggers
+				}
+			}	
 			add = {
 				value = 0.5
 			}

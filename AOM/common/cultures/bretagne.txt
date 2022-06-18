@@ -1,7 +1,7 @@
-cave_dwarf = {
+romanus = {
 	color={ 0 136 255 }
-	religion = diggers_worship
-	traits = { dwarf_heritage diggers }
+	religion = holy_church
+	traits = { mankind_heritage screaming_sea_people }
 	
 	male_common_first_names={
 		a b c d e f g h i j k l m n
