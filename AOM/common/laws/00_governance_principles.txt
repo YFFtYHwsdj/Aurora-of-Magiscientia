@@ -131,8 +131,8 @@ law_council_republic = {
 	}
 
 	modifier = {
-		country_machinists_pol_str_mult = 0.25
-		country_farmers_pol_str_mult = 0.25
+		country_laborers_pol_str_mult = 0.25
+		country_engineers_pol_str_mult = 0.25
 		country_legitimacy_govt_total_clout_add = 0.5
 	}
 	

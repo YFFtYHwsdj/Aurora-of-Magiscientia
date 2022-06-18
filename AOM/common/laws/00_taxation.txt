@@ -77,6 +77,8 @@ law_per_capita_based_taxation = {
 	
 	disallowing_laws = {
 		law_traditionalism
+		law_hereditary_bureaucrats
+		law_theocratic_bureaucrats
 	}
 	
 	unlocking_technologies = {
@@ -126,6 +128,8 @@ law_proportional_taxation = {
 	
 	disallowing_laws = {
 		law_traditionalism
+		law_hereditary_bureaucrats
+		law_theocratic_bureaucrats
 	}	
 	
 	unlocking_technologies = {
@@ -170,7 +174,9 @@ law_graduated_taxation = {
 	
 	disallowing_laws = {
 		law_traditionalism
-	}	
+		law_hereditary_bureaucrats
+		law_theocratic_bureaucrats
+	}
 	
 	unlocking_technologies = {
 		socialism
