@@ -1,0 +1,544 @@
+﻿BUILDINGS = {
+	s:STATE_EASRLAND = {
+		region_state:PAS = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_JONSLAND = {
+		region_state:PAS = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:SFB = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_CASRLAND = {
+		region_state:SUV = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:SFB = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_KONSLAND = {
+		region_state:SFB = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:NDY = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_LANSLAND = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_SALAND = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_SELAND = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_RANSLAND = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_RONSLAND = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:DWE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_FASRLAND = {
+		region_state:MLD = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_SASRLAND = {
+		region_state:SJQ = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_ECARLAND = {
+		region_state:SJQ = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_VASRLAND = {
+		region_state:XLS = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_TASRLAND = {
+		region_state:SJQ = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:MLD = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:ATN = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_PCARLAND = {
+		region_state:FAS = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_UCARLAND = {
+		region_state:FAS = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_YCARLAND = {
+		region_state:FAS = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:SJQ = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_GASRLAND = {
+		region_state:FAS = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:FBA = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_SCARLAND = {
+		region_state:FBA = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_OASRLAND = {
+		region_state:ATN = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:SJQ = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_XASRLAND = {
+		region_state:FBA = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:ATN = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_ZASRLAND = {
+		region_state:ATN = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_UONSLAND = {
+		region_state:DWE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:SUV = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_TONSLAND = {
+		region_state:LDW = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:DWE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_QANSLAND = {
+		region_state:NDY = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:LDW = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_GANSLAND = {
+		region_state:LDW = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_VILAND = {
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_ERLAND = {
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_CILAND = {
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_CULAND = {
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:EMP = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_YANSLAND = {
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_IONSLAND = {
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:ATN = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_PONSLAND = {
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:FBA = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:ATN = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_TELAND = {
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_TULAND = {
+		region_state:SOE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:WEE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_SERLAND = {
+		region_state:SOE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_SAMLAND = {
+		region_state:SOE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_WANSLAND = {
+		region_state:SOE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+		region_state:NDE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+	s:STATE_CANSLAND = {
+		region_state:SOE = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+		}
+	}
+}

@@ -24,7 +24,7 @@
 			set_interest_group_name = ig_catholic_church
 		}
 	}
-	c:COE = {
+	c:SOE = {
 		set_next_election_date = 1836.9.29
 
 		effect_starting_technology_tier_1_tech = yes
