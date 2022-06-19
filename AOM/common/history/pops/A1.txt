@@ -3,7 +3,7 @@
 		region_state:PAS = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -11,13 +11,13 @@
 		region_state:PAS = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:SFB = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -25,13 +25,13 @@
 		region_state:SUV = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:SFB = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -39,13 +39,13 @@
 		region_state:SFB = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:NDY = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -53,7 +53,7 @@
 		region_state:EMP = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -61,7 +61,7 @@
 		region_state:EMP = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -69,7 +69,7 @@
 		region_state:EMP = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -77,7 +77,7 @@
 		region_state:EMP = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -85,13 +85,13 @@
 		region_state:EMP = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:DWE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -99,7 +99,7 @@
 		region_state:MLD = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -107,7 +107,7 @@
 		region_state:SJQ = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -115,7 +115,7 @@
 		region_state:SJQ = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -123,7 +123,7 @@
 		region_state:XLS = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -131,19 +131,19 @@
 		region_state:SJQ = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:MLD = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:ATN = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -151,7 +151,7 @@
 		region_state:FAS = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -159,7 +159,7 @@
 		region_state:FAS = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -167,13 +167,13 @@
 		region_state:FAS = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:SJQ = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -181,13 +181,13 @@
 		region_state:FAS = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:FBA = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -195,7 +195,7 @@
 		region_state:FBA = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -203,13 +203,13 @@
 		region_state:ATN = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:SJQ = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -217,13 +217,13 @@
 		region_state:FBA = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:ATN = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -231,7 +231,7 @@
 		region_state:ATN = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -239,13 +239,13 @@
 		region_state:DWE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:SUV = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -253,13 +253,13 @@
 		region_state:LDW = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:SUV = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -267,13 +267,13 @@
 		region_state:NDY = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:LDW = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -281,7 +281,7 @@
 		region_state:LDW = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -289,7 +289,7 @@
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -297,7 +297,7 @@
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -305,7 +305,7 @@
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -313,13 +313,13 @@
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:EMP = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -327,7 +327,7 @@
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -335,13 +335,13 @@
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:ATN = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -349,19 +349,19 @@
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:FBA = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:ATN = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -369,7 +369,7 @@
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -377,13 +377,13 @@
 		region_state:SOE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -391,7 +391,7 @@
 		region_state:SOE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -399,7 +399,7 @@
 		region_state:SOE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -407,13 +407,13 @@
 		region_state:SOE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 		region_state:NDY = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
@@ -421,7 +421,7 @@
 		region_state:SOE = {
 			create_pop = {
 				culture = peninsula
-				size = 123456
+				size = 648128
 			}
 		}
 	}
