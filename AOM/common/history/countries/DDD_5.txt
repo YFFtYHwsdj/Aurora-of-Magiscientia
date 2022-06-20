@@ -15,10 +15,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
@@ -40,10 +37,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
@@ -65,10 +59,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
@@ -90,10 +81,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
@@ -115,10 +103,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
