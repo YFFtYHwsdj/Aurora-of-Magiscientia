@@ -14,12 +14,6 @@
 				size = 648128
 			}
 		}
-		region_state:SFB = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 	}
 	s:STATE_CASRLAND = {
 		region_state:SUV = {
@@ -28,21 +22,9 @@
 				size = 648128
 			}
 		}
-		region_state:SFB = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 	}
 	s:STATE_KONSLAND = {
 		region_state:SFB = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
-		region_state:NDY = {
 			create_pop = {
 				culture = peninsula
 				size = 648128
@@ -134,12 +116,6 @@
 				size = 648128
 			}
 		}
-		region_state:MLD = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 		region_state:ATN = {
 			create_pop = {
 				culture = peninsula
@@ -170,20 +146,8 @@
 				size = 648128
 			}
 		}
-		region_state:SJQ = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 	}
 	s:STATE_GASRLAND = {
-		region_state:FAS = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 		region_state:FBA = {
 			create_pop = {
 				culture = peninsula
@@ -256,21 +220,9 @@
 				size = 648128
 			}
 		}
-		region_state:SUV = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 	}
 	s:STATE_QANSLAND = {
 		region_state:NDY = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
-		region_state:LDW = {
 			create_pop = {
 				culture = peninsula
 				size = 648128
@@ -310,12 +262,6 @@
 		}
 	}
 	s:STATE_CULAND = {
-		region_state:WEE = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 		region_state:EMP = {
 			create_pop = {
 				culture = peninsula
@@ -346,18 +292,6 @@
 		}
 	}
 	s:STATE_PONSLAND = {
-		region_state:WEE = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
-		region_state:FBA = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 		region_state:ATN = {
 			create_pop = {
 				culture = peninsula
@@ -375,12 +309,6 @@
 	}
 	s:STATE_TULAND = {
 		region_state:SOE = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
-		region_state:WEE = {
 			create_pop = {
 				culture = peninsula
 				size = 648128
@@ -404,12 +332,6 @@
 		}
 	}
 	s:STATE_WANSLAND = {
-		region_state:SOE = {
-			create_pop = {
-				culture = peninsula
-				size = 648128
-			}
-		}
 		region_state:NDY = {
 			create_pop = {
 				culture = peninsula
