@@ -16,7 +16,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SJQ
-			type = puppet
+			type = protectorate	#puppet
 		}
 		create_diplomatic_pact = {
 			country = c:XLS
