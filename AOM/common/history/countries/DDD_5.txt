@@ -6,7 +6,7 @@
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_law_autocracy #wealth_voting
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
@@ -15,10 +15,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
@@ -31,7 +28,7 @@
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
@@ -40,10 +37,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
@@ -56,7 +50,7 @@
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
@@ -65,10 +59,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
@@ -81,7 +72,7 @@
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
@@ -90,10 +81,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
@@ -106,7 +94,7 @@
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
@@ -115,10 +103,7 @@
 		
 		set_tax_level = medium
 		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}	
+		#set_institution_investment_level = {
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church

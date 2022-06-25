@@ -12,21 +12,13 @@
 			country = c:PAS
 			owned_provinces = { x17C2FE x4B3917 x1CB2D3 }
 		}
-		create_state = {
-			country = c:SFB
-			owned_provinces = { xB24BAC }
-		}
 		
 		add_homeland = peninsula
 	}
 	s:STATE_CASRLAND = {
 		create_state = {
 			country = c:SUV
-			owned_provinces = { xE7EA50 }
-		}
-		create_state = {
-			country = c:SFB
-			owned_provinces = { xA94AD0 }
+			owned_provinces = { xE7EA50 x48D087 }
 		}
 		
 		add_homeland = peninsula
@@ -34,11 +26,7 @@
 	s:STATE_KONSLAND = {
 		create_state = {
 			country = c:SFB
-			owned_provinces = { xA95BEF x176FBB }
-		}
-		create_state = {
-			country = c:NDY
-			owned_provinces = { xE7B5BB }
+			owned_provinces = { xA95BEF x176FBB xA94AD0 xB24BAC }
 		}
 		
 		add_homeland = peninsula
@@ -77,12 +65,8 @@
 	}
 	s:STATE_RONSLAND = {	#帝国5	右侧分属一块
 		create_state = {
-			country = c:EMP
-			owned_provinces = { xA927C3 }
-		}
-		create_state = {
 			country = c:DWE
-			owned_provinces = { xBC44A7 xCF35A3 }
+			owned_provinces = { xBC44A7 xCF35A3 xA927C3 }
 		}
 		
 		add_homeland = peninsula
@@ -90,7 +74,7 @@
 	s:STATE_FASRLAND = {
 		create_state = {
 			country = c:MLD
-			owned_provinces = { x6A5247 x1D7858 x475795 }
+			owned_provinces = { xBB0595 x6A5247 x1D7858 x475795 }
 		}
 		
 		add_homeland = peninsula
@@ -106,7 +90,7 @@
 	s:STATE_ECARLAND = {
 		create_state = {
 			country = c:SJQ
-			owned_provinces = { x708B4C x782F3E x7E0D74 x21DE72 }
+			owned_provinces = { x708B4C x782F3E x7E0D74 x21DE72 x84CCF3 }
 		}
 		
 		add_homeland = peninsula
@@ -125,10 +109,6 @@
 			owned_provinces = { xFDFBB3 xBE0837 }
 		}
 		create_state = {
-			country = c:MLD
-			owned_provinces = { xBB0595 }
-		}
-		create_state = {
 			country = c:ATN
 			owned_provinces = { x766e10 x8076B7 }
 		}
@@ -138,7 +118,7 @@
 	s:STATE_PCARLAND = {	#法师同盟会（半岛北尖）
 		create_state = {
 			country = c:FAS
-			owned_provinces = { x0204E3 x09E03F x56E5A0 xEC73E0 x347242 }
+			owned_provinces = { x09E03F x56E5A0 xEC73E0 x347242 }
 		}
 		
 		add_homeland = peninsula
@@ -146,7 +126,7 @@
 	s:STATE_UCARLAND = {	#法师同盟会南部
 		create_state = {
 			country = c:FAS
-			owned_provinces = { x8F425A x47EE48 x1C39E4 x3857A6 }
+			owned_provinces = { x21B1B9 x0204E3 x47EE48 x3857A6 }
 		}
 		
 		add_homeland = peninsula
@@ -154,20 +134,12 @@
 	s:STATE_YCARLAND = {	#法师同盟会东海岸南尽头
 		create_state = {
 			country = c:FAS
-			owned_provinces = { xB9365B }
-		}
-		create_state = {
-			country = c:SJQ
-			owned_provinces = { x84CCF3 }
+			owned_provinces = { xB9365B x1C39E4 x8F425A }
 		}
 		
 		add_homeland = peninsula
 	}
 	s:STATE_GASRLAND = {	#法师同盟会西海岸南尽头
-		create_state = {
-			country = c:FAS
-			owned_provinces = { x21B1B9 }
-		}
 		create_state = {
 			country = c:FBA
 			owned_provinces = { x589E9D x05A405 }
@@ -230,11 +202,7 @@
 	s:STATE_TONSLAND = {	#东北帝国南部2
 		create_state = {
 			country = c:LDW
-			owned_provinces = { x30C7E4 x26B630 }
-		}
-		create_state = {
-			country = c:SUV
-			owned_provinces = { x48D087 }
+			owned_provinces = { x30C7E4 x26B630 x1F1A67 }
 		}
 		
 		add_homeland = peninsula
@@ -242,11 +210,7 @@
 	s:STATE_QANSLAND = {	#东北帝国南部3
 		create_state = {
 			country = c:NDY
-			owned_provinces = { xE34DBB x5D5DDF }
-		}
-		create_state = {
-			country = c:LDW
-			owned_provinces = { x1F1A67 }
+			owned_provinces = { xE34DBB x5D5DDF xE7B5BB }
 		}
 		
 		add_homeland = peninsula
@@ -285,12 +249,8 @@
 	}
 	s:STATE_CULAND = {	#西帝国4
 		create_state = {
-			country = c:WEE
-			owned_provinces = { xA5867E xC6BE79 xD2FC79 }
-		}
-		create_state = {
 			country = c:EMP
-			owned_provinces = { xFD8A70 }
+			owned_provinces = { xFD8A70 xA5867E xC6BE79 xD2FC79 }
 		}
 		
 		add_homeland = peninsula
@@ -298,7 +258,7 @@
 	s:STATE_YANSLAND = {	#西帝国5
 		create_state = {
 			country = c:WEE
-			owned_provinces = { xCBBF19 x40483B x621438 }
+			owned_provinces = { x40483B x621438 x7D0DDD }
 		}
 		
 		add_homeland = peninsula
@@ -306,7 +266,7 @@
 	s:STATE_IONSLAND = {	#西帝国6
 		create_state = {
 			country = c:WEE
-			owned_provinces = { x623355 xB10AF4 }
+			owned_provinces = { x623355 xB10AF4 xCBBF19 }
 		}
 		create_state = {
 			country = c:ATN
@@ -317,16 +277,8 @@
 	}
 	s:STATE_PONSLAND = {	#西帝国海岸最北段尽头
 		create_state = {
-			country = c:WEE
-			owned_provinces = { x7D0DDD }
-		}
-		create_state = {
-			country = c:FBA
-			owned_provinces = { 2B0B2B }
-		}
-		create_state = {
 			country = c:ATN
-			owned_provinces = { x6D034F }
+			owned_provinces = { x6D034F xF4477C }
 		}
 		
 		add_homeland = peninsula
@@ -342,11 +294,7 @@
 	s:STATE_TULAND = {	#半岛南偏西突出部	南帝国1
 		create_state = {
 			country = c:SOE
-			owned_provinces = { xD501D7 x547F07 xA83C07 }
-		}
-		create_state = {
-			country = c:WEE
-			owned_provinces = { x5AE873 }
+			owned_provinces = { xD501D7 x547F07 xA83C07 x5AE873 }
 		}
 		
 		add_homeland = peninsula
@@ -362,16 +310,12 @@
 	s:STATE_SAMLAND = {	#南帝国3
 		create_state = {
 			country = c:SOE
-			owned_provinces = { x4F7436 xA82FB4 }
+			owned_provinces = { x4F7436 xA82FB4 x65FA98 }
 		}
 		
 		add_homeland = peninsula
 	}
 	s:STATE_WANSLAND = {	#南帝国4	海岸东侧尽头
-		create_state = {
-			country = c:SOE
-			owned_provinces = { xB97641 }
-		}
 		create_state = {
 			country = c:NDY
 			owned_provinces = { xBF33AF x200A8D x4F5D25 }
@@ -382,7 +326,7 @@
 	s:STATE_CANSLAND = {	#南帝国5	南帝国最北边的一块
 		create_state = {
 			country = c:SOE
-			owned_provinces = { xF9754B x65FA98 xBE671B }
+			owned_provinces = { xF9754B xBE671B xB97641 }
 		}
 		
 		add_homeland = peninsula
