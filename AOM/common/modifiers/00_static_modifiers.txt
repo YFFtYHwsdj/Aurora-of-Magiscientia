@@ -54,12 +54,19 @@ working_conditions = {
 }
 
 in_default = {
-	building_throughput_mult = -0.5
+	building_throughput_mult = -0.5	#债务违约下最大吞吐量惩罚为50%
 }
 
 declared_bankruptcy = {
+	country_trade_route_competitiveness_mult = -0.3
 	country_prestige_mult = -0.5
-	country_loan_interest_rate_add = 0.3
+	country_bureaucracy_mult = -0.1
+	country_authority_mult = -0.5
+	country_influence_mult = -0.5
+	interest_group_approval_add = -1
+	country_loan_interest_rate_add = 0.4
+	state_construction_mult = -0.9
+	state_radicals_from_sol_change_mult = 1
 }
 
 incorporated_state = {
