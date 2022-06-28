@@ -673,10 +673,10 @@ NEconomy = {
 	ECONOMY_OF_SCALE_MAX_MULTIPLIER = 40				# Beyond this many building levels, do not apply further economy of scale bonuses
 	ECONOMY_OF_SCALE_START_LEVEL = 2					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
 	
-	IN_DEFAULT_MINIMUM_PENALTY_SCALE = 0.1				# This amount of the 'in default' throughput penalty is applied right away
-	IN_DEFAULT_DAYS_TO_FULL_PENALTY = 365				# How many days of being in default does it take to get the full throughput penalty
-	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 10		# How many years does it take for penalties from declaring bankruptcy to fully decay
-	DECLARE_BANKRUPTCY_RADICALIZATION_SHARES_FACTOR = 0.1 # For each per-pop shares in their building, radicalize this percentage of a pop on declaring bankruptcy
+	IN_DEFAULT_MINIMUM_PENALTY_SCALE = 0.2			#债务违约时立刻获得吞吐量惩罚上限50%的百分之20%，及立刻获得10%的吞吐量惩罚
+	IN_DEFAULT_DAYS_TO_FULL_PENALTY = 75			#在这个速度下，正好30天吞吐量惩罚由10%增长到上限50%，及30天增长40%
+	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 10	#破产debuff随时间消逝的所需年份，原版100年都给10年，AOM200年更不应该缩短破产年限
+	DECLARE_BANKRUPTCY_RADICALIZATION_SHARES_FACTOR = 1 #原版这个数值为0.1（10%），宣布破产后，在建筑持有股份的人群中，百分之多少的人会变为激进派
 	
 	FIRED_POP_RADICALIZATION_BASE_FRACTION = 0.2		# This percentage of a pop becomes radicalized when they lose their job, for instance due to a building being downsized
 	FIRED_POP_RADICALIZATION_SHARES_FACTOR = 0.4		# Additional percentage of pop that becomes radicalized they lost their job for each per-pop share they had in the building			
