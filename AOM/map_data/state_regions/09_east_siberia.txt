@@ -1,0 +1,928 @@
+﻿STATE_B1 = {
+	id = 1000
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X85ca13" "Xc5ed41" "X87a61b" "X39842d" "X385d01" "X98033b" "Xfa36e1" "Xf326b2" }
+	city = "X87a61b"
+	port = "X85ca13"
+	farm = "X98033b"
+	mine = "Xfa36e1"
+	wood = "Xf326b2"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B2 = {
+	id = 1001
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X3d8e51" "X5f5664" "X9919f1" "X2b21bf" "Xa9e550" "X5b33eb" "X667254" "X333789" }
+	city = "X5b33eb"
+	port = "X2b21bf"
+	farm = "X333789"
+	mine = "X3d8e51"
+	wood = "X5f5664"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B3 = {
+	id = 1002
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X617b45" "X691c2b" "X4156b2" "X24f3de" "X1ea548" "X080a4a" "Xb5317d" "Xd5740b" "Xe3380b" "Xec77e0" }
+	city = "X080a4a"
+	farm = "X691c2b"
+	mine = "X1ea548"
+	wood = "Xe3380b"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B4 = {
+	id = 1003
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xb586e4" "Xf9c8c2" "X5190d0" "X347e85" }
+	city = "X347e85"
+	farm = "X347e85"
+	mine = "X5190d0"
+	wood = "Xb586e4"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B5 = {
+	id = 1004
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xa45e74" "Xa45e74" "Xa95bf0" "Xe7ea51" "Xe34dbc" "X4b3918" "X176fbc" "Xa94ad1" }
+	city = "X4b3918"
+	farm = "Xa45e74"
+	mine = "Xe7ea51"
+	wood = "Xe34dbc"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B6 = {
+	id = 1005
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X48ed4d" "Xc4aa66" "Xa82fb5" "X98560e" }
+	city = "X48ed4d"
+	port = "X48ed4d"
+	farm = "X48ed4d"
+	mine = "Xa82fb5"
+	wood = "Xc4aa66"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B7 = {
+	id = 1006
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X61e5f5" "X3c0a93" "X885713" "X48939c" "Xcbbc25" "Xa6ddda" }
+	city = "X61e5f5"
+	port = "X3c0a93"
+	farm = "X61e5f5"
+	mine = "X3c0a93"
+	wood = "X885713"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B8 = {
+	id = 1007
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X6b4def" "Xbb804a" "Xc1dade" "X46b020" "X7aa893" "Xde7a13" "Xfb4771" "Xb10e6e" "Xde1d62" "Xa0f420" "X355700" "X82ce4a" "X2b8e09" "X5be2d6" }
+	city = "Xfb4771"
+	port = "X6b4def"
+	farm = "X46b020"
+	mine = "Xb10e6e"
+	wood = "X82ce4a"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B9 = {
+	id = 1008
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X838add" "X2f2a24" "X672d9a" "X9378e7" }
+	city = "X2f2a24"
+	port = "X9378e7"
+	farm = "X9378e7"
+	mine = "X2f2a24"
+	wood = "X672d9a"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B10 = {
+	id = 1009
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xbc411b" "Xaaeb60" "X3ea169" "Xf4e3bc" "Xc5844b" "X2a9277" "Xbe671c" "Xb97642" "X4f7437" "X48d088" "X1f1a68" "X15cf4a" "Xb16103" "X6a5248" }
+	city = "Xb97642"
+	farm = "Xc5844b"
+	mine = "Xc5844b"
+	wood = "X48d088"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B11 = {
+	id = 1010
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xa0d793" "X17c2ff" "X30c7e5" "X5d5de0" "Xb24bad" "Xf17bd7" "X61cae4" "Xcf35a4" "Xe7b5bc" "X26b631" "Xa07c3d" }
+	city = "Xf17bd7"
+	farm = "Xa0d793"
+	mine = "Xcf35a4"
+	wood = "Xb24bad"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B12 = {
+	id = 1011
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xfd3075" "X5d2dff" "Xbd736b" "X38d182" "Xd1c4e4" "X8f6456" "X813732" "Xbd736b" "X7b6d04" "Xc2fb30" "Xdf2906" "Xf9a6e4" "X900297"}
+	city = "X8f6456"
+	port = "Xfd3075"
+	farm = "Xbd736b"
+	mine = "Xd1c4e4"
+	wood = "Xdf2906"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B13 = {
+	id = 1012
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xa5f185" "Xa82c14" "X8bd3a1" "X34a087" "X300461" "Xaa1c81" "Xe37ff5" }
+	city = "X300461"
+	port = "X300461"
+	farm = "X34a087"
+	mine = "X8bd3a1"
+	wood = "Xa82c14"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B14 = {
+	id = 1013
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X563422" "Xfddd69" "X397b0e" "X0b5429" "X001b0b" "X32fe3d"}
+	city = "X397b0e"
+	port = "X563422"
+	farm = "Xfddd69"
+	mine = "X001b0b"
+	wood = "X397b0e"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B15 = {
+	id = 1014
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xf0b905" "X376036" "X0cd3cc" "Xc1bc4b" "X176be8" "X70dcfb" "X5c7ead" }
+	city = "X376036"
+	farm = "X0cd3cc"
+	mine = "Xc1bc4b"
+	wood = "Xf0b905"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B16 = {
+	id = 1015
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xf58589" "X36de8b" "X414d53" "Xf2f2f3" "X297609" "Xff7284" "X814c3d" "Xd2bfd4" "Xc83ce5" "Xc83ce5" }
+	city = "Xff7284"
+	farm = "Xf2f2f3"
+	mine = "Xa281ee"
+	wood = "Xc83ce5"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B17 = {
+	id = 1016
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X9cd75c" "X64ff43" "X4fc75f" "X52406f" "Xfef196" "X1d954e" "X81f7c5" "Xeee151" "X0a8d89" }
+	city = "X64ff43"
+	farm = "X9cd75c"
+	mine = "X52406f"
+	wood = "X81f7c5"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B18 = {
+	id = 1017
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X7b0280" "Xec18b5" "X46499e" "Xc4bb35" "X53840f" "X8f9504" "X9556d0" "Xba6c5d" "X72933a" "Xab9c47" "X589f64"}
+	city = "X8f9504"
+	port = "X46499e"
+	farm = "Xc4bb35"
+	mine = "X9556d0"
+	wood = "X53840f"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B19 = {
+	id = 1018
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xade7fb" "X46a9b8" "Xadc587" "Xb221ca" "X9815ea" "X591aea" "Xdf4d3e" }
+	city = "Xadc587"
+	port = "Xade7fb"
+	farm = "Xadc587"
+	mine = "Xb221ca"
+	wood = "Xb221ca"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B20 = {
+	id = 1019
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X08e2ae" "Xa44617" "Xb735cc" "X32e617" "X40ae32" "X26220d" "Xd7bc11" "X983566" }
+	city = "Xb735cc"
+	farm = "X40ae32"
+	mine = "Xa44617"
+	wood = "Xd7bc11"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B21 = {
+	id = 1020
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X1e841e" "Xd55a4f" "X94adbd" "X7fc9e1" "Xd993ad" "X2931ed" }
+	city = "X94adbd"
+	farm = "X94adbd"
+	mine = "X2931ed"
+	wood = "Xd55a4f"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B22 = {
+	id = 1021
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X1b6508" "X0f92d0" "X1684e5" "Xf1a81b" "X8da2ba" "Xe0f095" "X8c68e1" "X9d717b" "X1b8d6a" "X5d2676"}
+	city = "X8da2ba"
+	farm = "X1684e5"
+	mine = "X5d2676"
+	wood = "X1b8d6a"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B23 = {
+	id = 1022
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X5daa74" "Xb6f18e" "X293173" "Xfa9f7a" "Xf72d35" "Xf7fd4b" "X2fd845" "Xe87986" "Xdc459e" "Xef8d4b" "X36d485" "Xa0bbf6" "X61833d" "X53e3c3" "X789568" "X67b7f3" "Xe7dcda" }
+	city = "Xf72d35"
+	port = "X5daa74"
+	farm = "X2add01"
+	mine = "X67b7f3"
+	wood = "X36d485"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B24 = {
+	id = 1023
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X11fac6" "X1eb202" "Xb670e3" "X4bb7e1" "X19c6f8" "Xf4722c" "X3d90ea" }
+	city = "X4bb7e1"
+	port = "X1eb202"
+	farm = "X4bb7e1"
+	mine = "Xb670e3"
+	wood = "X19c6f8"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B25 = {
+	id = 1024
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xcba765" "X7b541f" "X38e558" "Xd72a4b" "X470cd6" "Xdd3a7e" "X5c81fc" "X1bc613" "X7fc16d" "Xc47229" "X9414fd" "X5a5bf2" "Xc6d16e" }
+	city = "X38e558"
+	port = "Xcba765"
+	farm = "X38e558"
+	mine = "Xc47229"
+	wood = "X470cd6"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B26 = {
+	id = 1025
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "" "" "" }
+	city = ""
+	port = ""
+	farm = ""
+	mine = ""
+	wood = ""
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B27 = {
+	id = 1026
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X613e0c" }
+	city = "X613e0c"
+	port = "X613e0c"
+	farm = "X613e0c"
+	mine = "X613e0c"
+	wood = "X613e0c"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B28 = {
+	id = 1027
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X896af6" "X1ce305" "Xd73cf8" }
+	city = "X896af6"
+	farm = "X896af6"
+	mine = "Xd73cf8"
+	wood = "X1ce305"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B29 = {
+	id = 1028
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X46b7c2" "Xc8eb41" "X439da3" }
+	city = "Xc8eb41"
+	port = "X46b7c2"
+	farm = "Xc8eb41"
+	mine = "Xc8eb41"
+	wood = "Xc8eb41"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B30 = {
+	id = 1029
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X381def" "X9a810f" }
+	city = "X381def"
+	port = "X381def"
+	farm = "X9a810f"
+	mine = "X9a810f"
+	wood = "X381def"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B31 = {
+	id = 1030
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X1fd036" "Xde146f" }
+	city = "X1fd036"
+	farm = "X1fd036"
+	mine = "Xde146f"
+	wood = "Xde146f"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B32 = {
+	id = 1031
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X6c7b7c" "X00064c" }
+	city = "X6c7b7c"
+	port = "X6c7b7c"
+	farm = "X6c7b7c"
+	mine = "X6c7b7c"
+	wood = "X00064c"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B33 = {
+	id = 1032
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X601d86" "X581cd1" "X5d2df9" }
+	city = "X601d86"
+	farm = "X601d86"
+	mine = "X5d2df9"
+	wood = "X5d2df9"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B34 = {
+	id = 1033
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X6d2e2d" "Xbd1357" "Xf0d05b" }
+	city = "Xf0d05b"
+	farm = "Xf0d05b"
+	mine = "Xbd1357"
+	wood = "X6d2e2d"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B35 = {
+	id = 1034
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X30c92f "X9c7a00" "X9c6064" "X0e9822" }
+	city = "X9c7a00"
+	farm = "X9c6064"
+	mine = "X9c7a00"
+	wood = "X0e9822"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B36 = {
+	id = 1035
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X08f7a8" "X15f0e4" "X45aaa8" }
+	city = "X08f7a8"
+	farm = "X08f7a8"
+	mine = "X15f0e4"
+	wood = "X15f0e4"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B37 = {
+	id = 1036
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X0b6971" "X94d834" "Xc995a1" }
+	city = "X94d834"
+	farm = "X94d834"
+	mine = "X0b6971"
+	wood = "Xc995a1"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B38 = {
+	id = 1037
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X5a7317" "X488061" "X4de16a" }
+	city = "X5a7317"
+	farm = "X5a7317"
+	mine = "X488061"
+	wood = "X4de16a"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B39 = {
+	id = 1038
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X50eabd" "Xccb5ba" "X707e3d" "Xd46c2a" }
+	city = "Xd46c2a"
+	farm = "X707e3d"
+	mine = "Xccb5ba"
+	wood = "X707e3d"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B40 = {
+	id = 1039
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xc7510b" "X2b4061" "X052aa2" }
+	city = "X052aa2"
+	farm = "X052aa2"
+	mine = "X2b4061"
+	wood = "Xc7510b"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B41 = {
+	id = 1040
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X7270c3" "X40eeb9" "X120b0e" }
+	city = "X7270c3"
+	farm = "X40eeb9"
+	mine = "X7270c3"
+	wood = "X7270c3"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B42 = {
+	id = 1041
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xa12e5b" "Xc87b7c" }
+	city = "Xa12e5b"
+	farm = "Xa12e5b"
+	mine = "Xc87b7c"
+	wood = "Xc87b7c"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B43 = {
+	id = 1042
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X6f8f23" "X0ed24f" "X42120e" }
+	city = "X0ed24f"
+	farm = "X0ed24f"
+	mine = "X42120e"
+	wood = "X6f8f23"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B44 = {
+	id = 1043
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xd06158" "X916a84" "X74d7f3" "Xbb7b7a" }
+	city = "Xbb7b7a"
+	farm = "Xbb7b7a"
+	mine = "Xd06158"
+	wood = "X74d7f3"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B45 = {
+	id = 1044
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X72daf6" }
+	city = "X72daf6"
+	farm = "X72daf6"
+	mine = "X72daf6"
+	wood = "X72daf6"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B46 = {
+	id = 1045
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X4202a5" "X2e105e" "X41de33" }
+	city = "X2e105e"
+	farm = "X4202a5"
+	mine = "X2e105e"
+	wood = "X41de33"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B47 = {
+	id = 1046
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X95acbb" "X99dbd0" }
+	city = "X99dbd0"
+	farm = "X95acbb"
+	mine = "X99dbd0"
+	wood = "X99dbd0"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B48 = {
+	id = 1047
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X72d8fa" "X7d908d" "X893839" }
+	city = "X7d908d"
+	farm = "X893839"
+	mine = "X893839"
+	wood = "X72d8fa"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B49 = {
+	id = 1048
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X9ecf24" "Xccd89a" "Xcc35e4" }
+	city = "Xccd89a"
+	farm = "Xccd89a"
+	mine = "Xcc35e4"
+	wood = "X9ecf24"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B50 = {
+	id = 1049
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xc23bb9" "X9d1d81" "Xe26770" }
+	city = "Xc23bb9"
+	farm = "Xc23bb9"
+	mine = "Xe26770"
+	wood = "Xe26770"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+STATE_B51 = {
+	id = 1050
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X1a9d71" "X6c4219" "X7f5cc4" }
+	city = "X6c4219"
+	farm = "X6c4219"
+	mine = "X7f5cc4"
+	wood = "X1a9d71"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B52 = {
+	id = 1051
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X4cc32b" "X31b79f" "Xa3d809" }
+	city = "X4cc32b"
+	farm = "X4cc32b"
+	mine = "X31b79f"
+	wood = "Xa3d809"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B53 = {
+	id = 1052
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xccfe72" "X183101" "X092d21" "Xb66156" "Xb8f85b" "Xe925f7" "X620f33" "Xf1c6b4" }
+	city = "Xb8f85b"
+	farm = "Xb8f85b"
+	mine = "X183101"
+	wood = "Xe925f7"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B54 = {
+	id = 1053
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xa205c6" "Xec73e1" "X09e040" }
+	city = "Xa205c6"
+	farm = "Xec73e1"
+	mine = "Xec73e1"
+	wood = "X09e040"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B55 = {
+	id = 1054
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xbc44a8" "X65fa99" "X200a8e" "X587a5c" "Xde906a" }
+	city = "X65fa99"
+	farm = "X65fa99"
+	mine = "X587a5c"
+	wood = "Xbc44a8"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B56 = {
+	id = 1055
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X95a082" "Xae3404" "X1213a4" "X196b0c" "Xfb7106" "X69b96d" "X6c7289" "X8076b8" "X5e88d7" "Xf456e5" "X787441" }
+	city = "X1213a4"
+	farm = "X69b96d"
+	mine = "X95a082"
+	wood = "X5e88d7"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B57 = {
+	id = 1056
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "Xbb0596" "X820bb5" "X374fde" "X766e11" "X3d0473" "Xbe0838" "X38fd8d" "X4f5d26" }
+	city = "X766e11"
+	farm = "X4f5d26"
+	mine = "Xbe0838"
+	wood = "X766e11"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B58 = {
+	id = 1057
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X1fa0ef" "X782f3f" "Xff6a13" "Xba88d2" "Xf0d1bf" "Xfdfbb4" "Xbf33b0" }
+	city = "X782f3f"
+	farm = "Xff6a13"
+	mine = "Xba88d2"
+	wood = "X1fa0ef"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B59 = {
+	id = 1058
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X1d7859" "X708b4d" "X628438" "Xfa0e6a" }
+	city = "X628438"
+	farm = "X628438"
+	mine = "Xfa0e6a"
+	wood = "X1d7859"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
+
+STATE_B60 = {
+	id = 1059
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "X1d7859" "X0204e4" "X47ee49" }
+	city = "X0204e4"
+	farm = "X0204e4"
+	mine = "Xcbf685"
+	wood = "X47ee49"
+	arable_land = 80
+	arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_dye_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
+	capped_resources = {
+		bg_coal_mining = 5
+	}
+	naval_exit_id = 3090
+}
