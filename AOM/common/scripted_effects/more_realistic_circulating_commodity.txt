@@ -2,8 +2,8 @@
 cc_trade_center_spreading = {
     every_scope_state = {
         limit = {
-            has_building = building_trade_center
             market_access < 1
+            has_building = building_trade_center
         }
         if = {
             limit = {
@@ -44,17 +44,34 @@ cc_domestic_trade_center_expanding = {
             any_scope_building = {
                 is_building_type = building_domestic_trade_center
                 cash_reserves_available > 5000
-                weekly_profit > 0
+                weekly_profit
             }
         }
-        save_scope_as = cc_target_state
-    }
-    scope:cc_target_state = {
-        add_building_level = {
-            building = building_domestic_trade_center
-            level = 1
+        if = {
+            limit = {
+                any_scope_building = {
+                    cash_reserves_ratio > 0.25
+                    weekly_profit > 0
+                }
+            } 
+            add_building_level = {
+                building = building_domestic_trade_center
+                level = 1
+            }
         }
-    }
+        else_if = {
+            limit = {
+                any_scope_building = {
+                    cash_ratio < 0.5
+                    weekly_profit <= 0
+                }
+            }
+            add_building_level = {
+                building = building_domestic_trade_center
+                level = -1
+            }
+        }
+    }   
 }
 
 # 本地贸易中心在国内的渗透
