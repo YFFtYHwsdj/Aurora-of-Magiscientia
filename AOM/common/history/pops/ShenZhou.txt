@@ -1,0 +1,26 @@
+﻿POPS = {
+	s:STATE_B14 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 18518600
+			}
+			create_pop = {
+				culture = loong
+				size = 7518600
+			}
+		}
+	}
+	s:STATE_B1 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 22018600
+			}
+			create_pop = {
+				culture = loong
+				size = 11018600
+			}
+		}
+	}
+}

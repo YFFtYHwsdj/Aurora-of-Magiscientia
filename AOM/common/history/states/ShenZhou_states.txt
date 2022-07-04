@@ -1,0 +1,155 @@
+﻿STATES = {
+	s:STATE_B14 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x563422 xfddd69 x397b0e x0b5429 x001b0b x32fe3d }
+		}
+	}
+	s:STATE_B1 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x85ca13 xc5ed41 x87a61b x39842d x385d01 x98033b xfa36e1 xf326b2 }
+		}
+	}
+	s:STATE_B2 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x3d8e51 x5f5664 x9919f1 x2b21bf xa9e550 x5b33eb x667254 x333789 }
+		}
+	}
+	s:STATE_B3 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x617b45 x691c2b x4156b2 x24f3de x1ea548 x080a4a xb5317d xd5740b xe3380b xec77e0 }
+		}
+	}
+	s:STATE_B4 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xb586e4 xf9c8c2 x5190d0 x347e85 }
+		}
+	}
+	s:STATE_B5 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xa45e74 xa45e74 xa95bf0 xe7ea51 xe34dbc x4b3918 x176fbc xa94ad1 }
+		}
+	}
+	s:STATE_B6 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x48ed4d xc4aa66 xa82fb5 x98560e }
+		}
+	}
+	s:STATE_B7 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x61e5f5 x3c0a93 x885713 x48939c xcbbc25 xa6ddda }
+		}
+	}
+	s:STATE_B8 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x6b4def xbb804a xc1dade x46b020 x7aa893 xde7a13 xfb4771 xb10e6e xde1d62 xa0f420 x355700 x82ce4a x2b8e09 x5be2d6 }
+		}
+	}
+	s:STATE_B9 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x838add x2f2a24 x672d9a x9378e7 }
+		}
+	}
+	s:STATE_B10 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xbc411b xaaeb60 x3ea169 xf4e3bc xc5844b x2a9277 xbe671c xb97642 x4f7437 x48d088 x1f1a68 x15cf4a xb16103 x6a5248 }
+		}
+	}
+	s:STATE_B11 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xa0d793 x17c2ff x30c7e5 x5d5de0 xb24bad xf17bd7 x61cae4 xcf35a4 xe7b5bc x26b631 xa07c3d }
+		}
+	}
+	s:STATE_B12 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xfd3075 x5d2dff xbd736b x38d182 xd1c4e4 x8f6456 x813732 xbd736b x7b6d04 xc2fb30 xdf2906 xf9a6e4 x900297 }
+		}
+	}
+	s:STATE_B13 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xa5f185 xa82c14 x8bd3a1 x34a087 x300461 xaa1c81 xe37ff5 }
+		}
+	}
+	s:STATE_B15 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xf0b905 x376036 x0cd3cc xc1bc4b x176be8 x70dcfb x5c7ead }
+		}
+	}
+	s:STATE_B16 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xf58589 x36de8b x414d53 xf2f2f3 x297609 xff7284 x814c3d xd2bfd4 xc83ce5 xc83ce5 }
+		}
+	}
+	s:STATE_B17 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x9cd75c x64ff43 x4fc75f x52406f xfef196 x1d954e x81f7c5 xeee151 x0a8d89 }
+		}
+	}
+	s:STATE_B18 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x7b0280 xec18b5 x46499e xc4bb35 x53840f x8f9504 x9556d0 xba6c5d x72933a xab9c47 x589f64 }
+		}
+	}
+	s:STATE_B19 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xade7fb x46a9b8 xadc587 xb221ca x9815ea x591aea xdf4d3e }
+		}
+	}
+	s:STATE_B20 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x08e2ae xa44617 xb735cc x32e617 x40ae32 x26220d xd7bc11 x983566 }
+		}
+	}
+	s:STATE_B21 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x1e841e xd55a4f x94adbd x7fc9e1 xd993ad x2931ed }
+		}
+	}
+	s:STATE_B22 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x1b6508 x0f92d0 x1684e5 xf1a81b x8da2ba xe0f095 x8c68e1 x9d717b x1b8d6a x5d2676 }
+		}
+	}
+	s:STATE_B23 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x5daa74 xb6f18e x293173 xfa9f7a xf72d35 xf7fd4b x2fd845 xe87986 xdc459e xef8d4b x36d485 xa0bbf6 x61833d x53e3c3 x789568 x67b7f3 xe7dcda }
+		}
+	}
+	s:STATE_B24 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { x11fac6 x1eb202 xb670e3 x4bb7e1 x19c6f8 xf4722c x3d90ea }
+		}
+	}
+	s:STATE_B25 = {
+		create_state = {
+			country = c:BZH
+			owned_provinces = { xcba765 x7b541f x38e558 xd72a4b x470cd6 xdd3a7e x5c81fc x1bc613 x7fc16d xc47229 x9414fd x5a5bf2 xc6d16e }
+		}
+	}
+	
+	
+}
+

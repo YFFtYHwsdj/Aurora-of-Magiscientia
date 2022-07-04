@@ -1,0 +1,18 @@
+﻿BUILDINGS = {
+	s:STATE_B14 = {
+		region_state:BZH = {
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" }
+			}
+			create_building = {
+				building = "building_government_administration"
+				level = 4
+				reserves = 1
+				activate_production_methods = { "pm_simple_organization" }
+			}
+		}
+	}
+}

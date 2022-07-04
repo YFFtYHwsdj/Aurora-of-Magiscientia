@@ -1,0 +1,11 @@
+BZH = {
+	color = { 223 6 41 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { oriental loong }
+	religion = mahayana
+	capital = STATE_B14
+}
