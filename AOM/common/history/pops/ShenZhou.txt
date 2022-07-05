@@ -23,4 +23,280 @@
 			}
 		}
 	}
+	s:STATE_B2 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 7306504
+			}
+			create_pop = {
+				culture = loong
+				size = 3051996
+			}
+		}
+	}
+	s:STATE_B3 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 3781992
+			}
+			create_pop = {
+				culture = loong
+				size = 1564000
+			}
+		}
+	}
+	s:STATE_B4 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 3188452
+			}
+			create_pop = {
+				culture = loong
+				size = 236408
+			}
+		}
+	}
+	s:STATE_B5 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 3778092
+			}
+			create_pop = {
+				culture = loong
+				size = 120000
+			}
+		}
+	}
+	s:STATE_B6 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 9210004
+			}
+			create_pop = {
+				culture = loong
+				size = 4690204
+			}
+		}
+	}
+	s:STATE_B7 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 4690252
+			}
+			create_pop = {
+				culture = loong
+				size = 2096000
+			}
+		}
+	}
+	s:STATE_B8 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 9748000
+			}
+			create_pop = {
+				culture = loong
+				size = 774792
+			}
+		}
+	}
+	s:STATE_B9 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 217000
+			}
+			create_pop = {
+				culture = loong
+				size = 5204
+			}
+		}
+	}
+	s:STATE_B10 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 8351000
+			}
+			create_pop = {
+				culture = loong
+				size = 1122488
+			}
+		}
+	}
+	s:STATE_B11 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 819404
+			}
+			create_pop = {
+				culture = loong
+				size = 264000
+			}
+		}
+	}
+	s:STATE_B12 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 12513400
+			}
+			create_pop = {
+				culture = loong
+				size = 491996
+			}
+		}
+	}
+	s:STATE_B13 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 14836004
+			}
+			create_pop = {
+				culture = loong
+				size = 2608438
+			}
+		}
+	}
+	s:STATE_B15 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 20338400
+			}
+			create_pop = {
+				culture = loong
+				size = 589596
+			}
+		}
+	}
+	s:STATE_B16 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 10985904
+			}
+			create_pop = {
+				culture = loong
+				size = 680034
+			}
+		}
+	}
+	s:STATE_B17 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 6664400
+			}
+			create_pop = {
+				culture = loong
+				size = 352000
+			}
+		}
+	}
+	s:STATE_B18 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 16549900
+			}
+			create_pop = {
+				culture = loong
+				size = 4954600
+			}
+		}
+	}
+	s:STATE_B19 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 20338444
+			}
+			create_pop = {
+				culture = loong
+				size = 589596
+			}
+		}
+	}
+	s:STATE_B20 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 10985956
+			}
+			create_pop = {
+				culture = loong
+				size = 579546
+			}
+		}
+	}
+	s:STATE_B21 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 656004
+			}
+			create_pop = {
+				culture = loong
+				size = 217000
+			}
+		}
+	}
+	s:STATE_B22 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 15088042
+			}
+			create_pop = {
+				culture = loong
+				size = 218000
+			}
+		}
+	}
+	s:STATE_B23 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 23156692
+			}
+			create_pop = {
+				culture = loong
+				size = 284000
+			}
+		}
+	}
+	s:STATE_B24 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 5210800
+			}
+			create_pop = {
+				culture = loong
+				size = 504000
+			}
+		}
+	}
+	s:STATE_B25 = {
+		region_state:BZH = {
+			create_pop = {
+				culture = oriental
+				size = 2821200
+			}
+			create_pop = {
+				culture = loong
+				size = 32000
+			}
+		}
+	}
 }

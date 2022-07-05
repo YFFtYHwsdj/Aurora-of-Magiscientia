@@ -6,6 +6,5 @@ BZH = {
 	tier = empire
 	
 	cultures = { oriental loong }
-	religion = mahayana
 	capital = STATE_B14
 }

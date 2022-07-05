@@ -1,6 +1,6 @@
 ﻿oriental = {
 	color={ 250 121 141 }
-	religion = mahayana
+	religion = TianDao
 	traits = { mankind_heritage }
 	
 	male_common_first_names={

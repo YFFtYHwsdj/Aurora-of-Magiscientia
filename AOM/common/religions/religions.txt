@@ -21,3 +21,19 @@ evil = {
 	}
 	color = { 255 255 0 }
 }
+
+TianDao = {
+	texture = "gfx\interface\icons\religion_icons\bitcoin_mine.dds"
+	traits = {
+		dao_heritage	#天道特质为道传承
+	}
+	color = { 255 255 0 }
+}
+
+LoongDao = {
+	texture = "gfx\interface\icons\religion_icons\bitcoin_mine.dds"
+	traits = {
+		dao_heritage	#龙道特质为道传承
+	}
+	color = { 255 255 0 }
+}
