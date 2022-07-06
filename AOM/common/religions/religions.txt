@@ -37,3 +37,11 @@ LoongDao = {
 	}
 	color = { 255 255 0 }
 }
+
+animism = {
+	texture = "gfx\interface\icons\religion_icons\bitcoin_mine.dds"
+	traits = {
+		animism_heritage	#万物有灵特质为万物有灵传承
+	}
+	color = { 255 84 0 }
+}

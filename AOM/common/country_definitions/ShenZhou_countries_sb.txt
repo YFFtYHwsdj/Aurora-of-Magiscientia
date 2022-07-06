@@ -1,5 +1,5 @@
 BZH = {
-	color = { 223 6 41 }
+	color = { 255 6 41 }
 
 	country_type = recognized
 
@@ -7,4 +7,24 @@ BZH = {
 	
 	cultures = { oriental loong }
 	capital = STATE_B14
+}
+DZS = {
+	color = { 252 59 89 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { oriental }
+	capital = STATE_B29
+}
+DRS = {
+	color = { 252 59 89 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { ZhouRao_demon }
+	# capital = STATE_B29
 }

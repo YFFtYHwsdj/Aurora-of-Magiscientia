@@ -149,7 +149,42 @@
 			owned_provinces = { xcba765 x7b541f x38e558 xd72a4b x470cd6 xdd3a7e x5c81fc x1bc613 x7fc16d xc47229 x9414fd x5a5bf2 xc6d16e }
 		}
 	}
-	
+	s:STATE_B27 = {
+		create_state = {
+			country = c:DZS
+			owned_provinces = { x613e0c }
+		}
+	}
+	s:STATE_B28 = {
+		create_state = {
+			country = c:DZS
+			owned_provinces = { x896af6 x1ce305 xd73cf8 }
+		}
+	}
+	s:STATE_B29 = {
+		create_state = {
+			country = c:DZS
+			owned_provinces = { x46b7c2 xc8eb41 x439da3 }
+		}
+	}
+	s:STATE_B30 = {
+		create_state = {
+			country = c:DZS
+			owned_provinces = { x381def x9a810f }
+		}
+	}
+	s:STATE_B31 = {
+		create_state = {
+			country = c:DZS
+			owned_provinces = { x1fd036 xde146f }
+		}
+	}
+	s:STATE_B32 = {
+		create_state = {
+			country = c:DZS
+			owned_provinces = { x6c7b7c x00064c }
+		}
+	}
 	
 }
 

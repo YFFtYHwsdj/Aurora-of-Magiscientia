@@ -299,4 +299,76 @@
 			}
 		}
 	}
+	s:STATE_B27 = {
+		region_state:DZS = {
+			create_pop = {
+				culture = oriental
+				size = 201600
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 105600
+			}
+		}
+	}
+	s:STATE_B28 = {
+		region_state:DZS = {
+			create_pop = {
+				culture = oriental
+				size = 231600
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 214906
+			}
+		}
+	}
+	s:STATE_B29 = {
+		region_state:DZS = {
+			create_pop = {
+				culture = oriental
+				size = 481600
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 314906
+			}
+		}
+	}
+	s:STATE_B30 = {
+		region_state:DZS = {
+			create_pop = {
+				culture = oriental
+				size = 237600
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 116043
+			}
+		}
+	}
+	s:STATE_B31 = {
+		region_state:DZS = {
+			create_pop = {
+				culture = oriental
+				size = 161400
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 92844
+			}
+		}
+	}
+	s:STATE_B32 = {
+		create_pop = {
+			culture = oriental
+			size = 191600
+		}
+		region_state:DZS = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 94852
+			}
+		}
+	}
 }
