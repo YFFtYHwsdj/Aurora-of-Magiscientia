@@ -360,14 +360,38 @@
 		}
 	}
 	s:STATE_B32 = {
-		create_pop = {
-			culture = oriental
-			size = 191600
-		}
 		region_state:DZS = {
+			create_pop = {
+				culture = oriental
+				size = 191600
+			}
 			create_pop = {
 				culture = ZhouRao_demon
 				size = 94852
+			}
+		}
+	}
+	s:STATE_B39 = {
+		region_state:DRS = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 175604
+			}
+		}
+	}
+	s:STATE_B40 = {
+		region_state:DRS = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 140851
+			}
+		}
+	}
+	s:STATE_B41 = {
+		region_state:DRS = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 268852
 			}
 		}
 	}

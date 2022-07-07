@@ -19,12 +19,12 @@ DZS = {
 	capital = STATE_B29
 }
 DRS = {
-	color = { 252 59 89 }
+	color = { 158 126 143 }
 
 	country_type = unrecognized
 
 	tier = principality
 	
 	cultures = { ZhouRao_demon }
-	# capital = STATE_B29
+	capital = STATE_B41
 }

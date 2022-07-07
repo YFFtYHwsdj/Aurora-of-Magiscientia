@@ -185,6 +185,23 @@
 			owned_provinces = { x6c7b7c x00064c }
 		}
 	}
-	
+	s:STATE_B39 = {
+		create_state = {
+			country = c:DRS
+			owned_provinces = { x50eabd xccb5ba x707e3d xd46c2a }
+		}
+	}
+	s:STATE_B40 = {
+		create_state = {
+			country = c:DRS
+			owned_provinces = { xc7510b x2b4061 x052aa2 }
+		}
+	}
+	s:STATE_B41 = {
+		create_state = {
+			country = c:DRS
+			owned_provinces = { x7270c3 x40eeb9 x120b0e }
+		}
+	}
 }
 

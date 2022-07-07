@@ -1,0 +1,10 @@
+NWU = {
+	color = { 112 70 169 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { oriental loong }
+	capital = STATE_DZUNGARIA
+}

@@ -40,3 +40,12 @@ DZS = {
 
 	ai_will_do = { always = no }
 }
+DRS = {
+	states = {
+		STATE_B39
+		STATE_B40
+		STATE_B41
+	}
+
+	ai_will_do = { always = no }
+}

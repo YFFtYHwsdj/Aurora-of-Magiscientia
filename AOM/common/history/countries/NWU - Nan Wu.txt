@@ -1,5 +1,5 @@
 COUNTRIES = {
-	c:DRS = {
+	c:NWU = {
 		effect_starting_technology_tier_1_tech = yes
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_freedom_of_conscience
@@ -10,8 +10,13 @@ COUNTRIES = {
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_censorship
+		activate_law = law_type:law_colonial_resettlement
 		
 		set_tax_level = medium
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
 		
 	}
 	
