@@ -1,0 +1,10 @@
+ICE = {
+	color = { 255 136 155 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { thinig }
+	capital = STATE_D9
+}

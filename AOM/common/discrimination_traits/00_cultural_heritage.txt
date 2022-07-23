@@ -1,29 +1,12 @@
-﻿#人类传承
-mankind_heritage = {
+﻿mankind_heritage = {
 	heritage = yes
 }
-
-#矮人传承
 dwarf_heritage = {
 	heritage = yes
 }
-
-#欧洲传承（人类传承）
-european_heritage = {
+demon_heritage = {
 	heritage = yes
 }
-
-#德意志语系（？？？语系）
-scripted_triggers = {
-	#非传承特征留空
-}
-
-#神圣传承
-sacred_heritage = {
-	heritage = yes
-}
-
-#邪恶传承
-wicked_heritage = {
+elf_heritage = {
 	heritage = yes
 }

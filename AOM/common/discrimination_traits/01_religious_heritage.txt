@@ -1,1 +1,15 @@
-﻿#留空
+﻿sacred_heritage = {
+	heritage = yes
+}
+wicked_heritage = {
+	heritage = yes
+}
+dao_heritage = {
+	heritage = yes
+}
+animism_heritage = {
+	heritage = yes
+}
+wind_spirit_heritage = {
+	heritage = yes
+}

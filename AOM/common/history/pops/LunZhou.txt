@@ -1,0 +1,91 @@
+﻿POPS = {
+	s:STATE_D9 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 3653196
+			}
+		}
+	}
+	s:STATE_D8 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 2253118
+			}
+		}
+	}
+	s:STATE_D7 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 3051418
+			}
+		}
+	}
+	s:STATE_D6 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 3070412
+			}
+		}
+	}
+	s:STATE_D5 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 2640410
+			}
+		}
+	}
+	s:STATE_D4 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 3428619
+			}
+		}
+	}
+	s:STATE_D2 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 2072842
+			}
+			create_pop = {
+				culture = peninsula
+				religion = wind_spirit
+				size = 228464
+			}
+			create_pop = {
+				culture = elf
+				size = 107451
+			}
+		}
+	}
+	s:STATE_D3 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 2273820
+			}
+			create_pop = {
+				culture = elf
+				size = 116453
+			}
+		}
+	}
+	s:STATE_D10 = {
+		region_state:ICE = {
+			create_pop = {
+				culture = thinig
+				size = 1973157
+			}
+			create_pop = {
+				culture = elf
+				size = 98542
+			}
+		}
+	}
+}

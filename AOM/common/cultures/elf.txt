@@ -1,0 +1,61 @@
+﻿elf = {
+	color={ 100 145 91 }
+	religion = wind_spirit
+	traits = { elf_heritage }
+	
+	male_common_first_names={
+		Bekendra
+		Chandrakirti
+		Charajit
+		Chingthang
+		Churachandra
+		Devendra
+		Genavira
+		Harshachandra
+		Kulachanrda
+		Marjit
+		Moduchanrda
+		Nara
+		Pitambara
+		Surachandra
+	}
+	female_common_first_names = {
+		Chaobiton
+		Haripriya
+		Konusana
+		Kuranganayani
+		Sheitamala
+		Yumsangbi
+	}
+	common_last_names={
+		Akaba
+		Devi
+		Khomba
+		Sai
+		Sharma
+	}
+	
+	male_noble_first_names = {
+		# populate with names here
+	}
+	female_noble_first_names = {
+		# populate with names here
+	}	
+	noble_last_names = {
+		# populate with names here
+	}
+	
+	male_regal_first_names = {
+		# populate with names here
+	}
+	female_regal_first_names = {
+		# populate with names here
+	}
+	regal_last_names = {
+		# populate with names here
+	}	
+	
+	ethnicities = {
+		1 = slavic
+	}
+}
