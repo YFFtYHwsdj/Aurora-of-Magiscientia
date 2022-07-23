@@ -45,3 +45,18 @@ animism = {
 	}
 	color = { 255 84 0 }
 }
+
+wind_spirit = {
+	texture = "gfx\interface\icons\religion_icons\bitcoin_mine.dds"
+	traits = {
+		wind_spirit_heritage	#风之灵特质为风之灵传承
+	}
+	color = { 100 145 91 }
+}
+nomadic_wind= {
+	texture = "gfx\interface\icons\religion_icons\bitcoin_mine.dds"
+	traits = {
+		wind_spirit_heritage	#风之灵特质为风之灵传承
+	}
+	color = { 115 207 97 }
+}

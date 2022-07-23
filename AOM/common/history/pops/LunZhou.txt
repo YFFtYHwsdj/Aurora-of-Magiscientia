@@ -88,4 +88,131 @@
 			}
 		}
 	}
+	s:STATE_D14 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 1170008
+			}
+			create_pop = {
+				culture = peninsula
+				religion = nomadic_wind
+				size = 274963
+			}
+		}
+	}
+	s:STATE_D11 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 964348
+			}
+			create_pop = {
+				culture = peninsula
+				religion = nomadic_wind
+				size = 300397
+			}
+			create_pop = {
+				culture = thinig
+				size = 21831
+			}
+		}
+	}
+	s:STATE_D12 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 1087679
+			}
+			create_pop = {
+				culture = peninsula
+				religion = nomadic_wind
+				size = 272674
+			}
+			create_pop = {
+				culture = thinig
+				size = 14776
+			}
+		}
+	}
+	s:STATE_D13 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 1062571
+			}
+			create_pop = {
+				culture = peninsula
+				religion = nomadic_wind
+				size = 324018
+			}
+			create_pop = {
+				culture = thinig
+				size = 24301
+			}
+		}
+	}
+	s:STATE_D15 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 1529434
+			}
+			create_pop = {
+				culture = peninsula
+				religion = nomadic_wind
+				size = 496124
+			}
+			create_pop = {
+				culture = thinig
+				size = 10431
+			}
+		}
+	}
+	s:STATE_D16 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 929434
+			}
+			create_pop = {
+				culture = peninsula
+				religion = nomadic_wind
+				size = 12402
+			}
+		}
+	}
+	s:STATE_D17 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 879431
+			}
+		}
+	}
+	s:STATE_D18 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 849425
+			}
+		}
+	}
+	s:STATE_D19 = {
+		region_state:ELN = {
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 919029
+			}
+		}
+	}
 }
