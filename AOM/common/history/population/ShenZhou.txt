@@ -7,4 +7,20 @@ POPULATION = {
 		effect_starting_pop_wealth_very_low = yes
 		effect_starting_pop_literacy_very_high = yes
 	}
+	c:DRS = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:KMT = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:NZR = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:YUH = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
 }

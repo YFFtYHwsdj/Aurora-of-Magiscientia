@@ -307,6 +307,11 @@
 			}
 			create_pop = {
 				culture = ZhouRao_demon
+				religion = TianDao
+				size = 21502
+			}
+			create_pop = {
+				culture = ZhouRao_demon
 				size = 105600
 			}
 		}
@@ -319,6 +324,11 @@
 			}
 			create_pop = {
 				culture = ZhouRao_demon
+				religion = TianDao
+				size = 18740
+			}
+			create_pop = {
+				culture = ZhouRao_demon
 				size = 214906
 			}
 		}
@@ -328,6 +338,11 @@
 			create_pop = {
 				culture = oriental
 				size = 481600
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				religion = TianDao
+				size = 43157
 			}
 			create_pop = {
 				culture = ZhouRao_demon
@@ -392,6 +407,305 @@
 			create_pop = {
 				culture = ZhouRao_demon
 				size = 268852
+			}
+		}
+	}
+	s:STATE_B43 = {
+		region_state:KMT = {
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 423910
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				religion = oriental_nomand
+				size = 161838
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 159301
+			}
+		}
+	}
+	s:STATE_B44 = {
+		region_state:KMT = {
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 205431
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				religion = oriental_nomand
+				size = 141862
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 108467
+			}
+		}
+	}
+	s:STATE_B45 = {
+		region_state:KMT = {
+			create_pop = {
+				culture = oriental
+				size = 181642
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				religion = TianDao
+				size = 73492
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 21664
+			}
+		}
+	}
+	s:STATE_B42 = {
+		region_state:KMT = {
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 105138
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				religion = oriental_nomand
+				size = 40389
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 5193
+			}
+		}
+	}
+	s:STATE_B46 = {
+		region_state:KMT = {
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 62471
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				religion = oriental_nomand
+				size = 21679
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 86451
+			}
+		}
+	}
+	s:STATE_B47 = {
+		region_state:KMT = {
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 61015
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				religion = oriental_nomand
+				size = 4297
+			}
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 82420
+			}
+		}
+	}
+	s:STATE_B35 = {
+		region_state:SZR = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 301610
+			}
+		}
+	}
+	s:STATE_B33 = {
+		region_state:SZR = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 276345
+			}
+		}
+	}
+	s:STATE_B34 = {
+		region_state:SZR = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 183460
+			}
+		}
+	}
+	s:STATE_B36 = {
+		region_state:SZR = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 167684
+			}
+		}
+	}
+	s:STATE_B37 = {
+		region_state:SZR = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 176901
+			}
+		}
+	}
+	s:STATE_B38 = {
+		region_state:SZR = {
+			create_pop = {
+				culture = ZhouRao_demon
+				size = 170414
+			}
+		}
+	}
+	s:STATE_B55 = {
+		region_state:YUH = {
+			create_pop = {
+				culture = oriental
+				size = 1140161
+			}
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 362175
+			}
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 821102
+			}
+		}
+	}
+	s:STATE_B53 = {
+		region_state:YUH = {
+			create_pop = {
+				culture = oriental
+				size = 1022346
+			}
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 215430
+			}
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 756130
+			}
+		}
+	}
+	s:STATE_B54 = {
+		region_state:YUH = {
+			create_pop = {
+				culture = oriental
+				size = 914534
+			}
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 205001
+			}
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 415128
+			}
+		}
+	}
+	s:STATE_B56 = {
+		region_state:YUH = {
+			create_pop = {
+				culture = oriental
+				size = 1454201
+			}
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 105134
+			}
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 301576
+			}
+		}
+	}
+	s:STATE_B57 = {
+		region_state:YUH = {
+			create_pop = {
+				culture = oriental
+				size = 1118434
+			}
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 301543
+			}
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 601104
+			}
+		}
+	}
+	s:STATE_B58 = {
+		region_state:YUH = {
+			create_pop = {
+				culture = oriental
+				size = 1041872
+			}
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 515610
+			}
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 754663
+			}
+		}
+	}
+	s:STATE_B59 = {
+		region_state:YUH = {
+			create_pop = {
+				culture = oriental
+				size = 971212
+			}
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 612421
+			}
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 701459
+			}
+		}
+	}
+	s:STATE_B60 = {
+		region_state:YUH = {
+			create_pop = {
+				culture = oriental
+				size = 910649
+			}
+			create_pop = {
+				culture = oriental
+				religion = oriental_nomand
+				size = 602648
+			}
+			create_pop = {
+				culture = elf
+				religion = nomadic_wind
+				size = 801346
 			}
 		}
 	}

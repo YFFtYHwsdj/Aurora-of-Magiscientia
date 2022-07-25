@@ -28,3 +28,34 @@ DRS = {
 	cultures = { ZhouRao_demon }
 	capital = STATE_B41
 }
+KMT = {
+	color = { 200 98 114 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { oriental loong ZhouRao_demon }
+	religion = oriental_nomand
+	capital = STATE_B43
+}
+SZR = {
+	color = { 237 234 101 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { ZhouRao_demon }
+	capital = STATE_B35
+}
+YUH = {
+	color = { 243 157 119 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { oriental loong elf }
+	capital = STATE_B55
+}

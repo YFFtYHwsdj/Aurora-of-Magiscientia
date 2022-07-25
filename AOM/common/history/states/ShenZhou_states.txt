@@ -32,7 +32,7 @@
 	s:STATE_B5 = {
 		create_state = {
 			country = c:BZH
-			owned_provinces = { xa45e74 xa45e74 xa95bf0 xe7ea51 xe34dbc x4b3918 x176fbc xa94ad1 }
+			owned_provinces = { xa45e74 xa45e74 xa95bf0 xe7ea51 xe34dbc x4b3918 x176fbc xa94ad1 xa927c4 }
 		}
 	}
 	s:STATE_B6 = {
@@ -160,23 +160,27 @@
 			country = c:DZS
 			owned_provinces = { x896af6 x1ce305 xd73cf8 }
 		}
+		add_homeland = ZhouRao_demon
 	}
 	s:STATE_B29 = {
 		create_state = {
 			country = c:DZS
 			owned_provinces = { x46b7c2 xc8eb41 x439da3 }
 		}
+		add_homeland = ZhouRao_demon
 	}
 	s:STATE_B30 = {
 		create_state = {
 			country = c:DZS
 			owned_provinces = { x381def x9a810f }
 		}
+		add_homeland = ZhouRao_demon
 	}
 	s:STATE_B31 = {
 		create_state = {
 			country = c:DZS
 			owned_provinces = { x1fd036 xde146f }
+			add_homeland = ZhouRao_demon
 		}
 	}
 	s:STATE_B32 = {
@@ -184,24 +188,159 @@
 			country = c:DZS
 			owned_provinces = { x6c7b7c x00064c }
 		}
+		add_homeland = ZhouRao_demon
 	}
 	s:STATE_B39 = {
 		create_state = {
 			country = c:DRS
 			owned_provinces = { x50eabd xccb5ba x707e3d xd46c2a }
 		}
+		add_homeland = ZhouRao_demon
 	}
 	s:STATE_B40 = {
 		create_state = {
 			country = c:DRS
 			owned_provinces = { xc7510b x2b4061 x052aa2 }
 		}
+		add_homeland = ZhouRao_demon
 	}
 	s:STATE_B41 = {
 		create_state = {
 			country = c:DRS
 			owned_provinces = { x7270c3 x40eeb9 x120b0e }
 		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B43 = {
+		create_state = {
+			country = c:KMT
+			owned_provinces = { x6f8f23 x0ed24f x42120e }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B42 = {
+		create_state = {
+			country = c:KMT
+			owned_provinces = { xa12e5b xc87b7c }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B44 = {
+		create_state = {
+			country = c:KMT
+			owned_provinces = { xd06158 x916a84 x74d7f3 xbb7b7a }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B45 = {
+		create_state = {
+			country = c:KMT
+			owned_provinces = { x72daf6 }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B46 = {
+		create_state = {
+			country = c:KMT
+			owned_provinces = { x4202a5 x2e105e x41de33 }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B47 = {
+		create_state = {
+			country = c:KMT
+			owned_provinces = { x95acbb x99dbd0 }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B35 = {
+		create_state = {
+			country = c:SZR
+			owned_provinces = { x30c92f x9c7a00 x9c6064 x0e9822 }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B33 = {
+		create_state = {
+			country = c:SZR
+			owned_provinces = { x601d86 x581cd1 x5d2df9 }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B34 = {
+		create_state = {
+			country = c:SZR
+			owned_provinces = { x6d2e2d xbd1357 xf0d05b }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B36 = {
+		create_state = {
+			country = c:SZR
+			owned_provinces = { x08f7a8 x15f0e4 x45aaa8 }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B37 = {
+		create_state = {
+			country = c:SZR
+			owned_provinces = { x0b6971 x94d834 xc995a1 }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B38 = {
+		create_state = {
+			country = c:SZR
+			owned_provinces = { x5a7317 x488061 x4de16a }
+		}
+		add_homeland = ZhouRao_demon
+	}
+	s:STATE_B55 = {
+		create_state = {
+			country = c:YUH
+			owned_provinces = { xbc44a8 x65fa99 x200a8e x587a5c xde906a }
+		}
+	}
+	s:STATE_B53 = {
+		create_state = {
+			country = c:YUH
+			owned_provinces = { xccfe72 x183101 x092d21 xb66156 xb8f85b xe925f7 x620f33 xf1c6b4 }
+		}
+	}
+	s:STATE_B54 = {
+		create_state = {
+			country = c:YUH
+			owned_provinces = { xa205c6 xec73e1 x09e040 }
+		}
+	}
+	s:STATE_B56 = {
+		create_state = {
+			country = c:YUH
+			owned_provinces = { x95a082 xae3404 x1213a4 x196b0c xfb7106 x69b96d x6c7289 x8076b8 x5e88d7 xf456e5 x787441 }
+		}
+	}
+	s:STATE_B57 = {
+		create_state = {
+			country = c:YUH
+			owned_provinces = { xbb0596 x820bb5 x374fde x766e11 x3d0473 xbe0838 x38fd8d x4f5d26 }
+		}
+	}
+	s:STATE_B58 = {
+		create_state = {
+			country = c:YUH
+			owned_provinces = { x1fa0ef x782f3f xff6a13 xba88d2 xf0d1bf xfdfbb4 xbf33b0 }
+		}
+	}
+	s:STATE_B59 = {
+		create_state = {
+			country = c:YUH
+			owned_provinces = { x1d7859 x708b4d x628438 xfa0e6a }
+		}
+	}
+	s:STATE_B60 = {
+		create_state = {
+			country = c:YUH
+			owned_provinces = { xcbf685 x0204e4 x47ee49 }
+		}
 	}
 }
-
