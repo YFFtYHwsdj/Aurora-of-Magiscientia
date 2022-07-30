@@ -29,4 +29,22 @@
 			type = vassal
 		}
 	}
+	c:BZH = {
+		create_diplomatic_pact = {
+			country = c:YUH
+			type = vassal
+		}
+	}
+	c:BZH = {
+		create_diplomatic_pact = {
+			country = c:DRS
+			type = tributary
+		}
+	}
+	c:BZH = {
+		create_diplomatic_pact = {
+			country = c:KMT
+			type = tributary
+		}
+	}
 }

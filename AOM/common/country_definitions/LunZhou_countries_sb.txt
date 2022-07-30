@@ -1,0 +1,21 @@
+ICE = {
+	color = { 255 136 155 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { thinig }
+	capital = STATE_D9
+}
+ELN = {
+	color = { 115 207 97 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { elf peninsula }
+	religion = nomadic_wind
+	capital = STATE_D14
+}

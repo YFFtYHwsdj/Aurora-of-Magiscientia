@@ -30,22 +30,29 @@
 	ai_will_do = { always = no }
 }
 DZS = {
+	ai_will_do = { always = no }
+}
+DRS = {
+	ai_will_do = { always = no }
+}
+KMT = {
+	ai_will_do = { always = no }
+}
+SZR = {
 	states = {
+		STATE_B35
+		STATE_B33
+		STATE_B34
+		STATE_B37
+		STATE_B36
 		STATE_B28
 		STATE_B29
 		STATE_B30
 		STATE_B31
 		STATE_B32
 	}
-
 	ai_will_do = { always = no }
 }
-DRS = {
-	states = {
-		STATE_B39
-		STATE_B40
-		STATE_B41
-	}
-
+YUH = {
 	ai_will_do = { always = no }
 }
