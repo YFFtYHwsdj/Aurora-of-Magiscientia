@@ -1,0 +1,8 @@
+je_the_crisis_of_bzh = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	possible = {
+        exists = c:BZH
+		this = c:BZH
+	}
+}
