@@ -1,0 +1,58 @@
+je_the_crisis_of_bzh = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	possible = {
+        exists = c:BZH
+		this = c:BZH
+		ig:ig_armed_forces = { ig_clout >= 0.3 }
+	}
+
+	fail = {
+		ig:ig_armed_forces = { ig_clout >= 0.5 }
+	}
+
+	on_fail = {
+		activate_law = law_type:law_clique_armys
+	}
+}
+
+je_the_crisis_of_bzh_collapse_counting_down = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	possible = {
+        exists = c:BZH
+		this = c:BZH
+		has_law = law_type:law_clique_armys
+	}
+
+	complete = {
+		ig:ig_armed_forces = { ig_clout >= 0.5 }
+	}
+
+	current_value = {
+		value = var:nzh_explosion
+	}
+
+	goal_add_value = {
+		add = 20
+	}
+
+	progressbar = yes
+
+	on_complete = {
+		# collapse event
+	}
+}
+
+
+je_the_corruption_of_bzh = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	possible = {
+        exists = c:BZH
+		this = c:BZH
+		this = {
+			ig:ig_intelligentsia = { ig_clout >= 0.3 }
+		}
+	}
+}

@@ -38,7 +38,7 @@
  YAJ_ADJ:0 "雅加"
  CPA:0 "半岛尼亚"
  CPA_ADJ:0 "半岛尼亚"
- #
+ # Shenzhou
  BZH:0 "北赵"
  BZH_ADJ:0 "北赵"
  DRS:0 "代贰善部"
@@ -51,6 +51,16 @@
  SZR_ADJ:0 "南部周饶人"
  YUH:0 "瀚海招讨司"
  YUH_ADJ:0 "瀚海招讨司"
+ BOD:0 "柏公国"
+ BOD_ADJ:0 "柏公国"
+ HOD:0 "霍公国"
+ HOD_ADJ:0 "霍公国"
+ 
+ # Shenzhou-cliques
+ SBA:0 "玄兽军节度"
+ SBA_ADJ:0 "玄兽军"
+ 
+
  #
  ICE:0 "冰原王国"
  ICE_ADJ:0 "冰原王国"
