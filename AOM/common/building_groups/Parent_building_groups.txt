@@ -1,0 +1,197 @@
+﻿#父级建筑群组
+
+bg_manufacturing = {	#制造业建筑父级群组
+	category = urban
+
+	always_possible = yes
+	
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+bg_light_industry = {	#轻工业建筑父级群组
+	parent_group = bg_manufacturing
+
+	lens = light_industry
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+}
+
+bg_heavy_industry = {	#重工业建筑父级群组
+	parent_group = bg_manufacturing
+
+	lens = heavy_industry
+	
+	urbanization = 30
+	infrastructure_usage_per_level = 3
+}
+
+
+bg_agriculture = {	#农场种植园父级群组（资源种植园不引用此群组）
+	category = rural
+
+	land_usage = rural
+	
+	lens = agriculture
+	
+	economy_of_scale = yes
+	
+	can_use_slaves = yes
+	
+	urbanization = 5
+	infrastructure_usage_per_level = 1
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+bg_subsistence_agriculture = {	#自给建筑农场类父级群组
+	parent_group = bg_agriculture
+
+	always_possible = yes
+	
+	auto_place_buildings = yes
+
+	is_subsistence = yes
+	
+	default_building = building_subsistence_farms
+	
+	ignores_hiring_rate = yes
+}
+
+bg_subsistence_ranching = {	#自给建筑牧场类父级群组
+	parent_group = bg_ranching
+
+	always_possible = yes
+	
+	auto_place_buildings = yes
+
+	is_subsistence = yes
+	
+	default_building = building_subsistence_farms
+	
+	ignores_hiring_rate = yes
+}
+
+bg_ranching = {	#牧场父级群组
+	category = rural
+
+	land_usage = rural
+	
+	lens = agriculture
+	
+	economy_of_scale = yes
+	
+	can_use_slaves = yes
+	
+	urbanization = 5
+	infrastructure_usage_per_level = 1
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+bg_plantations = {	#种植园父级群组
+	category = rural
+
+	land_usage = rural
+	
+	economy_of_scale = yes
+	
+	lens = plantation
+	
+	can_use_slaves = yes
+	cash_reserves_max = 25000
+	
+	urbanization = 5
+	infrastructure_usage_per_level = 1
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+bg_mining = {	#矿业建筑父级群组
+	category = rural
+
+	economy_of_scale = yes
+	
+	capped_by_resources = yes
+	
+	lens = mine
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 10
+	infrastructure_usage_per_level = 2
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+bg_urban_structures = {	#城镇建筑父级群组
+	category = urban
+	
+	lens = urban
+
+	always_possible = yes
+	
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+bg_infrastructure = {	#基础设施建筑父级群组
+	category = development
+
+	always_possible = yes
+	
+	lens = infrastructure
+	
+	stateregion_max_level = yes
+}
+
+bg_canals = {	#运河建筑父级群组
+	parent_group = bg_infrastructure
+	lens = special
+	inheritable_construction = yes
+	
+	urbanization = 100
+}
+
+bg_monuments = {	#奇观建筑父级群组
+	parent_group = bg_infrastructure
+	lens = special
+	subsidized = yes
+	inheritable_construction = yes
+}
+
+bg_military = {	#军事建筑父级群组
+	category = development
+
+	always_possible = yes
+	
+	is_military = yes
+	
+	is_government_funded = yes
+	
+	lens = military
+	
+	urbanization = 2
+}
