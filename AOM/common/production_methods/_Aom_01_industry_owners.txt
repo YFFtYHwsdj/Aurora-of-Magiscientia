@@ -1,0 +1,271 @@
+#所有制
+pm_merchant_guilds_industry = {
+	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 5
+			building_input_trasportation = 6
+		}
+		level_scaled = {
+			building_employment_shopkeepers_add = 150
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 5
+		}
+	}
+}
+
+pm_church_owned_industry = {
+	texture = "gfx/interface/icons/production_method_icons/church_owned.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 5
+			building_input_trasportation = 6
+		}
+		level_scaled = {
+			building_employment_clergymen_add = 150
+		}	
+		unscaled = {
+			building_clergymen_shares_add = 5
+		}
+	}
+}	
+
+pm_privately_owned_industry = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 8
+			building_input_trasportation = 6
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 100
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+
+pm_publicly_traded_industry = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 10
+			building_input_trasportation = 6
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+
+pm_government_run_industry = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	unlocking_laws = {
+		law_command_economy
+	}
+	
+	building_modifiers = {
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 150
+			building_input_trasportation = 6
+		}
+		unscaled = {
+			building_bureaucrats_shares_add = 5
+		}
+	}
+}
+
+pm_worker_cooperative_industry = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+	
+	unlocking_laws = {
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 7
+			building_input_trasportation = 6
+		}
+		level_scaled = {
+			building_employment_laborers_add = 100
+			building_employment_machinists_add = 100
+		}
+		unscaled = {
+			building_laborers_shares_add = 1
+			building_machinists_shares_add = 1
+		}
+	}
+}
+
+
+#重工业 所有制
+#所有制
+pm_merchant_guilds_heavy_industry = {
+	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 5
+			building_input_trasportation = 9
+		}
+		level_scaled = {
+			building_employment_shopkeepers_add = 150
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 5
+		}
+	}
+}
+
+pm_church_owned_heavy_industry = {
+	texture = "gfx/interface/icons/production_method_icons/church_owned.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 5
+			building_input_trasportation = 9
+		}
+		level_scaled = {
+			building_employment_clergymen_add = 150
+		}	
+		unscaled = {
+			building_clergymen_shares_add = 5
+		}
+	}
+}	
+
+pm_privately_owned_heavy_industry = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 8
+			building_input_trasportation = 9
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 100
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+
+pm_publicly_traded_heavy_industry = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 10
+			building_input_trasportation = 9
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+
+pm_government_run_heavy_industry = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	unlocking_laws = {
+		law_command_economy
+	}
+	
+	building_modifiers = {
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 150
+			building_input_trasportation = 9
+		}
+		unscaled = {
+			building_bureaucrats_shares_add = 5
+		}
+	}
+}
+
+pm_worker_cooperative_heavy_industry = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+	
+	unlocking_laws = {
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_construction_add = 7
+			building_input_trasportation = 9
+		}
+		level_scaled = {
+			building_employment_laborers_add = 100
+			building_employment_machinists_add = 100
+		}
+		unscaled = {
+			building_laborers_shares_add = 1
+			building_machinists_shares_add = 1
+		}
+	}
+}
