@@ -236,7 +236,7 @@ pm_worker_cooperative_building_railway = {
 	
 	disallowing_laws = {
 		law_theoratic_economy
-
+	}
 	building_modifiers = {
 		level_scaled = {
 			building_employment_machinists_add = 150
@@ -259,7 +259,7 @@ pm_government_run_building_railway = {
 	
 	disallowing_laws = {
 		law_theoratic_economy
-		
+	}
 	
 	building_modifiers = {
 		level_scaled = {
@@ -327,6 +327,7 @@ pm_steam_trains = {
 		level_scaled = {
 			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 1000
+		}
 	}
 
 	state_modifiers = {

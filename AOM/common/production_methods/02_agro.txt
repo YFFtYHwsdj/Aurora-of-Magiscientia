@@ -364,6 +364,7 @@ pm_publicly_traded_argo = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
 			building_input_construction_add = 1
 			building_input_trasportation = 3
 		}
@@ -406,6 +407,7 @@ pm_worker_cooperative_farm = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
 			building_input_construction_add = 1
 			building_input_trasportation = 3
 		}
