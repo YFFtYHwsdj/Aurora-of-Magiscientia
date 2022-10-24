@@ -10,3 +10,7 @@ demon_heritage = {
 elf_heritage = {
 	heritage = yes
 }
+
+loong_heritage = {
+	heritage = yes
+}

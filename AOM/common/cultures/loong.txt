@@ -1,7 +1,7 @@
 ﻿loong = {
 	color={ 63 29 235 }
 	religion = LoongDao
-	traits = { mankind_heritage }
+	traits = { mankind_heritage loong_heritage }
 	
 	male_common_first_names={
 		Chen
