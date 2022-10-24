@@ -115,3 +115,11 @@ pmg_shence_organization = {
 		pm_shence_mechanized_infantry
 	}
 }
+
+pmg_shenzhou_great_wall = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_shenzhou_great_wall
+	}
+}

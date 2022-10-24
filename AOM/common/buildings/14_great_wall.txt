@@ -55,6 +55,7 @@ building_gret_wall_shenzhou = {
 	}
 	
 	production_method_groups = {
+		pmg_shenzhou_great_wall
 		pmg_shence_organization
 		pmg_artillery
 		pmg_reconaissance
