@@ -104,7 +104,7 @@ pmg_base_building_university_science = {
 }
 
 #大学-大学运营
-pmg_building_university_running
+pmg_building_university_running = {
 	ai_selection = most_productive
 	
 	production_methods = {

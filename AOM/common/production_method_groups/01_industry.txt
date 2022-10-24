@@ -60,7 +60,7 @@ pmg_base_building_liquor_factory = {
 }
 
 #酿酒厂自动化
-pmg_automation_building_liquor_factory
+pmg_automation_building_liquor_factory = {
 	production_methods = {
 		pm_automated_liquor_factory
 		pm_intelligent_doll_liquor_factory
@@ -330,7 +330,7 @@ pmg_aeroplanes = {
 	}
 }
 #科学军械厂 机甲制造
-pmg_sciemce_mech_production
+pmg_sciemce_mech_production = {
 	production_methods = {
 		pm_no_mech_production
 		pm_steam_mech_production
