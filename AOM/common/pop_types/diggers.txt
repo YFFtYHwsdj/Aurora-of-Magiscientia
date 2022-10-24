@@ -14,17 +14,12 @@ diggers = {
 	
 	qualifications = {
 		if = {
-			limit = {
-				culture = {
-					has_discriminiation_tratit = diggers
-				}
-			}	
-			add = {
-				value = 0.5
-			}
+			limit = { culture = { has_discriminiation_tratit = diggers } }	
+			add = { value = 0.5 }
 			else = {		
-			value = {
-				value = -5
+				value = {
+					value = -5
+				}
 			}
 		}
 	}

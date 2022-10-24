@@ -9,6 +9,7 @@ je_secret_zro_extraction = {
 		set_variable = {
 			name = sze_times
 			value = 1
+		}
 	}
 	
 	on_complete = {
@@ -70,6 +71,7 @@ je_secret_zro_extraction = {
 					name = visibility
 					add = 1
 				}
+			}
 			10 = {
 				trigger_event = {
 					id = secret_zro_extraction.2
@@ -130,32 +132,32 @@ je_secret_zro_extraction = {
 				pop_type = peasants
 			}
 		}
-	}
-	if = {
-		limit = {
-			var:visibility < 0
+		if = {
+			limit = {
+				var:visibility < 0
+			}
+			set_variable = {
+				name = visibility
+				value = 0
+			}
 		}
-		set_variable = {
-			name = visibility
-			value = 0
+		if = {
+			limit = {
+				var:sze_times = 3
+			}
+			effect = {
+				zro_livestock_proportion_visibility_check = yes
+			}
+			set_variable = {
+				name = sze_times
+				value = 1
+			}
 		}
-	}
-	if = {
-		limit = {
-			var:sze_times = 3
-		}
-		effect = {
-			zro_livestock_proportion_visibility_check = yes
-		}
-		set_variable = {
-			name = sze_times
-			value = 1
-		}
-	}
-	else = {
-		change_variable = {
-			name = sze_times
-			add = 1
+		else = {
+			change_variable = {
+				name = sze_times
+				add = 1
+			}
 		}
 	}		
 }
