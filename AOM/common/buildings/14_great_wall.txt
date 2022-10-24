@@ -34,3 +34,46 @@ building_gret_wall = {
 		}
 	}
 }
+
+
+building_gret_wall_shenzhou = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/building_eiffel_tower.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "great_wall_shenzhou_locator"
+	recruits_combat_unit = combat_unit_shence
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "eiffel_tower_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 3
+	}
+	
+	production_method_groups = {
+		pmg_shence_organization
+		pmg_artillery
+		pmg_reconaissance
+		pmg_specialist_companies
+		pmg_medical_aid
+	}
+
+	unlocking_technologies = { 
+		steel_frame_buildings 
+	}
+	
+	required_construction = construction_cost_monument
+	
+	can_build = {
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_ILE_DE_FRANCE
+			}
+		}
+	}
+}

@@ -99,3 +99,19 @@ pmg_naval_theory = {
 		pm_battlefleet_tactics
 	}
 }
+
+
+#########
+
+pmg_shence_organization = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_shence_garrision
+		pm_shence_line_infantry
+		pm_shence_skirmish_infantry
+		pm_shence_trench_infantry
+		pm_shence_squad_infantry
+		pm_shence_mechanized_infantry
+	}
+}
