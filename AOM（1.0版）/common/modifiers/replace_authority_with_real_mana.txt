@@ -127,3 +127,18 @@ papa_mana_1200 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/mana"
 	country_authority_add = 680
 }
+
+papa_mana_1300 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana"
+	country_authority_add = 680
+}
+
+papa_mana_1400 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana"
+	country_authority_add = 740
+}
+
+papa_mana_1500 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana"
+	country_authority_add = 800
+}

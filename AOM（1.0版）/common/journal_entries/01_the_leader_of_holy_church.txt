@@ -2,11 +2,11 @@ je_the_leader_of_holy_church = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 	
 	is_shown_when_inactive = {
-		c:PAS = root
+		c:PAP = root
 	}
 
 	possible = {
-		exists = c:PAS
+		exists = c:PAP
 	}
 
 	immediate = {
@@ -15,10 +15,6 @@ je_the_leader_of_holy_church = {
 			value = 0
 		}
 		set_countries_of_holy_church = yes
-	}
-	
-	current_value = {
-		value = global_var:total_population_of_holy_church
 	}
 	
 	on_monthly_pulse = {
