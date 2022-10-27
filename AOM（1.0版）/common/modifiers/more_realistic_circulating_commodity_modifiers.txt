@@ -1,0 +1,21 @@
+cc_s_market_access_20 = {
+	building_group_bg_subsistence_agriculture_throughput_mult = -0.4
+	building_subsistence_output_mult = -0.15
+}
+cc_s_market_access_40 = {
+	building_group_bg_subsistence_agriculture_throughput_mult = -0.2
+	building_subsistence_output_mult = -0.1
+}
+cc_s_market_access_60 = {
+	building_group_bg_subsistence_agriculture_throughput_mult = 0
+	building_subsistence_output_mult = -0.05
+}
+cc_s_market_access_80 = {
+	building_group_bg_subsistence_agriculture_throughput_mult = 0.2
+	building_subsistence_output_mult = 0
+}
+cc_s_market_access_100 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_group_bg_subsistence_agriculture_throughput_mult = 0.4
+	building_subsistence_output_mult = 0.05
+}

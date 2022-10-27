@@ -1,0 +1,12 @@
+on_monthly_pulse_country = {
+	effect = {
+		#cc_trade_center_spreading = yes
+		#cc_subsistence_output_change = yes
+	}
+}
+
+on_yearly_pulse_country = {
+	effect = {
+		cc_trade_center_startup = yes
+	}
+}
