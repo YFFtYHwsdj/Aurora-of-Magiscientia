@@ -1,0 +1,30 @@
+POPS={
+  s:STATE_NADALA={
+    region_state:PAC={
+      create_pop={
+        culture=peninsula
+        religion=holy_church
+        size=1000000
+      }
+    }
+  }
+  s:STATE_NAVER={
+    region_state:PAC={
+      create_pop={
+        culture=peninsula
+        religion=holy_church
+        size=1000000
+      }
+    }
+  }
+  s:STATE_NOUNS={
+    region_state:NDA={
+      create_pop={
+        culture=peninsula
+        religion=holy_church
+        size=1000000
+      }
+    }
+  }
+
+}

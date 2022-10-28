@@ -8,12 +8,24 @@
 	dependent_wage = 0.5	# per year
 	unemployment = yes
 	
-	# 0-15% politically engaged
-	political_engagement_base = 0.05
+	# 50% - 100% politically engaged
+	political_engagement_base = 0.5
 	political_engagement_literacy_factor = 0.5
 	
 	political_engagement_mult = {
-		value = 1		
+		value = 1	
+
+		add = {
+			desc = "POP_STARVATION"	
+			
+			if = {
+				limit = { 
+					standard_of_living < 5
+				}
+				value = 1
+			}		
+		}
+		
 	}
 	
 	qualifications_growth_desc = "BUREAUCRATS_QUALIFICATIONS_DESC"
@@ -32,11 +44,30 @@
 			}
 			if = {
 				limit = {
-					religion_accepted = no
+					culture_accepted = yes
+					religion_accepted = yes
 				}
 				multiply = {
-					value = 0.1
-					desc = "POTENTIALS_RELIGIOUS_DISCRIMINATION"
+					value = 2
+					desc = "POTENTIALS_CULTURAL_RELIGIOUS_ACCEPTANCE"
+				}
+			}
+			if = {
+				limit = {
+					is_pop_type = clerks
+				}
+				multiply = {
+					value = 5
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
+			if = {
+				limit = {
+					is_pop_type = clergymen
+				}
+				multiply = {
+					value = 5
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
 			if = {
@@ -47,6 +78,15 @@
 					value = 0.1
 					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 				}
+			}
+		}
+		else_if = {
+			limit = { 
+				is_peasant_under_serfdom = yes 
+			}
+			value = {
+				desc = "QUALIFICATIONS_PEASANTS_UNDER_SERFDOM"
+				value = 0
 			}
 		}
 		else = {		

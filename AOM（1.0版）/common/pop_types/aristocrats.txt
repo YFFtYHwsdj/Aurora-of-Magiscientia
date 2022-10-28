@@ -15,7 +15,7 @@
 	
 	political_engagement_mult = {
 		value = 1		
-
+		
 		add = {
 			desc = "POP_STARVATION"	
 			
@@ -26,13 +26,14 @@
 				value = 1
 			}		
 		}
+		
 	}	
 	
 	qualifications_growth_desc = "ARISTOCRATS_QUALIFICATIONS_DESC"
 	qualifications = {
 		if = {
 			limit = {
-				is_peasant_under_serdom = no
+				is_peasant_under_serfdom = no
 				wealth > 10
 			}
 			# baseline: ( wealth - 10 ) / 10 + literacy, norm 1.5 for Wealth 20 and Literacy 50%
@@ -42,6 +43,28 @@
 				divide = 5
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
 			}
+			add = {
+				value = literacy_rate
+				desc = "QUALIFICATIONS_LITERACY_FACTOR"
+			}
+			if = {
+				limit = {
+					is_pop_type = bureaucrats
+				}
+				multiply = {
+					value = 5
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
+			if = {
+				limit = {
+					is_pop_type = officers
+				}
+				multiply = {
+					value = 5
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
 			if = {
 				limit = {
 					culture_accepted = no
@@ -50,6 +73,15 @@
 					value = 0.1
 					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 				}
+			}
+		}
+		else_if = {
+			limit = { 
+				is_peasant_under_serfdom = yes 
+			}
+			value = {
+				desc = "QUALIFICATIONS_PEASANTS_UNDER_SERFDOM"
+				value = 0
 			}
 		}
 		else = {		

@@ -13,32 +13,28 @@
 	political_engagement_literacy_factor = 0.3
 	
 	political_engagement_mult = {
-		value = 1		
+		value = 1	
+
+		add = {
+			desc = "POP_STARVATION"	
+			
+			if = {
+				limit = { 
+					standard_of_living < 5
+				}
+				value = 1
+			}		
+		}	
 	}
 	
 	qualifications_growth_desc = "OFFICERS_QUALIFICATIONS_DESC"
 	qualifications = {
 		if = {
 			limit = {
-				owner = {
-					has_law = law_type:law_peasant_levies
-				}
-				if = {
-					limit = {
-						is_pop_type = aristocrats
-						culture_accepted = yes
-					}
-					add = {
-						value = 3
-						desc = "QUALIFICATIONS_OFFICERS_PEASANT_LEVIES"
-					}
-				}
-			}
-		}
-		else_if = {
-			limit = {
+				is_peasant_under_serfdom = no
 				OR = {
 					culture_accepted = yes
+					is_pop_type = soldiers
 				}
 			}
 			# baseline: ( literacy - 0.2 ) * 10, norm 2 for Soldiers with Literacy 30%
@@ -48,6 +44,36 @@
 				min = 0
 				multiply = 10
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
+			}
+			if = {
+				limit = {
+					is_pop_type = aristocrats
+				}
+				multiply = {
+					value = 5
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
+			if = {
+				limit = {
+					owner = {
+						has_law = law_type:law_peasant_levies
+					}
+					NOT = { is_pop_type = aristocrats }
+				}
+				multiply = {
+					value = 0.1
+					desc = "QUALIFICATIONS_OFFICERS_PEASANT_LEVIES"
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				is_peasant_under_serfdom = yes 
+			}
+			value = {
+				desc = "QUALIFICATIONS_PEASANTS_UNDER_SERFDOM"
+				value = 0
 			}
 		}
 	}

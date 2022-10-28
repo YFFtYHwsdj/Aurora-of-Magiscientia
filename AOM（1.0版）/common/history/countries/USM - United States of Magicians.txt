@@ -1,0 +1,12 @@
+COUNTRIES - {
+	c:USM = {
+		
+		set_ruling_interest_groups = {
+        	ig_magibourgeois
+			ig_petty_magibourgeois
+        }
+		
+		activate_law = law_type:law_magocratic_census_council
+		activate_law = law_type:law_parliamentary_republic
+	}
+}

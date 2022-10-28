@@ -1,6 +1,6 @@
 ﻿laborers = {
 	texture = "gfx/interface/icons/pops_icons/laborers.dds"
-	color = { 70 36 29 }
+	color = hsv{ 0.02 0.38 0.37 }
 	strata = poor
 	unemployment = yes
 	can_always_hire = yes
@@ -14,6 +14,17 @@
 	
 	political_engagement_mult = {
 		value = 1.0
+
+		add = {
+			desc = "POP_STARVATION"	
+			
+			if = {
+				limit = { 
+					standard_of_living < 5
+				}
+				value = 1
+			}		
+		}
 
 		multiply = {
 			desc = "NO_LABOR_MOVEMENT"	
