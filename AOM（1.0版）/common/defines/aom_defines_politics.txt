@@ -1,5 +1,0 @@
-NPolitics = {
-    IG_APPROVAL_FROM_LOYALISTS = 20		# If 100% of the political strength of the IG is loyalist, change approval by this amount
-	IG_APPROVAL_FROM_RADICALS = -40		# If 100% of the political strength of the IG is radical, change approval by this amount
-    DEFAULT_LAW_ACTIVATION_DATE = "1836.1.1"	
-}

@@ -1,0 +1,279 @@
+﻿set_countries_of_holy_church = {
+	set_global_variable = {
+		name = total_population_of_holy_church
+		value = 0
+	}
+	every_country = {
+		if = {
+			limit = {
+				religion = rel:catholic
+			}
+			if = {
+				change_global_variable = {
+					name = total_population_of_holy_church
+					add = this.total_population
+				}
+			}
+			calculate_mana_of_holy_church_in_a_country = yes
+		}
+	}
+	calculate_mana_of_holy_church_in_papa = yes
+}
+
+calculate_mana_of_holy_church_in_a_country = {
+	if = {
+		limit = {
+			total_population < 5000000
+		}
+		add_modifier = {
+			name = mana_50
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 10000000
+		}
+		add_modifier = {
+			name = mana_100
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 15000000
+		}
+		add_modifier = {
+			name = mana_150
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 20000000
+		}
+		add_modifier = {
+			name = mana_200
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 30000000
+		}
+		add_modifier = {
+			name = mana_300
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 40000000
+		}
+		add_modifier = {
+			name = mana_400
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 50000000
+		}
+		add_modifier = {
+			name = mana_500
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 60000000
+		}
+		add_modifier = {
+			name = mana_600
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 70000000
+		}
+		add_modifier = {
+			name = mana_700
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 80000000
+		}
+		add_modifier = {
+			name = mana_800
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 90000000
+		}
+		add_modifier = {
+			name = mana_900
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			total_population < 100000000
+		}
+		add_modifier = {
+			name = mana_1000
+			months = 1
+		}
+	}
+}
+
+calculate_mana_of_holy_church_in_papa = {
+	if = {
+		limit = {
+			global_var:total_population_of_holy_church < 5000000
+		}
+		add_modifier = {
+			name = papa_mana_50
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 10000000
+		}
+		add_modifier = {
+			name = papa_mana_100
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 20000000
+		}
+		add_modifier = {
+			name = papa_mana_200
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 30000000
+		}
+		add_modifier = {
+			name = papa_mana_300
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 40000000
+		}
+		add_modifier = {
+			name = papa_mana_400
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 50000000
+		}
+		add_modifier = {
+			name = papa_mana_500
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 60000000
+		}
+		add_modifier = {
+			name = papa_mana_600
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 70000000
+		}
+		add_modifier = {
+			name = papa_mana_700
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 80000000
+		}
+		add_modifier = {
+			name = papa_mana_800
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 90000000
+		}
+		add_modifier = {
+			name = papa_mana_900
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 100000000
+		}
+		add_modifier = {
+			name = papa_mana_1000
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 110000000
+		}
+		add_modifier = {
+			name = papa_mana_1100
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 120000000
+		}
+		add_modifier = {
+			name = papa_mana_1200
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 130000000 
+		}
+		add_modifier = {
+			name = papa_mana_1300
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 140000000
+		}
+		add_modifier = {
+			name = papa_mana_1400
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:total_population_of_holy_church < 150000000
+		}
+		add_modifier = {
+			name = papa_mana_1500
+			months = 1
+		}
+	}
+}

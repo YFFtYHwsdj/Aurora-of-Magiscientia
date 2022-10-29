@@ -1,0 +1,156 @@
+﻿POPS = {
+    s:STATE_UNOS = {
+        region_state:SHO = {
+            create_pop = {
+                culture = peninsula
+                size = 715880
+            }
+        }
+    }
+    s:STATE_RONLN = {
+        region_state:SHO = {
+            create_pop = {
+                culture = peninsula
+                size = 690015
+            }
+        }
+    }
+    s:STATE_LANDEN = {
+        region_state:SHO = {
+            create_pop = {
+                culture = peninsula
+                size = 792015
+            }
+        }
+    }
+    s:STATE_BOLUN = {
+        region_state:SHO = {
+            create_pop = {
+                culture = peninsula
+                size = 720416
+            }
+        }
+    }
+    s:STATE_GONS = {
+        region_state:SHO = {
+            create_pop = {
+                culture = peninsula
+                size = 610077
+            }
+        }
+    }
+    s:STATE_ERLUN = {
+        region_state:SHO = {
+            create_pop = {
+                culture = peninsula
+                size = 420779
+            }
+        }
+    }
+    s:STATE_GUSKAN = {
+        region_state:SHO = {
+            create_pop = {
+                culture = peninsula
+                size = 580114
+            }
+        }
+    }
+    s:STATE_YOGHANS = {
+        region_state:PPC = {
+            create_pop = {
+                culture = peninsula
+                size = 420856
+            }
+        }
+    }
+    s:STATE_RONSTA = {
+        region_state:PPC = {
+            create_pop = {
+                culture = peninsula
+                size = 410085
+            }
+        }
+    }
+    s:STATE_NUNGONS = {
+        region_state:PPC = {
+            create_pop = {
+                culture = peninsula
+                size = 402589
+            }
+        }
+    }
+    s:STATE_YANKENE = {
+        region_state:PPC = {
+            region_state:PPC = {
+                create_pop = {
+                    culture = peninsula
+                    size = 390548
+                }
+            }
+        }
+    }
+    s:STATE_UHOLE = {
+        region_state:PPC = {
+            create_pop = {
+                culture = peninsula
+                size = 357440
+            }
+        }
+    }
+    s:STATE_QONCE = {
+        region_state:PPC = {
+            create_pop = {
+                culture = peninsula
+                size = 385501
+            }
+        }
+    }
+    s:STATE_RONCAKE = {
+        region_state:PPC = {
+            create_pop = {
+                culture = peninsula
+                size = 368895
+            }
+        }
+    }
+    s:STATE_POYANAC = {
+        region_state:PPC = {
+            create_pop = {
+                culture = peninsula
+                size = 320085
+            }
+        }
+    }
+    s:STATE_ERLANCA = {
+        region_state:PPC = {
+            create_pop = {
+                culture = peninsula
+                size = 351140
+            }
+        }
+    }
+    s:STATE_RONYALY = {
+        region_state:NOR = {
+            create_pop = {
+                culture = peninsula
+                size = 328801
+            }
+        }
+    }
+    s:STATE_GONYANCE = {
+        region_state:NOR = {
+            create_pop = {
+                culture = peninsula
+                size = 351102
+            }
+        }
+    }
+    s:STATE_FANKENL = {
+        region_state:NOR = {
+            create_pop = {
+                culture = peninsula
+                size = 380014
+            }
+        }
+    }
+}

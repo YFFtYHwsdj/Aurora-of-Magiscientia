@@ -1,0 +1,7 @@
+﻿NDiplomacy = {
+    DEFAULT_TRUCE_MONTHS = 36
+    INFAMY_THRESHOLD_INFAMOUS = 50			# Above this, countries are considered infamous and get related penalties
+	INFAMY_THRESHOLD_NOTORIOUS = 100			# Above this, countries are considered notorious and get related penalties
+	INFAMY_THRESHOLD_PARIAH = 200			# Above this, countries are considered pariah and get related penalties
+	BASE_YEARLY_INFAMY_DECAY_RATE = 10.0 	# Decay rate of infamy per year
+}

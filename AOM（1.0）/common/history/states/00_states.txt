@@ -1,0 +1,560 @@
+﻿STATES = {
+  STATE_LINCIJIEBI = {
+    create_state = {
+      country=c:CHI
+      owned_provinces = {
+        x3FAEAC x0CC8A7 x0AAD88 x5817B4 xB37D0A xF12D7F x054742 x2A0D29 x7DDBC5 x2E1671 xB06F47 xA016F7 x78A98A x3EAC1C x197B4E x2DD8D8 xE0B3AA x5A09A4 xEDFFCD x62A0B7 xB1097F x363D17 xE517AF x0EF3D0 x121DA8 xAEB77A xDF37F5 xA8BA42 x29738B xB8DF85 x1484BD x5722AE xD2FC7A xF1EBE3 x5F5FC3 xDEF893 xC6BE7A x5AE874 xA83C08 xAA5F17 x934644 xD501D8 x547F08 xBFE2F3 xFD8A71 x41D364 xF63175 x8DFA7F x6D0350 x14C803 x504CF4 x1BEFC0 x8CAFA7 xB10AF5 x409A38 x623356 x7D0DDE x00DC09 x21DE73 x84CCF4 x32759B x347243 x7E0D75 x4B5D8A x589E9E x47EE49 x3C69F7 x3857A7 xCBF685 x0204E4 xB77162 x2B0B2C x14925A x628438 x6A5248 x475796 xF9754C x708B4D xB16103 x1D7859 xD454BF xD0D528 x2CEBBC x88E156 x4805E2 xE801C4 x9D091A xD84B61 x3F5882 xEBB07B x4F5320 x9CE314 xD0FF05 x97BD04 xF04B23 x0902BC x01C8B0 xD91DF1 x1B30F4 xDB5A62 xA13E48 xA9BDCD x2BF168 x192A9A xCAFC89 xAD0BEF x24AB8E xA183B3 x44D445 x0E9C71 xA9968E xDDFC82
+      }
+    }
+  }
+  STATE_TRIANGE = {
+    create_state = {
+      country=c:CHI
+      owned_provinces = {
+        x109507 x818A90 x9B1898 x1046AA x42BBE7 xB402D5 xEA5990 xC62005 x7751AF x9868A3 xDA5251 xFFCBC4 x2E361B xA487BA xEE6836 x182A2C x184E72 xB9040B x80FDCA xF2786A x2E3A04 xD72954 xBB10AF x0111C0 x5F1CE5 x8AE0DC x1B7D15 x9A8732 x1F4F98 xB1E3FB x7B3A19 xF76F3D xD5BC6F x6598F7 xB0C419 x6CF557 xE16FA1 xA69FFF xFAAE74 xC87F8A x71F3E8 x078459 xB1243B xA69653 xDC6A33 x9B9047 xC3D59A x8A56DC xBE7494 x865AAB x8D638E x367C49 x3ABB84 x11BEB1 xBB15CC x6B31FF xFD83A1 xFD2FE1 xD87EBF xF5EF8A x8B8972 x156B96 x417F81 x5DEB84 x8DE506 xC89C46 x44F40B xED1489 xF9BC1A xA02922 x807237 x7A884B xD056DC xC07A80 x17227F xD1425A xA1DF6D x6DD7B6 xC359F7 x20F796 x6D84D3 x973B9F x224CB7 xA3FA94 x65165E x62B5FA xD0E049 x6DA038 xC0D040 xD767AD x3D854F x1A750E xCDD089 x542EFD xDBD8BE xC78F24 xB0CFEC xE5817B x4D1581 xB9F093 xA89A25 x4253A8 x9E20EF x0C18E0 x85B179 xC57238 x070194 xAF6AE5 x665341 x9B6910 x5BB27E x100231 x14A7BE x7A943A x33A3BE x72D3A8 x6BD3A0 xDAD39B x73D87A x97161C x9F6258 x7A0CCA xCEA4C1 xB38748 xD38A78 x0D7F8D x086B0D x4B754A x8B5644 x15A6BA x4E7976 x38E787 x86511D xCF05B0 x43BF94 xF9A3AF xFC519D xBB92FC x669165 x06E5B4 x5B18B1 xD84D24 x94C7A6 x4D7E7C x357612 xA030A0 x5DF6B2 xB6BC96 xB24B12 x7052F1 x54A683 xA3F943 x6C9619 x4B7066 x44A62C xF9780E x3C11D2 x2390CB x7C90B0 xA54030 xB1300D x91126C xAA36C3 x48AE67 x16620F xA89F7A x854685 x5DA229 xBC9B7E x7625F5 x5A2C97 x3672D9 xC6A43A xA94DAF xFB192C x69FEB3 x3582E9 x6EA842 x45E049 xEABDEE x272245 x643CF5 x85CE06 xBB54C2 x596A90 x8828FB x1C545C xE78EEE xEF90FF x15A4E6 xBE2F49 x427426 xAD3425 x42B020 x9DA767 x596BB1 xB8051E x4C120A x3A3AE2 x151461 x480704 xBB21A5 xCE5CD4 x30CC9D x2C5197 xB4B7D9 xCA3319 x3EF868 x8DFA40 xA96256 x4214B3 x3EA155 x9B5DFD x2565D9 x6F2EC3 xC425C5 xD8C311 xBFE803 xA1DDFA x5A2C89 xB7ED78 x7520FB xA77FF1 xE72886 x0E5E2E x4D6A94 x20B021 x5E6C67 x9B29C7 x0487A7 x216DD8 xAD7935 xB09020 x2F26B8 x9856D4 x548EAA xF36208 xE81774 x3C909A xD37042 xB4E735 x3F6DF7 xEF9ECA x4DE0D5 x3A816D
+      }
+    }
+  }
+  STATE_SAN_FRANCISCO = {
+    create_state = {
+      country=c:CHI
+      owned_provinces = {
+        xB4AA65 x874936 x3FDA5A x964219 x24EF26 xE0C4D2 x4E722C xCEAF5E x280F05 x66C9D9 x0EC528 xD107A3 xA0F0A0 xDEFFE6 xA98EF8 x6326A6 xD71AAB xFD692B x217021 x96E54B xF469BC x43B99F x5990A7 x572FB9 x394B7F x07D342 xCCD333 xA875F3 x251424 xF28F90 x8FF69F xA07020 x3264B7 xCDB7DB x56684E x5A5F96 x45AF2E x2B6E7C x2D5D46 x59BBCE xA09736 x607020 x9666D9 xD25436 xE31B4E x45756F xAA60FC xC49B8C xF202E0 x0003C6 x476FB0 x72F7C2 x6AA44A xD52082 xF15B70 x2DDFDB xC08722 xE0C455 xF4C868 x47E5AB xFBA109 xEDCC3E xE60F80 x03A411 x641782 x18CED8 x5FCA48 x21F020 xA0F020 xDB6487 x20771F xCF1974 xE3A5A5 xB637A4 x6A9303 xAD283F xE1C6E3 xA45941 x733AB7 x519C2B xA16534 x950143 x466E81 xDCB746 xE40309 xBAA598 x076502 xB8655C x70FE4E x8BB146 xEC3398 x401B5D xE9EA78 x76933F x54D767 xAAE0FA x40F059 x20B0A0 x69B8C7 x54228F x12D43A x61F7C9 x7436D6 xDB08EC x402C84 xF8614B x783680 xCA5BC1 xA1CA4A xC0234F x97232F x36E637 xA0B0A0 x94A5A8 x1D3609 x8C9774 x6C44CE xB943AF x051899 x9AB208 xD458B6 xB94359 x7074E3 x808216 xF58253 xDB91D3 x1F1AF7 xF48515 xF8FE8B xB843AB x963360 x37C3E4 xF8D822 xE19C79 x5A0252 x15F552 xB0FE2D x8D643D xAFD189
+      }
+    }
+  }
+  s:STATE_NADALA = {
+    create_state = {
+      country=c:PAP
+      owned_provinces = {
+        xC1F973 xBAF88B xDFC2B1 xE3A4B8 xFC50C3 x79E2F1
+      }
+    }
+  }
+  s:STATE_NAVER = {
+    create_state = {
+      country=c:PAP
+      owned_provinces = {
+        x77DDAF xE1B869 x8DA7D5 xEC39FE xE070C1 xF6F06E xD7E6A7
+      }
+    }
+  }
+  s:STATE_NAER = {
+    create_state = {
+      country=c:NDA
+      owned_provinces = {
+        xF2CDDB xE599E9 xE9B5F7 xCBE1C5 xB3D592
+      }
+    }
+  }
+  s:STATE_NOUNS = {
+    create_state = {
+      country=c:NDA
+      owned_provinces = {
+        xD7E155 xED99CF xF6FA20 xCFB5A3 xFA93E1 x8CF6AF xF0B0E4
+      }
+    }
+  }
+  s:STATE_SOLON = {
+    create_state = {
+      country=c:NDA
+      owned_provinces = {
+        xC870D1 xFC78DB xC7D5E0 xA2CDE9 xD29099 xC06CFE
+      }
+    }
+  }
+  s:STATE_SUME = {
+    create_state = {
+      country=c:PAP
+      owned_provinces = {
+        x30F6E5 xFDFEAA x4EEAEE xFCC1FD xF0E573 xDD6ABF xC691FA xB5D597
+      }
+    }
+  }
+  s:STATE_MARSLON = {
+    create_state = {
+      country=c:SLO
+      owned_provinces = {
+        x9FCDE3 xE1B5B6 xF553BF xCCFD5A xA9F46A xB4B995 xF8A0DD xFBF178
+      }
+    }
+  }
+  s:STATE_UONGE = {
+    create_state = {
+      country=c:LUA
+      owned_provinces = {
+        xCFAFC6 xB3A8C2 xEC55E6 xF1D672 xEC68B8 xCCC86E xF276DF
+      }
+    }
+  }
+  s:STATE_YANSEN = {
+    create_state = {
+      country=c:SLO
+      owned_provinces = {
+        xF68CF0 x7AB8FD xD992F1 xA9DCB7 xCE57E3 xAEF38A xB497D7 xE2A9F8
+      }
+    }
+  }
+  s:STATE_UNOS = {
+    create_state = {
+      country=c:SHO
+      owned_provinces = {
+        xC8B5D1 xB0BBC3 xADBAF7 xCED995 xDD80DB x95E2B2 xC0A0DA xFCC280
+      }
+    }
+  }
+  s:STATE_TUNSLAND = {
+    create_state = {
+      country=c:SLO
+      owned_provinces = {
+        x5FB3E5 xFCC863 xDD63FE xEB9487 xC6BEA1 xD759D4 x5AE7CA x60EDB8
+      }
+    }
+  }
+  s:STATE_INOSN = {
+    create_state = {
+      country=c:NAR
+      owned_provinces = {
+        xF7FE4C xF7B1EA xA6DF9D
+      }
+    }
+    create_state = {
+      country=c:SLO
+      owned_provinces = {
+        xC3FC96 xDDA1DF x55F6D7 x22FEF2 xCCCE8C xFB4EEC xF1C687
+      }
+    }
+  }
+  s:STATE_RONLN = {
+    create_state = {
+      country=c:SHO
+      owned_provinces = {
+        xE7A8D2 xDAC65A xF0EBE7 xC6CAF8
+      }
+    }
+  }
+  s:STATE_LANDEN = {
+    create_state = {
+      country=c:SHO
+      owned_provinces = {
+        x9DC4E1 xEFB98C xA6E0D8 xCC6CC0 xF268DF xFA83AC xBAE1F6
+      }
+    }
+  }
+  s:STATE_GONS = {
+    create_state = {
+      country=c:SHO
+      owned_provinces = {
+        x95FED1 xCBC2B7 x979AFC xE29FFB xEE9E9A xFAE912 x9CB1AB
+      }
+    }
+  }
+  s:STATE_BOLUN = {
+    create_state = {
+      country=c:SHO
+      owned_provinces = {
+        xCE3AF3 xE3C86F xBCF566 x9FFDA4 xCFF0BA x71FAE4
+      }
+    }
+  }
+  s:STATE_POLO = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        xF5D4B9 xA5F56F xD9D277 xB47AFE xDA70CC xD4E183
+      }
+    }
+  }
+  s:STATE_MOCHING = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        xE6E04A x6EAAEB xE0C49B xF68AC7 xE9F129 xEB35E8
+      }
+    }
+  }
+  s:STATE_YANSN = {
+    create_state = {
+      country=c:ZZC
+      owned_provinces = {
+        xE2ADBD xB184D2 xD18DF7 xEC7AAB xA47AEE xC3B796
+      }
+    }
+  }
+  s:STATE_BOLUNS = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        xE2D05F xB5E2AB xF8C942 xE0AEF7 xAFBABF xC3A6A9
+      }
+    }
+  }
+  s:STATE_ZONS = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        xAAEF61 x65BDD3 xE1F9B6 x52DDD8 x8F73F6 xBD69FB
+      }
+    }
+  }
+  s:STATE_HILY = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        xFCB0CD xF662C9 xD1B0B6 xF6CADE xFCBADB xB4EFF3
+      }
+    }
+  }
+  s:STATE_GUSKAN = {
+    create_state = {
+      country=c:SHO
+      owned_provinces = {
+        x69D5C7 x9698D2 x71EAAD x95A3DC xF5B989 xF5D7AB
+      }
+    }
+  }
+  s:STATE_ERLUN = {
+    create_state = {
+      country=c:SHO
+      owned_provinces = {
+        xE790B9 xC5A8BB xFA83BD xF871F3 x9BF98C
+      }
+    }
+  }
+  s:STATE_YOGHANS = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        xFAF421 xB8F791 xE880D1 xD482BD xD381AB xD754D4 xF7CB6E
+      }
+    }
+  }
+  s:STATE_TANLONS = {
+    create_state = {
+      country=c:POL
+      owned_provinces = {
+        xD2D68E x9CE4BA x9EB7EF x8F85FE xB3AFC2 xAFFACC xDEC763
+      }
+    }
+  }
+  s:STATE_KUNTIN = {
+    create_state = {
+      country=c:ZZC
+      owned_provinces = {
+        xE0D684 x3FEAF7 xBEEA7B xE594ED xDBD9C0
+      }
+    }
+  }
+  s:STATE_UNOSANS = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        xA097E2 x98B3C5 x94D5B3 xDDCAF6 x7AF592 xF89E6E xE51BF8
+      }
+    }
+  }
+  s:STATE_PANDIN = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        xB6DEAA x9DF58F xFE4FF7 xA8D4F4 x85DDB1 x75F5A3 xC7D7D2
+      }
+    }
+  }
+  s:STATE_NEO = {
+    create_state = {
+      country=c:POL
+      owned_provinces = {
+        x79BAD3 x14FDF2 x4DFEEF x9CF6B8 xA1BFA0 xD283BC xC3D07E xB6F66A xD7DDA6 xEA40F9 xC8FA9F xF4AE6F xEEED1E xCCF4AE
+      }
+    }
+  }
+  s:STATE_YUNGON = {
+    create_state = {
+      country=c:POL
+      owned_provinces = {
+        xE6C2B1 x8FC9E7 xF96BED x78D3E8 xFE62F8 x99D5EA xC5DE54
+      }
+    }
+  }
+  s:STATE_MALUN = {
+    create_state = {
+      country=c:POL
+      owned_provinces = {
+        x986FF9 xB0BAFE xE187E7 xE85CE8
+      }
+    }
+  }
+  s:STATE_OPPS = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        x6BEADE xCDE4AB xC9DAE3 xB1A2EA xCEB884 xF9FAB7
+      }
+    }
+  }
+  s:STATE_ILUNS = {
+    create_state = {
+      country=c:EMP
+      owned_provinces = {
+        x95C1A6 xAB7EF9 xE8D45E xAB92F6 x5BA6FB
+      }
+    }
+  }
+  s:STATE_NUNGONS = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        xF7D1B1 xFB97A6 x82C4E9 x6EEFE0 xF406FB xAFF1D4 xF2CF5F xDCA8F3
+      }
+    }
+  }
+  s:STATE_RONSTA = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        xE5F668 x88FB89 xF7778E x73C9EA xFE8CB3
+      }
+    }
+  }
+  s:STATE_YANKENE = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        xF8E339 xF2E1C4 xEDB5D3 x9B8BF6 xEAE9E3
+      }
+    }
+  }
+  s:STATE_UHOLE = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        xB78FBA xFBBBB4 xF28EF1 xDDFADA xB981D8
+      }
+    }
+  }
+  s:STATE_QONCE = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        x7ECEC2 xD0E7E5 xF559AC xD8FAAE x5CE3B7 x58E2E3
+      }
+    }
+  }
+  s:STATE_LUNZ = {
+    create_state = {
+      country=c:LUN
+      owned_provinces = {
+        xF9EA83 x96EFA9 xC9C3D0 x46CEFD xD15EF4 xF413F7 xB9FB69 xDEED31 x9CC9AA
+      }
+    }
+  }
+  s:STATE_POYAN = {
+    create_state = {
+      country=c:LUN
+      owned_provinces = {
+        xFADF67 xD381BA x8EFD87 xB9E597 xE1D771 xFB62C3 x47F1D3 x8FE2C3 xE1BBB3
+      }
+    }
+  }
+  s:STATE_ILLON = {
+    create_state = {
+      country=c:LUN
+      owned_provinces = {
+        x9EF478 xC58EA5 x80E7F5 xDEC0D8 xDEECC2 xCEB0E5 xC8C674 xE9E553
+      }
+    }
+  }
+  s:STATE_LUNMO = {
+    create_state = {
+      country=c:LUN
+      owned_provinces = {
+        xA4B2C5 x39D8ED xF5EB15 x89EB83 xED9681 xEED49E x16F4F9 xCBA7E4 xA7C1EA x6A93FC
+      }
+    }
+  }
+  s:STATE_CONSDAN = {
+    create_state = {
+      country=c:PAP
+      owned_provinces = {
+        xFB66DB xB9B0AE xF7AD7A xFCF7DE xC1F4B0 xE7BDA0 xFBB6AF
+      }
+    }
+  }
+  s:STATE_NAMON = {
+    create_state = {
+      country=c:PAP
+      owned_provinces = {
+        xD396BA x69DBC8 xEDA2AB xB657E8 x97BEB4 xB3E784
+      }
+    }
+  }
+  s:STATE_OLAND = {
+    create_state = {
+      country=c:PPA
+      owned_provinces = {
+        xAABFF3 xDADEB8 xFC4FCB xFA61E2 xE4DEFD
+      }
+    }
+  }
+  s:STATE_UNGON = {
+    create_state = {
+      country=c:PPA
+      owned_provinces = {
+        x44E9F7 xE1FAB2 x9FE3E5 xC0F897 x9D92E2
+      }
+    }
+  }
+  s:STATE_YANKONLAND = {
+    create_state = {
+      country=c:PPB
+      owned_provinces = {
+        xFBBDE7 xB9D4F9 xFED9A2 xFDE4F2 xC4FE58 xD85CEC
+      }
+    }
+  }
+  s:STATE_TUANSLIN = {
+    create_state = {
+      country=c:PPB
+      owned_provinces = {
+        xC8F36E xD4FCEC x60C9F4 xB8CEB3 xD8C9B6 xC2ACDF xFDCD69 xBFEBB8 xF8C6BC
+      }
+    }
+  }
+  s:STATE_YOLYMAN = {
+    create_state = {
+      country=c:TOL
+      owned_provinces = {
+        x4DB4F4 xFC78B3 xCAE0C3 x27EFF9 xBECBE5 xEB7FD9 xFAAFB8 xDAE89D xC281FD
+      }
+    }
+  }
+  s:STATE_TOLIYANS = {
+    create_state = {
+      country=c:TOL
+      owned_provinces = {
+        xFC0AF4 xA3C194 x85C2C7 x9DDED2 xFB6EFD x7489FD xF9CB32 xFAB448
+      }
+    }
+  }
+  s:STATE_RONCAKE = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        xD4DE7D xDAA18F xD8FB85 xF5CC90 xEA86D2 x96D5DE
+      }
+    }
+  }
+  s:STATE_UILYON = {
+    create_state = {
+      country=c:POL
+      owned_provinces = {
+        xBFD3BD xEF2DEC xD9D176 xDFDA3F xC08DF5 x3CDAFD xD2FE46 xE0C4DA xD7E9F8 xAFB6CB xF3EC96 xA2D4DA
+      }
+    }
+  }
+  s:STATE_POYANAC = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        xD9E57B x6ACFC5 x4FFEE7 xFAF24C xBF86D7 xFD88FC
+      }
+    }
+  }
+  s:STATE_CONHOLY = {
+    create_state = {
+      country=c:TOL
+      owned_provinces = {
+        xFC75EE x62F3F2 x73E9E8 x53DBEA xFA72F2 x80DBC2 xE76EAD xFDFDCE xACC3AD
+      }
+    }
+  }
+  s:STATE_ERLANCA = {
+    create_state = {
+      country=c:PPC
+      owned_provinces = {
+        xB8B9A3 xB3BCC9 xDFE149 x6FECB9 x9DD5E7 xE38FC9 xA1D38A xED9BF8
+      }
+    }
+  }
+  s:STATE_FONTYLY = {
+    create_state = {
+      country=c:TOL
+      owned_provinces = {
+        xA3F5E5 x89BFE1 xC9D68D xC9E375 xE69DD8 x59CFEA xB797DF x5DC6FB x60EEEB
+      }
+    }
+  }
+  s:STATE_QANNER = {
+    create_state = {
+      country=c:TOL
+      owned_provinces = {
+        xF729E6 xFA35EC xF1EA51 xD5F038 xFE53C3 xE0CA7C xF9F3C5 xA6F8D0
+      }
+    }
+  }
+  s:STATE_MICNIA = {
+    create_state = {
+      country=c:FAS
+      owned_provinces = {
+        xF7D1C2 xAA59F7 xCAD583 x72B3F3 x33F0E0 x8FD9E0 xD0EDE9 x5ECCCB x97E7CA xEAC982 xC9D0CC xE2D3E3 x94CECB
+      }
+    }
+  }
+  s:STATE_VANLANCY = {
+    create_state = {
+      country=c:FAS
+      owned_provinces = {
+        xCDE14E x5BFCDB xCFD38D xB6CFE0 xD1D583 x4FD1FB xA2F2F4 xBBF89D x96EBF1 xCBC2DE xB7F6D4
+      }
+    }
+  }
+  s:STATE_GOLYTAN = {
+    create_state = {
+      country=c:FAS
+      owned_provinces = {
+        xF96EE6 xFCCE6D xC1D5F2 xF248D5 xE0FED8 xBEEC67 x2DCBFE x9FF8AF x79EFB3 xB094B3 xDDF6CE xA5A3FC xF699C4 x8DE1B1 xF8B4F8 xC0FBDF
+      }
+    }
+  }
+  s:STATE_MOLYGY = {
+    create_state = {
+      country=c:FAS
+      owned_provinces = {
+        x9A86D8 xA8CFF3 xEAFE5E xA793E8 x8E93D6 xE1B08D x9190D6 x917FED xB9FA4E xC68AD0 xA97AF5 xC578CF x1DF8E1 x6E8CFC xBADE9B xFAE838 xDD97F2 xCC7FC3 x89C6D4
+      }
+    }
+  }
+  s:STATE_ARORA = {
+    create_state = {
+      country=c:FAS
+      owned_provinces = {
+        xCB7FE4 xEDD7E6 x53DCD5 xAC6EFC xB4F1A1 xF485E5 xB5BBA8 x8EDDBD xFE8779 xF45AEA x3EFEE3 xB6B6E0
+      }
+    }
+  }
+  s:STATE_FANKENL = {
+    create_state = {
+      country=c:NOR
+      owned_provinces = {
+        xAFE464 xB6D27A xFCCF39 xA8F16C xB2EB8B xF98186 xDECF7E xC7B47E xF2A65F xBEFB63 x9C9BF3
+      }
+    }
+  }
+  s:STATE_GONYANCE = {
+    create_state = {
+      country=c:NOR
+      owned_provinces = {
+        xB55BE9 xEDDC2F x96F998 xC254F1 xC875E4 xCCEEC0 xA0EEC2 xE5E48F xC5E1FA xB5A3F6 xB0F98E x9AD3F1 x25DAFB x7DE5B0 x80B1F2
+      }
+    }
+  }
+  s:STATE_RONYALY = {
+    create_state = {
+      country=c:NOR
+      owned_provinces = {
+        xE7A190 xC8D95A x8DF093 xE65EFA xEFD181 xE947C5 xEC4EEA xDE41FE xF1FB19 xB6B4DB xE080BB xEEAEE8 xEA6CAB x6CA0FA
+      }
+    }
+  }
+}

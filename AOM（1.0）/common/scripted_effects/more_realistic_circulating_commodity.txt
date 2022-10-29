@@ -1,0 +1,169 @@
+﻿cc_trade_center_startup = {
+	if = {
+		limit = {
+			NOT = {
+				has_building = building_domestic_trade_center
+			}
+			has_building = building_trade_center
+		}
+		create_building = {
+			building = "building_domestic_trade_center"
+			level = 1
+			reserves = 0.1
+		}
+	}
+}
+
+# 本地贸易中心的升级
+cc_trade_center_expanding = {
+	if = {
+		limit = {
+			market_access < 1
+		}
+		save_scope_as = cc_checked_state_expanding
+		any_scope_building = {
+			limit = {
+				is_building_type = building_domestic_trade_center
+			}
+			if = {
+				limit = {
+					cash_reserves_available > 5000
+					weekly_profit > 1
+				}
+				scope:cc_checked_state_expanding = {
+					set_variable = {
+						name = cc_expanding_building_level
+						value = PREV.level
+					}
+					if = {
+						limit = {
+							market_access < 0.6
+						}
+						change_variable = {
+							name = cc_expanding_building_level
+							add = 1
+						}
+					}
+					change_variable = {
+						name = cc_expanding_building_level
+						add = 1
+					}
+					create_building = {
+						create_building = {
+							building = "building_domestic_trade_center"
+							level = var:cc_expanding_building_level
+							reserves = 0.75
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# 本地贸易中心在国内的渗透
+cc_trade_center_spreading = {
+	every_scope_state = {
+		limit = {
+			random_neighbouring_state = {
+				market_access < 1
+			}
+			any_scope_building = {
+				is_building_type = building_domestic_trade_center
+				cash_reserves_available > 5000
+				weekly_profit > 1
+			}
+		}
+		random_neighbouring_state = {
+			limit = {
+				market_access < 1
+				OR = {
+					owner = ROOT
+					owner = {
+						market = root.market
+					}
+				}
+			}
+			save_scope_as = cc_target_state
+			if = {
+				limit = {
+					has_building = building_domestic_trade_center
+				}
+				scope:cc_target_state = {
+					set_variable = {
+						name = cc_spreading_building_level
+						value = 1
+					}
+					change_variable = {
+						name = cc_spreading_building_level
+						add = PREV.level
+					}
+					create_building = {
+						create_building = {
+							building = "building_domestic_trade_center"
+							level = var:cc_spreading_building_level
+							reserves = 0.75
+						}
+					}
+				}
+			}
+			else = {
+				scope:cc_target_state = {
+					create_building = {
+						create_building = {
+							building = "building_domestic_trade_center"
+							level = 1
+							reserves = 0.5
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#自给农场与市场接入度之间的关联
+cc_subsistence_output_change = {
+	if = {
+		limit = {
+			market_access >= 1
+		}
+		add_modifier = {
+			name = cc_s_			# market_access_100
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			market_access >= 0.8
+		}
+		add_modifier = {
+			name = cc_s_			# market_access_80    
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			market_access >= 0.6
+		}
+		add_modifier = {
+			name = cc_s_			# market_access_60
+			months = 1
+		}
+	}
+	else_if = {
+		limit = {
+			market_access >= 0.4
+		}
+		add_modifier = {
+			name = cc_s_			# market_access_40
+			months = 1
+		}
+	}
+	else = {
+		add_modifier = {
+			name = cc_s_			# market_access_20
+			months = 1
+		}
+	}
+}

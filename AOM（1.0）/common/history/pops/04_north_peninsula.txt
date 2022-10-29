@@ -1,0 +1,78 @@
+﻿POPS = {
+    s:STATE_QANNER = {
+        region_state:TOL = {
+            create_pop = {
+                culture = peninsula
+                size = 210154
+            }
+        }
+    }
+    s:STATE_FONTYLY = {
+        region_state:TOL = {
+            create_pop = {
+                culture = peninsula
+                size = 150216
+            }
+        }
+    }
+    s:STATE_CONHOLY = {
+        region_state:TOL = {
+            create_pop = {
+                culture = peninsula
+                size = 185410
+            }
+        }
+    }
+    s:STATE_TOLIYANS = {
+        region_state:TOL = {
+            create_pop = {
+                culture = peninsula
+                size = 162047
+            }
+        }
+    }
+    s:STATE_YOLYMAN = {
+        region_state:TOL = {
+            create_pop = {
+                culture = peninsula
+                size = 125804
+            }
+        }
+    }
+    s:STATE_ARORA = {
+        region_state:FAS = {
+            create_pop = {
+                culture = peninsula
+                size = 215980
+            }
+        }
+    }
+    s:STATE_MOLYGY = {
+        region_state:FAS = {
+            create_pop = {
+                culture = peninsula
+                size = 251035
+            }
+        }
+    }
+    s:STATE_MICNIA = {
+        region_state:FAS = {
+            create_pop = {
+                culture = peninsula
+                size = 238540
+            }
+        }
+    }
+    s:STATE_GOLYTAN = {
+        region_state:FAS = {
+            culture = peninsula
+            size = 351258
+        }
+    }
+    s:STATE_VANLANCY = {
+        region_state:FAS = {
+            culture = peninsula
+            size = 297566
+        }
+    }
+}
