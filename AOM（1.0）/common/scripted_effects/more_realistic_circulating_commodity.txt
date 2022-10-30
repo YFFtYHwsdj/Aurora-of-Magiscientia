@@ -1,4 +1,4 @@
-﻿cc_trade_center_startup = {
+cc_trade_center_startup = {
 	if = {
 		limit = {
 			NOT = {
