@@ -6,18 +6,18 @@
   "short_description" : "",
   "tags" : [],
   "relationships" : [],
+  "replace_paths" : [
+    "events",
+    "common/country_creation",
+    "common/country_definations",
+    "common/country_formation",
+    "common/cultures",
+    "common/cutsomizable_localization",
+    "common/decisions",
+    "common/on_actions",
+    "localization"
+  ],
   "game_custom_data" : {
-    "multiplayer_synchronized" : true,
-    "replace_paths" : [
-      "events",
-      "common/country_creation",
-      "common/country_definations",
-      "common/country_formation",
-      "common/cultures",
-      "common/cutsomizable_localization",
-      "common/decisions",
-      "common/on_actions",
-      "localization"
-    ] 
+    "multiplayer_synchronized" : true
   }
 }

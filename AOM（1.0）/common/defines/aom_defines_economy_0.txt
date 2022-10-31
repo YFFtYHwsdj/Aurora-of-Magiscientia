@@ -1,4 +1,4 @@
-﻿NEconomy = {
+NEconomy = {
     DOWNSIZE_BUILDING_POP_TYPE_RADICALIZATION_SHARED_FACTOR = 0.1 # This percentage of a pop becomes radicalized when a building they would have ownership shares in is downsized in the state (multiplied by per-pop shares)
     FIRED_POP_RADICALIZATION_BASE_FRACTION = 0.4		# This percentage of a pop becomes radicalized when they lose their job, for instance due to a building being downsized
 	FIRED_POP_RADICALIZATION_SHARES_FACTOR = 0.1		# Additional percentage of pop that becomes radicalized they lost their job for each per-pop share they had in the building			
@@ -7,23 +7,21 @@
     ECONOMY_OF_SCALE_MAX_MULTIPLIER = 20				# Beyond this many building levels, do not apply further economy of scale bonuses
     GOODS_SHORTAGE_PENALTY_THRESHOLD = 1.0		# If supply / demand is lower than this, start applying output penalties, by default this should ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
     GOODS_SHORTAGE_PENALTY_DRIFT_SPEED = 0.01   # Goods shortage penalty updates by this amount towards target each day
-    GOODS_SHORTAGE_PENALTY_MAX = 1.00			# Goods shortage penalty can't be higher than this
+    GOODS_SHORTAGE_PENALTY_MAX = 0.9			# Goods shortage penalty can't be higher than this
     MIN_WAGE_RATE = 0.01							# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
     
     BUILDING_INITIAL_WAGE_WEEKS = 1				# A building will not adjust its wages for the first this many weeks of its existence
     TRADE_ROUTE_MIN_TOTAL_IMPORTS = 10					# This amount of a good can always be imported to a market even if there is no demand
     TRADE_ROUTE_ECONOMY_OF_SCALE = 0.25					# Each level of trade route after the first adds this % to desired trade quantity
 	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 20			# After this level, trade route economy of scale no longer increases the amount per level
-    MAX_WAGE_STEP_CHANGE = 1.0					# Wage rates can change at most this much each week
-    COUNTRY_MIN_CREDIT_BASE = 0			# Added to the total Building Cash Reserves to determine credit limit (base)	
-    COUNTRY_MIN_CREDIT_SCALED = 0.0 			# Added to the total Building Cash Reserves to determine credit limit (multiplied by GDP)	
+    MAX_WAGE_STEP_CHANGE = 1.0					# Wage rates can change at most this much each week	
     GOLD_RESERVE_MIN = 1000						# If Gold Reserves are computed to be lower than this, it's instead set to this
 	GOLD_RESERVE_LIMIT_FACTOR = 1.0				# The base factor of annual GDP that should be provided as a Gold Reserve
 	GOLD_RESERVE_RETURNS_FACTOR = 0.1				# How rapidly diminishing returns will cause gold reserves to drop off after the limit has been reached (higher value increases penalty)
     HIRING_RATE = 0.2 							# Weekly hiring limit applied in a building per profession as a ratio of full employment
-    BUILDING_INIT_PROFIT_TARGET_MIN = 0.15 		# Minimum % income a building wants to have as profit during initialization (will decrease wages towards this)
-	BUILDING_INIT_PROFIT_TARGET_MAX = 0.25 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
-	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.25	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
+    BUILDING_INIT_PROFIT_TARGET_MIN = 0.20 		# Minimum % income a building wants to have as profit during initialization (will decrease wages towards this)
+	BUILDING_INIT_PROFIT_TARGET_MAX = 0.30 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
+	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.30	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
     BUILDING_WEEKS_BETWEEN_PAY_RAISES = 4		# Cooldown between pay raises no matter what
     SUBSISTENCE_OUTPUT_AVERAGE_WAGE_RATE_FACTOR = 150   # Each 1.0 of subsistence output counts as this much wage rate when setting normal wages
     PRICE_REPORT_MAX_ENTRIES = 6

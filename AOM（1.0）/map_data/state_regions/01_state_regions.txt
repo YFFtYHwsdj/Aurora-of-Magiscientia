@@ -1,1487 +1,1751 @@
-﻿STATE_NADALA = {
-    id = 5000
-    provinces = { "xFC50C3" "xBAF88B" "xC1F973" "x79E2F1" "xE3A4B8" "xDFC2B1" }
-    city = "xE3A4B8"
-    port = "xDFC2B1"
-    mine = "xFC50C3"
-    wood = "x79E2F1"
-    farm = "xC1F973"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_NAVER = {
-    id = 5001
-    provinces = { "xE070C1" "x77DDAF" "x8DA7D5" "xE1B869" "xEC39FE" "xF6F06E" "xD7E6A7" }
-    city = "xE070C1"
-    port = "xEC39FE"
-    mine = "xF6F06E"
-    wood = "x77DDAF"
-    farm = "xE1B869"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_NAER = {
-    id = 5002
-    provinces = { "xF2CDDB" "xE599E9" "xE9B5F7" "xCBE1C5" "xB3D592" }
-    city = "xCBE1C5"
-    port = "xE599E9"
-    mine = "xE9B5F7"
-    farm = "xF2CDDB"
-    wood = "xB3D592"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_NOUNS = {
-    id = 5003
-    provinces = { "xD7E155" "xED99CF" "xF6FA20" "xCFB5A3" "xFA93E1" "x8CF6AF" "xF0B0E4" }
-    city = "xFA93E1"
-    mine = "xCFB5A3"
-    wood = "x8CF6AF"
-    farm = "xF6FA20"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_SOLON = {
-    id = 5004
-    provinces = { "xC870D1" "xFC78DB" "xC7D5E0" "xA2CDE9" "xD29099" "xC06CFE" }
-    city = "xC870D1"
-    port = "xC06CFE"
-    mine = "xFC78DB"
-    wood = "xA2CDE9"
-    farm = "xC7D5E0"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_SUME = {
-    id = 5005
-    provinces = { "x30F6E5" "xC691FA" "xB5D597" "xF0E573" "xFCC1FD" "x4EEAEE" "xDD6ABF" "xFDFEAA" }
-    city = "xFDFEAA"
-    port = "xF0E573"
-    mine = "x30F6E5"
-    wood = "x4EEAEE"
-    farm = "xDD6ABF"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_MARSLON = {
-    id = 5006
-    provinces = { "xCCFD5A" "xA9F46A" "xF553BF" "xB4B995" "xE1B5B6" "xF8A0DD" "xFBF178" "x9FCDE3" }
-    city = "x9FCDE3"
-    port = "xB4B995"
-    mine = "xE1B5B6"
-    wood = "xF8A0DD"
-    farm = "xF553BF"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_UONGE = {
-    id = 5007
-    provinces = { "xEC68B8" "xF1D672" "xCCC86E" "xF276DF" "xEC55E6" "xB3A8C2" "xCFAFC6" }
-    city = "xB3A8C2"
-    mine = "xCCC86E"
-    wood = "xF276DF"
-    farm = "xCFAFC6"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_YANSEN = {
-    id = 5008
-    provinces = { "x7AB8FD" "xD992F1" "xA9DCB7" "xCE57E3" "xE2A9F8" "xB497D7" "xAEF38A" "xF68CF0" }
-    city = "xE2A9F8"
-    port = "xAEF38A"
-    mine = "xB497D7"
-    wood = "xF68CF0"
-    farm = "xD992F1"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_UNOS = {
-    id = 5009
-    provinces = { "xC0A0DA" "xFCC280" "xCED995" "xADBAF7" "xB0BBC3" "xDD80DB" "xC8B5D1" "x95E2B2" }
-    city = "xDD80DB"
-    mine = "x95E2B2"
-    port = "xFCC280"
-    wood = "xC8B5D1"
-    farm = "xC0A0DA"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_TUNSLAND = {
-    id = 5010
-    provinces = { "x60EDB8" "xFCC863" "xC6BEA1" "x5AE7CA" "xD759D4" "x5FB3E5" "xDD63FE" "xEB9487" }
-    city = "xC6BEA1"
-    mine = "x5AE7CA"
-    wood = "x5FB3E5"
-    farm = "xDD63FE"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_INOSN = {
-    id = 5011
-    provinces = { "xF7FE4C" "xCCCE8C" "xFB4EEC" "xF7B1EA" "xA6DF9D" "xF1C687" "x22FEF2" "xC3FC96" "xDDA1DF" "x55F6D7" }
-    city = "xC3FC96"
-    mine = "xFB4EEC"
-    wood = "xF1C687"
-    farm = "x55F6D7"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_RONLN = {
-    id = 5012
-    provinces = { "xDAC65A" "xF0EBE7" "xC6CAF8" "xE7A8D2" }
-    city = "xDAC65A"
-    mine = "xF0EBE7"
-    wood = "xC6CAF8"
-    farm = "xE7A8D2"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_LANDEN = {
-    id = 5013
-    provinces = { "xF268DF" "x9DC4E1" "xEFB98C" "xA6E0D8" "xCC6CC0" "xBAE1F6" "xFA83AC" }
-    city = "x9DC4E1"
-    port = "xA6E0D8"
-    mine = "xCC6CC0"
-    wood = "xEFB98C"
-    farm = "xF268DF"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_GONS = {
-    id = 5014
-    provinces = { "x95FED1" "xCBC2B7" "x9CB1AB" "xE29FFB" "x979AFC" "xFAE912" "xEE9E9A" }
-    city = "xE29FFB"
-    port = "x9CB1AB"
-    mine = "x95FED1"
-    wood = "x979AFC"
-    farm = "xFAE912"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_BOLUN = {
-    id = 5015
-    provinces = { "x71FAE4" "xE3C86F" "xCE3AF3" "xCFF0BA" "x9FFDA4" "xBCF566" }
-    city = "xE3C86F"
-    mine = "xBCF566"
-    wood = "x9FFDA4"
-    farm = "xCE3AF3"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_POLO = {
-    id = 5016
-    provinces = { "xF5D4B9" "xA5F56F" "xD9D277" "xB47AFE" "xDA70CC" "xD4E183" }
-    city = "xA5F56F"
-    mine = "xB47AFE"
-    wood = "xDA70CC"
-    farm = "xF5D4B9"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_MOCHING = {
-    id = 5017
-    provinces = { "xE6E04A" "x6EAAEB" "xE0C49B" "xF68AC7" "xE9F129" "xEB35E8" }
-    city = "xEB35E8"
-    mine = "xF68AC7"
-    wood = "xE9F129"
-    farm = "x6EAAEB"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_YANSN = {
-    id = 5019
-    provinces = { "xB184D2" "xE2ADBD" "xEC7AAB" "xC3B796" "xA47AEE" "xD18DF7" }
-    city = "xEC7AAB"
-    mine = "xA47AEE"
-    farm = "xB184D2"
-    wood = "xD18DF7"
-    port = "xE2ADBD"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_BOLUNS = {
-    id = 5020
-    provinces = { "xE2D05F" "xB5E2AB" "xF8C942" "xE0AEF7" "xAFBABF" "xC3A6A9" }
-    city = "xC3A6A9"
-    mine = "xAFBABF"
-    farm = "xF8C942"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_ZONS = {
-    id = 5021
-    provinces = { "xAAEF61" "x65BDD3" "xE1F9B6" "x52DDD8" "x8F73F6" "xBD69FB" }
-    city = "x65BDD3"
-    mine = "x52DDD8"
-    wood = "xBD69FB"
-    farm = "x8F73F6"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_HILY = {
-    id = 5022
-    provinces = { "xFCB0CD" "xF662C9" "xD1B0B6" "xF6CADE" "xFCBADB" "xB4EFF3" }
-    city = "xD1B0B6"
-    mine = "xB4EFF3"
-    wood = "xF662C9"
-    farm = "xF6CADE"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_GUSKAN = {
-    id = 5023
-    provinces = { "xF5D7AB" "x69D5C7" "x95A3DC" "x9698D2" "xF5B989" "x71EAAD" }
-    city = "x95A3DC"
-    mine = "xF5B989"
-    wood = "xF5D7AB"
-    farm = "x9698D2"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_ERLUN = {
-    id = 5024
-    provinces = { "xE790B9" "xC5A8BB" "xFA83BD" "xF871F3" "x9BF98C" }
-    city = "x9BF98C"
-    port = "xE790B9"
-    mine = "xFA83BD"
-    wood = "xC5A8BB"
-    farm = "xF871F3"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_YOGHANS = {
-    id = 5025
-    provinces = { "xFAF421" "xB8F791" "xF7CB6E" "xD381AB" "xE880D1" "xD482BD" "xD754D4" }
-    city = "xB8F791"
-    port = "xD381AB"
-    mine = "xD754D4"
-    wood = "xD482BD"
-    farm = "xE880D1"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_TANLONS = {
-    id = 6000
-    provinces = { "xD2D68E" "x9CE4BA" "x9EB7EF" "x8F85FE" "xB3AFC2" "xAFFACC" "xDEC763" }
-    city = "x8F85FE"
-    port = "x9CE4BA"
-    mine = "xB3AFC2"
-    wood = "xDEC763"
-    farm = "xAFFACC"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_KUNTIN = {
-    id = 6001
-    provinces = { "xE0D684" "x3FEAF7" "xBEEA7B" "xE594ED" "xDBD9C0" }
-    city = "x3FEAF7"
-    mine = "xE0D684"
-    wood = "xBEEA7B"
-    farm = "xDBD9C0"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_UNOSANS = {
-    id = 6002
-    provinces = { "xA097E2" "x98B3C5" "x94D5B3" "xDDCAF6" "x7AF592" "xF89E6E" "xE51BF8" }
-    city = "x94D5B3"
-    mine = "xE51BF8"
-    wood = "xF89E6E"
-    farm = "xDDCAF6"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_PANDIN = {
-    id = 6003
-    provinces = { "xB6DEAA" "x9DF58F" "xFE4FF7" "xA8D4F4" "x85DDB1" "x75F5A3" "xC7D7D2" }
-    city = "xFE4FF7"
-    mine = "x75F5A3"
-    wood = "x9DF58F"
-    farm = "xC7D7D2"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_NEO = {
-    id = 6004
-    provinces = { "x79BAD3" "x14FDF2" "x4DFEEF" "x9CF6B8" "xA1BFA0" "xD283BC" "xC3D07E" "xB6F66A" "xD7DDA6" "xEA40F9" "xC8FA9F" "xF4AE6F" "xEEED1E" "xCCF4AE" }
-    city = "xD7DDA6"
-    port = "xEA40F9"
-    mine = "xC3D07E"
-    wood = "xD283BC"
-    farm = "xA1BFA0"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_YUNGON = {
-    id = 6005
-    provinces = { "xE6C2B1" "x8FC9E7" "xF96BED" "x78D3E8" "xFE62F8" "x99D5EA" "xC5DE54" }
-    city = "xE6C2B1"
-    mine = "xF96BED"
-    wood = "xFE62F8"
-    farm = "xC5DE54"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_MALUN = {
-    id = 6006
-    provinces = { "x986FF9" "xB0BAFE" "xE187E7" "xE85CE8" }
-    city = "xB0BAFE"
-    mine = "xE187E7"
-    port = "xB0BAFE"
-    wood = "xE85CE8"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_OPPS = {
-    id = 7000
-    provinces = { "x6BEADE" "xCDE4AB" "xC9DAE3" "xB1A2EA" "xCEB884" "xF9FAB7" }
-    city = "xCEB884"
-    mine = "xF9FAB7"
-    wood = "xC9DAE3"
-    farm = "xCDE4AB"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_ILUNS = {
-    id = 7001
-    provinces = { "x95C1A6" "xAB7EF9" "xE8D45E" "xAB92F6" "x5BA6FB" }
-    city = "xE8D45E"
-    mine = "xAB92F6"
-    wood = "x5BA6FB"
-    farm = "xAB7EF9"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_NUNGONS = {
-    id = 7002
-    provinces = { "xF7D1B1" "xFB97A6" "x82C4E9" "x6EEFE0" "xF406FB" "xAFF1D4" "xF2CF5F" "xDCA8F3" }
-    city = "xF406FB"
-    port = "x82C4E9"
-    mine = "xF7D1B1"
-    wood = "xAFF1D4"
-    farm = "xFB97A6"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_RONSTA = {
-    id = 7003
-    provinces = { "xE5F668" "x88FB89" "xF7778E" "x73C9EA" "xFE8CB3" }
-    city = "x73C9EA"
-    mine = "xF7778E"
-    wood = "x88FB89"
-    farm = "xFE8CB3"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_YANKENE = {
-    id = 7004
-    provinces = { "xF8E339" "xF2E1C4" "xEDB5D3" "x9B8BF6" "xEAE9E3" }
-    city = "xEAE9E3"
-    mine = "xF8E339"
-    wood = "xF2E1C4"
-    farm = "xEDB5D3"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_UHOLE = {
-    id = 7005
-    provinces = { "xB78FBA" "xFBBBB4" "xF28EF1" "xDDFADA" "xB981D8" }
-    city = "xF28EF1"
-    mine = "xB981D8"
-    wood = "xDDFADA"
-    farm = "xFBBBB4"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_QONCE = {
-    id = 7006
-    provinces = { "x7ECEC2" "xD0E7E5" "xF559AC" "xD8FAAE" "x5CE3B7" "x58E2E3" }
-    city = "xD8FAAE"
-    port = "x7ECEC2"
-    mine = "x5CE3B7"
-    wood = "x58E2E3"
-    farm = "xD0E7E5"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_LUNZ = {
-    id = 7007
-    provinces = { "xF9EA83" "x96EFA9" "xC9C3D0" "x46CEFD" "xD15EF4" "xF413F7" "xB9FB69" "xDEED31" "x9CC9AA" }
-    city = "xF413F7"
-    mine = "xB9FB69"
-    wood = "x96EFA9"
-    farm = "x9CC9AA"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_POYAN = {
-    id = 7008
-    provinces = { "xFADF67" "xD381BA" "x8EFD87" "xB9E597" "xE1D771" "xFB62C3" "x47F1D3" "x8FE2C3" "xE1BBB3" }
-    city = "x8EFD87"
-    mine = "xE1D771"
-    wood = "xFADF67"
-    farm = "x47F1D3"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_ILLON = {
-    id = 7009
-    provinces = { "x9EF478" "xC58EA5" "x80E7F5" "xDEC0D8" "xDEECC2" "xCEB0E5" "xC8C674" "xE9E553" }
-    city = "x80E7F5"
-    mine = "xDEECC2"
-    wood = "xC8C674"
-    farm = "xDEC0D8"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_LUNMO = {
-    id = 7010
-    provinces = { "xA4B2C5" "x39D8ED" "xF5EB15" "x89EB83" "xED9681" "xEED49E" "x16F4F9" "xCBA7E4" "xA7C1EA" "x6A93FC" }
-    city = "xEED49E"
-    port = "xCBA7E4"
-    mine = "xF5EB15"
-    wood = "xED9681"
-    farm = "x16F4F9"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_CONSDAN = {
-    id = 8000
-    provinces = { "xFB66DB" "xB9B0AE" "xF7AD7A" "xFCF7DE" "xC1F4B0" "xE7BDA0" "xFBB6AF" }
-    city = "xE7BDA0"
-    port = "xFBB6AF"
-    mine = "xFCF7DE"
-    wood = "xC1F4B0"
-    farm = "xB9B0AE"
-    arable_land = 160
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_NAMON = {
-    id = 8001
-    provinces = { "xD396BA" "x69DBC8" "xEDA2AB" "xB657E8" "x97BEB4" "xB3E784" }
-    city = "xEDA2AB"
-    port = "x69DBC8"
-    mine = "x69DBC8"
-    wood = "xB657E8"
-    farm = "xB3E784"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_OLAND = {
-    id = 8002
-    provinces = { "xAABFF3" "xDADEB8" "xFC4FCB" "xFA61E2" "xE4DEFD" }
-    city = "xDADEB8"
-    port = "xE4DEFD"
-    mine = "xFA61E2"
-    wood = "xFC4FCB"
-    farm = "xAABFF3"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_UNGON = {
-    id = 8003
-    provinces = { "x44E9F7" "xE1FAB2" "x9FE3E5" "xC0F897" "x9D92E2" }
-    city = "xE1FAB2"
-    port = "x9FE3E5"
-    mine = "xC0F897"
-    wood = "x9D92E2"
-    farm = "x44E9F7"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_YANKONLAND = {
-    id = 8004
-    provinces = { "xFBBDE7" "xB9D4F9" "xFED9A2" "xFDE4F2" "xC4FE58" "xD85CEC" }
-    city = "xD85CEC"
-    port = "xC4FE58"
-    mine = "xFBBDE7"
-    wood = "xB9D4F9"
-    farm = "xFDE4F2"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_TUANSLIN = {
-    id = 8005
-    provinces = { "xC8F36E" "xD4FCEC" "x60C9F4" "xB8CEB3" "xD8C9B6" "xC2ACDF" "xFDCD69" "xBFEBB8" "xF8C6BC" }
-    city = "x60C9F4"
-    port = "xBFEBB8"
-    mine = "xB8CEB3"
-    wood = "xD4FCEC"
-    farm = "xF8C6BC"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_YOLYMAN = {
-    id = 8006
-    provinces = { "x4DB4F4" "xFC78B3" "xCAE0C3" "x27EFF9" "xBECBE5" "xEB7FD9" "xFAAFB8" "xDAE89D" "xC281FD" }
-    city = "xBECBE5"
-    port = "x4DB4F4"
-    mine = "xEB7FD9"
-    wood = "x27EFF9"
-    farm = "xFAAFB8"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_TOLIYANS = {
-    id = 8007
-    provinces = { "xFC0AF4" "xA3C194" "x85C2C7" "x9DDED2" "xFB6EFD" "x7489FD" "xF9CB32" "xFAB448" }
-    city = "x7489FD"
-    port = "xF9CB32"
-    mine = "xFB6EFD"
-    wood = "xFC0AF4"
-    farm = "x9DDED2"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_RONCAKE = {
-    id = 8008
-    provinces = { "xD4DE7D" "xDAA18F" "xD8FB85" "xF5CC90" "xEA86D2" "x96D5DE" }
-    city = "xF5CC90"
-    mine = "xD4DE7D"
-    port = "xEA86D2"
-    wood = "xDAA18F"
-    farm = "x96D5DE"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_UILYON = {
-    id = 8009
-    provinces = { "xBFD3BD" "xEF2DEC" "xD9D176" "xDFDA3F" "xC08DF5" "x3CDAFD" "xD2FE46" "xE0C4DA" "xD7E9F8" "xAFB6CB" "xF3EC96" "xA2D4DA" }
-    city = "xE0C4DA"
-    port = "xA2D4DA"
-    mine = "xBFD3BD"
-    wood = "xEF2DEC"
-    farm = "xC08DF5"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_POYANAC = {
-    id = 8010
-    provinces = { "xD9E57B" "x6ACFC5" "x4FFEE7" "xFAF24C" "xBF86D7" "xFD88FC" }
-    city = "x4FFEE7"
-    port = "x6ACFC5"
-    mine = "xFD88FC"
-    wood = "xBF86D7"
-    farm = "xFAF24C"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_CONHOLY = {
-    id = 8011
-    provinces = { "xFC75EE" "x62F3F2" "x73E9E8" "x53DBEA" "xFA72F2" "x80DBC2" "xE76EAD" "xFDFDCE" "xACC3AD" }
-    city = "x80DBC2"
-    mine = "xFDFDCE"
-    wood = "x73E9E8"
-    farm = "x62F3F2"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_ERLANCA = {
-    id = 8012
-    provinces = { "xB8B9A3" "xB3BCC9" "xDFE149" "x6FECB9" "x9DD5E7" "xE38FC9" "xA1D38A" "xED9BF8" }
-    city = "xA1D38A"
-    mine = "xDFE149"
-    farm = "x6FECB9"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_FONTYLY = {
-    id = 8014
-    provinces = { "xA3F5E5" "x89BFE1" "xC9D68D" "xC9E375" "xE69DD8" "x59CFEA" "xB797DF" "x5DC6FB" "x60EEEB" }
-    city = "xB797DF"
-    mine = "xC9E375"
-    wood = "x59CFEA"
-    farm = "x89BFE1"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_QANNER = {
-    id = 8015
-    provinces = { "xF729E6" "xFA35EC" "xF1EA51" "xD5F038" "xFE53C3" "xE0CA7C" "xF9F3C5" "xA6F8D0" }
-    city = "xE0CA7C"
-    mine = "xD5F038"
-    wood = "xF1EA51"
-    farm = "xFE53C3"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_MICNIA = {
-    id = 8016
-    provinces = { "xF7D1C2" "xAA59F7" "xCAD583" "x72B3F3" "x33F0E0" "x8FD9E0" "xD0EDE9" "x5ECCCB" "x97E7CA" "xEAC982" "xC9D0CC" "xE2D3E3" "x94CECB" }
-    city = "x72B3F3"
-    port = "x8FD9E0"
-    mine = "xEAC982"
-    wood = "xF7D1C2"
-    farm = "x5ECCCB"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_VANLANCY = {
-    id = 8017
-    provinces = { "xCDE14E" "x5BFCDB" "xCFD38D" "xB6CFE0" "xD1D583" "x4FD1FB" "xA2F2F4" "xBBF89D" "x96EBF1" "xCBC2DE" "xB7F6D4" }
-    city = "xBBF89D"
-    port = "xCDE14E"
-    mine = "xB7F6D4"
-    wood = "xCFD38D"
-    farm = "x96EBF1"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_GOLYTAN = {
-    id = 8018
-    provinces = { "xF96EE6" "xFCCE6D" "xC1D5F2" "xF248D5" "xE0FED8" "xBEEC67" "x2DCBFE" "x9FF8AF" "x79EFB3" "xB094B3" "xDDF6CE" "xA5A3FC" "xF699C4" "x8DE1B1" "xF8B4F8" "xC0FBDF" }
-    city = "xF96EE6"
-    port = "xF8B4F8"
-    mine = "xA5A3FC"
-    wood = "xDDF6CE"
-    farm = "xF248D5"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_MOLYGY = {
-    id = 9000
-    provinces = { "x9A86D8" "xA8CFF3" "xEAFE5E" "xA793E8" "x8E93D6" "xE1B08D" "x9190D6" "x917FED" "xB9FA4E" "xC68AD0" "xA97AF5" "xC578CF" "x1DF8E1" "x6E8CFC" "xBADE9B" "xFAE838" "xDD97F2" "xCC7FC3" "x89C6D4" }
-    city = "xBADE9B"
-    port = "xA8CFF3"
-    mine = "x1DF8E1"
-    wood = "xA97AF5"
-    farm = "x6E8CFC"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_ARORA = {
-    id = 9001
-    provinces = { "xCB7FE4" "xEDD7E6" "x53DCD5" "xAC6EFC" "xB4F1A1" "xF485E5" "xB5BBA8" "x8EDDBD" "xFE8779" "xF45AEA" "x3EFEE3" "xB6B6E0" }
-    city = "xCB7FE4"
-    mine = "xFE8779"
-    wood = "x3EFEE3"
-    farm = "xB5BBA8"
-    port = "xF485E5"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_FANKENL = {
-    id = 9002
-    provinces = { "xAFE464" "xB6D27A" "xFCCF39" "xA8F16C" "xB2EB8B" "xF98186" "xDECF7E" "xC7B47E" "xF2A65F" "xBEFB63" "x9C9BF3" }
-    city = "xF2A65F"
-    mine = "xAFE464"
-    port = "xA8F16C"
-    wood = "xC7B47E"
-    farm = "xB6D27A"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_GONYANCE = {
-    id = 9003
-    provinces = { "xB55BE9" "xEDDC2F" "x96F998" "xC254F1" "xC875E4" "xCCEEC0" "xA0EEC2" "xE5E48F" "xC5E1FA" "xB5A3F6" "xB0F98E" "x9AD3F1" "x25DAFB" "x7DE5B0" "x80B1F2" }
-    city = "xCCEEC0"
-    port = "xC875E4"
-    mine = "xC5E1FA"
-    wood = "xB55BE9"
-    farm = "xEDDC2F"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
-}
-STATE_RONYALY = {
-    id = 9004
-    provinces = { "xE7A190" "xC8D95A" "x8DF093" "xE65EFA" "xEFD181" "xE947C5" "xEC4EEA" "xDE41FE" "xF1FB19" "xB6B4DB" "xE080BB" "xEEAEE8" "xEA6CAB" "x6CA0FA" }
-    city = "xEA6CAB"
-    port = "xDE41FE"
-    mine = "x8DF093"
-    wood = "xEFD181"
-    farm = "xE7A190"
-    arable_land = 80
-    arable_resources = { bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations }
-    capped_resources = {
-        bg_coal_mining = 50
-        bg_iron_mining = 50
-        bg_lead_mining = 50
-        bg_sulfur_mining = 50
-        bg_logging = 50
-        bg_gold_mining = 20
-        bg_oil_extraction = 50
-        bg_fishing = 10
-        bg_whaling = 10
-    }
-    naval_exit_id = 3000
+STATE_NADALA={
+  id=5000
+  provinces={
+    "xFC50C3" "xBAF88B" "xC1F973" "x79E2F1" "xE3A4B8" "xDFC2B1"
+  }
+  city="x79E2F1"
+  port="xDFC2B1"
+  mine="xFC50C3"
+  wood="x79E2F1"
+  farm="xC1F973"
+  arable_land=30
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_NAVER={
+  id=5001
+  provinces={
+    "xE070C1" "x77DDAF" "x8DA7D5" "xE1B869" "xEC39FE" "xF6F06E" "xD7E6A7"
+  }
+  city="xE070C1"
+  port="xEC39FE"
+  mine="xF6F06E"
+  wood="x77DDAF"
+  farm="xE1B869"
+  arable_land=25
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_NAER={
+  id=5002
+  provinces={
+    "xF2CDDB" "xE599E9" "xE9B5F7" "xCBE1C5" "xB3D592"
+  }
+  city="xCBE1C5"
+  port="xE599E9"
+  mine="xE9B5F7"
+  farm="xF2CDDB"
+  wood="xB3D592"
+  arable_land=35
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_NOUNS={
+  id=5003
+  provinces={
+    "xD7E155" "xED99CF" "xF6FA20" "xCFB5A3" "xFA93E1" "x8CF6AF" "xF0B0E4"
+  }
+  city="xFA93E1"
+  mine="xCFB5A3"
+  wood="x8CF6AF"
+  farm="xF6FA20"
+  arable_land=28
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_SOLON={
+  id=5004
+  provinces={
+    "xC870D1" "xFC78DB" "xC7D5E0" "xA2CDE9" "xD29099" "xC06CFE"
+  }
+  city="xC870D1"
+  port="xC06CFE"
+  mine="xFC78DB"
+  wood="xA2CDE9"
+  farm="xC7D5E0"
+  arable_land=27
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_SUME={
+  id=5005
+  provinces={
+    "x30F6E5" "xC691FA" "xB5D597" "xF0E573" "xFCC1FD" "x4EEAEE" "xDD6ABF" "xFDFEAA"
+  }
+  city="xFDFEAA"
+  port="xF0E573"
+  mine="x30F6E5"
+  wood="x4EEAEE"
+  farm="xDD6ABF"
+  arable_land=20
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_MARSLON={
+  id=5006
+  provinces={
+    "xCCFD5A" "xA9F46A" "xF553BF" "xB4B995" "xE1B5B6" "xF8A0DD" "xFBF178" "x9FCDE3"
+  }
+  city="x9FCDE3"
+  port="xB4B995"
+  mine="xE1B5B6"
+  wood="xF8A0DD"
+  farm="xF553BF"
+  arable_land=20
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_UONGE={
+  id=5007
+  provinces={
+    "xEC68B8" "xF1D672" "xCCC86E" "xF276DF" "xEC55E6" "xB3A8C2" "xCFAFC6"
+  }
+  city="xB3A8C2"
+  mine="xCCC86E"
+  wood="xF276DF"
+  farm="xCFAFC6"
+  arable_land=35
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_YANSEN={
+  id=5008
+  provinces={
+    "x7AB8FD" "xD992F1" "xA9DCB7" "xCE57E3" "xE2A9F8" "xB497D7" "xAEF38A" "xF68CF0"
+  }
+  city="xE2A9F8"
+  port="xAEF38A"
+  mine="xB497D7"
+  wood="xF68CF0"
+  farm="xD992F1"
+  arable_land=20
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_UNOS={
+  id=5009
+  provinces={
+    "xC0A0DA" "xFCC280" "xCED995" "xADBAF7" "xB0BBC3" "xDD80DB" "xC8B5D1" "x95E2B2"
+  }
+  city="xDD80DB"
+  mine="x95E2B2"
+  port="xFCC280"
+  wood="xC8B5D1"
+  farm="xC0A0DA"
+  arable_land=80
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_TUNSLAND={
+  id=5010
+  provinces={
+    "x60EDB8" "xFCC863" "xC6BEA1" "x5AE7CA" "xD759D4" "x5FB3E5" "xDD63FE" "xEB9487"
+  }
+  city="xC6BEA1"
+  mine="x5AE7CA"
+  wood="x5FB3E5"
+  farm="xDD63FE"
+  arable_land=25
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_INOSN={
+  id=5011
+  provinces={
+    "xF7FE4C" "xCCCE8C" "xFB4EEC" "xF7B1EA" "xA6DF9D" "xF1C687" "x22FEF2" "xC3FC96" "xDDA1DF" "x55F6D7"
+  }
+  city="xC3FC96"
+  mine="xFB4EEC"
+  wood="xF1C687"
+  farm="x55F6D7"
+  arable_land=35
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_RONLN={
+  id=5012
+  provinces={
+    "xDAC65A" "xF0EBE7" "xC6CAF8" "xE7A8D2"
+  }
+  city="xDAC65A"
+  mine="xF0EBE7"
+  wood="xC6CAF8"
+  farm="xE7A8D2"
+  arable_land=35
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_LANDEN={
+  id=5013
+  provinces={
+    "xF268DF" "x9DC4E1" "xEFB98C" "xA6E0D8" "xCC6CC0" "xBAE1F6" "xFA83AC"
+  }
+  city="x9DC4E1"
+  port="xA6E0D8"
+  mine="xCC6CC0"
+  wood="xEFB98C"
+  farm="xF268DF"
+  arable_land=40
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_GONS={
+  id=5014
+  provinces={
+    "x95FED1" "xCBC2B7" "x9CB1AB" "xE29FFB" "x979AFC" "xFAE912" "xEE9E9A"
+  }
+  city="xE29FFB"
+  port="x9CB1AB"
+  mine="x95FED1"
+  wood="x979AFC"
+  farm="xFAE912"
+  arable_land=80
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_BOLUN={
+  id=5015
+  provinces={
+    "x71FAE4" "xE3C86F" "xCE3AF3" "xCFF0BA" "x9FFDA4" "xBCF566"
+  }
+  city="xE3C86F"
+  mine="xBCF566"
+  wood="x9FFDA4"
+  farm="xCE3AF3"
+  arable_land=80
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_POLO={
+  id=5016
+  provinces={
+    "xF5D4B9" "xA5F56F" "xD9D277" "xB47AFE" "xDA70CC" "xD4E183"
+  }
+  city="xA5F56F"
+  mine="xB47AFE"
+  wood="xDA70CC"
+  farm="xF5D4B9"
+  arable_land=50
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_MOCHING={
+  id=5017
+  provinces={
+    "xE6E04A" "x6EAAEB" "xE0C49B" "xF68AC7" "xE9F129" "xEB35E8"
+  }
+  city="xEB35E8"
+  mine="xF68AC7"
+  wood="xE9F129"
+  farm="x6EAAEB"
+  arable_land=50
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_YANSN={
+  id=5019
+  provinces={
+    "xB184D2" "xE2ADBD" "xEC7AAB" "xC3B796" "xA47AEE" "xD18DF7"
+  }
+  city="xEC7AAB"
+  mine="xA47AEE"
+  farm="xB184D2"
+  wood="xD18DF7"
+  port="xE2ADBD"
+  arable_land=45
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_BOLUNS={
+  id=5020
+  provinces={
+    "xE2D05F" "xB5E2AB" "xF8C942" "xE0AEF7" "xAFBABF" "xC3A6A9"
+  }
+  city="xC3A6A9"
+  mine="xAFBABF"
+  farm="xF8C942"
+  arable_land=60
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_ZONS={
+  id=5021
+  provinces={
+    "xAAEF61" "x65BDD3" "xE1F9B6" "x52DDD8" "x8F73F6" "xBD69FB"
+  }
+  city="x52DDD8"
+  mine="x52DDD8"
+  wood="xBD69FB"
+  farm="x8F73F6"
+  arable_land=65
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_HILY={
+  id=5022
+  provinces={
+    "xFCB0CD" "xF662C9" "xD1B0B6" "xF6CADE" "xFCBADB" "xB4EFF3"
+  }
+  city="xD1B0B6"
+  mine="xB4EFF3"
+  wood="xF662C9"
+  farm="xF6CADE"
+  arable_land=52
+  arable_resources={
+    bg_wheat_farms
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_GUSKAN={
+  id=5023
+  provinces={
+    "xF5D7AB" "x69D5C7" "x95A3DC" "x9698D2" "xF5B989" "x71EAAD"
+  }
+  city="x95A3DC"
+  mine="xF5B989"
+  wood="xF5D7AB"
+  farm="x9698D2"
+  arable_land=30
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_ERLUN={
+  id=5024
+  provinces={
+    "xE790B9" "xC5A8BB" "xFA83BD" "xF871F3" "x9BF98C"
+  }
+  city="x9BF98C"
+  port="xE790B9"
+  mine="xFA83BD"
+  wood="xC5A8BB"
+  farm="xF871F3"
+  arable_land=80
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_YOGHANS={
+  id=5025
+  provinces={
+    "xFAF421" "xB8F791" "xF7CB6E" "xD381AB" "xE880D1" "xD482BD" "xD754D4"
+  }
+  city="xB8F791"
+  port="xD381AB"
+  mine="xD754D4"
+  wood="xD482BD"
+  farm="xE880D1"
+  arable_land=25
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_TANLONS={
+  id=6000
+  provinces={
+    "xD2D68E" "x9CE4BA" "x9EB7EF" "x8F85FE" "xB3AFC2" "xAFFACC" "xDEC763"
+  }
+  city="x8F85FE"
+  port="x9CE4BA"
+  mine="xB3AFC2"
+  wood="xDEC763"
+  farm="xAFFACC"
+  arable_land=47
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_KUNTIN={
+  id=6001
+  provinces={
+    "xE0D684" "x3FEAF7" "xBEEA7B" "xE594ED" "xDBD9C0"
+  }
+  city="x3FEAF7"
+  mine="xE0D684"
+  wood="xBEEA7B"
+  farm="xDBD9C0"
+  arable_land=45
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_UNOSANS={
+  id=6002
+  provinces={
+    "xA097E2" "x98B3C5" "x94D5B3" "xDDCAF6" "x7AF592" "xF89E6E" "xE51BF8"
+  }
+  city="x94D5B3"
+  mine="xE51BF8"
+  wood="xF89E6E"
+  farm="xDDCAF6"
+  arable_land=51
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_PANDIN={
+  id=6003
+  provinces={
+    "xB6DEAA" "x9DF58F" "xFE4FF7" "xA8D4F4" "x85DDB1" "x75F5A3" "xC7D7D2"
+  }
+  city="xFE4FF7"
+  mine="x75F5A3"
+  wood="x9DF58F"
+  farm="xC7D7D2"
+  arable_land=65
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_NEO={
+  id=6004
+  provinces={
+    "x79BAD3" "x14FDF2" "x4DFEEF" "x9CF6B8" "xA1BFA0" "xD283BC" "xC3D07E" "xB6F66A" "xD7DDA6" "xEA40F9" "xC8FA9F" "xF4AE6F" "xEEED1E" "xCCF4AE"
+  }
+  city="xD7DDA6"
+  port="xEA40F9"
+  mine="xC3D07E"
+  wood="xD283BC"
+  farm="xA1BFA0"
+  arable_land=50
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_YUNGON={
+  id=6005
+  provinces={
+    "xE6C2B1" "x8FC9E7" "xF96BED" "x78D3E8" "xFE62F8" "x99D5EA" "xC5DE54"
+  }
+  city="xE6C2B1"
+  mine="xF96BED"
+  wood="xFE62F8"
+  farm="xC5DE54"
+  arable_land=80
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_MALUN={
+  id=6006
+  provinces={
+    "x986FF9" "xB0BAFE" "xE187E7" "xE85CE8"
+  }
+  city="xB0BAFE"
+  mine="xE187E7"
+  port="xB0BAFE"
+  wood="xE85CE8"
+  arable_land=80
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_OPPS={
+  id=7000
+  provinces={
+    "x6BEADE" "xCDE4AB" "xC9DAE3" "xB1A2EA" "xCEB884" "xF9FAB7"
+  }
+  city="xCEB884"
+  mine="xF9FAB7"
+  wood="xC9DAE3"
+  farm="xCDE4AB"
+  arable_land=65
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_ILUNS={
+  id=7001
+  provinces={
+    "x95C1A6" "xAB7EF9" "xE8D45E" "xAB92F6" "x5BA6FB"
+  }
+  city="xE8D45E"
+  mine="xAB92F6"
+  wood="x5BA6FB"
+  farm="xAB7EF9"
+  arable_land=67
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_NUNGONS={
+  id=7002
+  provinces={
+    "xF7D1B1" "xFB97A6" "x82C4E9" "x6EEFE0" "xF406FB" "xAFF1D4" "xF2CF5F" "xDCA8F3"
+  }
+  city="xF406FB"
+  port="x82C4E9"
+  mine="xF7D1B1"
+  wood="xAFF1D4"
+  farm="xFB97A6"
+  arable_land=30
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_RONSTA={
+  id=7003
+  provinces={
+    "xE5F668" "x88FB89" "xF7778E" "x73C9EA" "xFE8CB3"
+  }
+  city="x73C9EA"
+  mine="xF7778E"
+  wood="x88FB89"
+  farm="xFE8CB3"
+  arable_land=25
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_YANKENE={
+  id=7004
+  provinces={
+    "xF8E339" "xF2E1C4" "xEDB5D3" "x9B8BF6" "xEAE9E3"
+  }
+  city="xEAE9E3"
+  mine="xF8E339"
+  wood="xF2E1C4"
+  farm="xEDB5D3"
+  arable_land=22
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_UHOLE={
+  id=7005
+  provinces={
+    "xB78FBA" "xFBBBB4" "xF28EF1" "xDDFADA" "xB981D8"
+  }
+  city="xF28EF1"
+  mine="xB981D8"
+  wood="xDDFADA"
+  farm="xFBBBB4"
+  arable_land=34
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_QONCE={
+  id=7006
+  provinces={
+    "x7ECEC2" "xD0E7E5" "xF559AC" "xD8FAAE" "x5CE3B7" "x58E2E3"
+  }
+  city="xD8FAAE"
+  port="x7ECEC2"
+  mine="x5CE3B7"
+  wood="x58E2E3"
+  farm="xD0E7E5"
+  arable_land=20
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_LUNZ={
+  id=7007
+  provinces={
+    "xF9EA83" "x96EFA9" "xC9C3D0" "x46CEFD" "xD15EF4" "xF413F7" "xB9FB69" "xDEED31" "x9CC9AA"
+  }
+  city="xF413F7"
+  mine="xB9FB69"
+  wood="x96EFA9"
+  farm="x9CC9AA"
+  arable_land=66
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_POYAN={
+  id=7008
+  provinces={
+    "xFADF67" "xD381BA" "x8EFD87" "xB9E597" "xE1D771" "xFB62C3" "x47F1D3" "x8FE2C3" "xE1BBB3"
+  }
+  city="x8EFD87"
+  mine="xE1D771"
+  wood="xFADF67"
+  farm="x47F1D3"
+  arable_land=72
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_ILLON={
+  id=7009
+  provinces={
+    "x9EF478" "xC58EA5" "x80E7F5" "xDEC0D8" "xDEECC2" "xCEB0E5" "xC8C674" "xE9E553"
+  }
+  city="x80E7F5"
+  mine="xDEECC2"
+  wood="xC8C674"
+  farm="xDEC0D8"
+  arable_land=67
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_LUNMO={
+  id=7010
+  provinces={
+    "xA4B2C5" "x39D8ED" "xF5EB15" "x89EB83" "xED9681" "xEED49E" "x16F4F9" "xCBA7E4" "xA7C1EA" "x6A93FC"
+  }
+  city="xEED49E"
+  port="xCBA7E4"
+  mine="xF5EB15"
+  wood="xED9681"
+  farm="x16F4F9"
+  arable_land=71
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_CONSDAN={
+  id=8000
+  provinces={
+    "xFB66DB" "xB9B0AE" "xF7AD7A" "xFCF7DE" "xC1F4B0" "xE7BDA0" "xFBB6AF"
+  }
+  city="xF7AD7A"
+  port="xFBB6AF"
+  mine="xFCF7DE"
+  wood="xC1F4B0"
+  farm="xB9B0AE"
+  arable_land=160
+  arable_resources={
+    bg_wheat_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_NAMON={
+  id=8001
+  provinces={
+    "xD396BA" "x69DBC8" "xEDA2AB" "xB657E8" "x97BEB4" "xB3E784"
+  }
+  city="xEDA2AB"
+  port="x69DBC8"
+  mine="x69DBC8"
+  wood="xB657E8"
+  farm="xB3E784"
+  arable_land=22
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_OLAND={
+  id=8002
+  provinces={
+    "xAABFF3" "xDADEB8" "xFC4FCB" "xFA61E2" "xE4DEFD"
+  }
+  city="xDADEB8"
+  port="xE4DEFD"
+  mine="xFA61E2"
+  wood="xFC4FCB"
+  farm="xAABFF3"
+  arable_land=80
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_UNGON={
+  id=8003
+  provinces={
+    "x44E9F7" "xE1FAB2" "x9FE3E5" "xC0F897" "x9D92E2"
+  }
+  city="xE1FAB2"
+  port="x9FE3E5"
+  mine="xC0F897"
+  wood="x9D92E2"
+  farm="x44E9F7"
+  arable_land=24
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_YANKONLAND={
+  id=8004
+  provinces={
+    "xFBBDE7" "xB9D4F9" "xFED9A2" "xFDE4F2" "xC4FE58" "xD85CEC"
+  }
+  city="xD85CEC"
+  port="xC4FE58"
+  mine="xFBBDE7"
+  wood="xB9D4F9"
+  farm="xFDE4F2"
+  arable_land=27
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_TUANSLIN={
+  id=8005
+  provinces={
+    "xC8F36E" "xD4FCEC" "x60C9F4" "xB8CEB3" "xD8C9B6" "xC2ACDF" "xFDCD69" "xBFEBB8" "xF8C6BC"
+  }
+  city="x60C9F4"
+  port="xBFEBB8"
+  mine="xB8CEB3"
+  wood="xD4FCEC"
+  farm="xF8C6BC"
+  arable_land=20
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_YOLYMAN={
+  id=8006
+  provinces={
+    "x4DB4F4" "xFC78B3" "xCAE0C3" "x27EFF9" "xBECBE5" "xEB7FD9" "xFAAFB8" "xDAE89D" "xC281FD"
+  }
+  city="xBECBE5"
+  port="x4DB4F4"
+  mine="xEB7FD9"
+  wood="x27EFF9"
+  farm="xFAAFB8"
+  arable_land=7
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_TOLIYANS={
+  id=8007
+  provinces={
+    "xFC0AF4" "xA3C194" "x85C2C7" "x9DDED2" "xFB6EFD" "x7489FD" "xF9CB32" "xFAB448"
+  }
+  city="x7489FD"
+  port="xF9CB32"
+  mine="xFB6EFD"
+  wood="xFC0AF4"
+  farm="x9DDED2"
+  arable_land=8
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_RONCAKE={
+  id=8008
+  provinces={
+    "xD4DE7D" "xDAA18F" "xD8FB85" "xF5CC90" "xEA86D2" "x96D5DE"
+  }
+  city="xF5CC90"
+  mine="xD4DE7D"
+  port="xEA86D2"
+  wood="xDAA18F"
+  farm="x96D5DE"
+  arable_land=20
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_UILYON={
+  id=8009
+  provinces={
+    "xBFD3BD" "xEF2DEC" "xD9D176" "xDFDA3F" "xC08DF5" "x3CDAFD" "xD2FE46" "xE0C4DA" "xD7E9F8" "xAFB6CB" "xF3EC96" "xA2D4DA"
+  }
+  city="xE0C4DA"
+  port="xA2D4DA"
+  mine="xBFD3BD"
+  wood="xEF2DEC"
+  farm="xC08DF5"
+  arable_land=80
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_POYANAC={
+  id=8010
+  provinces={
+    "xD9E57B" "x6ACFC5" "x4FFEE7" "xFAF24C" "xBF86D7" "xFD88FC"
+  }
+  city="x4FFEE7"
+  port="x6ACFC5"
+  mine="xFD88FC"
+  wood="xBF86D7"
+  farm="xFAF24C"
+  arable_land=21
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_CONHOLY={
+  id=8011
+  provinces={
+    "xFC75EE" "x62F3F2" "x73E9E8" "x53DBEA" "xFA72F2" "x80DBC2" "xE76EAD" "xFDFDCE" "xACC3AD"
+  }
+  city="x80DBC2"
+  mine="xFDFDCE"
+  wood="x73E9E8"
+  farm="x62F3F2"
+  arable_land=10
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_ERLANCA={
+  id=8012
+  provinces={
+    "xB8B9A3" "xB3BCC9" "xDFE149" "x6FECB9" "x9DD5E7" "xE38FC9" "xA1D38A" "xED9BF8"
+  }
+  city="xA1D38A"
+  mine="xDFE149"
+  farm="x6FECB9"
+  arable_land=19
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_FONTYLY={
+  id=8014
+  provinces={
+    "xA3F5E5" "x89BFE1" "xC9D68D" "xC9E375" "xE69DD8" "x59CFEA" "xB797DF" "x5DC6FB" "x60EEEB"
+  }
+  city="xB797DF"
+  mine="xC9E375"
+  wood="x59CFEA"
+  farm="x89BFE1"
+  arable_land=10
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_QANNER={
+  id=8015
+  provinces={
+    "xF729E6" "xFA35EC" "xF1EA51" "xD5F038" "xFE53C3" "xE0CA7C" "xF9F3C5" "xA6F8D0"
+  }
+  city="xE0CA7C"
+  mine="xD5F038"
+  wood="xF1EA51"
+  farm="xFE53C3"
+  arable_land=12
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_MICNIA={
+  id=8016
+  provinces={
+    "xF7D1C2" "xAA59F7" "xCAD583" "x72B3F3" "x33F0E0" "x8FD9E0" "xD0EDE9" "x5ECCCB" "x97E7CA" "xEAC982" "xC9D0CC" "xE2D3E3" "x94CECB"
+  }
+  city="x72B3F3"
+  port="x8FD9E0"
+  mine="xEAC982"
+  wood="xF7D1C2"
+  farm="x5ECCCB"
+  arable_land=13
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_VANLANCY={
+  id=8017
+  provinces={
+    "xCDE14E" "x5BFCDB" "xCFD38D" "xB6CFE0" "xD1D583" "x4FD1FB" "xA2F2F4" "xBBF89D" "x96EBF1" "xCBC2DE" "xB7F6D4"
+  }
+  city="xBBF89D"
+  port="xCDE14E"
+  mine="xB7F6D4"
+  wood="xCFD38D"
+  farm="x96EBF1"
+  arable_land=11
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_GOLYTAN={
+  id=8018
+  provinces={
+    "xF96EE6" "xFCCE6D" "xC1D5F2" "xF248D5" "xE0FED8" "xBEEC67" "x2DCBFE" "x9FF8AF" "x79EFB3" "xB094B3" "xDDF6CE" "xA5A3FC" "xF699C4" "x8DE1B1" "xF8B4F8" "xC0FBDF"
+  }
+  city="xF96EE6"
+  port="xF8B4F8"
+  mine="xA5A3FC"
+  wood="xDDF6CE"
+  farm="xF248D5"
+  arable_land=12
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_MOLYGY={
+  id=9000
+  provinces={
+    "x9A86D8" "xA8CFF3" "xEAFE5E" "xA793E8" "x8E93D6" "xE1B08D" "x9190D6" "x917FED" "xB9FA4E" "xC68AD0" "xA97AF5" "xC578CF" "x1DF8E1" "x6E8CFC" "xBADE9B" "xFAE838" "xDD97F2" "xCC7FC3" "x89C6D4"
+  }
+  city="xBADE9B"
+  port="xA8CFF3"
+  mine="x1DF8E1"
+  wood="xA97AF5"
+  farm="x6E8CFC"
+  arable_land=15
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_ARORA={
+  id=9001
+  provinces={
+    "xCB7FE4" "xEDD7E6" "x53DCD5" "xAC6EFC" "xB4F1A1" "xF485E5" "xB5BBA8" "x8EDDBD" "xFE8779" "xF45AEA" "x3EFEE3" "xB6B6E0"
+  }
+  city="xCB7FE4"
+  mine="xFE8779"
+  wood="x3EFEE3"
+  farm="xB5BBA8"
+  port="xF485E5"
+  arable_land=12
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_FANKENL={
+  id=9002
+  provinces={
+    "xAFE464" "xB6D27A" "xFCCF39" "xA8F16C" "xB2EB8B" "xF98186" "xDECF7E" "xC7B47E" "xF2A65F" "xBEFB63" "x9C9BF3"
+  }
+  city="xF2A65F"
+  mine="xAFE464"
+  port="xA8F16C"
+  wood="xC7B47E"
+  farm="xB6D27A"
+  arable_land=22
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_GONYANCE={
+  id=9003
+  provinces={
+    "xB55BE9" "xEDDC2F" "x96F998" "xC254F1" "xC875E4" "xCCEEC0" "xA0EEC2" "xE5E48F" "xC5E1FA" "xB5A3F6" "xB0F98E" "x9AD3F1" "x25DAFB" "x7DE5B0" "x80B1F2"
+  }
+  city="xCCEEC0"
+  port="xC875E4"
+  mine="xC5E1FA"
+  wood="xB55BE9"
+  farm="xEDDC2F"
+  arable_land=21
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
+}
+STATE_RONYALY={
+  id=9004
+  provinces={
+    "xE7A190" "xC8D95A" "x8DF093" "xE65EFA" "xEFD181" "xE947C5" "xEC4EEA" "xDE41FE" "xF1FB19" "xB6B4DB" "xE080BB" "xEEAEE8" "xEA6CAB" "x6CA0FA"
+  }
+  city="xEA6CAB"
+  port="xDE41FE"
+  mine="x8DF093"
+  wood="xEFD181"
+  farm="xE7A190"
+  arable_land=22
+  arable_resources={
+    bg_rye_farms bg_wheat_farms bg_rice_farms bg_maize_farms bg_millet_farms bg_coffee_plantations bg_cotton_plantations bg_dye_plantations bg_opium_plantations bg_tea_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations bg_silk_plantations bg_rubber_plantations
+  }
+  capped_resources={
+    bg_coal_mining=50
+    bg_iron_mining=50
+    bg_lead_mining=50
+    bg_sulfur_mining=50
+    bg_logging=50
+    bg_gold_mining=20
+    bg_oil_extraction=50
+    bg_fishing=10
+    bg_whaling=10
+  }
+  naval_exit_id=3000
 }

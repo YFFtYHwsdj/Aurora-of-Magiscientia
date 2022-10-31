@@ -1,4 +1,4 @@
-﻿NPops = {
+NPops = {
 	MIGRATION_PULL_UNEMPLOYMENT_DIV = 20				# At above max unemployed pops, migration pull is divided by this
 	
 	# The below factors are applied *after* migration pull threshold checks, so they only impact how large a share of migration a state gets

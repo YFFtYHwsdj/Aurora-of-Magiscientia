@@ -1,3 +1,4 @@
-﻿NCountry = {
-    
+NCountry = {
+    EXPENSIVE_GOODS_THRESHOLD = 1.7			# Used for some triggers and gui functions
+	CHEAP_GOODS_THRESHOLD = 0.6				# Used for some triggers and gui functions
 }
