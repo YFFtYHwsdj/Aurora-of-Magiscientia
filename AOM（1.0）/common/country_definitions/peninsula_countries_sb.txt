@@ -57,7 +57,7 @@ ZZC = {	#达文
 
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { peninsula }
 	religion = holy_church
@@ -68,7 +68,7 @@ LUA = {	#拉多维亚
 
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { peninsula }
 	religion = holy_church
@@ -101,7 +101,7 @@ PPA = {	#圣剑骑士团		原TAU教国附属
 
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { peninsula }
 	religion = holy_church
@@ -134,7 +134,7 @@ SUV = {	#苏瓦尔
 
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { peninsula }
 	religion = holy_church
@@ -189,10 +189,10 @@ CPA = {	#半岛尼亚
 
 	country_type = recognized
 
-	tier = hegemony
+	tier = principality
 	
 	cultures = { peninsula }
-	religion = holy_churchs
+	religion = holy_church
 	capital = STATE_SALAND
 }
 TOL = {	#半岛尼亚
@@ -200,9 +200,9 @@ TOL = {	#半岛尼亚
 
 	country_type = recognized
 
-	tier = hegemony
+	tier = principality
 	
 	cultures = { peninsula }
-	religion = holy_churchs
+	religion = holy_church
 	capital = STATE_CHENHOLY
 }

@@ -1,5 +1,5 @@
-STATE_NADALA={
-  id=5000
+﻿STATE_NADALA={
+  id= 1
   provinces={
     "xFC50C3" "xBAF88B" "xC1F973" "x79E2F1" "xE3A4B8" "xDFC2B1"
   }
@@ -26,7 +26,7 @@ STATE_NADALA={
   naval_exit_id=3000
 }
 STATE_NAVER={
-  id=5001
+  id=2
   provinces={
     "xE070C1" "x77DDAF" "x8DA7D5" "xE1B869" "xEC39FE" "xF6F06E" "xD7E6A7"
   }
@@ -53,7 +53,7 @@ STATE_NAVER={
   naval_exit_id=3000
 }
 STATE_NAER={
-  id=5002
+  id=3
   provinces={
     "xF2CDDB" "xE599E9" "xE9B5F7" "xCBE1C5" "xB3D592"
   }
@@ -80,7 +80,7 @@ STATE_NAER={
   naval_exit_id=3000
 }
 STATE_NOUNS={
-  id=5003
+  id=4
   provinces={
     "xD7E155" "xED99CF" "xF6FA20" "xCFB5A3" "xFA93E1" "x8CF6AF" "xF0B0E4"
   }
@@ -106,7 +106,7 @@ STATE_NOUNS={
   naval_exit_id=3000
 }
 STATE_SOLON={
-  id=5004
+  id=5
   provinces={
     "xC870D1" "xFC78DB" "xC7D5E0" "xA2CDE9" "xD29099" "xC06CFE"
   }
@@ -133,7 +133,7 @@ STATE_SOLON={
   naval_exit_id=3000
 }
 STATE_SUME={
-  id=5005
+  id=6
   provinces={
     "x30F6E5" "xC691FA" "xB5D597" "xF0E573" "xFCC1FD" "x4EEAEE" "xDD6ABF" "xFDFEAA"
   }
@@ -160,7 +160,7 @@ STATE_SUME={
   naval_exit_id=3000
 }
 STATE_MARSLON={
-  id=5006
+  id=7
   provinces={
     "xCCFD5A" "xA9F46A" "xF553BF" "xB4B995" "xE1B5B6" "xF8A0DD" "xFBF178" "x9FCDE3"
   }
@@ -187,7 +187,7 @@ STATE_MARSLON={
   naval_exit_id=3000
 }
 STATE_UONGE={
-  id=5007
+  id=8
   provinces={
     "xEC68B8" "xF1D672" "xCCC86E" "xF276DF" "xEC55E6" "xB3A8C2" "xCFAFC6"
   }
@@ -213,7 +213,7 @@ STATE_UONGE={
   naval_exit_id=3000
 }
 STATE_YANSEN={
-  id=5008
+  id=9
   provinces={
     "x7AB8FD" "xD992F1" "xA9DCB7" "xCE57E3" "xE2A9F8" "xB497D7" "xAEF38A" "xF68CF0"
   }
@@ -240,7 +240,7 @@ STATE_YANSEN={
   naval_exit_id=3000
 }
 STATE_UNOS={
-  id=5009
+  id=10
   provinces={
     "xC0A0DA" "xFCC280" "xCED995" "xADBAF7" "xB0BBC3" "xDD80DB" "xC8B5D1" "x95E2B2"
   }
@@ -267,7 +267,7 @@ STATE_UNOS={
   naval_exit_id=3000
 }
 STATE_TUNSLAND={
-  id=5010
+  id=11
   provinces={
     "x60EDB8" "xFCC863" "xC6BEA1" "x5AE7CA" "xD759D4" "x5FB3E5" "xDD63FE" "xEB9487"
   }
@@ -293,7 +293,7 @@ STATE_TUNSLAND={
   naval_exit_id=3000
 }
 STATE_INOSN={
-  id=5011
+  id=12
   provinces={
     "xF7FE4C" "xCCCE8C" "xFB4EEC" "xF7B1EA" "xA6DF9D" "xF1C687" "x22FEF2" "xC3FC96" "xDDA1DF" "x55F6D7"
   }
@@ -319,7 +319,7 @@ STATE_INOSN={
   naval_exit_id=3000
 }
 STATE_RONLN={
-  id=5012
+  id=13
   provinces={
     "xDAC65A" "xF0EBE7" "xC6CAF8" "xE7A8D2"
   }
@@ -345,7 +345,7 @@ STATE_RONLN={
   naval_exit_id=3000
 }
 STATE_LANDEN={
-  id=5013
+  id=14
   provinces={
     "xF268DF" "x9DC4E1" "xEFB98C" "xA6E0D8" "xCC6CC0" "xBAE1F6" "xFA83AC"
   }
@@ -372,7 +372,7 @@ STATE_LANDEN={
   naval_exit_id=3000
 }
 STATE_GONS={
-  id=5014
+  id=15
   provinces={
     "x95FED1" "xCBC2B7" "x9CB1AB" "xE29FFB" "x979AFC" "xFAE912" "xEE9E9A"
   }
@@ -399,7 +399,7 @@ STATE_GONS={
   naval_exit_id=3000
 }
 STATE_BOLUN={
-  id=5015
+  id=16
   provinces={
     "x71FAE4" "xE3C86F" "xCE3AF3" "xCFF0BA" "x9FFDA4" "xBCF566"
   }
@@ -425,7 +425,7 @@ STATE_BOLUN={
   naval_exit_id=3000
 }
 STATE_POLO={
-  id=5016
+  id=17
   provinces={
     "xF5D4B9" "xA5F56F" "xD9D277" "xB47AFE" "xDA70CC" "xD4E183"
   }
@@ -451,7 +451,7 @@ STATE_POLO={
   naval_exit_id=3000
 }
 STATE_MOCHING={
-  id=5017
+  id=18
   provinces={
     "xE6E04A" "x6EAAEB" "xE0C49B" "xF68AC7" "xE9F129" "xEB35E8"
   }
@@ -477,7 +477,7 @@ STATE_MOCHING={
   naval_exit_id=3000
 }
 STATE_YANSN={
-  id=5019
+  id=19
   provinces={
     "xB184D2" "xE2ADBD" "xEC7AAB" "xC3B796" "xA47AEE" "xD18DF7"
   }
@@ -504,7 +504,7 @@ STATE_YANSN={
   naval_exit_id=3000
 }
 STATE_BOLUNS={
-  id=5020
+  id=20
   provinces={
     "xE2D05F" "xB5E2AB" "xF8C942" "xE0AEF7" "xAFBABF" "xC3A6A9"
   }
@@ -529,7 +529,7 @@ STATE_BOLUNS={
   naval_exit_id=3000
 }
 STATE_ZONS={
-  id=5021
+  id=21
   provinces={
     "xAAEF61" "x65BDD3" "xE1F9B6" "x52DDD8" "x8F73F6" "xBD69FB"
   }
@@ -555,7 +555,7 @@ STATE_ZONS={
   naval_exit_id=3000
 }
 STATE_HILY={
-  id=5022
+  id=22
   provinces={
     "xFCB0CD" "xF662C9" "xD1B0B6" "xF6CADE" "xFCBADB" "xB4EFF3"
   }
@@ -581,7 +581,7 @@ STATE_HILY={
   naval_exit_id=3000
 }
 STATE_GUSKAN={
-  id=5023
+  id=23
   provinces={
     "xF5D7AB" "x69D5C7" "x95A3DC" "x9698D2" "xF5B989" "x71EAAD"
   }
@@ -607,7 +607,7 @@ STATE_GUSKAN={
   naval_exit_id=3000
 }
 STATE_ERLUN={
-  id=5024
+  id=24
   provinces={
     "xE790B9" "xC5A8BB" "xFA83BD" "xF871F3" "x9BF98C"
   }
@@ -634,7 +634,7 @@ STATE_ERLUN={
   naval_exit_id=3000
 }
 STATE_YOGHANS={
-  id=5025
+  id=25
   provinces={
     "xFAF421" "xB8F791" "xF7CB6E" "xD381AB" "xE880D1" "xD482BD" "xD754D4"
   }
@@ -661,7 +661,7 @@ STATE_YOGHANS={
   naval_exit_id=3000
 }
 STATE_TANLONS={
-  id=6000
+  id=26
   provinces={
     "xD2D68E" "x9CE4BA" "x9EB7EF" "x8F85FE" "xB3AFC2" "xAFFACC" "xDEC763"
   }
@@ -688,7 +688,7 @@ STATE_TANLONS={
   naval_exit_id=3000
 }
 STATE_KUNTIN={
-  id=6001
+  id=27
   provinces={
     "xE0D684" "x3FEAF7" "xBEEA7B" "xE594ED" "xDBD9C0"
   }
@@ -714,7 +714,7 @@ STATE_KUNTIN={
   naval_exit_id=3000
 }
 STATE_UNOSANS={
-  id=6002
+  id=28
   provinces={
     "xA097E2" "x98B3C5" "x94D5B3" "xDDCAF6" "x7AF592" "xF89E6E" "xE51BF8"
   }
@@ -740,7 +740,7 @@ STATE_UNOSANS={
   naval_exit_id=3000
 }
 STATE_PANDIN={
-  id=6003
+  id=29
   provinces={
     "xB6DEAA" "x9DF58F" "xFE4FF7" "xA8D4F4" "x85DDB1" "x75F5A3" "xC7D7D2"
   }
@@ -766,7 +766,7 @@ STATE_PANDIN={
   naval_exit_id=3000
 }
 STATE_NEO={
-  id=6004
+  id=30
   provinces={
     "x79BAD3" "x14FDF2" "x4DFEEF" "x9CF6B8" "xA1BFA0" "xD283BC" "xC3D07E" "xB6F66A" "xD7DDA6" "xEA40F9" "xC8FA9F" "xF4AE6F" "xEEED1E" "xCCF4AE"
   }
@@ -793,7 +793,7 @@ STATE_NEO={
   naval_exit_id=3000
 }
 STATE_YUNGON={
-  id=6005
+  id=31
   provinces={
     "xE6C2B1" "x8FC9E7" "xF96BED" "x78D3E8" "xFE62F8" "x99D5EA" "xC5DE54"
   }
@@ -819,7 +819,7 @@ STATE_YUNGON={
   naval_exit_id=3000
 }
 STATE_MALUN={
-  id=6006
+  id=32
   provinces={
     "x986FF9" "xB0BAFE" "xE187E7" "xE85CE8"
   }
@@ -845,7 +845,7 @@ STATE_MALUN={
   naval_exit_id=3000
 }
 STATE_OPPS={
-  id=7000
+  id=33
   provinces={
     "x6BEADE" "xCDE4AB" "xC9DAE3" "xB1A2EA" "xCEB884" "xF9FAB7"
   }
@@ -871,7 +871,7 @@ STATE_OPPS={
   naval_exit_id=3000
 }
 STATE_ILUNS={
-  id=7001
+  id=34
   provinces={
     "x95C1A6" "xAB7EF9" "xE8D45E" "xAB92F6" "x5BA6FB"
   }
@@ -897,7 +897,7 @@ STATE_ILUNS={
   naval_exit_id=3000
 }
 STATE_NUNGONS={
-  id=7002
+  id=35
   provinces={
     "xF7D1B1" "xFB97A6" "x82C4E9" "x6EEFE0" "xF406FB" "xAFF1D4" "xF2CF5F" "xDCA8F3"
   }
@@ -924,7 +924,7 @@ STATE_NUNGONS={
   naval_exit_id=3000
 }
 STATE_RONSTA={
-  id=7003
+  id=36
   provinces={
     "xE5F668" "x88FB89" "xF7778E" "x73C9EA" "xFE8CB3"
   }
@@ -950,7 +950,7 @@ STATE_RONSTA={
   naval_exit_id=3000
 }
 STATE_YANKENE={
-  id=7004
+  id=37
   provinces={
     "xF8E339" "xF2E1C4" "xEDB5D3" "x9B8BF6" "xEAE9E3"
   }
@@ -976,7 +976,7 @@ STATE_YANKENE={
   naval_exit_id=3000
 }
 STATE_UHOLE={
-  id=7005
+  id=38
   provinces={
     "xB78FBA" "xFBBBB4" "xF28EF1" "xDDFADA" "xB981D8"
   }
@@ -1002,7 +1002,7 @@ STATE_UHOLE={
   naval_exit_id=3000
 }
 STATE_QONCE={
-  id=7006
+  id=39
   provinces={
     "x7ECEC2" "xD0E7E5" "xF559AC" "xD8FAAE" "x5CE3B7" "x58E2E3"
   }
@@ -1029,7 +1029,7 @@ STATE_QONCE={
   naval_exit_id=3000
 }
 STATE_LUNZ={
-  id=7007
+  id=40
   provinces={
     "xF9EA83" "x96EFA9" "xC9C3D0" "x46CEFD" "xD15EF4" "xF413F7" "xB9FB69" "xDEED31" "x9CC9AA"
   }
@@ -1055,7 +1055,7 @@ STATE_LUNZ={
   naval_exit_id=3000
 }
 STATE_POYAN={
-  id=7008
+  id=41
   provinces={
     "xFADF67" "xD381BA" "x8EFD87" "xB9E597" "xE1D771" "xFB62C3" "x47F1D3" "x8FE2C3" "xE1BBB3"
   }
@@ -1081,7 +1081,7 @@ STATE_POYAN={
   naval_exit_id=3000
 }
 STATE_ILLON={
-  id=7009
+  id=42
   provinces={
     "x9EF478" "xC58EA5" "x80E7F5" "xDEC0D8" "xDEECC2" "xCEB0E5" "xC8C674" "xE9E553"
   }
@@ -1107,7 +1107,7 @@ STATE_ILLON={
   naval_exit_id=3000
 }
 STATE_LUNMO={
-  id=7010
+  id=43
   provinces={
     "xA4B2C5" "x39D8ED" "xF5EB15" "x89EB83" "xED9681" "xEED49E" "x16F4F9" "xCBA7E4" "xA7C1EA" "x6A93FC"
   }
@@ -1134,7 +1134,7 @@ STATE_LUNMO={
   naval_exit_id=3000
 }
 STATE_CONSDAN={
-  id=8000
+  id=44
   provinces={
     "xFB66DB" "xB9B0AE" "xF7AD7A" "xFCF7DE" "xC1F4B0" "xE7BDA0" "xFBB6AF"
   }
@@ -1161,7 +1161,7 @@ STATE_CONSDAN={
   naval_exit_id=3000
 }
 STATE_NAMON={
-  id=8001
+  id=45
   provinces={
     "xD396BA" "x69DBC8" "xEDA2AB" "xB657E8" "x97BEB4" "xB3E784"
   }
@@ -1188,7 +1188,7 @@ STATE_NAMON={
   naval_exit_id=3000
 }
 STATE_OLAND={
-  id=8002
+  id=46
   provinces={
     "xAABFF3" "xDADEB8" "xFC4FCB" "xFA61E2" "xE4DEFD"
   }
@@ -1215,7 +1215,7 @@ STATE_OLAND={
   naval_exit_id=3000
 }
 STATE_UNGON={
-  id=8003
+  id=47
   provinces={
     "x44E9F7" "xE1FAB2" "x9FE3E5" "xC0F897" "x9D92E2"
   }
@@ -1242,7 +1242,7 @@ STATE_UNGON={
   naval_exit_id=3000
 }
 STATE_YANKONLAND={
-  id=8004
+  id=48
   provinces={
     "xFBBDE7" "xB9D4F9" "xFED9A2" "xFDE4F2" "xC4FE58" "xD85CEC"
   }
@@ -1269,7 +1269,7 @@ STATE_YANKONLAND={
   naval_exit_id=3000
 }
 STATE_TUANSLIN={
-  id=8005
+  id=49
   provinces={
     "xC8F36E" "xD4FCEC" "x60C9F4" "xB8CEB3" "xD8C9B6" "xC2ACDF" "xFDCD69" "xBFEBB8" "xF8C6BC"
   }
@@ -1296,7 +1296,7 @@ STATE_TUANSLIN={
   naval_exit_id=3000
 }
 STATE_YOLYMAN={
-  id=8006
+  id=50
   provinces={
     "x4DB4F4" "xFC78B3" "xCAE0C3" "x27EFF9" "xBECBE5" "xEB7FD9" "xFAAFB8" "xDAE89D" "xC281FD"
   }
@@ -1323,7 +1323,7 @@ STATE_YOLYMAN={
   naval_exit_id=3000
 }
 STATE_TOLIYANS={
-  id=8007
+  id=51
   provinces={
     "xFC0AF4" "xA3C194" "x85C2C7" "x9DDED2" "xFB6EFD" "x7489FD" "xF9CB32" "xFAB448"
   }
@@ -1350,7 +1350,7 @@ STATE_TOLIYANS={
   naval_exit_id=3000
 }
 STATE_RONCAKE={
-  id=8008
+  id=52
   provinces={
     "xD4DE7D" "xDAA18F" "xD8FB85" "xF5CC90" "xEA86D2" "x96D5DE"
   }
@@ -1377,7 +1377,7 @@ STATE_RONCAKE={
   naval_exit_id=3000
 }
 STATE_UILYON={
-  id=8009
+  id=53
   provinces={
     "xBFD3BD" "xEF2DEC" "xD9D176" "xDFDA3F" "xC08DF5" "x3CDAFD" "xD2FE46" "xE0C4DA" "xD7E9F8" "xAFB6CB" "xF3EC96" "xA2D4DA"
   }
@@ -1404,7 +1404,7 @@ STATE_UILYON={
   naval_exit_id=3000
 }
 STATE_POYANAC={
-  id=8010
+  id=54
   provinces={
     "xD9E57B" "x6ACFC5" "x4FFEE7" "xFAF24C" "xBF86D7" "xFD88FC"
   }
@@ -1431,7 +1431,7 @@ STATE_POYANAC={
   naval_exit_id=3000
 }
 STATE_CONHOLY={
-  id=8011
+  id=55
   provinces={
     "xFC75EE" "x62F3F2" "x73E9E8" "x53DBEA" "xFA72F2" "x80DBC2" "xE76EAD" "xFDFDCE" "xACC3AD"
   }
@@ -1457,7 +1457,7 @@ STATE_CONHOLY={
   naval_exit_id=3000
 }
 STATE_ERLANCA={
-  id=8012
+  id=56
   provinces={
     "xB8B9A3" "xB3BCC9" "xDFE149" "x6FECB9" "x9DD5E7" "xE38FC9" "xA1D38A" "xED9BF8"
   }
@@ -1482,7 +1482,7 @@ STATE_ERLANCA={
   naval_exit_id=3000
 }
 STATE_FONTYLY={
-  id=8014
+  id=57
   provinces={
     "xA3F5E5" "x89BFE1" "xC9D68D" "xC9E375" "xE69DD8" "x59CFEA" "xB797DF" "x5DC6FB" "x60EEEB"
   }
@@ -1508,7 +1508,7 @@ STATE_FONTYLY={
   naval_exit_id=3000
 }
 STATE_QANNER={
-  id=8015
+  id=58
   provinces={
     "xF729E6" "xFA35EC" "xF1EA51" "xD5F038" "xFE53C3" "xE0CA7C" "xF9F3C5" "xA6F8D0"
   }
@@ -1534,7 +1534,7 @@ STATE_QANNER={
   naval_exit_id=3000
 }
 STATE_MICNIA={
-  id=8016
+  id=59
   provinces={
     "xF7D1C2" "xAA59F7" "xCAD583" "x72B3F3" "x33F0E0" "x8FD9E0" "xD0EDE9" "x5ECCCB" "x97E7CA" "xEAC982" "xC9D0CC" "xE2D3E3" "x94CECB"
   }
@@ -1561,7 +1561,7 @@ STATE_MICNIA={
   naval_exit_id=3000
 }
 STATE_VANLANCY={
-  id=8017
+  id=60
   provinces={
     "xCDE14E" "x5BFCDB" "xCFD38D" "xB6CFE0" "xD1D583" "x4FD1FB" "xA2F2F4" "xBBF89D" "x96EBF1" "xCBC2DE" "xB7F6D4"
   }
@@ -1588,7 +1588,7 @@ STATE_VANLANCY={
   naval_exit_id=3000
 }
 STATE_GOLYTAN={
-  id=8018
+  id=61
   provinces={
     "xF96EE6" "xFCCE6D" "xC1D5F2" "xF248D5" "xE0FED8" "xBEEC67" "x2DCBFE" "x9FF8AF" "x79EFB3" "xB094B3" "xDDF6CE" "xA5A3FC" "xF699C4" "x8DE1B1" "xF8B4F8" "xC0FBDF"
   }
@@ -1615,7 +1615,7 @@ STATE_GOLYTAN={
   naval_exit_id=3000
 }
 STATE_MOLYGY={
-  id=9000
+  id=62
   provinces={
     "x9A86D8" "xA8CFF3" "xEAFE5E" "xA793E8" "x8E93D6" "xE1B08D" "x9190D6" "x917FED" "xB9FA4E" "xC68AD0" "xA97AF5" "xC578CF" "x1DF8E1" "x6E8CFC" "xBADE9B" "xFAE838" "xDD97F2" "xCC7FC3" "x89C6D4"
   }
@@ -1642,7 +1642,7 @@ STATE_MOLYGY={
   naval_exit_id=3000
 }
 STATE_ARORA={
-  id=9001
+  id=63
   provinces={
     "xCB7FE4" "xEDD7E6" "x53DCD5" "xAC6EFC" "xB4F1A1" "xF485E5" "xB5BBA8" "x8EDDBD" "xFE8779" "xF45AEA" "x3EFEE3" "xB6B6E0"
   }
@@ -1669,7 +1669,7 @@ STATE_ARORA={
   naval_exit_id=3000
 }
 STATE_FANKENL={
-  id=9002
+  id=64
   provinces={
     "xAFE464" "xB6D27A" "xFCCF39" "xA8F16C" "xB2EB8B" "xF98186" "xDECF7E" "xC7B47E" "xF2A65F" "xBEFB63" "x9C9BF3"
   }
@@ -1696,7 +1696,7 @@ STATE_FANKENL={
   naval_exit_id=3000
 }
 STATE_GONYANCE={
-  id=9003
+  id=65
   provinces={
     "xB55BE9" "xEDDC2F" "x96F998" "xC254F1" "xC875E4" "xCCEEC0" "xA0EEC2" "xE5E48F" "xC5E1FA" "xB5A3F6" "xB0F98E" "x9AD3F1" "x25DAFB" "x7DE5B0" "x80B1F2"
   }
@@ -1723,7 +1723,7 @@ STATE_GONYANCE={
   naval_exit_id=3000
 }
 STATE_RONYALY={
-  id=9004
+  id=66
   provinces={
     "xE7A190" "xC8D95A" "x8DF093" "xE65EFA" "xEFD181" "xE947C5" "xEC4EEA" "xDE41FE" "xF1FB19" "xB6B4DB" "xE080BB" "xEEAEE8" "xEA6CAB" "x6CA0FA"
   }
