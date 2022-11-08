@@ -1,0 +1,3 @@
+﻿pm_group_key = {								        # PMs come in groups, each group always has one active PM. A PM Group with the key pm_base is considered the base group of the building
+	# list of Production Methods
+}

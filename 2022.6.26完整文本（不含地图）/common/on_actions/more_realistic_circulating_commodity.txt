@@ -1,0 +1,7 @@
+on_monthly_pulse_country = {
+    effect = {
+        cc_trade_center_spreading = yes
+        cc_domestic_trade_center_expanding = yes
+        cc_domestic_trade_center_spreading = yes
+    }
+} 

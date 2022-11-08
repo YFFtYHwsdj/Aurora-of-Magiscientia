@@ -1,0 +1,4 @@
+detail_blend_range = 0.15
+detail_tile_factor = 512
+normal_height_scale = .2
+skirt_height_factor = .1

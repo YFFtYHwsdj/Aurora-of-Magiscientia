@@ -1,0 +1,32 @@
+light_industry_restricted_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds"
+	building_food_industry_throughput_mult = -0.8
+	building_liquor_factory_throughput_mult = -0.8
+	building_textile_mills_throughput_mult = -0.8
+	building_furniture_manufacturies_throughput_mult = -0.8
+	building_glassworks_throughput_mult = -0.8
+	building_tooling_workshops_throughput_mult = -0.8
+	building_paper_mills_throughput_mult = -0.8
+	building_shipyards_throughput_mult = -0.8
+	building_war_machine_industry_throughput_mult = -0.8
+	
+}
+
+heavy_industry_restricted_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds"
+	building_magical_dolls_industry_throughput_mult = -0.8
+	building_Refinerymagic_extraction_throughput_mult = -0.8
+	building_chemical_plants_throughput_mult = -0.8
+	building_steel_mills_throughput_mult = -0.8
+	building_motor_industry_throughput_mult = -0.8
+	building_magical_equipment_industry_throughput_mult = -0.8
+	
+}
+
+military_industry_restricted_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds"
+	building_arms_industry_throughput_mult = -0.8
+	building_magic_rifle_industry_throughput_mult = -0.8
+	building_magic_war_machine_industry_throughput_mult = -0.8
+	building_war_machine_industry_throughput_mult = -0.8
+}

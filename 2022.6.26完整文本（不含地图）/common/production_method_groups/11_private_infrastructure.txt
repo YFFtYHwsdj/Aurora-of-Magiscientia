@@ -1,0 +1,87 @@
+﻿pmg_base_building_teleport
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_small_teleport
+		pm_scaled_teleport
+		pm_permanent_teleport
+	}
+}
+
+pmg_base_building_road = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_leveled_road
+		pm_cobblestone_road
+		pm_bitumen_road
+	}
+}
+
+pmg_building_road_transportaion = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		
+	}
+}
+
+pmg_base_building_railway = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_steam_trains
+		pm_high_pressure_trains
+		pm_super_fluid_trains
+	}
+}
+
+pmg_ownership_building_railway = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_privately_owned_building_railway
+		pm_publicly_traded_building_railway
+		pm_church_owned_building_raiway
+		pm_government_run_building_railway
+		pm_worker_cooperative_building_railway
+	}
+}
+
+pmg_passenger_trains = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_passenger_trains
+		pm_wooden_passenger_carriages
+		pm_steel_passenger_carriages
+	}
+}
+
+pmg_armored_trains = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_military_trains
+		pm_armored_trains
+		pm_railway_guns
+	}
+}
+
+pmg_base_building_trade_center = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_trade_center
+	}
+}
+
+pmg_ownership_building_trade_center = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_trade_center_merchant_guilds
+		pm_trade_center_privately_owned
+		pm_trade_center_government_run
+	}
+}

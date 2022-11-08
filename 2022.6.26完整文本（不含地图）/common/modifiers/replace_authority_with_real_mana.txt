@@ -1,0 +1,59 @@
+mana_50 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 50
+}
+
+mana_100 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 100
+}
+
+mana_150 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 150
+}
+
+mana_200 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 200
+}
+
+mana_300 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 300
+}
+
+mana_400 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 400
+}
+
+mana_500 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 500
+}
+
+mana_600 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 600
+}
+
+mana_700 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 700
+}
+
+mana_800 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 800
+}
+
+mana_900 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 900
+}
+
+mana_1000 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/mana.dds"
+	country_authority_add = 1000
+}

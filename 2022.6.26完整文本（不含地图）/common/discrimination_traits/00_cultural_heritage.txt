@@ -1,0 +1,9 @@
+﻿european_heritage = {
+	heritage = yes
+}
+sacred_heritage = {
+	heritage = yes
+}
+wicked_heritage = {
+	heritage = yes
+}

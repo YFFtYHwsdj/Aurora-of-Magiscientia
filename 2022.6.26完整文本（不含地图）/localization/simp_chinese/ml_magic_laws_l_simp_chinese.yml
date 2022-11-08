@@ -1,0 +1,116 @@
+﻿l_simp_chinese:
+#:0 ""#
+#_desc:0 ""#
+#未完成#
+
+#法律组#
+ lawgroup_magic_restrict:0 "施法限制"
+ lawgroup_magic_restrict_desc:0 "未完成"
+ lawgroup_mage_status:0 "施法者地位" 
+ lawgroup_mage_status_desc:0 "未完成"
+ lawgroup_mage_organization:0 "施法者组织"
+ lawgroup_mage_organization_desc:0 "未完成"
+ lawgroup_zro_distribution:0 "泽洛分配法"
+ lawgroup_zro_distribution_desc:0 "未完成"
+ lawgroup_magiscientia_policy:0 "魔导政策" 
+ lawgroup_magiscientia_policy_desc:0 "未完成"
+ lawgroup_zro_extraction:0 "泽洛萃取"   
+ lawgroup_zro_extraction_desc:0 "未完成"
+ lawgroup_magic_education:0 "法术教育" 
+ lawgroup_magic_education_desc:0 "未完成"
+
+#施法限制#
+ law_forbid_magic:0 "禁止施法行为"
+ law_forbid_magic_desc:0 "禁止任何施法者施法，只有这样才能避免魔法带来的灾难！"
+ law_authority_only:0 "仅官方可用"
+ law_authority_only_desc:0 "只有得到官方认可的施法者才能使用法术，野法师的无序狂想会促生不可思议的灾难。"
+ law_magic_confidentiality_provisions:0 "魔法保密协定"
+ law_magic_confidentiality_provisions_desc:0 "法术是危险的，施法者应当谨慎的使用它，万万不可让凡俗的头脑接触到危险的魔法。"
+ law_magic_public:0 "允许公开施法"
+ law_magic_public_desc:0 "法术有什么了不起的？别滥用那些最危险的邪恶法术就可以了。"
+ law_magic_laissez_faire:0 "施法自由放任"
+ law_magic_laissez_faire_desc:0 "任何法术都可以被使用，施法者在这儿不受约束。"
+
+ #施法者地位#
+ law_ban_mage:0 "禁止施法者"
+ law_ban_mage_desc:0 "这个国家不允许施法者存在，施法者只能逃亡或被杀。"
+ law_mage_authority_only:0 "仅限官方"
+ law_mage_authority_only_desc:0 "只有得到官方承认的施法者才能在这个国家生活，其他的施法者都是野法师，野法师的施法能力被视为灾难的根源。"
+ law_register_of_magical_abilities:0 "法术能力登记"
+ law_register_of_magical_abilities_desc:0 "拥有施法能力的人需要被登记入册，然后才能在这个国家中正常生活。"
+ law_mage_freedom:0 "自由施法者"
+ law_mage_freedom_desc:0 "施法者可以自由的生活在这个国家。"
+
+ #施法者组织# 
+ law_outlawing_mage_organizations:0 "取缔施法者组织"
+ law_outlawing_mage_organizations_desc:0 "这个国家禁止施法者成立组织"
+ law_authority_organizations_only:0 "仅限官方"
+ law_authority_organizations_only_desc:0 "这个国家仅仅允许在官方掌控下的施法者组织存在"
+ law_legal_organizations_association:0 "允许合法结社"
+ law_legal_organizations_association_desc:0 "未除了有害于国家的那部分，其他的施法者组织都可以接受完成"
+ law_freedom_of_association:0 "结社自由"
+ law_freedom_of_association_desc:0 "施法者可以自由成立各种结社，结社的主题不受限制"
+ 
+
+ #泽洛分配法# 
+ law_traditional_customary_law:0 "传统习惯法"
+ law_traditional_customary_law_desc:0 "根据古老的传统确定泽洛的所有权，先到者先得，后来者只有用铁和火才能夺得泽洛的所有权"
+ law_mage_only:0 "专供施法者"
+ law_mage_only_desc:0 "施法者最能利用泽洛，因此他们理应掌管泽洛的分配权"
+ law_state_interference:0 "国家干涉"
+ law_state_interference_desc:0 "由国家来干涉泽洛的分配，这才能让泽洛给国家带来最大的利益"
+ law_planned_distribution:0 "计划分配"
+ law_planned_distribution_desc:0 "按照生产计划有序的分配泽洛，最大化泽洛的效用"
+ law_need_distribution:0 "按需分配"
+ law_need_distribution_desc:0 "按照需求分配泽洛"
+
+ #魔导政策#
+ law_prohibition_magiscientia:0 "魔导禁令"
+ law_prohibition_magiscientia_desc:0 "禁止使用魔导技术，魔导技术让凡人也能使用魔法的力量，这简直是亵渎！"
+ law_restrict_magiscientia:0 "魔导技术管控"
+ law_restrict_magiscientia_desc:0 "魔导技术确实很有用，但我们需要限制使用魔导技术，防止它破坏了法师的原有地位"
+ law_popularization_magiscientia:0 "普及魔导技术"
+ law_popularization_magiscientia_desc:0 "张开双臂接纳魔导技术吧！魔导技术才是新世界的黎明！"
+
+ #泽洛萃取#
+ law_none_zro_extraction:0 "无泽洛萃取"
+ law_none_zro_extraction_desc:0 "这个国家不收集泽洛，或者也可能是他们除了开矿外就不知道怎么收集泽洛了。"
+ law_moderate_religion_extraction:0 "温和信仰提取"
+ law_moderate_religion_extraction_desc:0 "通过推广信仰的方式，这个国家可以用一种温和的方式来收集凡人信仰生成的泽洛尘"
+ #law_hunt_magical_creature_sustainable:0 "猎杀魔法生物（可持续）"#
+ #law_hunt_magical_creature_sustainable_desc:0 "未完成"#
+ #law_hunt_magical_creature_unsustainability:0 "猎杀魔法生物（竭泽而渔）"#
+ #law_hunt_magical_creature_unsustainability_desc:0 "未完成"#
+ law_voluntary_extraction:0 "自愿奉献"
+ law_voluntary_extraction_desc:0 "通过不懈余力的宣传，这个国家的民众相信在死亡的时候被炼成泽洛是一种很好的死法。"
+ law_secret_extraction:0 "秘密人体萃取"
+ law_secret_extraction_desc:0 "这个国家通过人体炼成的方式来收集泽洛，然而，考虑到对社会的影响，这种行为保持秘密，主要是针对流浪汉、流民和贫民窟下手。"
+ law_open_extraction:0 "公开人体炼成"
+ law_open_extraction_desc:0 "这个国家公开的使用人体炼成来萃取泽洛，丝毫不顾及整个人类世界的看法。"
+ law_industrialization_extraction:0 "工业化人体炼成"
+ law_industrialization_extraction_desc:0 "这个国家使用工业化流水线的方式屠杀人类炼成泽洛，令人反胃。"
+
+ #法术教育# 
+ law_none_magic_education:0 "无法术教育"
+ law_none_magic_education_desc:0 "这个国家没有法术教育体系"
+ law_traditional_apprenticeship:0 "传统学徒制"
+ law_traditional_apprenticeship_desc:0 "这个国家形成了师徒制的方式传承法术知识"
+ law_elite_magic_education:0 "精英法术教育"
+ law_elite_magic_education_desc:0 "这个国家的法术教育体系专注于为少量精英授课"
+ law_popularization_magic_education:0 "普及法术教育"
+ law_popularization_magic_education_desc:0 "这个国家普及了法术教育，在所有适格年龄的人群中筛选施法者人才"
+ law_compulsory_magic_education:0 "义务法术教育"
+ law_compulsory_magic_education_desc:0 "这个国家致力于普及法术知识，即便是凡人也有义务了解法术派系和掌握对抗大部分常见法术的技巧"
+
+
+#被遗弃的设定#
+ #law_mage_noble:0 "法师贵族"#
+ #law_mage_noble_desc:0 "未完成"#
+ #law_church_only:0 "教会主导"#
+ #law_church_only_desc:0 "未完成"#
+ #law_magic_society:0 "法术学会"#
+ #law_magic_society_desc:0 "未完成"#
+ #law_magiscientia_industry_association:0 "魔导产业协会"#
+ #law_magiscientia_industry_association_desc:0 "未完成"#
+ #law_mage_council:0 "法士委员会"#
+ #law_mage_council_desc:0 "未完成"#

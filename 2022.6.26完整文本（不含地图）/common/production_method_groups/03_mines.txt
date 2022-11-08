@@ -1,0 +1,217 @@
+﻿# 煤矿——采矿设备
+pmg_mining_equipment_building_coal_mine = {
+	production_methods = {
+		pm_picks_and_shovels_building_coal_mine
+		pm_atmospheric_engine_pump_building_coal_mine
+		pm_condensing_engine_pump_building_coal_mine
+		pm_element_enrichment_building_coal_mine
+		pm_gravity_magic_building_coal_mine
+	}
+}
+
+# 煤矿——炸药
+pmg_explosives_building_coal_mine = {
+	production_methods = {
+		pm_no_explosives
+		pm_nitroglycerin_building_coal_mine
+		pm_dynamite_building_coal_mine
+		pm_land_manipulation_building_coal_mine
+		pm_explosion_building_coal_mine
+	}
+}
+
+# 煤矿——自动化
+pmg_steam_automation_building_coal_mine = {
+	production_methods = {
+		pm_no_steam_automation
+		pm_steam_donkey_building_coal_mine
+		pm_intelligent_doll_building_coal_mine
+	}
+}
+
+# 煤矿——运输
+pmg_train_automation_building_coal_mine = {
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_building_coal_mine
+		pm_teleportation_building_coal_mine
+	}
+}
+
+# 所有制
+pmg_ownership_capital_building_mine = {
+	production_methods = {
+		pm_merchant_guilds_building_mine
+		pm_church_owned_building_mine
+		pm_privately_owned_building_mine
+		pm_publicly_traded_building_mine
+		pm_government_run_building_mine
+		pm_worker_cooperative_building_mine
+	}
+}
+
+# 铁矿——采矿设备
+pmg_mining_equipment_building_iron_mine = {
+	production_methods = {
+		pm_picks_and_shovels_building_iron_mine
+		pm_atmospheric_engine_pump_building_iron_mine
+		pm_element_enrichment_building_iron_mine
+		pm_gravity_magic_building_iron_mine
+	}
+}
+
+# 铁矿——炸药
+pmg_explosives_building_iron_mine = {
+	production_methods = {
+		pm_no_explosives
+		pm_nitroglycerin_building_iron_mine
+		pm_dynamite_building_iron_mine
+		pm_land_manipulation_building_iron_mine
+		pm_explosion_building_iron_mine
+	}
+}
+
+# 铁矿——自动化
+pmg_steam_automation_building_iron_mine = {
+	production_methods = {
+		pm_no_steam_automation
+		pm_steam_donkey_mine
+		pm_intelligent_doll_building_iron_mine
+	}
+}
+
+# 铁矿——运输
+pmg_train_automation_building_iron_mine = {
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_mine
+		pm_teleportation_building_iron_mine
+	}
+}
+
+# 铬矿——采矿设备
+pmg_mining_equipment_building_lead_mine = {
+	production_methods = {
+		pm_picks_and_shovels_building_lead_mine
+		pm_atmospheric_engine_pump_building_lead_mine
+		pm_condensing_engine_pump_building_lead_mine
+		pm_element_enrichment_building_lead_mine
+		pm_gravity_magic_building_lead_mine
+	}
+}
+
+# 铬矿——炸药
+pmg_explosives_building_lead_mine = {
+	production_methods = {
+		pm_no_explosives
+		pm_nitroglycerin_building_lead_mine
+		pm_dynamite_building_lead_mine
+		pm_land_manipulation_building_lead_mine
+		pm_explosion_building_lead_mine
+	}
+}
+
+# 铬矿——自动化
+pmg_steam_automation_building_lead_mine = {
+	production_methods = {
+		pm_no_steam_automation
+		pm_steam_donkey_building_lead_mine
+		pm_intelligent_doll_building_lead_mine
+	}
+}
+
+# 铬矿——运输
+pmg_train_automation_building_lead_mine = {
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_building_lead_mine
+		pm_teleportation_building_lead_mine
+	}
+}
+
+# 硫磺——采矿设备
+pmg_mining_equipment_building_sulfur_mine = {
+	production_methods = {
+		pm_picks_and_shovels_building_sulfur_mine
+		pm_atmospheric_engine_pump_building_sulfur_mine
+		pm_condensing_engine_pump_building_sulfur_mine
+		pm_element_enrichment_building_sulfur_mine
+		pm_gravity_magic_building_sulfur_mine
+	}
+}
+
+# 硫磺——炸药
+pmg_explosives_building_sulfur_mine = {
+	production_methods = {
+		pm_no_explosives
+		pm_nitroglycerin_building_sulfur_mine
+		pm_dynamite_building_sulfur_mine
+		pm_land_manipulation_building_sulfur_mine
+		pm_explosion_building_sulfur_mine
+	}
+}
+
+# 硫磺——自动化
+pmg_steam_automation_building_sulfur_mine = {
+	production_methods = {
+		pm_no_steam_automation
+		pm_steam_donkey_building_sulfur_mine
+		pm_intelligent_doll_building_sulfur_mine
+	}
+}
+
+# 硫磺——运输
+pmg_train_automation_building_sulfur_mine = {
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_building_sulfur_mine
+		pm_teleportation_building_sulfur_mine
+	}
+}
+
+# 金矿——采矿设备
+pmg_mining_equipment_building_gold_mine = {
+	production_methods = {
+		pm_picks_and_shovels_building_gold_mine
+		pm_atmospheric_engine_pump_building_gold_mine
+		pm_condensing_engine_pump_building_gold_mine
+		pm_element_enrichment_building_gold_mine
+		pm_gravity_magic_building_gold_mine
+	}
+}
+
+# 金矿——炸药
+pmg_explosives_building_gold_mine = {
+	production_methods = {
+		pm_no_explosives
+		pm_nitroglycerin_building_gold_mine
+		pm_dynamite_building_gold_mine
+		pm_land_manipulation_building_gold_mine
+		pm_explosion_building_gold_mine
+	}
+}
+
+# 金矿——自动化
+pmg_steam_automation_building_gold_mine = {
+	production_methods = {
+		pm_no_steam_automation
+		pm_steam_donkey_building_gold_mine
+		pm_intelligent_doll_building_gold_mine
+	}
+}
+
+# 金矿——运输
+pmg_train_automation_building_gold_mine = {
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_building_gold_mine
+		pm_teleportation_building_gold_mine
+	}
+}
+
+pmg_base_building_gold_fields = {
+	production_methods = {
+		default_building_gold_fields
+	}
+}
+

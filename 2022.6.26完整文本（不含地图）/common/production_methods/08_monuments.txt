@@ -1,0 +1,43 @@
+﻿# To ensure the game rule 'monument_effects' works properly, the game rule needs to be amended with flags disabling any new monuments' Base method
+# PM Groups should have the 'is_hidden_when_unavailable' flag to ensure only one alternative is visible at any time (unless the player actually has an option they can switch to)
+
+pm_default_building_great_wall = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 100
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			unit_army_offense_add = 40
+			unit_army_defense_add = 60
+		}
+	}
+	
+	building_modifiers = {
+		#workforce_scaled = {
+		#}
+
+		level_scaled = {
+			building_employment_soldiers_add = 9500
+			building_employment_officers_add = 500
+		}
+	}
+}
+
+pm_monument_prestige_only = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	country_modifiers = {
+		unscaled = {
+			country_prestige_add = 25
+		}
+	}
+}
+
+pm_monument_no_effects = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+}

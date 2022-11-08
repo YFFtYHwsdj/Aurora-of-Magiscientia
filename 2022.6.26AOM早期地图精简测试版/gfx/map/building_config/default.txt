@@ -1,0 +1,897 @@
+﻿
+#GENERIC#
+
+generic_manufactory_01_mesh = {
+	size = 2
+	
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_2x2_entity"
+}
+
+generic_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+generic_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+generic_rural_mining_oilrig_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+colonial_manufactory_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+colonial_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+colonial_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+furniture_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+glassworks_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+tools_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#sandstone var#
+	
+generic_manufactory_sandstone_01_mesh = {
+	size = 1
+	
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_2x2_entity"
+}
+
+generic_manufactory_sandstone_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+generic_manufactory_sandstone_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+colonial_manufactory_sandstone_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+colonial_manufactory_sandstone_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+colonial_manufactory_sandstone_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#african var#
+
+african_manufactory_01_mesh = {
+	size = 2
+	
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_2x2_entity"
+}
+
+african_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+african_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+african_mining_oilrig_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_colonial_manufactory_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_colonial_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_colonial_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_furniture_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_glassworks_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+african_tools_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#arabic var#
+
+arabic_manufactory_01_mesh = {
+	size = 2
+	
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_2x2_entity"
+}
+
+arabic_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+arabic_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+arabic_mining_oilrig_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_colonial_manufactory_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_colonial_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_colonial_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_furniture_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_glassworks_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+arabic_tools_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#asian var#
+
+asian_manufactory_01_mesh = {
+	size = 2
+	
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_2x2_entity"
+}
+
+asian_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+asian_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+asian_mining_oilrig_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_colonial_manufactory_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_colonial_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_colonial_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_furniture_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_glassworks_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+asian_tools_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#latin var#
+
+latin_manufactory_01_mesh = {
+	size = 2
+	
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_mining_oilrig_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+latin_colonial_manufactory_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+latin_colonial_manufactory_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+latin_colonial_manufactory_03_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+latin_furniture_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+latin_glassworks_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+latin_tools_manufactory_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+#MINING#
+
+generic_rural_mining_processing_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+eneric_rural_mining_oilrig_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+generic_rural_mining_coaldepo_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+generic_rural_mining_coaldepo_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+mininghub_centerpiece_01_mesh = {
+	size = 3
+	
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_4x4_entity"
+}
+
+mininghub_centerpiece_sandstone_01_mesh = {
+	size = 3
+		
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_4x4_entity"
+}
+
+generic_rural_mining_processing_sandstone_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#african var#
+
+african_mininghub_centerpiece_01_mesh = {
+	size = 3
+		
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_4x4_entity"
+}
+
+african_mining_coaldepo_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+african_mining_processing_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#asian var#
+
+asian_mininghub_centerpiece_01_mesh = {
+	size = 3
+		
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_4x4_entity"
+}
+
+asian_mining_coaldepo_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+asian_mining_processing_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#latin var#
+
+latin_mininghub_centerpiece_01_mesh = {
+	size = 3
+		
+	particles = {
+		"locator_chimney" = "smoke_chimney"
+	}
+	
+	construction_entity = "building_construction_4x4_entity"
+}
+
+latin_mining_coaldepo_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_mining_processing_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+#FORESTRY#
+
+generic_rural_forestryhub_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+	
+rubber_lodge_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+generic_rural_forestry_camp_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+generic_rural_forestry_camp_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+generic_forestry_lumberdepo_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+generic_forestry_lumberdepo_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+generic_forestry_lumberpile_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#african var#
+
+african_forestryhub_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+african_forestry_camp_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_forestry_camp_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_forestry_lumberdepo_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_forestry_lumberdepo_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#arabic var#
+
+arabic_forestryhub_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+arabic_forestry_camp_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_forestry_camp_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_forestry_lumberdepo_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_forestry_lumberdepo_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#asian var#
+
+asian_forestryhub_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+asian_forestry_camp_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_forestry_camp_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_forestry_lumberdepo_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_forestry_lumberdepo_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+	#latin var#
+
+latin_forestryhub_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_forestry_camp_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+latin_forestry_camp_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+latin_forestry_lumberdepo_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+latin_forestry_lumberdepo_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+#EUROPEAN#
+
+european_city_university_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_3x3_entity"
+}
+
+european_city_art_academy_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_3x3_entity"
+}
+
+european_city_barracks_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+european_city_government_administration_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+european_city_trade_center_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_3x3_entity"
+}
+
+european_province_plantation_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_4x4_entity"
+}
+
+european_port_naval_base_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+european_rural_plantation_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_1x1_entity"
+}
+
+european_rural_ranch_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_2x2_entity"
+}
+
+european_city_building_poor_01_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+european_city_building_poor_02_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+european_city_building_poor_03_mesh = {
+	size = 1
+	construction_entity = "building_construction_1x1_entity"
+}
+
+european_city_catholic_cathedral_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+european_rural_religious_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+
+#ASIAN#
+
+asian_urban_city_university_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+asian_urban_city_academy_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+asian_urban_city_barracks_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+asian_urban_city_centerpiece_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+asian_urban_city_tradecenter_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+asian_province_farm_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
+asian_province_farm_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
+asian_rural_plantation_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_rural_ranch_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_1x1_entity"
+}
+
+asian_urban_navalbase_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+asian_rural_religious_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+asian_urban_religious_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+#AFRICAN#
+
+african_urban_city_university_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+african_urban_city_academy_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+african_urban_city_barracks_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+african_urban_city_centerpiece_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+african_urban_city_tradecenter_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+african_province_farm_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
+african_province_farm_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
+african_rural_plantation_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_rural_ranch_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_1x1_entity"
+}
+
+african_urban_navalbase_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+african_rural_religious_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+african_urban_religious_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+#ARABIC#
+
+arabic_urban_city_university_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_3x3_entity"
+}
+
+arabic_urban_city_academy_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_3x3_entity"
+}
+
+arabic_urban_city_barracks_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_3x3_entity"
+}
+
+arabic_urban_city_centerpiece_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+arabic_urban_city_tradecenter_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_3x3_entity"
+}
+
+arabic_province_farm_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
+arabic_province_farm_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
+arabic_rural_plantation_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_rural_ranch_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_1x1_entity"
+}
+
+arabic_urban_navalbase_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_3x3_entity"
+}
+
+arabic_rural_religious_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+arabic_urban_religious_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+#LATIN#
+
+latin_urban_city_university_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+latin_urban_city_academy_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+	}
+
+latin_urban_city_barracks_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+latin_urban_city_centerpiece_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_urban_city_tradecenter_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_3x3_entity"
+}
+
+latin_province_farm_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_province_farm_02_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_rural_plantation_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_4x4_entity"
+}
+
+latin_rural_ranch_01_mesh = {
+	size = 4
+	construction_entity = "building_construction_4x4_entity"
+}
+
+latin_urban_navalbase_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}
+
+latin_rural_religious_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_2x2_entity"
+}
+
+latin_urban_religious_01_mesh = {
+	size = 3
+	construction_entity = "building_construction_3x3_entity"
+}

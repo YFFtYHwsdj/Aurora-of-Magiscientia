@@ -1,0 +1,12 @@
+waiver_modifier = {
+	icon = gfx/interface/icons/imperial_parliament_icons/waiver_modifier.dds
+}
+pro_modifier = {
+	icon = gfx/interface/icons/imperial_parliament_icons/pro_modifier.dds
+}
+con_modifier = {
+	icon = gfx/interface/icons/imperial_parliament_icons/con_modifier.dds
+}
+changing_vote_cooldown_modifier = {
+	icon = gfx/interface/icons/timed_modifiers_icons/modifier_gear_negative.dds
+}
