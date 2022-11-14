@@ -1,0 +1,56 @@
+ideology_meritocratic = {
+	icon = "gfx/interface/icons/ideology_icons/meritocratic.dds"
+
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = disapprove
+		law_theocratic_bureaucrats = strongly_disapprove
+		law_civil_service_bureaucrats = strongly_approve
+		law_mage_bureaucrats = strongly_disapprove
+	}
+	
+	lawgroup_taxation = {
+		law_per_capita_based_taxation = approve
+		law_proportional_taxation = approve
+		law_consumption_based_taxation = neutral
+		law_graduated_taxation = disapprove
+		law_land_based_taxation = disapprove
+	}	
+	
+	lawgroup_army_model = {
+		law_professional_army = approve
+		law_national_militia = disapprove
+		law_peasant_levies = disapprove
+		law_mass_conscription = strongly_disapprove
+		law_mage_army = approve
+		law_magiscientia_army = approve
+		law_church_army = approve
+	}
+}
+
+ideology_reactionary = {
+	icon = "gfx/interface/icons/ideology_icons/reactionary.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = approve
+		law_theocracy = approve		
+		law_presidential_republic = neutral
+		law_parliamentary_republic = neutral
+		law_council_republic = disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_ethnostate = approve
+		law_national_supremacy = strongly_approve
+		law_racial_segregation = approve
+		law_cultural_exclusion = neutral
+		law_multicultural = disapprove	
+	}
+
+	lawgroup_migration = {
+		law_closed_borders = approve
+		law_migration_controls = strongly_approve
+		law_no_migration_controls = disapprove
+	}
+}
+
+#ideology_patriotic in armed forces

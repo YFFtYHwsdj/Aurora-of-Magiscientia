@@ -1,0 +1,240 @@
+template information_panels {
+	add_wargoal_panel = {}
+	battle_panel = {}
+	battle_participants_panel = {}
+	building_details_panel = {}
+	commander_panel = {}
+	countries_panel = {}
+	country_panel = {}
+	culture_panel = {}
+	culture_info_panel = {}
+	decisions_panel = {}
+	diplomatic_overview_panel = {}
+	diplomatic_play_panel = {}
+	election_panel = {}
+	front_panel = {}
+	goods_state_panel = {}
+	goods_usage_panel = {}
+	goods_panel = {}
+	hq_panel = {}
+	interest_group_panel = {}
+	journal_entry_panel = {}
+	journal_panel = {}
+	market_panel = {}
+	outliner_panel = {}
+	panel_military = {}
+	party_panel = {}
+	pop_details_panel = {}
+	pops_overview_panel = {}
+	production_methods_panel = {}
+	religion_info_panel = {}
+	sea_region_panel = {}
+	state_population_panel = {}
+	states_panel = {}
+	sway_country_panel = {}
+	trade_overview_panel = {}
+	war_panel = {}
+	budget_panel = {}
+	country_formation_panel = {}
+}
+
+template information_panels_fullscreens {
+	politics_panel = {}
+	politics_panel_change_law = {}
+	tech_tree_panel = {}
+	pops_panel = {}
+}
+
+template map_list_panels {
+	empty_map_list_panel = {}
+	default_map_list_panel = {}
+	build_building_map_list_panel = {}
+	colony_map_list_panel = {}
+	diplo_action_map_list_panel = {}
+	markets_map_list_panel = {}
+	strategic_regions_map_list_panel = {}
+	interest_groups_map_list_panel = {}
+	countries_map_list_panel = {}
+	countries_ongoing_diplomatic_play_map_list_panel = {}
+	country_attitude_map_list_panel = {}
+	country_infamy_map_list_panel = {}
+	country_relations_map_list_panel = {}
+	countries_military_map_list_panel = {}
+	trade_route_map_list_panel = {}
+	state_map_list_panel = {}
+	state_production_map_list_panel = {}
+	state_gdp_map_list_panel = {}
+	state_gdp_nationally_map_list_panel = {}
+	state_standard_of_living_map_list_panel = {}
+	state_migration_pull_list_panel = {}
+	state_culture_map_list_panel = {}
+	activate_conscription_center_map_list_panel = {}
+	front_map_list_panel = {}
+	recruit_commanders_map_list_panel = {}
+}
+
+widget = {
+	size = { 100% 100% }
+	name = "ingame_hud"
+	layer = "layer_ingame_hud"
+	ignore_in_debug_draw = yes
+
+	pause_border = {}
+	
+	# fullscreens
+	using = information_panels_fullscreens
+	
+	
+	
+	# vbox with things that should be reduced in size on Y-axis when opening the lens options
+	vbox = {
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+		margin_top = 85 #margin topbar
+
+		widget = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			ignore_in_debug_draw = yes
+
+			# lens toolbar
+			lens_toolbar = {
+				parentanchor = bottom|hcenter
+			}
+			
+			
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+
+				# sidepanels
+				using = information_panels
+				using = map_list_panels
+				
+				widget = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					ignore_in_debug_draw = yes
+				}
+
+				# outliner / notifications
+				vbox = {
+					layoutpolicy_horizontal = preferred
+					layoutpolicy_vertical = expanding
+					
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+						expand = {}
+						outliner = {
+							size = { 360 0 }
+							layoutpolicy_vertical = expanding
+						}
+					}
+					message_feed_widget = {}
+				}
+			}
+		}
+
+		# lens tabs / actions
+		lens_option_menu = {
+			using = sidebar_margin
+		}
+	}
+	
+	# topbar / alerts / timemanip
+	vbox = {
+		hbox = {
+			layoutpolicy_horizontal = preferred
+			layoutpolicy_vertical = preferred
+
+			topbar = {}
+			topfrontend = {
+			}
+			### 帝国议会
+			# widget_imperial_parliament = {}
+			timemanip = {}
+		}
+		widget = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			ignore_in_debug_draw = yes
+		}
+	}
+	
+	# left sidebar buttons
+	information_panel_bar = {}
+
+	# misc
+	container = {
+		parentanchor = hcenter
+		position = { 0 150 }
+		using = hud_visibility
+		using = default_fade_in_out
+		
+		### SAVING GAME TEXT
+		textbox = {
+			visible = "[IsSaving]"
+			parentanchor = hcenter
+			text = "SAVING_GAME"
+			align = right|nobaseline
+			autoresize = yes
+			using = fontsize_large
+			margin = { 16 8 }
+			
+			background = {
+				using = paper_bg
+			}
+		}
+	
+		### PAUSE TEXT FOR MP
+		flowcontainer = {
+			name = "multiplayer_paused_by_player"
+			visible = "[And(TimeKeeper.IsPaused, GameHasMultiplePlayers)]"
+
+			parentanchor = hcenter
+			position = { 0 50 }
+
+			ignoreinvisible = yes
+			direction = vertical
+
+			state = {
+				name = _show
+				using = Animation_FadeIn_Quick
+			}
+
+			state = {
+				name = _hide
+				using = Animation_FadeOut_Standard
+			}
+
+			text_label_center = {
+				visible = "[Not( StringIsEmpty( TimeKeeper.GetPausedBy ) )]"
+				text = "PAUSED_BY_PLAYER_MP"
+				using = fontsize_xxl
+				parentanchor = hcenter
+			}
+
+			text_label_center = {
+				visible = "[And( TimeKeeper.IsPausedByMe, Not( TimeKeeper.CanAnyoneUnpause ) )]"
+				text = "PAUSED_BY_UNPAUSE_ONLY_ME"
+				using = fontsize_large
+				parentanchor = hcenter
+			}
+
+			text_label_center = {
+				visible = "[And( Not( TimeKeeper.IsPausedByMe ), Not( TimeKeeper.CanAnyoneUnpause ) )]"
+				text = "PAUSED_BY_UNPAUSE_ONLY_PAUSED_BY"
+				using = fontsize_large
+				parentanchor = hcenter
+			}
+
+			text_label_center = {
+				visible = "[TimeKeeper.CanAnyoneUnpause]"
+				text = "PAUSED_BY_UNPAUSE_ANYONE"
+				using = fontsize_large
+				parentanchor = hcenter
+			}
+		}
+	}
+}

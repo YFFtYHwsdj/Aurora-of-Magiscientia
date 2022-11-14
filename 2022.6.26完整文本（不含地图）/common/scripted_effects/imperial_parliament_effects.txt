@@ -1,0 +1,76 @@
+ip_deciding_voting_countries_start = {
+	c:EMP = {
+		save_scope_as = voting_countries_start
+	}
+	scope:voting_countries_start = {
+		add_to_global_list = voting_countries
+	}
+}
+
+ip_gain_voting_right = {
+	add_to_global_list = voting_countries
+}
+
+ip_lose_voting_right = {
+	remove_from_list = voting_countries
+}
+
+ip_pro = {
+	add_to_global_list = voting_countries_pro
+	remove_from_list = voting_countries_con
+	remove_from_list = voting_countries_waiver
+}
+
+ip_con = {
+	remove_from_list = voting_countries_pro
+	add_to_global_list = voting_countries_con
+	remove_from_list = voting_countries_waiver
+}
+
+ip_waiver = {
+	remove_from_list = voting_countries_pro
+	remove_from_list = voting_countries_con
+	add_to_global_list = voting_countries_waiver
+}
+
+ip_monthly_poll_pro = {
+	set_global_variable = {
+		name = pro_values
+		value = 0
+	}
+	every_in_global_list = {
+		list = voting_countries_pro
+		change_global_variable = {
+			name = pro_values
+			add = root.prestige
+		}
+	}
+}
+ip_monthly_poll_con = {
+	set_global_variable = {
+		name = con_values
+		value = 0
+	}
+	every_in_global_list = {
+		list = voting_countries_con
+		change_variable = {
+			name = con_values
+			add = root.prestige
+		}
+	}
+}
+
+ip_monthly_poll_waiver = {
+	set_global_variable = {
+		name = waiver_values
+		value = 0
+	}
+	every_in_global_list = {
+		list = voting_countries_waiver
+			change_variable = {
+				name = waiver_values
+				add = root.prestige
+			}
+		}
+	}
+}

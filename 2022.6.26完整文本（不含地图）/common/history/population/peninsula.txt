@@ -1,0 +1,63 @@
+POPULATION = {
+	c:EMP = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:WEE = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:SOE = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:FBA = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:ATN = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:DWE = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:LDW = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:NDY = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:PRS = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:SJQ = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:SLS = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:MLD = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:SUV = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	
+	c:SFB = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:FAS = {
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+}

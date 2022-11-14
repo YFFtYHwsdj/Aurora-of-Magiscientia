@@ -1,0 +1,7 @@
+﻿pmg_canal = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_canal
+	}
+}

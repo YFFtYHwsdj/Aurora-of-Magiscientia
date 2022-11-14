@@ -1,0 +1,60 @@
+﻿pmg_construction_urban_center = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_not_science_building_urban_center
+		pm_wooden_building_urban_center
+		pm_reinforced_concrete_building_urban_center
+		pm_steam_power_integrated_structure_urban_center
+	}	
+}
+pmg_amenities = {
+	production_methods = {
+		pm_market_stalls
+		pm_market_squares
+		pm_covered_markets
+		pm_arcades
+	}
+}
+
+pmg_street_lighting = {
+	production_methods = {
+		pm_no_street_lighting
+		pm_gas_streetlights
+		pm_magical_streetlights
+	}
+}
+
+pmg_public_transport = {
+	production_methods = {
+		pm_no_public_transport
+		pm_public_trams
+		pm_public_magicai_floating_carriages
+	}
+}
+
+pmg_urban_clergy = {
+	production_methods = {
+		pm_state_urban_clergy
+		pm_free_urban_clergy
+	}
+}
+
+pmg_base_building_arts_academy = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_traditional_art
+		pm_realist_art
+		pm_photographic_art
+		pm_film_art
+	}
+}
+
+pmg_ownership_building_arts_academy = {
+	production_methods = {
+		pm_traditional_patronage
+		pm_bourgeoisie_patronage
+		pm_independent_artists
+	}
+}

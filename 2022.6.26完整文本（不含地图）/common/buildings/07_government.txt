@@ -1,0 +1,71 @@
+﻿############ GOVERNMENT BUILDINGS
+#港口
+building_port = {
+	building_group = bg_public_infrastructure
+	city_type = port
+	texture = "gfx/interface/icons/building_icons/building_port.dds"
+	
+	has_max_level = yes
+
+	unlocking_technologies = { navigation }
+
+	production_method_groups = {
+		pmg_base_building_port_magic
+		pmg_base_building_port_science
+	}
+
+	required_construction = construction_cost_medium
+
+	can_build = {
+		error_check = {
+			severity = fail
+			has_coast = yes
+		}
+	}
+}
+#新世界-政府行政机构
+building_government_administration = {
+	building_group = bg_bureaucracy
+	city_type = city
+
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		bureaucracy
+	}
+
+	production_method_groups = {
+		pmg_base_building_government_magic_office
+		pmg_base_building_government_magic_communication
+		pmg_base_building_government_science_office
+		pmg_base_building_government_science_communication
+		pmg_base_building_operation_pattern
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+
+	required_construction = construction_cost_medium
+}
+
+#新世界-大学
+building_university = {
+
+	building_group = bg_technology
+
+	city_type = city
+
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		academia
+	}
+
+	production_method_groups = {
+		pmg_base_building_university_magic
+		pmg_base_building_university_science
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_university.dds"
+
+	required_construction = construction_cost_medium
+}

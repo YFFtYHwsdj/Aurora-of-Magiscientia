@@ -1,0 +1,23 @@
+﻿#魔法线-建筑部门
+pmg_base_building_construction_sector_magic = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_not_magic_building
+		pm_materials_reinforce_magic
+		pm_magic_force_field_reinforce
+		pm_magic_building_structure
+	}
+}
+
+#科技线-建筑部门
+pmg_base_building_construction_sector_science = {
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_not_science_building
+		pm_wooden_building
+		pm_reinforced_concrete_building
+		pm_steam_power_integrated_structure
+	}
+}

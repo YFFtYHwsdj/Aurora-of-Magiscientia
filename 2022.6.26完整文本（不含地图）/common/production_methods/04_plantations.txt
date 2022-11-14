@@ -1,0 +1,1171 @@
+#无魔法
+pm_no_nagic_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production"
+}
+# 传送阵
+pm_teleport = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	pollution_generation = 10
+		
+	unlocking_technologies = {
+		railways
+	}
+		
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			building_input_psionic_crystal_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
+			building_employment_magiciteain_add = 200
+		}
+	}
+}
+#矿车运输
+pm_road_carts = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	pollution_generation = 10
+		
+	unlocking_technologies = {
+		railways
+	}
+		
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			building_input_engines_add = 3
+			building_input_coal_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_farmers_add = 200		
+		}
+	}
+}
+#蒸汽运输
+pm_steam_rail_transport = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	pollution_generation = 10
+		
+	unlocking_technologies = {
+		railways
+	}
+		
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			building_input_engines_add = 5
+			building_input_coal_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+			building_employment_farmers_add = 400	
+		}
+	}
+}
+
+pm_privately_owned_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tranportation = 3
+			building_input_construction =1
+		}
+		level_scaled = {
+			building_employment_aristocrats_add = 100
+			building_employment_clergymen_add = 150
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 5
+		}
+	}
+}
+
+pm_publicly_traded_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tranportation = 3
+			building_input_construction =1
+		}
+		level_scaled = {
+			building_employment_aristocrats_add = 50
+			building_employment_capitalists_add = 50
+			building_employment_clergymen_add = 100
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 2
+			building_capitalists_share_add = 3
+		}
+	}
+}
+
+pm_government_run_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tranportation = 3
+		}
+		level_scaled = {
+			building_employment_bureaucrats_add = 100
+		}
+		unscaled = {
+			building_bureaucrats_shares_add = 5
+		}
+	}
+}
+
+pm_church_owned_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_theoratic_economy
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tranportation = 3
+			building_input_construction =1
+		}
+		level_scaled = {
+			building_employment_clergymen_add = 250
+		}
+		unscaled = {
+			building_clergymen_shares_add = 5
+		}
+	}
+}
+
+pm_worker_cooperative_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_council_republic
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tranportation = 3
+			building_input_construction =1
+		}
+		level_scaled = {
+			building_employment_laborers_add = 100
+			building_employment_farmers_add = 100
+		}
+		unscaled = {
+			building_laborers_shares_add = 2
+			building_farmers_shares_add = 3
+		}
+	}
+}
+
+default_building_cotton_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_fabric_add = 25
+			building_input_tools_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+		}
+	}
+}
+pm_soil_enriching_farming_building_cotton_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_cotton_add = 50
+			building_input_tools_add = 8
+			building_input_fertilizer_add = 18
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3600
+			building_employment_farmers_add = 1200
+		}
+	}
+}
+
+
+pm_fertilization_building_cotton_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_cotton_add = 75
+			building_input_fertilizer_add = 26
+			building_input_tools_add = 11
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3200
+			building_employment_farmers_add = 1600
+		}
+	}
+}
+
+
+pm_chemical_fertilizer_building_cotton_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_cotton_add = 90
+			building_input_fertilizer_add = 29
+			building_input_tools_add = 14
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1800
+		}
+	}
+}
+pm_benediction_building_cotton_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_cotton_add = 50
+			building_input_psionic_crystal_add = 11
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 150
+		}
+	}
+}
+pm_vitalize_building_cotton_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_cotton_add = 75
+			building_input_psionic_crystal_add = 16
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 250
+		}
+	}
+}
+pm_rapidly_growing_building_cotton_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_cotton_add = 90
+			building_input_psionic_crystal_add = 19
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 350
+		}
+	}
+}
+default_building_dye_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_dye_add = 15
+			building_input_tools_add = 12
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+		}
+	}
+}
+pm_soil_enriching_farming_building_dye_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_dye_add = 30
+			building_input_fertilizer_add = 20
+			building_input_tools_add = 19
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3600
+			building_employment_farmers_add = 1200
+		}
+	}
+}
+
+
+pm_fertilization_building_dye_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_dye_add = 45
+			building_input_fertilizer_add = 30
+			building_input_tools_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3200
+			building_employment_farmers_add = 1600
+		}
+	}
+}
+
+
+pm_chemical_fertilizer_building_dye_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_dye_add = 60
+			building_input_fertilizer_add = 39
+			building_input_tools_add = 19
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1800
+		}
+	}
+}
+pm_benediction_building_dye_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_dye_add = 30
+			building_input_psionic_crystal_add = 13
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 150
+		}
+	}
+}
+pm_vitalize_building_dye_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_dye_add = 45
+			building_input_psionic_crystal_add = 19
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 250
+		}
+	}
+}
+pm_rapidly_growing_building_dye_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_dye_add = 60
+			building_input_psionic_crystal_add = 25
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 350
+		}
+	}
+}
+default_building_opium_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods	
+			building_output_opium_add = 10
+			building_input_tools_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+		}
+	}
+}
+pm_soil_enriching_farming_building_opium_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_opium_add = 20
+			building_input_fertilizer_add = 13
+			building_input_tools_add = 6
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3600
+			building_employment_farmers_add = 1200
+		}
+	}
+}
+
+
+pm_fertilization_building_opium_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_opium_add = 35
+			building_input_fertilizer_add = 20
+			building_input_tools_add = 11
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3200
+			building_employment_farmers_add = 1600
+		}
+	}
+}
+
+
+pm_chemical_fertilizer_building_opium_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_opium_add = 60
+			building_input_fertilizer_add = 26
+			building_input_tools_add = 13
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1800
+		}
+	}
+}
+pm_benediction_building_opium_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_opium_add = 30
+			building_input_psionic_crystal_add = 11
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 150
+		}
+	}
+}
+pm_vitalize_building_opium_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_opium_add = 45
+			building_input_psionic_crystal_add = 19
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 250
+		}
+	}
+}
+pm_rapidly_growing_building_opium_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_opium_add = 60
+			building_input_psionic_crystal_add = 24
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 350
+		}
+	}
+}
+default_building_tea_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tea_add = 10
+			building_input_tools_add = 5
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+		}
+	}
+}
+pm_soil_enriching_farming_building_tea_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tea_add = 20
+			building_input_fertilizer_add = 10
+			building_input_tools_add = 5
+			
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3600
+			building_employment_farmers_add = 1200
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+
+pm_fertilization_building_tea_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tea_add = 30
+			building_input_fertilizer_add = 15
+			building_input_tools_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3200
+			building_employment_farmers_add = 1800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+
+pm_chemical_fertilizer_building_tea_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tea_add = 50
+			building_input_fertilizer_add = 15
+			building_input_tools_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1800
+		}
+	}
+}
+pm_benediction_building_tea_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tea_add = 10
+			building_input_psionic_crystal_add = 5
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 150
+		}
+	}
+}
+pm_vitalize_building_tea_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tea_add = 20
+			building_input_psionic_crystal_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 250
+		}
+	}
+}
+pm_rapidly_growing_building_tea_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tea_add = 30
+			building_input_psionic_crystal_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 350
+		}
+	}
+}
+default_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tobacco_add = 10
+			building_input_tools_add = 5
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+		}
+	}
+}
+pm_soil_enriching_farming_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tobacco_add = 30
+			building_input_fertilizer_add = 15
+			building_input_tools_add = 5
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3600
+			building_employment_farmers_add = 1200
+		}
+	}
+}
+
+
+pm_fertilization_building_tobacco_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tobacco_add = 50
+			building_input_fertilizer_add = 20
+			building_input_tools_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3200
+			building_employment_farmers_add = 1600
+		}
+	}
+}
+
+
+pm_chemical_fertilizer_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tobacco_add = 80
+			building_input_fertilizer_add = 30
+			building_input_tools_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1800
+		}
+	}
+}
+pm_benediction_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tobacco_add = 10
+			building_input_psionic_crystal_add = 4
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 150
+		}
+	}
+}
+pm_vitalize_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tobacco_add = 25
+			building_input_psionic_crystal_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 250
+		}
+	}
+}
+pm_rapidly_growing_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_tobacco_add = 40
+			building_input_psionic_crystal_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 30
+		}
+	}
+}
+default_building_sugar_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_sugar_add = 10
+			building_input_tools_add = 5
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+		}
+	}
+}
+pm_soil_enriching_farming_building_sugar_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_sugar_add = 30
+			building_input_fertilizer_add = 15
+			building_input_tools_add = 5
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3600
+			building_employment_farmers_add = 1200
+		}
+	}
+}
+
+
+pm_fertilization_building_sugar_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_sugar_add = 45
+			building_input_fertilizer_add = 25
+			building_input_tools_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3200
+			building_employment_farmers_add = 1600
+		}
+	}
+}
+
+
+pm_chemical_fertilizer_building_sugar_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_sugar_add = 60
+			building_input_fertilizer_add = 30
+			building_input_tools_add = 20
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1800
+		}
+	}
+}
+pm_benediction_building_sugar_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_sugar_add = 15
+			building_input_psionic_crystal_add = 5
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 150
+		}
+	}
+}
+pm_vitalize_building_sugar_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_sugar_add = 30
+			building_input_psionic_crystal_add = 10
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 250
+		}
+	}
+}
+pm_rapidly_growing_building_sugar_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_sugar_add = 50
+			building_input_psionic_crystal_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_magiciteain_add = 350
+		}
+	}
+}
+
+default_building_banana_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_fruit_add = 10
+			building_
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+pm_soil_enriching_farming_building_banana_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_banana_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+
+pm_fertilization_building_banana_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_banana_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+
+pm_chemical_fertilizer_building_banana_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_banana_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+pm_benediction_building_banana_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_banana_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+pm_vitalize_building_banana_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_banana_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+pm_rapidly_growing_building_banana_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_banana_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+default_building_silk_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_silk_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+pm_soil_enriching_farming_building_silk_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_silk_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+
+pm_fertilization_building_silk_pantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_silk_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+
+pm_chemical_fertilizer_building_silk_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_silk_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+pm_benediction_building_silk_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_silk_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+pm_vitalize_building_silk_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_silk_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+pm_rapidly_growing_building_silk_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_silk_add = 15
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}

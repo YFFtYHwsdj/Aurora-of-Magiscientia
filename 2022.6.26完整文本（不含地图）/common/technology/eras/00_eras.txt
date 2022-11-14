@@ -1,0 +1,28 @@
+﻿era_1 = {
+	end_date = 1000.1.1
+	technology_cost = 1000
+}
+
+era_2 = {
+	start_date = 1000.1.1
+	end_date = 1020.1.1
+	technology_cost = 2000
+}
+
+era_3 = {
+	start_date = 1020.1.1
+	end_date = 1035.1.1
+	technology_cost = 3000
+}
+
+era_4 = {
+	start_date = 1035.1.1
+	end_date = 1050.1.1
+	technology_cost = 4000
+}
+
+era_5 = {
+	start_date = 1050.1.1
+	end_date = 1060.1.1
+	technology_cost = 5000
+}

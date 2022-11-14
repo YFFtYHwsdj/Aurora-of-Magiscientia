@@ -1,0 +1,74 @@
+zro_livestock_proportion_visibility_check = {
+	set_variable = {
+		name = decrease_visibility
+		value = 0
+	}
+	
+	every_scope_building = {
+		limit = {
+			is_building_type = building_zro_extraction
+		}
+		change_variable = {
+			name = decrease_visibility
+			add = {
+				value = 5000
+				multiply = PREV.level
+			}
+		}
+	}
+	
+	change_variable = {
+		name = decrease_visibility
+		divide = {
+			value = ROOT.total_population
+		}
+	}
+	
+	if = {
+		limit = {
+			var:decrease_visibility < 0.005
+		}
+		set_variable = {
+			name = decrease_visibility
+			value = -2
+		}
+	}
+	else_if = {
+		limit = {
+			var:decrease_visibility < 0.01
+		}
+		set_variable = {
+			name = decrease_visibility
+			value = -1
+		}
+	}
+	else_if = {
+		limit = {
+			var:decrease_visibility < 0.02
+		}
+		set_variable = {
+			name = decrease_visibility
+			value = 0
+		}
+	}
+	else_if = {
+		limit = {
+			var:decrease_visibility < 0.04
+		}
+		set_variable = {
+			name = decrease_visibility
+			value = 1
+		}
+	}
+	else = {
+		set_variable = {
+			name = decrease_visibility
+			value = 2
+		}
+	}
+	
+	change_variable = {
+		name = visibility
+		add = var:decrease_visibility
+	}
+}	

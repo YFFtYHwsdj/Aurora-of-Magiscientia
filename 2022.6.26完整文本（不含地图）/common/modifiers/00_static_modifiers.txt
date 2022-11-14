@@ -1,0 +1,399 @@
+﻿# All global modifiers are here.  They are applied from certain game-features.
+#
+# Effects are fully scriptable here.
+#these names can NOT be removed or changed, as the code uses them....
+
+# Global Static Modifiers
+base_values = {
+	country_weekly_innovation_add = 50
+	country_weekly_innovation_max_add = 100
+	country_tech_spread_add = 50
+	
+	country_loan_interest_rate_add = 0.1
+	
+	country_legitimacy_govt_total_clout_add = 1
+	country_legitimacy_govt_size_interest_group_add = -15
+	country_legitimacy_govt_size_party_add = -30
+	
+	country_bureaucracy_add = 200
+	country_authority_add = 200
+	country_influence_add = 200
+	
+	state_education_access_wealth_add = 0.02
+	
+	country_minting_add = 1453
+	
+	state_infrastructure_add = 100
+	
+	state_poor_expected_sol = 5
+	state_middle_expected_sol = 10
+	state_rich_expected_sol = 15
+	state_expected_sol_from_literacy = 5
+	
+	country_promote_all_goods = yes 
+	country_suppress_all_goods = yes
+	country_tax_all_goods = yes
+	
+	character_health_add = 1
+	
+	country_construction_add = 50
+}
+
+coastal_state_region = {
+	state_infrastructure_add = 10
+}
+
+working_conditions = {
+	building_group_bg_mining_laborers_mortality_mult = 0.2
+	building_group_bg_mining_machinists_mortality_mult = 0.1
+	building_group_bg_mining_engineers_mortality_mult = 0.05
+	
+	building_group_bg_manufacturing_laborers_mortality_mult = 0.2
+	building_group_bg_manufacturing_machinists_mortality_mult = 0.1
+	building_group_bg_manufacturing_engineers_mortality_mult = 0.05
+}
+
+in_default = {
+	building_throughput_mult = -1
+}
+
+declared_bankruptcy = {
+	country_prestige_mult = -0.8
+	country_loan_interest_rate_add = 0.4
+	building_throughput_mult = -0.1
+	state_construction_mult = -0.8
+	country_trade_route_competitiveness_mult = -1
+	country_bureaucracy_mult = -0.2
+	country_influence_mult = -0.3
+	country_authority_mult = -0.3
+	state_radicals_from_sol_change_mult = 0.5
+	interest_group_approval_add = -5
+}
+
+incorporated_state = {
+}
+
+unincorporated_state = {
+	state_infrastructure_mult = -0.25
+	state_conscription_rate_mult = -0.75
+	state_tax_waste_add = 0.5
+}
+
+colonial_state = {
+	state_infrastructure_mult = -0.5
+}
+
+market_capital_state = {
+	state_migration_pull_mult = 0.25
+	state_infrastructure_add = 10
+}
+
+capital_state = {
+	state_pop_pol_str_mult = 0.25
+	state_infrastructure_add = 10
+}
+
+moved_capital_recently = {
+	country_bureaucracy_mult = -0.1
+	country_influence_mult = -0.1
+	country_authority_mult = -0.1
+}
+
+moved_market_capital_recently = {
+	building_throughput_mult = -0.1
+}
+
+tax_modifier_very_low = {
+	country_legitimacy_base_add = 10
+	state_radicals_from_sol_change_mult = -0.2
+}
+
+tax_modifier_low = {
+	country_legitimacy_base_add = 5
+	state_radicals_from_sol_change_mult = -0.1
+}	
+
+tax_modifier_medium = {
+}	
+
+tax_modifier_high = {
+	country_legitimacy_base_add = -5
+	state_radicals_from_sol_change_mult = 0.25
+}	
+
+tax_modifier_very_high = {
+	country_legitimacy_base_add = -10
+	state_radicals_from_sol_change_mult = 0.5
+}	
+
+tariff_modifier_very_low = {
+	country_trade_route_competitiveness_mult = 0.3
+}
+
+tariff_modifier_low = {
+	country_trade_route_competitiveness_mult = 0.15
+}	
+
+tariff_modifier_medium = {
+}	
+
+tariff_modifier_high = {
+	country_trade_route_competitiveness_mult = -0.15
+}	
+
+tariff_modifier_very_high = {
+	country_trade_route_competitiveness_mult = -0.3
+}	
+
+
+government_wages_very_low = {
+	country_government_wages_mult = -0.5
+	interest_group_ig_intelligentsia_approval_add = -10
+}
+
+government_wages_low = {
+	country_government_wages_mult = -0.25
+	interest_group_ig_intelligentsia_approval_add = -5
+}
+
+government_wages_medium = {
+}
+
+government_wages_high = {
+	country_government_wages_mult = 0.15
+	interest_group_ig_intelligentsia_approval_add = 2	
+}
+
+government_wages_very_high = {
+	country_government_wages_mult = 0.3
+	interest_group_ig_intelligentsia_approval_add = 5		
+}
+
+military_wages_very_low = {
+	country_military_wages_mult = -0.5
+	interest_group_ig_armed_forces_approval_add = -10
+}
+
+military_wages_low = {
+	country_military_wages_mult = -0.25
+	interest_group_ig_armed_forces_approval_add = -5
+}
+
+military_wages_medium = {
+}
+
+military_wages_high = {
+	country_military_wages_mult = 0.15
+	interest_group_ig_armed_forces_approval_add = 2
+}
+
+military_wages_very_high = {
+	country_military_wages_mult = 0.3
+	interest_group_ig_armed_forces_approval_add = 5	
+}
+
+insurrectionary_ig = {
+	interest_group_approval_add = -2
+}
+
+ruler_left_interest_group = {
+	interest_group_approval_add = -5
+}
+
+uprising_conscription = {
+	state_conscription_rate_mult = 1.0
+}
+
+revolution_lost_ig = {
+	interest_group_pol_str_mult = -1.0
+}
+
+debug_ig_approval = {
+	interest_group_approval_add = 1
+}
+
+debug_ig_clout = {
+	interest_group_pol_str_mult = 1.0
+}
+
+economy_of_scale = {
+	building_throughput_mult = 0.02
+}
+
+pm_retooling = {
+	#building_throughput_mult = -0.5
+}
+
+pm_offense_defense_readjustment = {
+	unit_offense_mult = -0.5
+	unit_defense_mult = -0.5
+}
+
+insufficient_urbanization = {
+	building_throughput_mult = -0.05
+}
+
+# Excess BUR increases construction speed by +10% at 2x production to usage
+efficient_bureaucracy = {
+	state_construction_mult = 0.10
+}
+
+# Insufficient BUR reduces tax collected by 100% at 2x usage to production
+administrative_overburden = {
+	state_tax_waste_add = 1
+}
+
+# Excess AUT reduces enactment time by -25% at 2x production to usage
+legislative_efficiency = {
+	country_law_enactment_time_mult = -0.25
+}
+
+# Insufficent AUT reduces opposition Interest Groups' Approval by -10 at 2x usage to production
+political_dysfunction = {
+	country_opposition_ig_approval_add = -10
+}
+
+# Excess DIP increases Infamy decay by up to 25% at 2x production to usage
+diplomatic_mitigation = {
+	country_infamy_decay_mult = 0.5
+}
+
+# Insufficient DIP reduces prestige by up to 50% at 2x usage to production
+diplomatic_overreach = {
+	country_prestige_mult = -0.5
+}
+
+battle_army_average_morale_damage = {
+	unit_morale_damage_mult = 1.0
+}
+
+battle_army_average_morale_protection = {
+	unit_morale_protection_mult = 1.0
+}
+
+battle_navy_average_morale_damage = {
+	unit_morale_damage_mult = 1.0
+}
+
+battle_navy_average_morale_protection = {
+	unit_morale_protection_mult = 1.0
+}
+
+battle_army_average_recovery_rate = {
+	unit_recovery_rate_add = 1.0
+}
+
+battle_navy_average_recovery_rate = {
+	unit_recovery_rate_add = 1.0
+}
+
+battle_army_average_kill_rate = {
+	unit_kill_rate_add = 1.0
+}
+
+battle_navy_average_kill_rate = {
+	unit_kill_rate_add = 1.0
+}
+
+# Scales with how much population is under low pop threshold
+low_pop_state = {
+	state_accepted_birth_rate_mult = 0.2
+	state_migration_pull_mult = 1.0
+}
+
+high_pop_state = {
+	state_birth_rate_mult = -0.3
+	state_migration_pull_mult = -1.0
+}
+
+country_rivalry = {
+	country_influence_add = 50
+}
+
+# Scales with devastation level
+state_region_devastation = {
+	state_infrastructure_mult = -1.0
+	state_mortality_mult = 0.5
+	building_throughput_mult = -0.5
+	state_migration_pull_mult = -1.0
+}
+
+# Applied if state is above 'in turmoil' threshold
+state_turmoil = {
+	state_tax_waste_add = 0.25
+	state_migration_pull_mult = -0.5
+}
+
+# Applied if state is above 'high turmoil' threshold
+state_turmoil_high = {
+	state_tax_waste_add = 0.5
+	state_migration_pull_mult = -0.75
+}
+
+# Applied if state is above 'extreme turmoil' threshold
+state_turmoil_extreme = {
+	state_tax_waste_add = 1.0
+	state_migration_pull_mult = -1.0
+}
+
+# Scales with country GDP / COUNTRY_GDP_MODIFIER_DIVISOR
+country_gdp = {
+	country_minting_add = 1
+}
+
+# Scales with country literacy rate
+country_literacy_rate = {
+	country_weekly_innovation_max_add = 400
+	country_tech_spread_add = 150
+}
+
+# Scales with number of excess innovation points
+excess_innovation = {
+	country_tech_spread_add = 0.2
+}
+
+# Scales with admiral convoy raiding strength
+convoy_raiding = {
+	country_convoys_capacity_add = -1
+}
+
+# an intercepted naval invasion force gives penalty in land combat depending on naval battle outcome
+battle_naval_invasion_beachhead_penalty = {
+	unit_offense_mult = -1
+}
+
+country_humiliated = {
+	country_prestige_mult = -0.25
+}
+
+forced_market_opening = {
+	country_prestige_mult = -0.25
+}
+
+forced_slavery_ban = {
+	country_prestige_mult = -0.25
+}
+
+modifier_tangena_ordeal = {
+	state_mortality_mult = 0.1
+}
+
+modifier_french_independence_payments = {
+	country_expenses_add = 2000
+}
+
+modifier_haitian_independence_payments = {
+	country_tax_income_add = 2000
+}
+
+law_enactment_chance = {
+	country_law_enactment_success_add = 1
+}
+
+mobilized_battalion_consumption = {
+	building_input_mult = 1.0
+}
+
+retired_commander_interest_group_impact = {
+	interest_group_approval_add = -1
+}

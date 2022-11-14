@@ -1,0 +1,69 @@
+transfer_technologies = {
+	require_approval = no
+	should_notify_third_parties = no
+	show_effect_in_tooltip = no
+	
+	potential = {
+		NOT = { is_country_type = decentralized }
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+			is_subject_of = root
+		}
+	}
+	
+	possible = {
+		NOT = { has_war_with = scope:target_country }
+		root = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = scope:target_country
+					type = transfer_technologies
+				}
+			}					
+		}
+		scope:target_country = {
+			is_subject_of = root
+			OR = {
+				has_diplomatic_pact = { who = root type = puppet }
+				has_diplomatic_pact = { who = root type = vassal }
+				has_diplomatic_pact = { who = root type = dominion }
+			}
+		}			
+	}
+	
+	accept_effect = {
+		cost = 0 
+		scope:target_country = {
+			add_modifier = { name = technologies_transfered_modifier months = -1}
+		}
+	}
+	
+	pact = {
+		cost = 25
+		income_transfer = 0.05
+		
+		target_requires_approval_to_break = yes	
+		
+		should_invalidate = {
+			OR = {
+				NOT = {
+					scope:target_country = {
+						is_subject_of = root
+						OR = {
+							has_diplomatic_pact = { who = root type = puppet }
+							has_diplomatic_pact = { who = root type = vassal }
+						}	
+					}
+				}
+				has_war_with = scope:target_country
+			}
+		}
+		
+		break_effect = {
+			scope:target_country = {
+				remove_modifier = technologies_transfered_modifier
+			}
+			change_relations = { country = scope:target_country value = -30 }
+		}
+	}
+}

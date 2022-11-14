@@ -1,0 +1,179 @@
+EMP = {	#初始半岛中央位置的帝国
+	color = { 149 45 102 }	#50 52 152
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { peninsula }
+	capital = STATE_SALAND
+}
+WEE = {	#帝国西部行省
+	color = { 145 136 64 }
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_CILAND
+}
+SOE = {	#帝国南部行省
+	color = { 13 113 102 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_SERLAND
+}
+FBA = {	#法比昂		原NOE帝国东北行省
+	color = { 44 140 51 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_GASRLAND
+}
+ATN = {	#阿塔那
+	color = { 137 136 184 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_ZASRLAND
+}
+DWE = {	#达文
+	color = { 53 87 85 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_UONSLAND
+}
+LDW = {	#拉多维亚
+	color = { 141 76 55 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_GANSLAND
+}
+NDY = {	#尼达亚
+	color = { 59 188 38 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_WANSLAND
+}
+PAS= {	#教国
+	color = { 208 201 178 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { peninsula }
+	capital = STATE_EASRLAND
+}
+SJQ = {	#圣剑骑士团		原TAU教国附属
+	color = { 246 209 16 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_ECARLAND
+}
+XLS = {	#西里斯
+	color = { 249 26 8 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { peninsula }
+	capital = STATE_VASRLAND
+}
+MLD = {	#莫兰迪
+	color = { 40 180 201 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { peninsula }
+	capital = STATE_FASRLAND
+}
+SUV = {	#苏瓦尔
+	color = { 246 107 10 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_UONSLAND
+}
+SFB = {	#圣凡彼尼
+	color = { 186 40 183 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { peninsula }
+	capital = STATE_JONSLAND
+}
+FAS = {	#法师同盟会
+	color = { 14 14 112 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { peninsula }
+	capital = STATE_PCARLAND
+}
+FLK = {	#芬里克
+	color = { 235 208 92 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { peninsula }
+	capital = STATE_SASRLAND
+}
+YAJ = {	#雅加
+	color = { 235 54 43 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { peninsula }
+	capital = STATE_ECARLAND
+}
+CPA = {	#半岛尼亚
+	color = { 255 0 0 }
+
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { peninsula }
+	capital = STATE_SALAND
+}

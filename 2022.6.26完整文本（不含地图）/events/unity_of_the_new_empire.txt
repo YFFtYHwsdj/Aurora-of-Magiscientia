@@ -1,0 +1,90 @@
+namespace = unity_of_new_empire
+
+#初始设定
+unity_of_new_empire.1 = {
+	type = country_event
+	placement = root
+	title = unity_of_new_empire.1.t
+	desc = unity_of_new_empire.1.d
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		add_journal_entry = {
+			type = je_unity_of_new_empire_main
+		}
+	}
+	
+	option = {
+		name = unity_of_new_empire.1.a
+		default_option = yes
+	}
+	
+	option = {
+		name = unity_of_new_empire.1.b
+	}
+}
+
+#成功事件
+unity_of_new_empire.2 = {
+	type = country_event
+	placement = root
+	title = unity_of_new_empire.2.t
+	desc = unity_of_new_empire.2.desc
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_upperclass_party.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/upperclass_party"
+
+	trigger = {
+	}
+}
+
+#失败事件
+unity_of_new_empire.3 = {
+	type = country_event
+	placement = root
+	title = unity_of_new_empire.3.t
+	desc = unity_of_new_empire.3.d
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	trigger = {
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = unity_of_new_empire.3.a
+		
+	}
+}
