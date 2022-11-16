@@ -13,9 +13,9 @@ ig_magibourgeois = {
 	on_character_ig_membership = {}
 
 	pop_potential = {
-		OR = {
-			is_pop_type = magiciteain
-			is_pop_type = maginobilis
+		NOR = {
+			is_pop_type = aristocrats
+			is_pop_type = clergymen
 		}
 	}
 
