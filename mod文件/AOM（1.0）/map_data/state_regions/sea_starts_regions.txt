@@ -1,0 +1,5 @@
+﻿STATE_SEA={
+	id = 3000
+    provinces = { "x3678ff" }
+    impassable = { "x3678ff" }
+}
