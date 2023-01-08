@@ -1,0 +1,11 @@
+﻿STATE_WEST_SEA = {
+    id = 3000
+    provinces = { "x28E6C5" }
+    impassable = { "x28E6C5" }
+}
+
+STATE_EAST_SEA = {
+    id = 3001
+    provinces = { "x57FEFF" }
+    impassable = { "x57FEFF" }
+}
