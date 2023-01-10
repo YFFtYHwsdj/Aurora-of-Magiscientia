@@ -1,0 +1,24 @@
+﻿l_english:
+ building_marnors:0 "subsistance marnors"
+ building_marnors_lens_option:0 "expand $building_marnors$"
+
+ building_subsistence_farms:"small-scale farms"
+ building_subsistence_farms_lens_option:0 "expand $building_subsistence_farms$"
+
+ building_furniture_contract:0 "furniture production contract"
+ building_furniture_contract_lens_option:0 "expand $building_furniture_contract$"
+
+ building_clothes_contract:0 "clothes production contract"
+ building_clothes_contract_lens_option:0 "expand $building_clothes_contract$"
+
+ building_liquor_contract:0 "liquor production contract"
+ building_liquor_contract_lens_option:0 "expand $building_liquor_contract$"
+
+ building_glass_contract:0 "glass production contract"
+ building_glass_contract_lens_option:0 "expand $building_glass_contract$"
+
+ building_luxury_clothes_contract:0 "luxury clothes contract"
+ building_luxury_clothes_contract_lens_option:0 "expand $building_luxury_furnitures_contract$"
+
+ building_luxury_furnitures_contract_lens_option:0 "luxury funiture production contract"
+ building_luxury_clothes_contract_lens_option:0 "expand $building_luxury_clothes_contract_lens_option$"

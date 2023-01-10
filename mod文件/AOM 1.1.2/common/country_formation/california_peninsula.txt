@@ -1,0 +1,81 @@
+﻿CPA = {
+	states = {
+		STATE_NADALA
+		STATE_NAVER
+		STATE_NAER
+		STATE_NOUNS
+		STATE_LANSLAND
+		STATE_SALAND
+		STATE_SELAND
+		STATE_SOLON
+		STATE_SUME
+		STATE_MARSLON
+		STATE_UONGE
+		STATE_YANSEN
+		STATE_UNOS
+		STATE_INOSN
+		STATE_RONLN
+		STATE_LANDEN
+		STATE_GONS
+		STATE_BOLUN
+		STATE_POLO
+		STATE:MOCHING
+		STATE_YANSN
+		STATE_BOLUNS
+		STATE_ZONS
+		STATE_HILY
+		STATE_GUSKAN
+		STATE_ERLUN
+		STATE_YOGHANS
+		STATE_TANLONS
+		STATE_KUNTIN
+		STATE_UNOSANS
+		STATE_PANDIN
+		STATE_NEO
+		STATE_YUNGON
+		STATE_MALUN
+		STATE_OPPS
+		STATE_ILUNS
+		STATE_NUNGONS
+		STATE_RONSTA
+		STATE_YANKENE
+                                STATE_UHOLE
+                                STATE_QONCE
+                                STATE_LUNZ
+                                STATE_POYAN
+                                STATE_ILLON
+                                STATE_LUNMO
+                                STATE_CONSDAN
+                                STATE_NAMON
+                                STATE_OLAND
+                                STATE_UNGON
+                                STATE_YANKONLAND
+                                STATE_TUANSLIN
+                                STATE_YOLYMAN
+                                STATE_TOLIYANS
+                                STATE_RONCAKE
+                                STATE_UILYON 
+                                STATE_POYANAC
+                                STATE_CONHOLY
+                                STATE_ERLANCA
+                                STATE_FONTYLY
+                                STATE_QANNER
+                                STATE_MICNIA
+                                STATE_VANLANCY
+                                STATE_GOLYTAN
+                                STATE_MOLYGY
+                                STATE_ARORA
+                                STATE_FANKENL
+                                STATE_GONYANCE
+                                STATE_RONYALY
+                                
+	}
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+	
+	possible = {		
+		has_technology_researched = nationalism
+	}
+}

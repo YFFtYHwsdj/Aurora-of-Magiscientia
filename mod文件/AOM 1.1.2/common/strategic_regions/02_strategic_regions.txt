@@ -1,0 +1,46 @@
+east_west_peninsula = {
+	map_color = { 90 90.0 68 }
+	states = {
+		STATE_CONSDAN STATE_NAMON STATE_SOLON STATE_SUME STATE_MARSLON STATE_YANSEN STATE_UONGE STATE_TUNSLAND STATE_INOSN 
+	}
+}
+south_peninsula = {
+	map_color = { 154 154.0 37 }
+	states = {
+		
+	}
+}
+east_peninsula = {
+	graphical_culture = "peninsula"
+	map_color = { 134 134.0 236 }
+	states = {
+		STATE_KUNTIN STATE_YANSN STATE_YUNGON STATE_LUNMO 
+	}
+}
+central_peninsula = {
+	graphical_culture = "peninsula"
+	map_color = { 209 209.0 71 }
+	states = {
+		
+	}
+}
+west_peninsula = {
+	graphical_culture = "peninsula"
+	map_color = { 218 218.0 65 }
+	states = {
+		STATE_FANKENL STATE_FONTYLY STATE_RONYALY STATE_GONYANCE STATE_ERLANCA STATE_CONHOLY 
+	}
+}
+north_peninsula = {
+	graphical_culture = "peninsula"
+	map_color = { 8 8.0 67 }
+	states = {
+		STATE_ARORA STATE_MOLYGY STATE_MICNIA STATE_VANLANCY STATE_GOLYTAN STATE_YOLYMAN 
+	}
+}
+ = {
+	map_color = { 0 0 0 }
+	states = {
+		STATE_KAERLAND 
+	}
+}

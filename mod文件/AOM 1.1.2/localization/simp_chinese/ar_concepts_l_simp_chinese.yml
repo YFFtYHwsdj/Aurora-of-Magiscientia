@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ concept_subsistence_building:0 "小规模农场"
+ concept_subsistence_buildings:1 "小规模农场"
+ concept_subsistence_building_farming:0 "小规模农场"
+ concept_subsistence_building_desc:2 "一种[Concept('concept_building', '$concept_buildings$')]，执行以家庭为单位的食物和基础资源[Concept('concept_good','$concept_goods$')]生产，并且提供$gig$用于$concept_rural_industry$的[concept_input_goods]。该建筑的[concept_output_goods]会随着其[concept_occupancy[的变化而变化，[concept_occupancy]越高，人均资源生产越少，但是也会有更多的剩余劳动力产出$gig$。这种建筑会在任何未被占用[concept_arable_land]的上运作，也不需要手动[Concept('concept_construction','建造')]。"
+ concept_subsistence_building_desc_added:0 "[GetPopType('small_farmers').GetName]"
+ concept_rural_industry:0 "乡村工业"
+ concept_rural_industry_desc:1 "乡村工业，与城市工业不同，是一种位于乡村的零工经济，与一般的[Concept('concept_building', '$concept_buildings$')]不同，其会投入由$gig$作为乡村剩余劳动力的抽象表示。"

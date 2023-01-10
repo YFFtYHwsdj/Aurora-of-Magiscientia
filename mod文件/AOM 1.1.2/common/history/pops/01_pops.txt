@@ -1,0 +1,386 @@
+POPS = {
+	s:STATE_KAERLAND = {
+		region_state:SHO = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NAVER = {
+		region_state:PAP = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NOUNS = {
+		region_state:NDA = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SOLON = {
+		region_state:NDA = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SUME = {
+		region_state:PAP = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MARSLON = {
+		region_state:SLO = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 10000
+			}
+		}
+	}
+	s:STATE_UONGE = {
+		region_state:LUA = {
+			create_pop = {
+				culture = peninsula
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_YANSEN = {
+		region_state:SLO = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_TUNSLAND = {
+		region_state:SLO = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_INOSN = {
+		region_state:NAR = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 400000
+			}
+		}
+		region_state:SLO = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1600000
+			}
+		}
+	}
+	s:STATE_GONS = {
+		region_state:SHO = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_YANSN = {
+		region_state:ZZC = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BOLUNS = {
+		region_state:EMP = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_ZONS = {
+		region_state:EMP = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 3000000
+			}
+		}
+	}
+	s:STATE_GUSKAN = {
+		region_state:SHO = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_YOGHANS = {
+		region_state:PPC = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_KUNTIN = {
+		region_state:ZZC = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_PANDIN = {
+		region_state:EMP = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 3000000
+			}
+		}
+	}
+	s:STATE_NEO = {
+		region_state:POL = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_YUNGON = {
+		region_state:POL = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ILUNS = {
+		region_state:EMP = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_YANKENE = {
+		region_state:PPC = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_QONCE = {
+		region_state:PPC = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 500000
+			}
+		}
+	}
+	s:STATE_LUNZ = {
+		region_state:LUN = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_POYAN = {
+		region_state:LUN = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_LUNMO = {
+		region_state:LUN = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_YOLYMAN = {
+		region_state:TOL = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 500000
+			}
+		}
+	}
+	s:STATE_TOLIYANS = {
+		region_state:TOL = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 500000
+			}
+		}
+	}
+	s:STATE_UILYON = {
+		region_state:POL = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 500000
+			}
+		}
+	}
+	s:STATE_POYANAC = {
+		region_state:PPC = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_CONHOLY = {
+		region_state:TOL = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 500000
+			}
+		}
+	}
+	s:STATE_ERLANCA = {
+		region_state:PPC = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 500000
+			}
+		}
+	}
+	s:STATE_FONTYLY = {
+		region_state:TOL = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = peninsula
+			}
+		}
+	}
+	s:STATE_QANNER = {
+		region_state:TOL = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 500000
+			}
+		}
+	}
+	s:STATE_MICNIA = {
+		region_state:FAS = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_VANLANCY = {
+		region_state:FAS = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 5000000
+			}
+		}
+	}
+	s:STATE_GOLYTAN = {
+		region_state:FAS = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MOLYGY = {
+		region_state:FAS = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ARORA = {
+		region_state:FAS = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 200000
+			}
+		}
+	}
+	s:STATE_FANKENL = {
+		region_state:NOR = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_GONYANCE = {
+		region_state:NOR = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_RONYALY = {
+		region_state:NOR = {
+			create_pop = {
+				culture = peninsula
+				religion = holy_church
+				size = 1500000
+			}
+		}
+	}
+	}

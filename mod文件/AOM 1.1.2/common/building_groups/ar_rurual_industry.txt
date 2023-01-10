@@ -1,0 +1,29 @@
+﻿bg_rural_contract_industry = {
+	category = rural 
+	lens = rural_contract
+	always_possible = yes 
+	economy_of_scale = no 
+	cash_reserves_max = 2000
+	auto_place_buildings = no 
+	fired_pops_become_radical = no
+}
+
+bg_contract_furniture = {
+	parent_group = bg_rural_contract_industry
+	default_building = building_furniture_contract
+}
+
+bg_contract_clothes = {
+	parent_group = bg_rural_contract_industry
+	default_building = building_clothes_contract
+}
+
+bg_contract_liquor = {
+	parent_group = bg_rural_contract_industry 
+	default_building = building_liquor_contract
+}
+
+bg_contract_glass = {
+	parent_group = bg_rural_contract_industry 
+	default_building = building_glass_contract
+}

@@ -1,0 +1,12 @@
+region_west_sea = {
+	map_color = { 0 0 0 }
+	states = {
+		STATE_WEST_SEA 
+	}
+}
+region_east_sea = {
+	map_color = { 0 0 0 }
+	states = {
+		STATE_EAST_SEA 
+	}
+}

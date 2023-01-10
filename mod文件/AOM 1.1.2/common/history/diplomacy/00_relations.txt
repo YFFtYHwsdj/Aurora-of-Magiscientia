@@ -1,0 +1,6 @@
+﻿DIPLOMACY = {
+	c:DZS = {
+		set_relations = { country = c:BZH value = -30 }
+	}
+
+}

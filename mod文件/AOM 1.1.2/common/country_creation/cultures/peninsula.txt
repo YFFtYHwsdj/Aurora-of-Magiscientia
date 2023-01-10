@@ -1,0 +1,39 @@
+﻿peninsula = {
+	color={ 0 136 255 }
+	religion = holy_church	#半岛文化默认宗教为圣教
+	traits = { german_speaking european_heritage }	#半岛文化特质为人类传承mankind_heritage	#欧洲传承european_heritage
+	
+	male_common_first_names={
+		a b c d e f g h i j k l m n
+	}
+	female_common_first_names = {
+		a b c d e f g h i j k l m n
+	}
+	common_last_names={
+		o p q r s t u v w s y z 0 1 2 3 4 5 6 7 8 9
+	}
+	
+	male_noble_first_names = {
+		# populate with names here
+	}
+	female_noble_first_names = {
+		# populate with names here
+	}	
+	noble_last_names = {
+		# populate with names here
+	}
+	
+	male_regal_first_names = {
+		# populate with names here
+	}
+	female_regal_first_names = {
+		# populate with names here
+	}
+	regal_last_names = {
+		# populate with names here
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}

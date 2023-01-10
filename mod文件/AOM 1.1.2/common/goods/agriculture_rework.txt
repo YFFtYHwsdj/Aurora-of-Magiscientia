@@ -1,0 +1,10 @@
+﻿gig = {
+	texture = "gfx/interface/icons/goods_icons/gig.dds"
+	cost = 50
+	category = industrial
+	tradeable = no
+
+	prestige_factor = 1
+	
+	consumption_tax_cost = 500
+}

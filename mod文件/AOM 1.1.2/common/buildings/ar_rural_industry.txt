@@ -1,0 +1,103 @@
+﻿building_furniture_contract = {
+	building_group = bg_dynamic_agriculture
+	texture = "gfx/interface/icons/building_icons/building_furniture_contract.dds"
+
+	production_method_groups = {
+		pmg_base_building_furniture_contract
+		pmg_onwership_building_rural_industry
+	}
+
+	required_construction = construction_cost_very_low
+		
+	#has_max_level = yes
+#
+	#buildable = no 
+	#expandable = no 
+	#downsizeable = no
+}
+
+building_clothes_contract = {
+	building_group = bg_dynamic_agriculture
+	texture = "gfx/interface/icons/building_icons/building_clothes_contract.dds"
+
+	production_method_groups = {
+		pmg_base_building_clothes_contract
+		pmg_onwership_building_rural_industry
+	}
+		
+	required_construction = construction_cost_very_low
+	#has_max_level = yes
+#
+	#buildable = no 
+	#expandable = no 
+	#downsizeable = no
+}
+
+building_liquor_contract = {
+	building_group = bg_dynamic_agriculture
+	texture = "gfx/interface/icons/building_icons/building_liquor_contract.dds"
+
+	production_method_groups = {
+		pmg_base_building_liquor_contract
+		pmg_onwership_building_rural_industry
+	}
+		
+	required_construction = construction_cost_very_low
+	#has_max_level = yes
+
+	#buildable = no 
+	#expandable = no 
+	#downsizeable = no
+}
+
+building_glass_contract = {
+	building_group = bg_dynamic_agriculture
+	texture = "gfx/interface/icons/building_icons/building_glass_contract.dds"
+	
+	production_method_groups = {
+		pmg_base_building_glass_contract
+		pmg_onwership_building_rural_industry
+	}
+		
+	required_construction = construction_cost_very_low
+	#has_max_level = yes
+#
+	#buildable = no 
+	#expandable = no 
+	#downsizeable = no
+}
+
+building_luxury_clothes_contract = {
+	building_group = bg_dynamic_agriculture
+	texture = "gfx/interface/icons/building_icons/building_luxury_clothes_contract.dds"
+	
+	production_method_groups = {
+		pmg_base_building_luxury_clothes_contract
+		pmg_onwership_building_rural_industry
+	}
+		
+	required_construction = construction_cost_very_low
+	#has_max_level = yes
+#
+	#buildable = no 
+	#expandable = no 
+	#downsizeable = no
+}
+
+building_luxury_furnitures_contract = {
+	building_group = bg_dynamic_agriculture
+	texture = "gfx/interface/icons/building_icons/building_luxury_furnitures_contract.dds"
+	
+	production_method_groups = {
+		pmg_base_building_luxury_furnitures_contract
+		pmg_onwership_building_rural_industry
+	}
+		
+	required_construction = construction_cost_very_low
+	#has_max_level = yes
+#
+	#buildable = no 
+	#expandable = no 
+	#downsizeable = no
+}
+

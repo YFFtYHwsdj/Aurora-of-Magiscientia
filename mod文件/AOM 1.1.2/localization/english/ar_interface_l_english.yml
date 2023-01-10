@@ -1,0 +1,3 @@
+﻿l_english:
+ SUBSISTENCE_CONCEPT:0 "#concept $SUBSISTENCE_CONCEPT_CLEAN$#!"
+ SUBSISTENCE_CONCEPT_CLEAN:0 "这是[concept_subsistence_building]，地区内有未使用的[concept_arable_land]时出现。只要你开始开发它占用的潜力，这种建造就会自动缩减规模。"

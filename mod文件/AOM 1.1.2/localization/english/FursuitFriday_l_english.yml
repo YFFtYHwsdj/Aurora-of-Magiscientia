@@ -1,0 +1,14 @@
+﻿l_english:
+ STATE_CENTER_1:0 "Center I"
+ STATE_CENTER_2:0 "Center II"
+ STATE_CENTER_3:0 "Center III"
+ STATE_CENTER_4:0 "Center IV"
+ STATE_CENTER_5:0 "Center V"
+ STATE_CENTER_6:0 "Center VI"
+ 
+ STATE_WEST_SEA:0 "West sea"
+ STATE_EAST_SEA:0 "East sea"
+ 
+ region_west_sea:0 "West sea"
+ region_east_sea:0 "East sea"
+ 

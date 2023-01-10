@@ -1,0 +1,64 @@
+﻿ZhouRao_demon = {
+	color={ 158 126 143 }
+	religion = animism
+	traits = { demon_heritage }
+	
+	male_common_first_names={
+		Changlin
+		Deng
+		Fu
+		Guan
+		Hesehn
+		Ma
+		Mingzhu
+		Nalan
+		Oboi
+		Songgotu
+		Sonin
+		Suksaha
+		Tong
+		Zhao
+	}
+	female_common_first_names = {
+		Abahai
+		Huixing
+		Linggui
+		Quejing
+		Wanrong
+		Wengjing
+		Xingzhen
+	}
+	common_last_names={
+		Kang_an
+		Linge
+		Shangzhi
+		Tiemei
+		Xiangying
+		Xingde
+		Zhanshan
+	}
+	
+	male_noble_first_names = {
+		# populate with names here
+	}
+	female_noble_first_names = {
+		# populate with names here
+	}	
+	noble_last_names = {
+		# populate with names here
+	}
+	
+	male_regal_first_names = {
+		# populate with names here
+	}
+	female_regal_first_names = {
+		# populate with names here
+	}
+	regal_last_names = {
+		# populate with names here
+	}	
+	
+	ethnicities = {
+		1 = asian
+	}
+}

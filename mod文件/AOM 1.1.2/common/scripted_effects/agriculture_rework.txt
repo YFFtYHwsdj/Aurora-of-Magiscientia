@@ -1,0 +1,140 @@
+﻿# occupancy to throughput_mult update
+ar_occupancy2put_update = {
+	b:$building_key$ = {
+		remove_modifier = $modifier_key$
+	}
+	if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = $building_key$
+			}
+		}
+		set_variable = {
+			name = ar_var_occupancy
+			value = b:$building_key$.occupancy
+		}
+		b:$building_key$ = {
+			add_modifier = {
+				name = $modifier_key$
+				multiplier = $multiplier$
+			}
+		}
+	}
+	remove_variable = ar_var_occupancy
+}
+#ar_rural_industry_level_update = {
+	#remove_modifier = $modifier_key$
+	#if = {
+	#	limit = {
+	#		NOT = {has_variable = $variable_name$}
+	#	}
+	#	set_variable = {
+	#		name = $variable_name$
+	#		value = 10
+	#	}
+	#}
+	#if = {
+	#	limit = {
+	#		any_scope_building = {
+	#			is_building_type = $building_key$
+	#		}
+	#	}
+	#	if = {
+	#		limit = {
+	#			b:$building_key$.weekly_profit > 100
+	#		}
+	#		change_variable = {
+	#			name = $variable_name$
+	#			add = 10
+	#		}
+	#		if = {
+	#			limit = {
+	#				b:$building_key$.occupancy > 0.8
+	#			}
+	#			change_variable = {
+	#				name = $variable_name$
+	#				multiply = 1.3
+	#			}
+	#		}
+	#	}
+	#	else = {
+	#		change_variable = {
+	#			change_variable = {
+	#				name = $variable_name$
+	#				multiply = b:$building_key$.occupancy
+	#			}
+	#		}
+	#	}
+	#}
+	#if = {
+	#	limit = {
+	#		var:$variable_name$ <=10
+	#	}
+	#	set_variable = {
+	#		name = $variable_name$
+	#		value = 10
+	#	}
+	#}
+	#set_variable = {
+	#	name = ar_rural_industry_level_start
+	#	value = var:$variable_name$
+	#}
+	#add_modifier = {
+	#	name = $modifier_key$
+	#	multiplier = ar_rural_industry_level
+	#}
+	#remove_variable = ar_rural_industry_level_start
+#}
+
+#r_rural_industry_level_update_test = {
+#	remove_modifier = state_building_glass_contract_max_level_modifier
+#	if = {
+#		limit = {
+#			NOT = {has_variable = building_glass_contract_level}
+#		}
+#		set_variable = {
+#			name = building_glass_contract_level
+#			value = 10
+#		}
+#	}
+#	if = {
+#		limit = {
+#			any_scope_building = {
+#				is_building_type = building_glass_contract
+#			}
+#		}
+#		if = {
+#			limit = {
+#				b:building_glass_contract.weekly_profit > 100
+#			}
+#			change_variable = {
+#				name = building_glass_contract_level
+#				add = 10
+#			}
+#		}
+#		else = {
+#			change_variable = {
+#				name = building_glass_contract_level
+#				multiply = b:building_glass_contract.occupancy
+#			}
+#		}
+#	}
+#	if = {
+#		limit = {
+#			var:building_glass_contract_level <=0
+#		}
+#		set_variable = {
+#			name = building_glass_contract_level
+#			value = 0
+#		}
+#	}
+#	set_variable = {
+#		name = ar_rural_industry_level_start
+#		value = var:building_glass_contract_level
+#	}
+#	add_modifier = {
+#		name = state_building_glass_contract_max_level_modifier
+#		multiplier = ar_rural_industry_level
+#	}
+#	remove_variable = ar_rural_industry_level_start
+#

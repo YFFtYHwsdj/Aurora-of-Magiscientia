@@ -1,0 +1,5 @@
+﻿NFrontend = {
+	CAMERA_START_X = 4096.0
+	CAMERA_START_Y = 1500
+	CAMERA_START_Z = 1808.0
+}

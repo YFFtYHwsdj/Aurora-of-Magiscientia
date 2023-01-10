@@ -1,0 +1,56 @@
+﻿on_monthly_pulse_state = {
+	on_actions = {
+		ar_occupancy2put_pulse
+		ar_max_level_update
+	}
+}
+
+ar_occupancy2put_pulse = {
+	effect = {
+		ar_occupancy2put_update = {
+			building_key = building_subsistence_farms
+			modifier_key = building_output_grain_mult_modifier
+			multiplier = ar_occupancy2grain
+		}
+		ar_occupancy2put_update = {
+			building_key = building_subsistence_farms
+			modifier_key = building_output_wood_mult_modifier
+			multiplier = ar_occupancy2grain
+		}
+		ar_occupancy2put_update = {
+			building_key = building_subsistence_farms
+			modifier_key = building_output_fabric_mult_modifier
+			multiplier = ar_occupancy2grain
+		}
+		ar_occupancy2put_update = {
+			building_key = building_subsistence_farms
+			modifier_key = building_output_gig_mult_modifier
+			multiplier = ar_occupancy2gig
+		}
+	}
+}
+
+ar_max_level_update = {
+	effect = {
+		#ar_rural_industry_level_update = {
+		#	modifier_key = #state_building_furniture_contract_max_level_modidfier
+		#	building_key = building_furniture_contract
+		#	variable_name = building_furniture_contract_level
+		#}
+		#ar_rural_industry_level_update = {
+		#	modifier_key = #state_building_clothes_contract_max_level_modifier
+		#	building_key = building_clothes_contract
+		#	variable_name = building_clothes_contract_level
+		#}
+		#ar_rural_industry_level_update = {
+		#	modifier_key = #state_building_liquor_contract_max_level_modifier
+		#	building_key = building_liquor_contract
+		#	variable_name = building_liquor_contract_level
+		#}
+		#ar_rural_industry_level_update = {
+		#	modifier_key = state_building_glass_contract_max_level_modifier
+		#	building_key = building_glass_contract
+		#	variable_name = building_glass_contract_level
+		#}
+	}
+}
