@@ -1,5 +1,5 @@
 ﻿building_furniture_contract = {
-	building_group = bg_dynamic_agriculture
+	building_group = bg_rural_contract_industry
 	texture = "gfx/interface/icons/building_icons/building_furniture_contract.dds"
 
 	production_method_groups = {
@@ -17,7 +17,7 @@
 }
 
 building_clothes_contract = {
-	building_group = bg_dynamic_agriculture
+	building_group = bg_rural_contract_industry
 	texture = "gfx/interface/icons/building_icons/building_clothes_contract.dds"
 
 	production_method_groups = {
@@ -34,7 +34,7 @@ building_clothes_contract = {
 }
 
 building_liquor_contract = {
-	building_group = bg_dynamic_agriculture
+	building_group = bg_rural_contract_industry
 	texture = "gfx/interface/icons/building_icons/building_liquor_contract.dds"
 
 	production_method_groups = {
@@ -51,7 +51,7 @@ building_liquor_contract = {
 }
 
 building_glass_contract = {
-	building_group = bg_dynamic_agriculture
+	building_group = bg_rural_contract_industry
 	texture = "gfx/interface/icons/building_icons/building_glass_contract.dds"
 	
 	production_method_groups = {
@@ -68,7 +68,7 @@ building_glass_contract = {
 }
 
 building_luxury_clothes_contract = {
-	building_group = bg_dynamic_agriculture
+	building_group = bg_rural_contract_industry
 	texture = "gfx/interface/icons/building_icons/building_luxury_clothes_contract.dds"
 	
 	production_method_groups = {

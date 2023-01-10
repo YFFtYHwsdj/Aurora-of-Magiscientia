@@ -189,7 +189,7 @@ CPA = {	#半岛尼亚
 
 	country_type = recognized
 
-	tier = hegemony
+	tier = principality
 	
 	cultures = { peninsula }
 	religion = holy_churchs
@@ -200,9 +200,20 @@ TOL = {	#半岛尼亚
 
 	country_type = recognized
 
-	tier = hegemony
+	tier = principality
 	
 	cultures = { peninsula }
 	religion = holy_churchs
 	capital = STATE_CHENHOLY
+}
+SLO = {	#半岛尼亚
+	color = { 32 15 72 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { peninsula }
+	religion = holy_churchs
+	capital = STATE_INOSN
 }

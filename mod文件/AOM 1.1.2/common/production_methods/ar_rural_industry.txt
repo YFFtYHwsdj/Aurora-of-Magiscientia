@@ -57,11 +57,9 @@ pm_base_building_luxury_furniture_contract = {
 		workforce_scaled = {
 			# input goods
 			building_input_hardwood_add = 10
-			building_input_wood_add = -10
 			building_input_gig_add = 8
 	
 			# output goods
-			building_output_furniture_add = -20
 			building_output_luxury_furniture_add = 20
 		}
 
@@ -79,11 +77,9 @@ pm_base_building_luxury_clothes_contract = {
 		workforce_scaled = {
 			# input goods
 			building_input_silk_add = 10				# x40 =  400
-			building_input_fabric_add = -10				# x20 =  200
 			building_input_gig_add = 8
 			
 			# output goods
-			building_output_clothes_add = -20			# x30 = -600
 			building_output_luxury_clothes_add = 20		# x60 = 1200
 		}
 

@@ -1,11 +1,20 @@
 ﻿bg_rural_contract_industry = {
 	category = rural 
+
 	lens = rural_contract
+
 	always_possible = yes 
+
+	urbanization = 10
+
 	economy_of_scale = no 
+
 	cash_reserves_max = 2000
+
 	auto_place_buildings = no 
+
 	fired_pops_become_radical = no
+
 }
 
 bg_contract_furniture = {

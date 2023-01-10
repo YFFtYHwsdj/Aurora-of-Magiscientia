@@ -1,0 +1,5 @@
+NEconomy = {
+    TRADE_ROUTE_BUREAUCRACY_COST = 10					# The cost in BUR per trade route
+	TRADE_ROUTE_START_LEVEL = 1							# All new trade routes start at this level
+	TRADE_ROUTE_MAX_LEVEL = 9999							# Trade routes cannot be higher level than this
+}

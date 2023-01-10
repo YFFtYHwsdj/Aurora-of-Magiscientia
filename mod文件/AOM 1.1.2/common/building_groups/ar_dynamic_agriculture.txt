@@ -1,10 +1,13 @@
 ﻿bg_dynamic_agriculture = {
 	category = rural
-	always_possible = yes
+
+	can_use_slaves = yes
 
 	land_usage = rural
 	
 	auto_place_buildings = yes	
+
+	urbanization = 5
 
 	infrastructure_usage_per_level = 0
 
@@ -13,6 +16,8 @@
 
 bg_marnors = {
 	parent_group = bg_dynamic_agriculture
+	auto_place_buildings = yes
+	always_possible = yes
 	default_building = building_marnors
 }
 
@@ -27,7 +32,7 @@ bg_agriculture = {
 	
 	can_use_slaves = yes
 	
-	infrastructure_usage_per_level = 0
+	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
 		default_auto_expand_rule = yes
@@ -35,7 +40,7 @@ bg_agriculture = {
 }
 
 bg_subsistence_agriculture = {
-	parent_group = bg_agriculture
+	parent_group = bg_dynamic_agriculture
 
 	always_possible = yes
 	
@@ -46,4 +51,7 @@ bg_subsistence_agriculture = {
 	default_building = building_subsistence_farms
 	
 	fired_pops_become_radical = no
+
+	cash_reserves_max = 1000
+
 }

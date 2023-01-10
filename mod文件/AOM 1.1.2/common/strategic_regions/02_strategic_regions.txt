@@ -1,46 +1,54 @@
-east_west_peninsula = {
-	map_color = { 90 90.0 68 }
+east_south_peninsula = {
+	capital_province = xC1F973
+	map_color = {
+		93 105 224
+	}
 	states = {
-		STATE_CONSDAN STATE_NAMON STATE_SOLON STATE_SUME STATE_MARSLON STATE_YANSEN STATE_UONGE STATE_TUNSLAND STATE_INOSN 
+		STATE_INOSN STATE_TUNSLAND STATE_YANSEN STATE_UONGE STATE_SUME STATE_MARSLON STATE_SOLON STATE_NOUNS STATE_KUNTIN STATE_NAVER
 	}
 }
 south_peninsula = {
-	map_color = { 154 154.0 37 }
-	states = {
-		
+	capital_province = xDDCAF6
+	map_color = {
+		179 69 182
 	}
-}
-east_peninsula = {
-	graphical_culture = "peninsula"
-	map_color = { 134 134.0 236 }
 	states = {
-		STATE_KUNTIN STATE_YANSN STATE_YUNGON STATE_LUNMO 
+		STATE_KAERLAND STATE_GONS STATE_GUSKAN STATE_YOGHANS STATE_YANKENE STATE_PANDIN STATE_ZONS STATE_QONCE STATE_BOLUNS
 	}
 }
 central_peninsula = {
-	graphical_culture = "peninsula"
-	map_color = { 209 209.0 71 }
+	capital_province = xDEC0D8
+	map_color = {
+		88 62 75
+	}
 	states = {
-		
+		STATE_POYAN STATE_ILUNS STATE_LUNZ
+	}
+}
+east_peninsula = {
+	capital_province = xF96BED
+	map_color = {
+		216 1 81
+	}
+	states = {
+		STATE_NEO STATE_YANSN STATE_UILYON STATE_YUNGON STATE_LUNMO
 	}
 }
 west_peninsula = {
-	graphical_culture = "peninsula"
-	map_color = { 218 218.0 65 }
+	capital_province = xEEAEE8
+	map_color = {
+		117 131 8
+	}
 	states = {
-		STATE_FANKENL STATE_FONTYLY STATE_RONYALY STATE_GONYANCE STATE_ERLANCA STATE_CONHOLY 
+		STATE_RONYALY STATE_POYANAC STATE_GONYANCE STATE_FANKENL STATE_ERLANCA
 	}
 }
 north_peninsula = {
-	graphical_culture = "peninsula"
-	map_color = { 8 8.0 67 }
-	states = {
-		STATE_ARORA STATE_MOLYGY STATE_MICNIA STATE_VANLANCY STATE_GOLYTAN STATE_YOLYMAN 
+	capital_province = x89C6D4
+	map_color = {
+		125 224 212
 	}
-}
- = {
-	map_color = { 0 0 0 }
 	states = {
-		STATE_KAERLAND 
+		STATE_QANNER STATE_TOLIYANS STATE_YOLYMAN STATE_CONHOLY STATE_FONTYLY STATE_ARORA STATE_MICNIA STATE_VANLANCY STATE_MOLYGY STATE_GOLYTAN
 	}
 }

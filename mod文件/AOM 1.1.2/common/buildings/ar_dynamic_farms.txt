@@ -24,7 +24,7 @@ building_subsistence_farms = {
 		pmg_ownership_building_subsistence
 	}
 	
-	min_raise_to_hire = 0.8
+	min_raise_to_hire = 0.7
 
 	buildable = no
 	expandable = no
