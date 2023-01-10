@@ -85,7 +85,7 @@ building_luxury_clothes_contract = {
 }
 
 building_luxury_furnitures_contract = {
-	building_group = bg_dynamic_agriculture
+	building_group = bg_rural_contract_industry
 	texture = "gfx/interface/icons/building_icons/building_luxury_furnitures_contract.dds"
 	
 	production_method_groups = {
