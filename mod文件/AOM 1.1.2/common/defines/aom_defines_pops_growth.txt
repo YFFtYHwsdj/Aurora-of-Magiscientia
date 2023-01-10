@@ -1,9 +1,9 @@
 ﻿### Pop Growth Constants   
 @min_birthrate = 0.0005
-@max_birthrate = 0.0060
-@min_mortality = 0.0005
-@max_mortality = 0.0070
-@pop_growth_sol_equilibrium = 6							# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
+@max_birthrate = 0.0055
+@min_mortality = 0.0010
+@max_mortality = 0.0130
+@pop_growth_sol_equilibrium = 5							# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
 @pop_growth_sol_delta_cap = 40							# SoL Delta Cap is where net growth stops increasing with rising SoL, i.e. both drop at the same pace
 @pop_growth_sol_cap = 50								# SoL Cap is where they birthrate/death-rate stop dropping
 

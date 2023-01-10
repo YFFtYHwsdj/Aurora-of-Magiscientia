@@ -1,0 +1,5 @@
+﻿l_english:
+ small_farmers:0 "@small_farmers!$small_farmers_no_icon$"
+ small_farmers_only_icon:0 "@small_farmers!"
+ small_farmers_no_icon:0 "small farmers"
+ small_farmers_desc:0 "Famers that perform family-based production on land owned by themselves or rented from landowners. When lands are scarce, they will invest excessive labor into agricultural production and sell their labor to others, so they are both farmers and workers."
