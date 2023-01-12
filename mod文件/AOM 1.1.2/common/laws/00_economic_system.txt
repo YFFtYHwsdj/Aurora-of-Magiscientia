@@ -39,6 +39,8 @@ law_traditionalism = {
 	build_from_investment_pool = {
 		bg_rural_contract_industry
 		bg_light_industry
+		bg_ranching
+		bg_agriculture
 	}
 	
 	# AI should never switch back to traditionalism

@@ -1,0 +1,43 @@
+﻿#TRADE_ROUTES = {
+#	# Empire
+#	c:EMP = {
+#		# clothes
+#		create_trade_route = {
+#			goods = clothes
+#			level = 5
+#			direction = export
+#			target = c:PPC.market
+#		}		
+#		create_trade_route = {
+#			goods = clothes
+#			level = 5
+#			direction = export
+#			target = c:LUN.market
+#		}		
+#		create_trade_route = {
+#			goods = clothes
+#			level = 5
+#			direction = export
+#			target = c:SHO.market
+#		}	
+#		#furniture
+#		create_trade_route = {
+#			goods = furniture
+#			level = 5
+#			direction = export
+#			target = c:PPC.market
+#		}		
+#		create_trade_route = {
+#			goods = furniture
+#			level = 5
+#			direction = export
+#			target = c:LUN.market
+#		}		
+#		create_trade_route = {
+#			goods = furniture
+#			level = 5
+#			direction = export
+#			target = c:SHO.market
+#		}	
+#	}	
+#}

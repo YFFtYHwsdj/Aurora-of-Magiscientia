@@ -3,89 +3,85 @@ ar_occupancy2put_update = {
 	b:$building_key$ = {
 		remove_modifier = $modifier_key$
 	}
-	if = {
-		limit = {
-			any_scope_building = {
-				is_building_type = $building_key$
-			}
-		}
-		set_variable = {
-			name = ar_var_occupancy
-			value = b:$building_key$.occupancy
-		}
-		b:$building_key$ = {
-			add_modifier = {
-				name = $modifier_key$
-				multiplier = $multiplier$
-			}
+	b:$building_key$ = {
+		add_modifier = {
+			name = $modifier_key$
+			multiplier = $multiplier$
 		}
 	}
-	remove_variable = ar_var_occupancy
 }
-#ar_rural_industry_level_update = {
-	#remove_modifier = $modifier_key$
-	#if = {
-	#	limit = {
-	#		NOT = {has_variable = $variable_name$}
-	#	}
-	#	set_variable = {
-	#		name = $variable_name$
-	#		value = 10
-	#	}
-	#}
-	#if = {
-	#	limit = {
-	#		any_scope_building = {
-	#			is_building_type = $building_key$
-	#		}
-	#	}
-	#	if = {
-	#		limit = {
-	#			b:$building_key$.weekly_profit > 100
-	#		}
-	#		change_variable = {
-	#			name = $variable_name$
-	#			add = 10
-	#		}
-	#		if = {
-	#			limit = {
-	#				b:$building_key$.occupancy > 0.8
-	#			}
-	#			change_variable = {
-	#				name = $variable_name$
-	#				multiply = 1.3
-	#			}
-	#		}
-	#	}
-	#	else = {
-	#		change_variable = {
-	#			change_variable = {
-	#				name = $variable_name$
-	#				multiply = b:$building_key$.occupancy
-	#			}
-	#		}
-	#	}
-	#}
-	#if = {
-	#	limit = {
-	#		var:$variable_name$ <=10
-	#	}
-	#	set_variable = {
-	#		name = $variable_name$
-	#		value = 10
-	#	}
-	#}
-	#set_variable = {
-	#	name = ar_rural_industry_level_start
-	#	value = var:$variable_name$
-	#}
-	#add_modifier = {
-	#	name = $modifier_key$
-	#	multiplier = ar_rural_industry_level
-	#}
-	#remove_variable = ar_rural_industry_level_start
-#}
 
+ar_occupancy2modifier_update = {
+	remove_modifier = $modifier_key$
+	add_modifier = {
+		name = $modifier_key$
+		multiplier = $multiplier$
+	}
+}
+
+#ar_rural_industry_level_update = {
+#remove_modifier = $modifier_key$
+#if = {
+#	limit = {
+#		NOT = {has_variable = $variable_name$}
+#	}
+#	set_variable = {
+#		name = $variable_name$
+#		value = 10
+#	}
+#}
+#if = {
+#	limit = {
+#		any_scope_building = {
+#			is_building_type = $building_key$
+#		}
+#	}
+#	if = {
+#		limit = {
+#			b:$building_key$.weekly_profit > 100
+#		}
+#		change_variable = {
+#			name = $variable_name$
+#			add = 10
+#		}
+#		if = {
+#			limit = {
+#				b:$building_key$.occupancy > 0.8
+#			}
+#			change_variable = {
+#				name = $variable_name$
+#				multiply = 1.3
+#			}
+#		}
+#	}
+#	else = {
+#		change_variable = {
+#			change_variable = {
+#				name = $variable_name$
+#				multiply = b:$building_key$.occupancy
+#			}
+#		}
+#	}
+#}
+#if = {
+#	limit = {
+#		var:$variable_name$ <=10
+#	}
+#	set_variable = {
+#		name = $variable_name$
+#		value = 10
+#	}
+#}
+#set_variable = {
+#	name = ar_rural_industry_level_start
+#	value = var:$variable_name$
+#}
+#add_modifier = {
+#	name = $modifier_key$
+#	multiplier = ar_rural_industry_level
+#}
+#remove_variable = ar_rural_industry_level_start
+#}
 #r_rural_industry_level_update_test = {
 #	remove_modifier = state_building_glass_contract_max_level_modifier
 #	if = {

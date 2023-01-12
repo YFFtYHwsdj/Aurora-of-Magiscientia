@@ -9,7 +9,7 @@
 
 	economy_of_scale = no 
 
-	cash_reserves_max = 2000
+	cash_reserves_max = 30000
 
 	auto_place_buildings = no 
 

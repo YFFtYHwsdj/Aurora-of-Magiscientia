@@ -23,17 +23,17 @@ default_building_subsistence_farms = {
 	texture = "gfx/interface/icons/production_method_icons/Contract.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_grain_add = 13
-			building_output_fabric_add = 3 
+			building_output_grain_add = 12
+			building_output_fabric_add = 2 
 			building_output_wood_add = 2  
-			building_output_gig_add = 1.5
+			building_output_meat_add = 1
+			building_output_gig_add = 1.25
 		}
 		level_scaled = {
 			building_employment_small_farmers_add = 4750
 		}
 		unscaled = {
-			building_subsistence_output_add = 0.35  
-			state_urbanization_add = 1
+			building_subsistence_output_add = 0.5  
 		}
 	}
 }

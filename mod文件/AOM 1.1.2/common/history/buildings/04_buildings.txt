@@ -1,0 +1,179 @@
+BUILDINGS = {
+	s:STATE_PANDIN = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_furniture_contract"
+				level = 5
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_clothes_contract"
+				level = 5
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_liquor_contract"
+				level = 5
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_glass_contract"
+				level = 5
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_luxury_clothes_contract"
+				level = 2
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_luxury_furnitures_contract"
+				level = 2
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_government_administration"
+				level = 20
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_ZONS = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_furniture_contract"
+				level = 2
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_clothes_contract"
+				level = 2
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_government_administration"
+				level = 30
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_ILUNS = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_furniture_contract"
+				level = 2
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_clothes_contract"
+				level = 2
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_government_administration"
+				level = 20
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_BOLUNS = {
+		region_state:EMP = {
+			create_building = {
+				building = "building_furniture_contract"
+				level = 2
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_clothes_contract"
+				level = 2
+				reservse = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_government_administration"
+				level = 20
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_YOGHANS = {
+		region_state:PPC = {
+			create_building = {
+				building = "building_government_administration"
+				level = 10
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_POYANAC = {
+		region_state:PPC = {
+			create_building = {
+				building = "building_government_administration"
+				level = 10
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_QONCE = {
+		region_state:PPC = {
+			create_building = {
+				building = "building_government_administration"
+				level = 5
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_YANKENE = {
+		region_state:PPC = {
+			create_building = {
+				building = "building_government_administration"
+				level = 10
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_GUSKAN = {
+		region_state:SHO = {
+			create_building = {
+				building = "building_government_administration"
+				level = 10
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_GONS = {
+		region_state:SHO = {
+			create_building = {
+				building = "building_government_administration"
+				level = 10
+				reservse = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_KAERLAND = {
+		region_state:SHO = {
+			create_building = { }
+		}
+	}
+}

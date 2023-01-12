@@ -1,6 +1,15 @@
 ﻿building_subsistence_farms_throughput_mult_modifier = {
 	building_subsistence_farms_throughput_mult = 1
 }
+building_group_bg_agriculture_throughput_mult_modifier = {
+	building_group_bg_agriculture_throughput_mult = 1
+}
+state_capitalists_investment_pool_contribution_mult_modifier = {
+	state_capitalists_investment_pool_contribution_mult = 1
+}
+state_aristocrats_investment_pool_contribution_mult_modifier = {
+	state_aristocrats_investment_pool_contribution_mult = 1
+}
 building_output_grain_mult_modifier = {
 	building_output_grain_mult = 1
 }
@@ -12,6 +21,9 @@ building_output_fabric_mult_modifier = {
 }
 building_output_gig_mult_modifier = {
 	building_output_gig_mult = 1
+}
+building_output_meat_mult_modifier = {
+	building_output_meat_mult = 1
 }
 #max level
 state_building_furniture_contract_max_level_modidfier = {

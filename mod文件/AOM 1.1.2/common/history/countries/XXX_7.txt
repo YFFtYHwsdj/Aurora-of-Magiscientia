@@ -4,7 +4,7 @@
 
 		effect_starting_technology_tier_1_tech = yes
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
@@ -26,7 +26,7 @@
 
 		effect_starting_technology_tier_1_tech = yes
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
@@ -48,7 +48,7 @@
 
 		effect_starting_technology_tier_1_tech = yes
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
@@ -70,7 +70,7 @@
 
 		effect_starting_technology_tier_1_tech = yes
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
@@ -92,7 +92,7 @@
 
 		effect_starting_technology_tier_1_tech = yes
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
@@ -114,7 +114,7 @@
 
 		effect_starting_technology_tier_1_tech = yes
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools
@@ -136,7 +136,7 @@
 
 		effect_starting_technology_tier_1_tech = yes
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_law_autocracy
 		activate_law = law_type:law_religious_schools

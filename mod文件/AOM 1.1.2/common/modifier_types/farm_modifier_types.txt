@@ -88,3 +88,7 @@ building_output_wood_mult = {
 	good = yes 
 	percent = yes
 }
+building_output_meat_mult = {
+	good = yes
+	percent = yes
+}

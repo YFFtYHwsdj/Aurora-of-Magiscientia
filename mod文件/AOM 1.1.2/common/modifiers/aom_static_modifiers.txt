@@ -288,7 +288,7 @@ efficient_bureaucracy = {
 # Insufficient BUR reduces tax collected by 100% at 2x usage to production
 administrative_overburden = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	state_tax_waste_add = 0.95
+	state_tax_waste_add = 1
 }
 
 # Excess AUT reduces enactment time by -25% at 2x production to usage
