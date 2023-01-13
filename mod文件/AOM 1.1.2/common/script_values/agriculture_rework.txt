@@ -3,10 +3,10 @@
 }
 
 ar_occupancy2invest = {
-    value = -0.05
+    value = 0
     add = {
         value = ar_occupancy
-        multiply = -1
+        multiply = -1.15
     }
 }
 
