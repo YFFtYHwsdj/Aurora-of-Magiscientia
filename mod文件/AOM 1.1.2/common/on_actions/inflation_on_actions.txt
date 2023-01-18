@@ -1,0 +1,11 @@
+﻿on_monthly_pulse_country = {
+    on_actions = {
+        infaltion_update
+    }
+}
+
+infaltion_update = {
+    effect = {
+        infaltion_effect = yes
+    }
+}

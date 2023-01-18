@@ -298,7 +298,7 @@ POPS = {
 			create_pop = {
 				culture = peninsula
 				religion = holy_church
-				size = 500000
+				size = peninsula
 			}
 		}
 	}

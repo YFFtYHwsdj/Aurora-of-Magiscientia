@@ -5,8 +5,9 @@ STATE_KAERLAND = {
 	}
 	arable_land = 180
 	arable_resources = {
-		bg_ranching bg_rice_farms bg_dye_plantations
+		bg_wheat_farms bg_ranching
 	}
+	naval_exit_id = 3002
 }
 STATE_NAVER = {
 	id = 2
@@ -20,7 +21,7 @@ STATE_NAVER = {
 	wood = "x77DDAF"
 	arable_land = 112
 	arable_resources = {
-		bg_ranching bg_rice_farms bg_dye_plantations
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -33,9 +34,10 @@ STATE_NAVER = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3006
 }
 STATE_NOUNS = {
-	id = 5003
+	id = 3
 	provinces = {
 		"x8CF6AF" "xB3D592" "xCBE1C5" "xCFB5A3" "xD7E155" "xE599E9" "xE9B5F7" "xED99CF" "xF0B0E4" "xF2CDDB" "xF6FA20" "xFA93E1"
 	}
@@ -45,7 +47,7 @@ STATE_NOUNS = {
 	wood = "x8CF6AF"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_millet_farms bg_rice_farms bg_dye_plantations
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -58,9 +60,10 @@ STATE_NOUNS = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_SOLON = {
-	id = 5004
+	id = 4
 	provinces = {
 		"xA2CDE9" "xC06CFE" "xC7D5E0" "xC870D1" "xD29099" "xFC78DB"
 	}
@@ -71,7 +74,7 @@ STATE_SOLON = {
 	wood = "xA2CDE9"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rice_farms bg_dye_plantations
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -84,9 +87,10 @@ STATE_SOLON = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3002
 }
 STATE_SUME = {
-	id = 5005
+	id = 5
 	provinces = {
 		"x30F6E5" "x4EEAEE" "xB5D597" "xC691FA" "xDD6ABF" "xF0E573" "xFCC1FD" "xFDFEAA"
 	}
@@ -97,7 +101,7 @@ STATE_SUME = {
 	wood = "x4EEAEE"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rice_farms bg_dye_plantations
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -110,9 +114,10 @@ STATE_SUME = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3006
 }
 STATE_MARSLON = {
-	id = 5006
+	id = 6
 	provinces = {
 		"x9FCDE3" "xA9F46A" "xB4B995" "xCCFD5A" "xE1B5B6" "xF553BF" "xF8A0DD" "xFBF178"
 	}
@@ -123,7 +128,7 @@ STATE_MARSLON = {
 	wood = "xF8A0DD"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rice_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -136,9 +141,10 @@ STATE_MARSLON = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3002
 }
 STATE_UONGE = {
-	id = 5007
+	id = 7
 	provinces = {
 		"xB3A8C2" "xCCC86E" "xCFAFC6" "xEC55E6" "xEC68B8" "xF1D672" "xF276DF"
 	}
@@ -148,7 +154,7 @@ STATE_UONGE = {
 	wood = "xF276DF"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rice_farms bg_dye_plantations
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -161,9 +167,10 @@ STATE_UONGE = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3000
 }
 STATE_YANSEN = {
-	id = 5008
+	id = 8
 	provinces = {
 		"x7AB8FD" "xA9DCB7" "xAEF38A" "xB497D7" "xCE57E3" "xD992F1" "xE2A9F8" "xF68CF0"
 	}
@@ -174,7 +181,7 @@ STATE_YANSEN = {
 	wood = "xF68CF0"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rice_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -187,9 +194,10 @@ STATE_YANSEN = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3002
 }
 STATE_TUNSLAND = {
-	id = 5010
+	id = 9
 	provinces = {
 		"x5AE7CA" "x5FB3E5" "x60EDB8" "xC6BEA1" "xD759D4" "xDD63FE" "xEB9487" "xFCC863"
 	}
@@ -199,7 +207,7 @@ STATE_TUNSLAND = {
 	wood = "x5FB3E5"
 	arable_land = 115
 	arable_resources = {
-		bg_ranching bg_dye_plantations bg_rice_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -214,7 +222,7 @@ STATE_TUNSLAND = {
 	}
 }
 STATE_INOSN = {
-	id = 5011
+	id = 10
 	provinces = {
 		"x22FEF2" "x55F6D7" "xA6DF9D" "xC3FC96" "xCCCE8C" "xDDA1DF" "xF1C687" "xF7B1EA" "xF7FE4C" "xFB4EEC"
 	}
@@ -224,7 +232,7 @@ STATE_INOSN = {
 	wood = "xF1C687"
 	arable_land = 143
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -239,7 +247,7 @@ STATE_INOSN = {
 	}
 }
 STATE_GONS = {
-	id = 5014
+	id = 11
 	provinces = {
 		"x71FAE4" "x95FED1" "x979AFC" "x9CB1AB" "x9FFDA4" "xBCF566" "xCBC2B7" "xCE3AF3" "xCFF0BA" "xE29FFB" "xE3C86F"
 	}
@@ -250,7 +258,7 @@ STATE_GONS = {
 	wood = "x979AFC"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms bg_dye_plantations bg_rice_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -263,9 +271,10 @@ STATE_GONS = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3002
 }
 STATE_YANSN = {
-	id = 5019
+	id = 12
 	provinces = {
 		"xA47AEE" "xB184D2" "xC3B796" "xD18DF7" "xE2ADBD" "xEC7AAB"
 	}
@@ -276,7 +285,7 @@ STATE_YANSN = {
 	wood = "xD18DF7"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -289,9 +298,10 @@ STATE_YANSN = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_BOLUNS = {
-	id = 5020
+	id = 13
 	provinces = {
 		"x6EAAEB" "xAFBABF" "xB5E2AB" "xC3A6A9" "xE0AEF7" "xE0C49B" "xE2D05F" "xE9F129" "xEB35E8" "xF68AC7" "xF8C942"
 	}
@@ -300,7 +310,7 @@ STATE_BOLUNS = {
 	mine = "xAFBABF"
 	arable_land = 125
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -315,7 +325,7 @@ STATE_BOLUNS = {
 	}
 }
 STATE_ZONS = {
-	id = 5021
+	id = 14
 	provinces = {
 		"x52DDD8" "x65BDD3" "x8F73F6" "xA5F56F" "xAAEF61" "xB47AFE" "xBD69FB" "xD4E183" "xD9D277" "xDA70CC" "xE1F9B6" "xF5D4B9"
 	}
@@ -325,7 +335,7 @@ STATE_ZONS = {
 	wood = "xBD69FB"
 	arable_land = 188
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -338,9 +348,10 @@ STATE_ZONS = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3000
 }
 STATE_GUSKAN = {
-	id = 5023
+	id = 15
 	provinces = {
 		"x69D5C7" "x71EAAD" "x95A3DC" "x9698D2" "x9BF98C" "xC5A8BB" "xE790B9" "xEE9E9A" "xF5B989" "xF5D7AB" "xF871F3" "xFA83BD" "xFAE912"
 	}
@@ -350,7 +361,7 @@ STATE_GUSKAN = {
 	wood = "xF5D7AB"
 	arable_land = 100
 	arable_resources = {
-		bg_ranching bg_dye_plantations bg_rice_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -363,9 +374,10 @@ STATE_GUSKAN = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3002
 }
 STATE_YOGHANS = {
-	id = 5025
+	id = 16
 	provinces = {
 		"x6EEFE0" "x82C4E9" "xAFF1D4" "xB8F791" "xD381AB" "xD482BD" "xD754D4" "xDCA8F3" "xE880D1" "xF2CF5F" "xF406FB" "xF7CB6E" "xF7D1B1" "xFAF421" "xFB97A6"
 	}
@@ -376,7 +388,7 @@ STATE_YOGHANS = {
 	wood = "xD482BD"
 	arable_land = 100
 	arable_resources = {
-		bg_ranching bg_dye_plantations bg_rice_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -389,9 +401,10 @@ STATE_YOGHANS = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3002
 }
 STATE_KUNTIN = {
-	id = 6001
+	id = 17
 	provinces = {
 		"x3FEAF7" "xBEEA7B" "xDBD9C0" "xE0D684" "xE594ED"
 	}
@@ -401,7 +414,7 @@ STATE_KUNTIN = {
 	wood = "xBEEA7B"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_millet_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -414,9 +427,10 @@ STATE_KUNTIN = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_PANDIN = {
-	id = 6003
+	id = 18
 	provinces = {
 		"x75F5A3" "x7AF592" "x85DDB1" "x94D5B3" "x98B3C5" "x9DF58F" "xA097E2" "xA8D4F4" "xB4EFF3" "xB6DEAA" "xC7D7D2" "xD1B0B6" "xDDCAF6" "xE51BF8" "xF662C9" "xF6CADE" "xF89E6E" "xFCB0CD" "xFCBADB" "xFE4FF7"
 	}
@@ -426,7 +440,7 @@ STATE_PANDIN = {
 	wood = "x9DF58F"
 	arable_land = 188
 	arable_resources = {
-		bg_ranching bg_rye_farms bg_silk_plantations
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -441,7 +455,7 @@ STATE_PANDIN = {
 	}
 }
 STATE_NEO = {
-	id = 6004
+	id = 19
 	provinces = {
 		"x14FDF2" "x4DFEEF" "x79BAD3" "x8F85FE" "x9CE4BA" "x9CF6B8" "x9EB7EF" "xA1BFA0" "xAFFACC" "xB3AFC2" "xB6F66A" "xC3D07E" "xC8FA9F" "xCCF4AE" "xD283BC" "xD2D68E" "xD7DDA6" "xDEC763" "xEA40F9" "xEEED1E" "xF4AE6F"
 	}
@@ -452,7 +466,7 @@ STATE_NEO = {
 	wood = "xD283BC"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -465,9 +479,10 @@ STATE_NEO = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_YUNGON = {
-	id = 6005
+	id = 20
 	provinces = {
 		"x78D3E8" "x8FC9E7" "x99D5EA" "xC5DE54" "xE6C2B1" "xF96BED" "xFE62F8"
 	}
@@ -477,7 +492,7 @@ STATE_YUNGON = {
 	wood = "xFE62F8"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -492,7 +507,7 @@ STATE_YUNGON = {
 	}
 }
 STATE_ILUNS = {
-	id = 7001
+	id = 21
 	provinces = {
 		"x5BA6FB" "x6BEADE" "x95C1A6" "xAB7EF9" "xAB92F6" "xB1A2EA" "xC9DAE3" "xCDE4AB" "xCEB884" "xE8D45E" "xF9FAB7"
 	}
@@ -502,7 +517,7 @@ STATE_ILUNS = {
 	wood = "x5BA6FB"
 	arable_land = 125
 	arable_resources = {
-		bg_ranching bg_wheat_farms bg_silk_plantations
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -517,7 +532,7 @@ STATE_ILUNS = {
 	}
 }
 STATE_YANKENE = {
-	id = 7004
+	id = 22
 	provinces = {
 		"x73C9EA" "x88FB89" "x9B8BF6" "xE5F668" "xEAE9E3" "xEDB5D3" "xF2E1C4" "xF7778E" "xF8E339" "xFE8CB3"
 	}
@@ -527,7 +542,7 @@ STATE_YANKENE = {
 	wood = "xF2E1C4"
 	arable_land = 100
 	arable_resources = {
-		bg_ranching bg_dye_plantations bg_rice_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -540,9 +555,10 @@ STATE_YANKENE = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3000
 }
 STATE_QONCE = {
-	id = 7006
+	id = 23
 	provinces = {
 		"x58E2E3" "x5CE3B7" "x7ECEC2" "x96D5DE" "xB78FBA" "xB981D8" "xD0E7E5" "xD8FAAE" "xDDFADA" "xEA86D2" "xF28EF1" "xF559AC" "xFBBBB4"
 	}
@@ -553,7 +569,7 @@ STATE_QONCE = {
 	wood = "x58E2E3"
 	arable_land = 100
 	arable_resources = {
-		bg_ranching bg_dye_plantations bg_rice_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -566,9 +582,10 @@ STATE_QONCE = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3000
 }
 STATE_LUNZ = {
-	id = 7007
+	id = 24
 	provinces = {
 		"x46CEFD" "x80E7F5" "x96EFA9" "x9CC9AA" "x9EF478" "xB9FB69" "xC58EA5" "xC8C674" "xC9C3D0" "xD15EF4" "xDEED31" "xF413F7" "xF9EA83"
 	}
@@ -578,7 +595,7 @@ STATE_LUNZ = {
 	wood = "x96EFA9"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms bg_silk_plantations
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -593,7 +610,7 @@ STATE_LUNZ = {
 	}
 }
 STATE_POYAN = {
-	id = 7008
+	id = 25
 	provinces = {
 		"x47F1D3" "x8EFD87" "x8FE2C3" "xB9E597" "xD381BA" "xDEC0D8" "xE1BBB3" "xE1D771" "xFADF67" "xFB62C3"
 	}
@@ -603,7 +620,7 @@ STATE_POYAN = {
 	wood = "xFADF67"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -618,7 +635,7 @@ STATE_POYAN = {
 	}
 }
 STATE_LUNMO = {
-	id = 7010
+	id = 26
 	provinces = {
 		"x16F4F9" "x39D8ED" "x6A93FC" "x89EB83" "xA4B2C5" "xA7C1EA" "xCBA7E4" "xED9681" "xEED49E" "xF5EB15"
 	}
@@ -629,7 +646,7 @@ STATE_LUNMO = {
 	wood = "xED9681"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -642,165 +659,10 @@ STATE_LUNMO = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
-}
-STATE_CONSDAN = {
-	id = 8000
-	provinces = {
-		"xB9B0AE" "xC1F4B0" "xE7BDA0" "xF7AD7A" "xFB66DB" "xFBB6AF" "xFCF7DE"
-	}
-	city = "xE7BDA0"
-	port = "xFBB6AF"
-	farm = "xB9B0AE"
-	mine = "xFCF7DE"
-	wood = "xC1F4B0"
-	arable_land = 80
-	arable_resources = {
-		bg_ranching bg_wheat_farms
-	}
-	capped_resources = {
-		bg_coal_mining = 50
-		bg_iron_mining = 50
-		bg_lead_mining = 50
-		bg_sulfur_mining = 50
-		bg_logging = 50
-		bg_gold_mining = 20
-		bg_oil_extraction = 50
-		bg_fishing = 10
-		bg_whaling = 10
-	}
-}
-STATE_NAMON = {
-	id = 8001
-	provinces = {
-		"x69DBC8" "x97BEB4" "xB3E784" "xB657E8" "xD396BA" "xEDA2AB"
-	}
-	city = "xEDA2AB"
-	port = "x69DBC8"
-	farm = "xB3E784"
-	mine = "x69DBC8"
-	wood = "xB657E8"
-	arable_land = 80
-	arable_resources = {
-		bg_ranching bg_wheat_farms
-	}
-	capped_resources = {
-		bg_coal_mining = 50
-		bg_iron_mining = 50
-		bg_lead_mining = 50
-		bg_sulfur_mining = 50
-		bg_logging = 50
-		bg_gold_mining = 20
-		bg_oil_extraction = 50
-		bg_fishing = 10
-		bg_whaling = 10
-	}
-}
-STATE_OLAND = {
-	id = 8002
-	provinces = {
-		"xAABFF3" "xDADEB8" "xE4DEFD" "xFA61E2" "xFC4FCB"
-	}
-	city = "xDADEB8"
-	port = "xE4DEFD"
-	farm = "xAABFF3"
-	mine = "xFA61E2"
-	wood = "xFC4FCB"
-	arable_land = 80
-	arable_resources = {
-		bg_ranching bg_wheat_farms
-	}
-	capped_resources = {
-		bg_coal_mining = 50
-		bg_iron_mining = 50
-		bg_lead_mining = 50
-		bg_sulfur_mining = 50
-		bg_logging = 50
-		bg_gold_mining = 20
-		bg_oil_extraction = 50
-		bg_fishing = 10
-		bg_whaling = 10
-	}
-}
-STATE_UNGON = {
-	id = 8003
-	provinces = {
-		"x44E9F7" "x9D92E2" "x9FE3E5" "xC0F897" "xE1FAB2"
-	}
-	city = "xE1FAB2"
-	port = "x9FE3E5"
-	farm = "x44E9F7"
-	mine = "xC0F897"
-	wood = "x9D92E2"
-	arable_land = 80
-	arable_resources = {
-		bg_ranching bg_wheat_farms
-	}
-	capped_resources = {
-		bg_coal_mining = 50
-		bg_iron_mining = 50
-		bg_lead_mining = 50
-		bg_sulfur_mining = 50
-		bg_logging = 50
-		bg_gold_mining = 20
-		bg_oil_extraction = 50
-		bg_fishing = 10
-		bg_whaling = 10
-	}
-}
-STATE_YANKONLAND = {
-	id = 8004
-	provinces = {
-		"xB9D4F9" "xC4FE58" "xD85CEC" "xFBBDE7" "xFDE4F2" "xFED9A2"
-	}
-	city = "xD85CEC"
-	port = "xC4FE58"
-	farm = "xFDE4F2"
-	mine = "xFBBDE7"
-	wood = "xB9D4F9"
-	arable_land = 80
-	arable_resources = {
-		bg_ranching bg_wheat_farms
-	}
-	capped_resources = {
-		bg_coal_mining = 50
-		bg_iron_mining = 50
-		bg_lead_mining = 50
-		bg_sulfur_mining = 50
-		bg_logging = 50
-		bg_gold_mining = 20
-		bg_oil_extraction = 50
-		bg_fishing = 10
-		bg_whaling = 10
-	}
-}
-STATE_TUANSLIN = {
-	id = 8005
-	provinces = {
-		"x60C9F4" "xB8CEB3" "xBFEBB8" "xC2ACDF" "xC8F36E" "xD4FCEC" "xD8C9B6" "xF8C6BC" "xFDCD69"
-	}
-	city = "x60C9F4"
-	port = "xBFEBB8"
-	farm = "xF8C6BC"
-	mine = "xB8CEB3"
-	wood = "xD4FCEC"
-	arable_land = 80
-	arable_resources = {
-		bg_ranching bg_wheat_farms
-	}
-	capped_resources = {
-		bg_coal_mining = 50
-		bg_iron_mining = 50
-		bg_lead_mining = 50
-		bg_sulfur_mining = 50
-		bg_logging = 50
-		bg_gold_mining = 20
-		bg_oil_extraction = 50
-		bg_fishing = 10
-		bg_whaling = 10
-	}
+	naval_exit_id = 3003
 }
 STATE_YOLYMAN = {
-	id = 8006
+	id = 33
 	provinces = {
 		"x27EFF9" "x4DB4F4" "xBECBE5" "xC281FD" "xCAE0C3" "xDAE89D" "xEB7FD9" "xFAAFB8" "xFC78B3"
 	}
@@ -811,7 +673,7 @@ STATE_YOLYMAN = {
 	wood = "x27EFF9"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -824,9 +686,10 @@ STATE_YOLYMAN = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_TOLIYANS = {
-	id = 8007
+	id = 34
 	provinces = {
 		"x7489FD" "x85C2C7" "x9DDED2" "xA3C194" "xDEECC2" "xE9E553" "xF9CB32" "xFAB448" "xFB6EFD" "xFC0AF4"
 	}
@@ -837,7 +700,7 @@ STATE_TOLIYANS = {
 	wood = "xFC0AF4"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -852,7 +715,7 @@ STATE_TOLIYANS = {
 	}
 }
 STATE_UILYON = {
-	id = 8009
+	id = 35
 	provinces = {
 		"x3CDAFD" "x986FF9" "xA2D4DA" "xAFB6CB" "xB0BAFE" "xBFD3BD" "xC08DF5" "xD2FE46" "xD7E9F8" "xD9D176" "xDFDA3F" "xE0C4DA" "xE187E7" "xE85CE8" "xEF2DEC" "xF3EC96"
 	}
@@ -863,7 +726,7 @@ STATE_UILYON = {
 	wood = "xEF2DEC"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -876,9 +739,10 @@ STATE_UILYON = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_POYANAC = {
-	id = 8010
+	id = 36
 	provinces = {
 		"x4FFEE7" "x6ACFC5" "xBF86D7" "xD4DE7D" "xD8FB85" "xD9E57B" "xDAA18F" "xF5CC90" "xFAF24C" "xFD88FC"
 	}
@@ -889,7 +753,7 @@ STATE_POYANAC = {
 	wood = "xBF86D7"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -902,9 +766,10 @@ STATE_POYANAC = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3000
 }
 STATE_CONHOLY = {
-	id = 8011
+	id = 37
 	provinces = {
 		"x53DBEA" "x62F3F2" "x73E9E8" "x80DBC2" "xACC3AD" "xE76EAD" "xFA72F2" "xFC75EE" "xFDFDCE"
 	}
@@ -914,7 +779,7 @@ STATE_CONHOLY = {
 	wood = "x73E9E8"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -929,7 +794,7 @@ STATE_CONHOLY = {
 	}
 }
 STATE_ERLANCA = {
-	id = 8012
+	id = 38
 	provinces = {
 		"x6FECB9" "x9DD5E7" "xA1D38A" "xB3BCC9" "xB8B9A3" "xDFE149" "xE38FC9" "xED9BF8"
 	}
@@ -938,7 +803,7 @@ STATE_ERLANCA = {
 	mine = "xDFE149"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -953,7 +818,7 @@ STATE_ERLANCA = {
 	}
 }
 STATE_FONTYLY = {
-	id = 8014
+	id = 39
 	provinces = {
 		"x59CFEA" "x5DC6FB" "x60EEEB" "x89BFE1" "xA3F5E5" "xB797DF" "xC9D68D" "xC9E375" "xE69DD8"
 	}
@@ -963,7 +828,7 @@ STATE_FONTYLY = {
 	wood = "x59CFEA"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -978,7 +843,7 @@ STATE_FONTYLY = {
 	}
 }
 STATE_QANNER = {
-	id = 8015
+	id = 40
 	provinces = {
 		"xA6F8D0" "xCEB0E5" "xD5F038" "xE0CA7C" "xF1EA51" "xF729E6" "xF9F3C5" "xFA35EC" "xFE53C3"
 	}
@@ -988,7 +853,7 @@ STATE_QANNER = {
 	wood = "xF1EA51"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1003,7 +868,7 @@ STATE_QANNER = {
 	}
 }
 STATE_MICNIA = {
-	id = 8016
+	id = 41
 	provinces = {
 		"x33F0E0" "x5ECCCB" "x72B3F3" "x8FD9E0" "x94CECB" "x97E7CA" "xAA59F7" "xC9D0CC" "xCAD583" "xD0EDE9" "xE2D3E3" "xEAC982" "xF7D1C2"
 	}
@@ -1014,7 +879,7 @@ STATE_MICNIA = {
 	wood = "xF7D1C2"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1027,9 +892,10 @@ STATE_MICNIA = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_VANLANCY = {
-	id = 8017
+	id = 42
 	provinces = {
 		"x4FD1FB" "x5BFCDB" "x96EBF1" "xA2F2F4" "xB6CFE0" "xB7F6D4" "xBBF89D" "xCBC2DE" "xCDE14E" "xCFD38D" "xD1D583"
 	}
@@ -1040,7 +906,7 @@ STATE_VANLANCY = {
 	wood = "xCFD38D"
 	arable_land = 300
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1053,9 +919,10 @@ STATE_VANLANCY = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_GOLYTAN = {
-	id = 8018
+	id = 43
 	provinces = {
 		"x2DCBFE" "x79EFB3" "x8DE1B1" "x9FF8AF" "xA5A3FC" "xB094B3" "xBEEC67" "xC0FBDF" "xC1D5F2" "xDDF6CE" "xE0FED8" "xF248D5" "xF699C4" "xF8B4F8" "xF96EE6" "xFCCE6D"
 	}
@@ -1066,7 +933,7 @@ STATE_GOLYTAN = {
 	wood = "xDDF6CE"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1079,9 +946,10 @@ STATE_GOLYTAN = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3003
 }
 STATE_MOLYGY = {
-	id = 9000
+	id = 44
 	provinces = {
 		"x1DF8E1" "x6E8CFC" "x89C6D4" "x8E93D6" "x917FED" "x9190D6" "x9A86D8" "xA793E8" "xA8CFF3" "xA97AF5" "xB9FA4E" "xBADE9B" "xC578CF" "xC68AD0" "xCC7FC3" "xDD97F2" "xE1B08D" "xEAFE5E" "xFAE838"
 	}
@@ -1092,7 +960,7 @@ STATE_MOLYGY = {
 	wood = "xA97AF5"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1105,9 +973,10 @@ STATE_MOLYGY = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3001
 }
 STATE_ARORA = {
-	id = 9001
+	id = 45
 	provinces = {
 		"x0F2DE3" "x1A8174" "x38A2EB" "x3EFEE3" "x49E62D" "x4C2EAD" "x53DCD5" "x6C64E3" "x8BA7CA" "x8EDDBD" "x90E486" "x99B248" "xAC6EFC" "xB4F1A1" "xB5BBA8" "xB6B6E0" "xBEC2D5" "xC4A2B3" "xCA70F3" "xCB7FE4" "xE16534" "xE6CF40" "xEDD7E6" "xF3C372" "xF45AEA" "xF485E5" "xF5739F" "xFE5BF4" "xFE8779"
 	}
@@ -1118,7 +987,7 @@ STATE_ARORA = {
 	wood = "x3EFEE3"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1131,9 +1000,10 @@ STATE_ARORA = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3001
 }
 STATE_FANKENL = {
-	id = 9002
+	id = 46
 	provinces = {
 		"x012C86" "x7ACE6B" "x9C9BF3" "xA8F16C" "xAFE464" "xB2EB8B" "xB6D27A" "xBEFB63" "xC15F99" "xC7B47E" "xDA9D32" "xDB15DF" "xDECF7E" "xEB1C2C" "xF2A65F" "xF98186" "xFCCF39"
 	}
@@ -1144,7 +1014,7 @@ STATE_FANKENL = {
 	wood = "xC7B47E"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_rye_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1157,9 +1027,10 @@ STATE_FANKENL = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3001
 }
 STATE_GONYANCE = {
-	id = 9003
+	id = 47
 	provinces = {
 		"x25DAFB" "x7DE5B0" "x80B1F2" "x96F998" "x9AD3F1" "xA0EEC2" "xB0F98E" "xB55BE9" "xB5A3F6" "xC254F1" "xC5E1FA" "xC875E4" "xCCEEC0" "xE5E48F" "xEDDC2F"
 	}
@@ -1170,7 +1041,7 @@ STATE_GONYANCE = {
 	wood = "xB55BE9"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1183,9 +1054,10 @@ STATE_GONYANCE = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3000
 }
 STATE_RONYALY = {
-	id = 9004
+	id = 48
 	provinces = {
 		"x6CA0FA" "x8DF093" "xB6B4DB" "xC8D95A" "xDE41FE" "xE080BB" "xE65EFA" "xE7A190" "xE947C5" "xEA6CAB" "xEC4EEA" "xEEAEE8" "xEFD181" "xF1FB19"
 	}
@@ -1196,7 +1068,7 @@ STATE_RONYALY = {
 	wood = "xEFD181"
 	arable_land = 80
 	arable_resources = {
-		bg_ranching bg_wheat_farms
+		bg_wheat_farms bg_ranching
 	}
 	capped_resources = {
 		bg_coal_mining = 50
@@ -1209,22 +1081,167 @@ STATE_RONYALY = {
 		bg_fishing = 10
 		bg_whaling = 10
 	}
+	naval_exit_id = 3000
 }
-STATE_WEST_SEA = {
+STATE_01 = {
 	id = 3000
 	provinces = {
-		"x28E6C5"
-	}
-	impassable = {
-		x28E6C5
+		"x46c8fa"
 	}
 }
-STATE_EAST_SEA = {
+STATE_02 = {
 	id = 3001
 	provinces = {
-		"x57FEFF"
+		"x3bdcfa"
 	}
-	impassable = {
-		x57FEFF
+}
+STATE_03 = {
+	id = 3002
+	provinces = {
+		"x5fddfb"
+	}
+}
+STATE_04 = {
+	id = 3003
+	provinces = {
+		"x40d9db"
+	}
+}
+STATE_05 = {
+	id = 3004
+	provinces = {
+		"x2a95fa"
+	}
+}
+STATE_06 = {
+	id = 3005
+	provinces = {
+		"x1b77cd"
+	}
+}
+STATE_07 = {
+	id = 3006
+	provinces = {
+		"x14fafa"
+	}
+}
+STATE_08 = {
+	id = 3007
+	provinces = {
+		"x51b8b8"
+	}
+}
+STATE_09 = {
+	id = 3008
+	provinces = {
+		"x0fdcfa"
+	}
+}
+STATE_10 = {
+	id = 3009
+	provinces = {
+		"x3dcaca"
+	}
+}
+STATE_11 = {
+	id = 3010
+	provinces = {
+		"x2daef1"
+	}
+}
+STATE_12 = {
+	id = 3011
+	provinces = {
+		"x4fddfb"
+	}
+}
+STATE_13 = {
+	id = 3012
+	provinces = {
+		"x2b5cb8"
+	}
+}
+STATE_14 = {
+	id = 3013
+	provinces = {
+		"x65cbfc"
+	}
+}
+STATE_15 = {
+	id = 3014
+	provinces = {
+		"x386dcd"
+	}
+}
+STATE_16 = {
+	id = 3015
+	provinces = {
+		"x16fafa"
+	}
+}
+STATE_17 = {
+	id = 3016
+	provinces = {
+		"x03ddfb"
+	}
+}
+STATE_18 = {
+	id = 3017
+	provinces = {
+		"x4fdcfa"
+	}
+}
+STATE_19 = {
+	id = 3018
+	provinces = {
+		"x78fcfc"
+	}
+}
+STATE_20 = {
+	id = 3019
+	provinces = {
+		"x57feff"
+	}
+}
+STATE_21 = {
+	id = 3020
+	provinces = {
+		"x0ecaca"
+	}
+}
+STATE_22 = {
+	id = 3021
+	provinces = {
+		"x0d74ca"
+	}
+}
+STATE_23 = {
+	id = 3022
+	provinces = {
+		"x5cfafa"
+	}
+}
+STATE_24 = {
+	id = 3023
+	provinces = {
+		"x0ec8fa"
+	}
+}
+STATE_25 = {
+	id = 3024
+	provinces = {
+		"x36cafc"
+	}
+}
+STATE_26 = {
+	id = 3025
+	provinces = {
+		"x54fafa"
+	}
+}
+STATE_27 = {
+	id = 3026
+	provinces = {
+		"x65cdfc"
 	}
 }
