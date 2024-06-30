@@ -37,9 +37,6 @@
       "common/country_definitions",
       "common/country_formation",
       "common/country_creation",
-      "gfx/map/map_object_data",
-      "gfx/map/masks",
-      "gfx/map/spine_network",
       "events"
     ]
   }
