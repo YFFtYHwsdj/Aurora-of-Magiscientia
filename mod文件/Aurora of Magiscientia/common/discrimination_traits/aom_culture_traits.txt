@@ -1,0 +1,7 @@
+﻿# human races
+human_race = {}
+
+# old empires
+old_empire_heritage = {
+	heritage = yes
+}

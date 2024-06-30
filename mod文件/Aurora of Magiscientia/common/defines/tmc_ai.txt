@@ -1,0 +1,23 @@
+﻿NAI = {
+	RAISE_TAX_TO_DESIRED_INCOME_THRESHOLD = 1
+	RAISE_TAX_ABOVE_DESIRED_INCOME_NO_DEBT_THRESHOLD = 0.95
+	RAISE_TAX_ABOVE_DESIRED_INCOME_WITH_DEBT_THRESHOLD = 1.25
+	LOWER_TAX_TO_DESIRED_INCOME_THRESHOLD = 2.0
+	LOWER_TAX_BELOW_DESIRED_INCOME_THRESHOLD = 2.5
+	RAISE_TAX_HIGH_DEBT_OVERRIDE_RATIO = 0.1 # At this amount of debt, any level of tax is OK to deal with it
+
+	CONSTRUCTION_RESERVES_NEW_CONSTRUCTIONS = 0.5 # If gold reserves are less than this after adding the cost of a new construction, don't queue it
+	CONSTRUCTION_DEBT_RESUME = 0.05 # If constructions are paused, resume once debt is this low relative to ceiling
+	CONSTRUCTION_DEBT_PAUSE = 0.2 # If in this much relative debt to debt ceiling, pause all non-critical constructions
+	CONSTRUCTION_DEBT_RESUME_CRITICAL_CONSTRUCTION = 0.1 # If critical constructions are paused, resume once debt is this low relative to ceiling
+	CONSTRUCTION_DEBT_PAUSE_CRITICAL_CONSTRUCTION = 0.3 # If in this much relative debt to debt ceiling, pause all critical constructions
+
+	# Below data is used to calculate how much weight the AI places on consumption taxes
+	CONSUMPTION_TAX_INCOME_VALUE = 10 # Per percent of state expenses in taxable value (this is then multiplied by relative authority cost of the good)
+	CONSUMPTION_TAX_STAPLE_MULT = 0.5 # Multiply desire to tax staple goods by this
+	CONSUMPTION_TAX_LUXURY_MULT = 2.0 # Multiply desire to tax luxury goods by this
+	CONSUMPTION_TAX_LOW_INCOME_THRESHOLD = 1 # Income-to-expenses threshold below which consumption taxes are a must-have
+	CONSUMPTION_TAX_HIGH_INCOME_THRESHOLD = 1.5 # Income-to-expenses threshold at which consumption taxes should be removed (if removal would not put us below this)
+	CONSUMPTION_TAX_MAX_NUM_TAXED_GOODS_BASE = 6 # Base max number of goods AI wants to tax
+	CONSUMPTION_TAX_MAX_NUM_TAXED_GOODS_PER_MISSING_TAX_TYPE = 4 # Added to max number of goods AI wants to tax for each other type of tax it does not collect
+}

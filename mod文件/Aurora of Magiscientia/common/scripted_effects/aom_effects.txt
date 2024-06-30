@@ -1,0 +1,22 @@
+﻿aom_pop_awakening_effect = {
+	every_scope_pop = {
+		limit = {
+			NOT = {
+				religion = {
+					has_discrimination_trait = magic
+				}
+			}
+		}
+		if = {
+			limit = {
+				culture = {
+					has_discrimination_trait = human_race
+				}
+			}
+			change_pop_religion = {
+				target = rel:arcane
+				value = 0.00001
+			}
+		}
+	}
+}

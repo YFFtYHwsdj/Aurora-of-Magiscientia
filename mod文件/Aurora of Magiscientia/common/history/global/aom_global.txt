@@ -1,0 +1,19 @@
+﻿GLOBAL = {
+	# trigger start events
+	# starup events for old empire countryies 
+	# change aristocrats into acane
+	every_country = {
+		limit = {
+			OR = {
+				this = c:PAS
+				this = c:SIC
+				this = c:EMP
+				this = c:SAR
+			}
+		}
+		trigger_event = {
+			id = aom_startup.1
+			days = 1
+		}
+	}
+}

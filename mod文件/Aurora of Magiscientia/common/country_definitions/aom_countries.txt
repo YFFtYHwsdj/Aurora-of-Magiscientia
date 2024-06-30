@@ -1,0 +1,47 @@
+﻿PAS = {
+	color = { 211  220  178 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { romannia}
+
+	
+	capital = STATE_VENETIA
+}
+
+EMP = {
+	color = {127 255 212}
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { romannia }
+
+	
+	capital = STATE_LAZIO
+}
+
+SIC = {
+	color = { 73  152  76 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { romannia }
+	capital = STATE_CAMPANIA
+}
+
+SAR = {
+	color = { 117  146  167 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { romannia }
+	capital = STATE_PIEDMONT
+}

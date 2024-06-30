@@ -1,0 +1,11 @@
+﻿pop_has_magic = {
+	OR = {
+		religion = rel:arcane
+	}
+}
+
+country_is_in_western_empire = {
+	OR = {
+		this = c:PAS
+	}
+}

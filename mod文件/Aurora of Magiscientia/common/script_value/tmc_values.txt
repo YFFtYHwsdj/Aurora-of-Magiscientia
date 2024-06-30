@@ -1,0 +1,96 @@
+﻿country_state_religion_percent_with_10s = {
+    value = 0
+	if = {
+		limit = {
+            religion_percent_country = {
+                target = religion
+                value > 0.99
+            }
+        }
+        value = 1
+	}
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value > 0.9
+            }
+        }
+        value = 0.9
+    }
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value >= 0.8
+            }
+        }
+        value = 0.8
+    }
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value >= 0.7
+            }
+        }
+        value = 0.7
+    }
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value >= 0.6
+            }
+        }
+        value = 0.6
+    }
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value >= 0.5
+            }
+        }
+        value = 0.5
+    }
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value >= 0.4
+            }
+        }
+        value = 0.4
+    }
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value >= 0.3
+            }
+        }
+        value = 0.3
+    }
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value >= 0.2
+            }
+        }
+        value = 0.2
+    }
+    else_if = {
+        limit = {
+            religion_percent_country = {
+                target = religion
+                value >= 0.1
+            }
+        }
+        value = 0.1
+    }
+    else = {
+        value = 0
+    }
+}

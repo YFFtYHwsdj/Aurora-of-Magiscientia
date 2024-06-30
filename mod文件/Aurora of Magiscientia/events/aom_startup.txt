@@ -1,0 +1,22 @@
+﻿namespace = aom_startup
+
+# change aristoric pops in old empires into acane
+aom_startup.1 = {
+	type = country_event
+	hidden = yes
+	trigger = {
+		
+	}
+
+	immediate = {
+		every_scope_pop = {
+			limit = {
+				is_pop_type = aristocrats
+			}
+			change_pop_religion = {
+				target = rel:arcane
+				value = 1
+			}
+		}
+	}
+}

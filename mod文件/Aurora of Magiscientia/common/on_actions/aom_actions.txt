@@ -1,0 +1,11 @@
+﻿on_monthly_pulse_state = {
+	on_actions = {
+		aom_pop_awakening_pulse 
+	}
+}
+
+aom_pop_awakening_pulse = {
+	effect = {
+		aom_pop_awakening_effect = yes
+	}
+}

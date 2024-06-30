@@ -1,0 +1,12 @@
+﻿POPS = {
+    # country PAS
+    s:STATE_VENETIA = {
+        region_state:PAS = {
+            create_pop = {
+                culture = romannia
+                religion = holy_church
+                size = 5000000
+            }
+        }
+    }
+}
