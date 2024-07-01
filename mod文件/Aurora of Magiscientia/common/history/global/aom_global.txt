@@ -4,11 +4,11 @@
 	# change aristocrats into acane
 	every_country = {
 		limit = {
+			religion = rel:holy_church
 			OR = {
-				this = c:PAS
-				this = c:SIC
-				this = c:EMP
-				this = c:SAR
+				cu:romannia = {
+					is_primary_culture_of = root
+				}
 			}
 		}
 		trigger_event = {

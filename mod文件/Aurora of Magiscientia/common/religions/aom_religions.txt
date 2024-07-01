@@ -1,16 +1,25 @@
 ﻿holy_church = {
 	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	color = { 0.8 0.55 0.2 }
 	traits = {
 		sacred_heritage	#圣教特质为神圣传承
 	}
-	color = { 255 255 0 }
 }
 
 arcane = {
 	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	color = { 0.8 0.55 0.2 }
 	traits = {
 		sacred_heritage	#奥术特质为神圣传承
 		magic
 	}
-	color = { 255 255 0 }
+}
+
+linegism = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	color = { 0.8 0.55 0.2 }
+	traits = {
+		sacred_heritage
+		magic
+	}
 }

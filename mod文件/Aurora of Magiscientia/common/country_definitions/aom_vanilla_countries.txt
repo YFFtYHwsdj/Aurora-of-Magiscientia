@@ -1,7 +1,8 @@
 ﻿ALD = {
 	color = { 220  202  96 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { maghrebi berber }
@@ -13,7 +14,8 @@ country_type = decentralized
 CON = {
 	color = { 228 3 16 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { maghrebi berber }
@@ -24,7 +26,8 @@ country_type = decentralized
 EGY = {
 	color = { 255  205  155 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { misri }
@@ -34,7 +37,8 @@ country_type = decentralized
 ETH = {
 	color = { 56  120  191 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = empire
 	
 	cultures = { amhara oromo tigray }
@@ -44,7 +48,8 @@ country_type = decentralized
 MAD = {
 	color = { 117  150  120 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { malagasy }
@@ -54,7 +59,8 @@ country_type = decentralized
 MAS = {
 	color = { 0 129 48 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { maghrebi berber }
@@ -65,7 +71,8 @@ country_type = decentralized
 LIB = {
 	color = { 193  138  83 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { afro_american }
@@ -76,7 +83,8 @@ country_type = decentralized
 MOR = {
 	color = { 224  146  113 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { maghrebi berber }
@@ -86,7 +94,8 @@ country_type = decentralized
 NAL = {
 	color = { 106  178  46 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { boer }
@@ -96,7 +105,8 @@ country_type = decentralized
 ORA = {
 	color = { 224 139 47 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { boer }
@@ -107,7 +117,8 @@ country_type = decentralized
 SAF = {
 	color = { 180  158  127 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { british boer }
@@ -117,7 +128,8 @@ country_type = decentralized
 SOK = {
 	color = { 0 135 81 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { hausa fulbe }
@@ -127,7 +139,8 @@ country_type = decentralized
 TRI = {
 	color = { 180  137  148 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { maghrebi }
@@ -138,7 +151,8 @@ country_type = decentralized
 TRN = {
 	color = { 140  183  154 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { boer }
@@ -149,7 +163,8 @@ country_type = decentralized
 TUN = {
 	color = { 131  101  85 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { maghrebi }
@@ -160,7 +175,8 @@ country_type = decentralized
 ZAN = {
 	color = { 166  189  199 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { swahili }
@@ -171,7 +187,8 @@ country_type = decentralized
 ZUL = {
 	color = { 204  186  201 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { zulu }
@@ -182,7 +199,8 @@ country_type = decentralized
 SIL = {
 	color = { 123  206  101 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { afro_caribbean }
@@ -193,7 +211,8 @@ country_type = decentralized
 MTB = {
 	color = { 142 80 55 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { nguni shona }
@@ -203,7 +222,8 @@ country_type = decentralized
 MSH = {
 	color = { 193 189 151 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { shona }
@@ -213,7 +233,8 @@ country_type = decentralized
 MNC = {
 	color = { 60 147 140 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { shona }
@@ -223,7 +244,8 @@ country_type = decentralized
 MSK = {
 	color = { 75 75 148 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { shona }
@@ -233,7 +255,8 @@ country_type = decentralized
 NAM = {
 	color = { 49 119 34 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { khoisan }
@@ -243,7 +266,8 @@ country_type = decentralized
 HRO = {
 	color = { 221 140 40 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { herero khoisan }
@@ -253,7 +277,8 @@ country_type = decentralized
 LZO = {
 	color = { 176 106 168 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { kavango_bantu }
@@ -263,7 +288,8 @@ country_type = decentralized
 TSW = {
 	color = { 117 170 219 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tswana }
@@ -273,7 +299,8 @@ country_type = decentralized
 WBL = { 
 	color = { 176 206 177 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { khoisan tswana }
@@ -283,7 +310,8 @@ country_type = decentralized
 KZM = {
 	color = { 202 217 170 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lunda }
@@ -293,7 +321,8 @@ country_type = decentralized
 BMB = {
 	color = { 192 90 121 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lacustrine_bantu }
@@ -303,7 +332,8 @@ country_type = decentralized
 KSN = {
 	color = { 102 105 101 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lunda ovimbundu }
@@ -313,7 +343,8 @@ country_type = decentralized
 OVM = {
 	color = { 107 94 52 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { ovimbundu }
@@ -323,7 +354,8 @@ country_type = decentralized
 CHK = {
 	color = { 99 160 39 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lunda ovimbundu }
@@ -333,7 +365,8 @@ country_type = decentralized
 LND = {
 	color = { 199 60 39 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lunda ovimbundu }
@@ -343,7 +376,8 @@ country_type = decentralized
 KBA = {
 	color = { 159 60 189 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fluvian_bantu }
@@ -353,7 +387,8 @@ country_type = decentralized
 MNB = {
 	color = { 75 129 182 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fluvian_bantu }
@@ -363,7 +398,8 @@ country_type = decentralized
 NYM = {
 	color = { 164 125 26 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { unyamwezi }
@@ -373,7 +409,8 @@ country_type = decentralized
 HHE = {
 	color = { 126 84 131 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lacustrine_bantu }
@@ -383,7 +420,8 @@ country_type = decentralized
 FTJ = {
 	color = { 230 125 127 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fulbe }
@@ -393,7 +431,8 @@ country_type = decentralized
 BUG = {
 	color = { 21 21 227 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { baganda }
@@ -403,7 +442,8 @@ country_type = decentralized
 ASH = {
 	color = { 97 98 195 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { akan }
@@ -413,7 +453,8 @@ country_type = decentralized
 YKA = {
 	color = { 99 160 239 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { bakongo lunda }
@@ -423,7 +464,8 @@ country_type = decentralized
 KON = {
 	color = { 199 160 139 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 
 	religion = catholic
@@ -435,7 +477,8 @@ country_type = decentralized
 LNG = {
 	color = { 200 202 85 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { bakongo }
@@ -445,7 +488,8 @@ country_type = decentralized
 FNG = {
 	color = { 193 170 57 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fang }
@@ -455,7 +499,8 @@ country_type = decentralized
 BNG = {
 	color = { 41 135 135 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { mongo fluvian_bantu }
@@ -465,7 +510,8 @@ country_type = decentralized
 BST = {
 	color = { 137 106 217 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { sotho }
@@ -475,7 +521,8 @@ country_type = decentralized
 TKE = {
 	color = { 99 160 139 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { bakongo }
@@ -485,7 +532,8 @@ country_type = decentralized
 BOB = {
 	color = { 211 149 112 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { mongo bakongo }
@@ -495,7 +543,8 @@ country_type = decentralized
 LGA = {
 	color = { 175 103 31 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fluvian_bantu }
@@ -505,7 +554,8 @@ country_type = decentralized
 HMB = {
 	color = { 180 146 150 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fluvian_bantu }
@@ -515,7 +565,8 @@ country_type = decentralized
 LBA = {
 	color = { 42 63 153 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { luba }
@@ -525,7 +576,8 @@ country_type = decentralized
 BNY = {
 	color = { 174 24 66 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { baganda lacustrine_bantu }
@@ -535,7 +587,8 @@ country_type = decentralized
 ANK = {
 	color = { 126 162 98 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { baganda lacustrine_bantu }
@@ -545,7 +598,8 @@ country_type = decentralized
 ACH = {
 	color = { 166 225 217 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { luo lacustrine_bantu }
@@ -555,7 +609,8 @@ country_type = decentralized
 KRG = {
 	color = { 48 177 169 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lacustrine_bantu baganda }
@@ -565,7 +620,8 @@ country_type = decentralized
 RWD = {
 	color = { 213 160 18 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { ruanda }
@@ -575,7 +631,8 @@ country_type = decentralized
 BRD = {
 	color = { 21 191 16 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { rundi }
@@ -585,7 +642,8 @@ country_type = decentralized
 MSI = {
 	color = { 190 103 84 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { maasai }
@@ -595,7 +653,8 @@ country_type = decentralized
 TRK = {
 	color = { 103 84 190 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { nilotic maasai }
@@ -605,7 +664,8 @@ country_type = decentralized
 LUO = {
 	color = { 153 153 168 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { luo }
@@ -615,7 +675,8 @@ country_type = decentralized
 GGO = {
 	color = { 244 228 166 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lacustrine_bantu }
@@ -625,7 +686,8 @@ country_type = decentralized
 SNG = {
 	color = { 203 54 66 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lacustrine_bantu }
@@ -635,7 +697,8 @@ country_type = decentralized
 KKY = {
 	color = { 169 52 90 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { kikuyu }
@@ -645,7 +708,8 @@ country_type = decentralized
 WSG = {
 	color = { 18 97 128 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { somali }
@@ -655,7 +719,8 @@ country_type = decentralized
 GLD = {
 	color = { 38 160 67 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { somali }
@@ -665,7 +730,8 @@ country_type = decentralized
 MJT = {
 	color = { 220 200 100 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { somali }
@@ -675,7 +741,8 @@ country_type = decentralized
 DFR = {
 	color = { 44 160 70 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fur bedouin }
@@ -685,7 +752,8 @@ country_type = decentralized
 ISQ = {
 	color = { 224 255 182 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { somali }
@@ -695,7 +763,8 @@ country_type = decentralized
 HOB = {
 	color = { 255 73 7 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { somali }
@@ -705,7 +774,8 @@ country_type = decentralized
 DAK = {
 	color = { 123 134 74 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fur equatorial_bantu }
@@ -715,7 +785,8 @@ country_type = decentralized
 ZND = {
 	color = { 208 225 57 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { azande }
@@ -725,7 +796,8 @@ country_type = decentralized
 DFT = {
 	color = { 167 92 56 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { equatorial_bantu azande }
@@ -735,7 +807,8 @@ country_type = decentralized
 DNK = {
 	color = { 78 99 75 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { dinka }
@@ -745,7 +818,8 @@ country_type = decentralized
 NUE = {
 	color = { 230 227 240 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { nuer }
@@ -755,7 +829,8 @@ country_type = decentralized
 TPS = {
 	color = { 232 101 68 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { nilotic }
@@ -765,7 +840,8 @@ country_type = decentralized
 AWS = {
 	color = { 125 125 100 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { afar tigray }
@@ -775,7 +851,8 @@ country_type = decentralized
 SHW = {
 	color = { 1 200 200 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { amhara oromo }
@@ -785,7 +862,8 @@ country_type = decentralized
 HAR = {
 	color = { 175 75 15 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { somali amhara }
@@ -794,7 +872,8 @@ country_type = decentralized
 
 BRN = {
 	color = { 236 236 104 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { oromo }
@@ -803,7 +882,8 @@ country_type = decentralized
 
 KFA = {
 	color = { 150 0 25 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { sidama oromo }
@@ -812,7 +892,8 @@ country_type = decentralized
 
 SDM = {
 	color = { 83 65 167 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { sidama oromo }
@@ -821,7 +902,8 @@ country_type = decentralized
 
 WLG = {
 	color = { 126 208 222 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { oromo }
@@ -830,7 +912,8 @@ country_type = decentralized
 	
 TGR = {
 	color = { 167 218 207 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures =  { tigray amhara }
@@ -839,7 +922,8 @@ country_type = decentralized
 
 GJM = {
 	color = { 191 147 79 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { amhara oromo }
@@ -848,7 +932,8 @@ country_type = decentralized
 
 WLO = {
 	color = { 222 199 163 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { amhara }
@@ -857,7 +942,8 @@ country_type = decentralized
 
 BGM = {
 	color = { 228 243 104 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { amhara oromo tigray }
@@ -866,7 +952,8 @@ country_type = decentralized
 
 BOR = {
 	color = { 30 131 162 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { kanuri }
@@ -875,7 +962,8 @@ country_type = decentralized
 
 BGI = {
 	color = { 64 124 157 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { baguirmi }
@@ -884,7 +972,8 @@ country_type = decentralized
 
 WAD = {
 	color = { 194 66 41 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fur }
@@ -893,7 +982,8 @@ country_type = decentralized
 
 AIR = {
 	color = { 30 31 162 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tuareg }
@@ -902,7 +992,8 @@ country_type = decentralized
 
 MSN = {
 	color = { 230 231 62 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fulbe }
@@ -911,7 +1002,8 @@ country_type = decentralized
 
 OYO = {
 	color = { 211 184 179 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { yoruba }
@@ -920,7 +1012,8 @@ country_type = decentralized
 
 BEN = {
 	color = { 110 173 129 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { edo }
@@ -929,7 +1022,8 @@ country_type = decentralized
 
 CAY = {
 	color = { 189 187 166 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { wolof }
@@ -938,7 +1032,8 @@ country_type = decentralized
 
 JLF = {
 	color = { 215  215  125 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { wolof }
@@ -947,7 +1042,8 @@ country_type = decentralized
 
 FTR = {
 	color = { 115 204 102 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fulbe wolof }
@@ -956,7 +1052,8 @@ country_type = decentralized
 
 KNG = {
 	color = { 137 98 195 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { dyula senufo }
@@ -965,7 +1062,8 @@ country_type = decentralized
 
 DAH = {
 	color = { 11 84 179 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fon }
@@ -974,7 +1072,8 @@ country_type = decentralized
 
 MOS = {
 	color = { 27 128 45 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { mossi }
@@ -983,7 +1082,8 @@ country_type = decentralized
 
 KRT = {
 	color = { 127 28 45 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { bambara }
@@ -992,7 +1092,8 @@ country_type = decentralized
 
 SGU = {
 	color = { 27 28 145 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { bambara }
@@ -1001,7 +1102,8 @@ country_type = decentralized
 
 TRZ = {
 	color = { 230 123 17 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { bidan }
@@ -1010,7 +1112,8 @@ country_type = decentralized
 
 KBU = {
 	color = { 101 63 41 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { mande }
@@ -1022,7 +1125,8 @@ country_type = decentralized
 
 BND = {
 	color = { 60 118 54 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { fulbe mande }
@@ -1031,7 +1135,8 @@ country_type = decentralized
 
 SRR = {
 	color = { 57 121 111 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 
 	religion = animist
@@ -1042,7 +1147,8 @@ country_type = decentralized
 
 SSU = {
 	color = { 69 109 142 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { mande }
@@ -1051,7 +1157,8 @@ country_type = decentralized
 
 MDK = {
 	color = { 191 83 53 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { mande }
@@ -1060,7 +1167,8 @@ country_type = decentralized
 
 HAU = {
 	color = { 225 185 85 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { hausa }
@@ -1069,7 +1177,8 @@ country_type = decentralized
 
 BLE = {
 	color = { 218 104 44 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { akan }
@@ -1078,7 +1187,8 @@ country_type = decentralized
 
 KRU = {
 	color = { 94 168 142 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { kru }
@@ -1087,7 +1197,8 @@ country_type = decentralized
 
 KBD = {
 	color = { 117 36 54 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { mande }
@@ -1096,7 +1207,8 @@ country_type = decentralized
 
 AYI = {
 	color = { 131 210 34 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { akan }
@@ -1105,7 +1217,8 @@ country_type = decentralized
 
 EWE = {
 	color = { 210 34 131 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { ewe }
@@ -1114,7 +1227,8 @@ country_type = decentralized
 
 IBO = {
 	color = { 119 24 85 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { ibo }
@@ -1123,7 +1237,8 @@ country_type = decentralized
 
 DLA = {
 	color = { 22 121 17 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { equatorial_bantu }
@@ -1132,7 +1247,8 @@ country_type = decentralized
 
 TBI = {
 	color = { 220 210 97 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { teda }
@@ -1141,7 +1257,8 @@ country_type = decentralized
 
 AHG = {
 	color = { 138 168 70 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tuareg }
@@ -1150,7 +1267,8 @@ country_type = decentralized
 
 TUA = {
 	color = { 142 88 74 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tuareg }
@@ -1159,7 +1277,8 @@ country_type = decentralized
 
 OUA = {
 	color = { 113 95 122 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { bidan }
@@ -1168,7 +1287,8 @@ country_type = decentralized
 
 ADG = {
 	color = { 215 132 165 }
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tuareg }
@@ -1178,7 +1298,8 @@ country_type = decentralized
 BSS = { # Bassa
 	color = { 203 48 37 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { bassa }
@@ -1188,7 +1309,8 @@ country_type = decentralized
 TIR = { # Tiris
 	color = { 106 95 79 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { haratin }
@@ -1198,7 +1320,8 @@ country_type = decentralized
 IBL = { # Ibibioland
 	color = { 142 134 187 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { ibibio }
@@ -1208,7 +1331,8 @@ country_type = decentralized
 KSS = { # Kissi
 	color = { 61 75 109 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { kissi }
@@ -1218,7 +1342,8 @@ country_type = decentralized
 GAO = { # Gao
 	color = { 62 175 151 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { songhai }
@@ -1228,7 +1353,8 @@ country_type = decentralized
 TIV = { # Tivland
 	color = { 240 213 100 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tiv }
@@ -1238,7 +1364,8 @@ country_type = decentralized
 SRA = { # Sara
 	color = { 179 236 217 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { sara }
@@ -1248,7 +1375,8 @@ country_type = decentralized
 EQU = { # Equatoria
 	color = { 236 173 104 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { nilotic }
@@ -1258,7 +1386,8 @@ country_type = decentralized
 BJA = { # Beja
 	color = { 140 65 135 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { beja }
@@ -1268,7 +1397,8 @@ country_type = decentralized
 NBA = { # Nuba
 	color = { 138 187 72 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { nuba }
@@ -1278,7 +1408,8 @@ country_type = decentralized
 SUD = { # Sudanese
 	color = { 189 159 69 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { sudanese beja bedouin }
@@ -1288,7 +1419,8 @@ country_type = decentralized
 SKM = { # Sukuma
 	color = { 101 122 158 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { sukuma }
@@ -1298,7 +1430,8 @@ country_type = decentralized
 CHW = { # Chewa
 	color = { 116 157 102 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { chewa }
@@ -1308,7 +1441,8 @@ country_type = decentralized
 LMW = { # Lomwe
 	color = { 201 10 48 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { lomwe }
@@ -1318,7 +1452,8 @@ country_type = decentralized
 MKU = { # Makua
 	color = { 38 140 40 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { makua }
@@ -1328,7 +1463,8 @@ country_type = decentralized
 SNA = { # Sena
 	color = { 91 132 128 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { sena }
@@ -1338,7 +1474,8 @@ country_type = decentralized
 BTG = { # Batonga
 	color = { 200 193 108 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tonga }
@@ -1348,7 +1485,8 @@ country_type = decentralized
 XHO = { # Xhosa
 	color = { 88 80 163 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { xhosa }
@@ -1358,7 +1496,8 @@ country_type = decentralized
 UYA = { # Uyao
 	color = { 192 204 111 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { yao }
@@ -1368,7 +1507,8 @@ country_type = decentralized
 ZIM = {
 	color = { 0 173 112 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = kingdom
 	
 	cultures = { shona nguni}
@@ -1377,20 +1517,23 @@ country_type = decentralized
 
 MAL = {
 	color = { 75 179 27}
-country_type = decentralized	tier = kingdom
+	country_type = decentralized
+	tier = kingdom
 	cultures = { bambara fulbe wolof mande }
 	capital = STATE_WESTERN_MALI
 }
 
 AFS = { #Dynamic African Free State
 	color = {130 23 47}
-country_type = decentralized	tier = principality
+	country_type = colonial
+	tier = principality
 	cultures = { bakongo }
 }
 
 SAH = { # Sahrawi
 	color = { 220  202  96 }	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { berber }
@@ -1400,7 +1543,8 @@ country_type = decentralized
 TUG = {
 	color = { 90 140 190 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { berber }
@@ -1410,7 +1554,8 @@ country_type = decentralized
 AIT = {
 	color = { 255 255 153 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { berber }
@@ -1420,7 +1565,8 @@ country_type = decentralized
 GZA = {
 	color = { 191 154 108 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { nguni }
@@ -1430,7 +1576,8 @@ country_type = decentralized
 MRV = {
 	color = { 220 220 75 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { chewa }
@@ -1440,7 +1587,8 @@ country_type = decentralized
 BRG = {
 	color = { 218 231 235 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { mande fulbe }
@@ -1450,7 +1598,8 @@ country_type = decentralized
 BMM = {
 	color = { 197 201 163 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { equatorial_bantu }
@@ -1461,7 +1610,8 @@ country_type = decentralized
 MGB = {
 	color = { 209 63 44 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = empire
 	
 	cultures = { maghrebi berber bidan }
@@ -1473,7 +1623,8 @@ HAW = {
 	
 	tier = kingdom
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	cultures = { hawaiian }
 	religion = protestant
 	
@@ -1484,7 +1635,8 @@ country_type = decentralized
 NTU = {
 	color = { 62 92 54 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { maori }
@@ -1494,7 +1646,8 @@ country_type = decentralized
 NTO = {
 	color = { 148 185 190 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { maori }
@@ -1504,7 +1657,8 @@ country_type = decentralized
 KNK = {
 	color = { 190 173 103 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { melanesian }
@@ -1514,7 +1668,8 @@ country_type = decentralized
 PPU = {
 	color = { 81 97 170 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { melanesian }
@@ -1524,7 +1679,8 @@ country_type = decentralized
 HLA = { # Halia, for Bougainville
 	color = { 210 184 220 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { melanesian }
@@ -1534,7 +1690,8 @@ country_type = decentralized
 BLA = { # Bilua
 	color = { 140 166 75 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { melanesian }
@@ -1544,7 +1701,8 @@ country_type = decentralized
 BLG = { # Bulungan
 	color = { 140 166 75 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { bornean }
@@ -1554,7 +1712,8 @@ country_type = decentralized
 KTI = { # Kutai
 	color = { 137 88 58 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { bornean }
@@ -1564,7 +1723,8 @@ country_type = decentralized
 FJI = { # Fiji
 	color = { 159 173 219 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { melanesian }
@@ -1574,7 +1734,8 @@ country_type = decentralized
 SKH = { # Sakhalin
 	color = { 54 102 190 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { ainu siberian }
@@ -1584,7 +1745,8 @@ country_type = decentralized
 MCR = { # Micronesia
 	color = { 248 218 99 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { micronesian }
@@ -1595,7 +1757,8 @@ country_type = decentralized
 VNT = { # Vanuatu
 	color = { 37 214 50 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { melanesian }
@@ -1605,7 +1768,8 @@ country_type = decentralized
 NRU = { # Nauru
 	color = { 231 131 17 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { melanesian }
@@ -1615,7 +1779,8 @@ country_type = decentralized
 PLY = { # Tahiti
 	color = { 176 62 136 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { polynesian }
@@ -1626,7 +1791,8 @@ country_type = decentralized
 AOT = { # Aotearoa
 	color = { 47 140 191 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = kingdom
 	
 	cultures = { maori }
@@ -1638,7 +1804,8 @@ ULR = { # Uluru
 	
 	tier = principality
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	cultures = { aborigine }
 	
 	capital = STATE_NORTHERN_TERRITORY
@@ -1647,7 +1814,8 @@ country_type = decentralized
 NSW = { # New South Wales
 	color = { 114 165 203 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	capital = STATE_NEW_SOUTH_WALES
@@ -1657,7 +1825,8 @@ country_type = decentralized
 WAS = { # Western Australia
 	color = { 118 115 97 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	capital = STATE_WESTERN_AUSTRALIA
@@ -1667,7 +1836,8 @@ country_type = decentralized
 SAS = { # South Australia
 	color = { 170 90 128 }
 	
-country_type = decentralized
+	country_type = colonial
+
 	tier = principality
 	
 	capital = STATE_SOUTH_AUSTRALIA
@@ -1677,7 +1847,8 @@ country_type = decentralized
 UNT = { # United Tribes of New Zealand
 	color = { 170 167 151 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	capital = STATE_NORTH_ISLAND
@@ -1689,7 +1860,8 @@ NNG = { # Noongar
 
 	color = { 209 160 107 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { aborigine }
@@ -1700,7 +1872,8 @@ KAU = { # Kaurna
 
 	color = { 245 212 134 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { aborigine }
@@ -1711,7 +1884,8 @@ GML = { # Gamilaraay
 
 	color = { 91 191 83 }
 	
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { aborigine }
@@ -1721,7 +1895,8 @@ country_type = decentralized
 AST = {
 	color = { 77  139  106 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	capital = STATE_NEW_SOUTH_WALES
@@ -1731,7 +1906,8 @@ country_type = decentralized
 NZL = {
 	color = { 90  250  127 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	capital = STATE_NORTH_ISLAND
@@ -1741,7 +1917,8 @@ country_type = decentralized
 TAS = {
 	color = { 224 194 152 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	capital = STATE_VICTORIA
@@ -1751,7 +1928,8 @@ country_type = decentralized
 DEI = {
 	color = { 20  80  80 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { dutch }
@@ -1762,7 +1940,8 @@ country_type = decentralized
 SAK = {
 	color = { 21  196  68 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { sumatran }
@@ -1773,7 +1952,8 @@ country_type = decentralized
 PON = {
 	color = { 255 102 102 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { bornean }
@@ -1784,7 +1964,8 @@ country_type = decentralized
 SMB = {
 	color = { 102  102  255 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { bornean }
@@ -1795,7 +1976,8 @@ country_type = decentralized
 JMB = {
 	color = { 223  228  192 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { sumatran }
@@ -1806,7 +1988,8 @@ country_type = decentralized
 YOG = {
 	color = { 201  28  54 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { javan }
@@ -1817,7 +2000,8 @@ country_type = decentralized
 SRK = {
 	color = { 239 51 64 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { javan }
@@ -1828,7 +2012,8 @@ country_type = decentralized
 BTN = {
 	color = { 209  203  31 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { moluccan }
@@ -1839,7 +2024,8 @@ country_type = decentralized
 SEL = {
 	color = { 249 215 61 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { malay }
@@ -1850,7 +2036,8 @@ country_type = decentralized
 PRK = {
 	color = { 76  122  117 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { malay }
@@ -1861,7 +2048,8 @@ country_type = decentralized
 SUL = {
 	color = { 89  164  144 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { moro }
@@ -1872,7 +2060,8 @@ country_type = decentralized
 SLW = {
 	color = { 153 0 0 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { moluccan }
@@ -1883,7 +2072,8 @@ country_type = decentralized
 TID = {
 	color = { 176  232  64 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { moluccan }
@@ -1894,7 +2084,8 @@ country_type = decentralized
 STG = {
 	color = { 255 255 0 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bornean }
@@ -1905,7 +2096,8 @@ country_type = decentralized
 BNJ = {
 	color = { 171  175  40 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bornean }
@@ -1916,7 +2108,8 @@ country_type = decentralized
 IDN = {
 	color = { 0  128  128 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { balinese batak bornean dayak javan malay moluccan sumatran }
@@ -1927,7 +2120,8 @@ country_type = decentralized
 MGD = {
 	color = { 119  32  29 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { moro }
@@ -1937,7 +2131,8 @@ country_type = decentralized
 YUZ = { # Yuanzhumin
 	color = { 97 44 96 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { yuanzhumin }
@@ -1947,7 +2142,8 @@ country_type = decentralized
 PNS = { # Polynesia
 	color = { 244 140 30 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = empire
 	
 	cultures = { hawaiian maori melanesian polynesian micronesian yuanzhumin }
@@ -1959,7 +2155,8 @@ WTI = { # Wati
 
 	tier = principality
 
-country_type = decentralized
+	country_type = decentralized
+
 	cultures = { aborigine }
 
 	capital = STATE_WESTERN_AUSTRALIA
@@ -1970,7 +2167,8 @@ MRN = { # Mirning
 
 	tier = principality
 
-country_type = decentralized
+	country_type = decentralized
+
 	cultures = { aborigine }
 
 	capital = STATE_WESTERN_AUSTRALIA
@@ -1979,7 +2177,8 @@ country_type = decentralized
 GER = {
 	color = { 147 130 110 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { north_german south_german }
@@ -1989,7 +2188,8 @@ country_type = decentralized
 GBR = {
 	color = hsv{ 0.99  0.7  0.9 }
 
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire	
 	
 	cultures = { british scottish }
@@ -1999,7 +2199,8 @@ country_type = decentralized
 SCA = {
 	color = { 62  122  189 }
 
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { swedish norwegian danish icelandic }
@@ -2009,7 +2210,8 @@ country_type = decentralized
 RUS = {
 	color = { 47 91 18 }
 
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { russian }
@@ -2019,7 +2221,8 @@ country_type = decentralized
 FRA = {
 	color = { 20  50  210 }
 
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { french }
@@ -2029,7 +2232,8 @@ country_type = decentralized
 PRU = {
 	color = { 0 49 83 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { north_german }
@@ -2039,7 +2243,8 @@ country_type = decentralized
 WES = {
 	color = { 5 85 5 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -2050,7 +2255,8 @@ country_type = decentralized
 POM = {
 	color = { 177 51 34 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -2061,7 +2267,8 @@ country_type = decentralized
 AUS = {
 	color = { 211  220  240 }
 
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { south_german }
@@ -2071,7 +2278,8 @@ country_type = decentralized
 USA = {
 	color = { 66  94  193 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = empire
 	
 	cultures = { yankee dixie }
@@ -2081,7 +2289,8 @@ country_type = decentralized
 CSA = {
 	color = { 190  186  202 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { dixie }
@@ -2091,7 +2300,8 @@ country_type = decentralized
 FSA = {
 	color = { 106  124  243 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { yankee }
@@ -2101,7 +2311,8 @@ country_type = decentralized
 ASA = {
 	color = { 212 100 141 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { afro_american }
@@ -2111,7 +2322,8 @@ country_type = decentralized
 LOU = {
 	color = { 53 52 144 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { cajun afro_antillean }
@@ -2121,7 +2333,8 @@ country_type = decentralized
 AGJ = {
 	color = { 111 56 200 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { afro_brazilian }
@@ -2131,7 +2344,8 @@ country_type = decentralized
 AMZ = {
 	color = { 42 102 64 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { amazonian }
@@ -2141,7 +2355,8 @@ country_type = decentralized
 GRI = {
 	color = { 203 32 83 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { guarani }
@@ -2150,7 +2365,8 @@ country_type = decentralized
 
 JAP = {
 	color = { 194 53 60 }
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = empire
 	
 	cultures = { japanese }
@@ -2160,7 +2376,8 @@ country_type = decentralized
 ITA = {
 	color = { 125  171  84 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { north_italian south_italian }
@@ -2170,7 +2387,8 @@ country_type = decentralized
 KUK = {
 	color = { 124 40 30 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	capital = STATE_CENTRAL_HUNGARY
@@ -2180,7 +2398,8 @@ country_type = decentralized
 DEN = {
 	color = hsv{ 1.01  0.8  0.5 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { danish }
@@ -2190,7 +2409,8 @@ country_type = decentralized
 FIN = {
 	color = { 205  212  228 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = grand_principality
 	
 	cultures = { finnish swedish }
@@ -2200,7 +2420,8 @@ country_type = decentralized
 NOR = {
 	color = { 117  165  188 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures= { norwegian }
@@ -2210,7 +2431,8 @@ country_type = decentralized
 SWE = {
 	color = { 87  130  199 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { swedish }
@@ -2220,7 +2442,8 @@ country_type = decentralized
 SCN = {
 	color = { 251  161  22 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { swedish }
@@ -2231,7 +2454,8 @@ country_type = decentralized
 BEL = {
 	color = { 235 200 127 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { flemish wallonian }	
@@ -2241,7 +2465,8 @@ country_type = decentralized
 CAT = {
 	color = { 213  132  76 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { catalan }
@@ -2252,7 +2477,8 @@ country_type = decentralized
 FLA = {
 	color = { 43  141  172 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	capital = STATE_FLANDERS
@@ -2263,7 +2489,8 @@ country_type = decentralized
 IRE = {
 	color = { 112  150  105 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { irish }
@@ -2273,7 +2500,8 @@ country_type = decentralized
 NET = {
 	color = hsv360{ 20  80  80 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { dutch }
@@ -2283,7 +2511,8 @@ country_type = decentralized
 POR = {
 	color = { 28 82 148 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { portuguese }
@@ -2293,7 +2522,8 @@ country_type = decentralized
 SCO = {
 	color = { 199  175  12 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { scottish }
@@ -2303,7 +2533,8 @@ country_type = decentralized
 ENG = {
 	color = { 180 99 58 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { british }
@@ -2313,7 +2544,8 @@ country_type = decentralized
 ULS = {
 	color = hsv360{ 16  80  80 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { scottish irish }
@@ -2325,7 +2557,8 @@ country_type = decentralized
 WLS = {
 	color = { 121  126  148 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { welsh }
@@ -2336,7 +2569,8 @@ country_type = decentralized
 NAV = {
 	color = { 185 112 55 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { basque }
@@ -2347,7 +2581,8 @@ country_type = decentralized
 SPA = {
 	color = hsv360{ 38  97  83 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { spanish }
@@ -2357,7 +2592,8 @@ country_type = decentralized
 WLL = {
 	color = { 131  141  142 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { wallonian }
@@ -2368,7 +2604,8 @@ country_type = decentralized
 ANH = {
 	color = { 203  93  124 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -2379,7 +2616,8 @@ country_type = decentralized
 BAD = {
 	color = { 118  229  215 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = grand_principality
 	
 	cultures = { south_german }
@@ -2390,7 +2628,8 @@ country_type = decentralized
 BAV = {
 	color = { 121  175  235 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { south_german }
@@ -2401,7 +2640,8 @@ country_type = decentralized
 BRA = {
 	color = { 116  92  39 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -2412,7 +2652,8 @@ country_type = decentralized
 BRE = {
 	color = { 33  101  137 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 	
 	cultures = { north_german }
@@ -2422,7 +2663,8 @@ country_type = decentralized
 DZG = {
 	color = { 78  129  151 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 	
 	cultures = { north_german }
@@ -2432,7 +2674,8 @@ country_type = decentralized
 FRM = {
 	color = { 243  201  33 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 	
 	cultures = { north_german }
@@ -2442,7 +2685,8 @@ country_type = decentralized
 HAM = {
 	color = { 104  148  71 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 	
 	cultures = { north_german }
@@ -2452,7 +2696,8 @@ country_type = decentralized
 HAN = {
 	color = { 164  217  127 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { north_german }
@@ -2463,7 +2708,8 @@ country_type = decentralized
 HES = {
 	color = { 146  108  146 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = grand_principality
 	
 	cultures = { north_german }
@@ -2474,7 +2720,8 @@ country_type = decentralized
 HOL = {
 	color = { 220  150  158 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -2485,7 +2732,8 @@ country_type = decentralized
 LUB = {
 	color = { 48  164  51 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 	
 	cultures = { north_german }
@@ -2495,7 +2743,8 @@ country_type = decentralized
 LUX = {
 	color = { 53  140  73 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = grand_principality
 	
 	cultures = { wallonian north_german }
@@ -2505,7 +2754,8 @@ country_type = decentralized
 MEC = {
 	color = { 207  111  64 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = grand_principality
 	
 	cultures = { north_german }
@@ -2516,7 +2766,8 @@ country_type = decentralized
 NAS = {
 	color = { 107  94  169 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -2526,7 +2777,8 @@ country_type = decentralized
 OLD = {
 	color = { 147  130  118 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = grand_principality
 	
 	cultures = { north_german }
@@ -2536,7 +2788,8 @@ country_type = decentralized
 SAX = {
 	color = { 155  147  180 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { north_german }
@@ -2547,7 +2800,8 @@ country_type = decentralized
 WUR = {
 	color = { 111  162  128 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { south_german }
@@ -2559,7 +2813,8 @@ country_type = decentralized
 LOM = {
 	color = { 146  108  146 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_italian }
@@ -2570,7 +2825,8 @@ country_type = decentralized
 LUC = {
 	color = { 114  171  184 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_italian }
@@ -2580,7 +2836,8 @@ country_type = decentralized
 MOD = {
 	color = { 241  252  151 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_italian }
@@ -2590,7 +2847,8 @@ country_type = decentralized
 PAP = {
 	color = { 211  220  178 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { south_italian north_italian }
@@ -2600,7 +2858,8 @@ country_type = decentralized
 PAR = {
 	color = { 128  202  129 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_italian }
@@ -2610,7 +2869,8 @@ country_type = decentralized
 PRA = { #Gao-Para
 	color = { 128  202  129 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { amazonic }
@@ -2621,7 +2881,8 @@ country_type = decentralized
 SAR = {
 	color = { 117  146  167 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { north_italian }
@@ -2632,7 +2893,8 @@ country_type = decentralized
 SIC = {
 	color = { 73  152  76 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { south_italian }
@@ -2642,7 +2904,8 @@ country_type = decentralized
 TRE = {
 	color = { 208  104  44 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_italian }
@@ -2652,7 +2915,8 @@ country_type = decentralized
 TUS = {
 	color = { 84  96  136 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	capital = STATE_TUSCANY
@@ -2663,7 +2927,8 @@ country_type = decentralized
 VEN = {
 	color = { 180 12 1 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_italian }
@@ -2674,7 +2939,8 @@ country_type = decentralized
 BOH = {
 	color = { 161 139 40 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { czech }	
@@ -2685,7 +2951,8 @@ country_type = decentralized
 KRA = {
 	color = { 138  193  231 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 	
 	capital = STATE_WEST_GALICIA
@@ -2695,7 +2962,8 @@ country_type = decentralized
 CRI = {
 	color = { 200  202  85 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { tatar }
@@ -2706,7 +2974,8 @@ country_type = decentralized
 EST = {
 	color = { 99  137  153  }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { estonian }
@@ -2716,7 +2985,8 @@ country_type = decentralized
 HUN = {
 	color = { 152  85  92 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { hungarian }
@@ -2726,7 +2996,8 @@ country_type = decentralized
 LIT = {
 	color = { 154  69  116 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { lithuanian }	
@@ -2736,7 +3007,8 @@ country_type = decentralized
 LAT = {
 	color = { 109  29  80 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { latvian }	
@@ -2746,7 +3018,8 @@ country_type = decentralized
 POL = {
 	color = { 197  92  106 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { polish }
@@ -2756,7 +3029,8 @@ country_type = decentralized
 GAL = {
 	color = { 13  81  130 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { ukrainian polish }
@@ -2766,7 +3040,8 @@ country_type = decentralized
 SLV = {
 	color = { 158  161  188 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { slovak }
@@ -2776,7 +3051,8 @@ country_type = decentralized
 SWI = {
 	color = { 165 45 38 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	capital = STATE_WEST_SWITZERLAND
@@ -2787,7 +3063,8 @@ country_type = decentralized
 TRS = {
 	color = { 211  207  173 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { hungarian romanian }
@@ -2797,7 +3074,8 @@ country_type = decentralized
 UKR = {
 	color = { 62 90 240 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { ukrainian }
@@ -2807,7 +3085,8 @@ country_type = decentralized
 CZH = {
 	color = { 43 89 202 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { czech slovak }
@@ -2817,7 +3096,8 @@ country_type = decentralized
 ALB = {
 	color = { 181  72  106 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	 
 	cultures = { albanian }
@@ -2828,7 +3108,8 @@ country_type = decentralized
 BOS = {
 	color = { 240  167  130 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { bosniak }
@@ -2839,7 +3120,8 @@ country_type = decentralized
 BUL = {
 	color = { 116  107  140 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { bulgarian }	
@@ -2849,7 +3131,8 @@ country_type = decentralized
 CRE = {
 	color = { 165  111  159 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { greek }
@@ -2860,7 +3143,8 @@ country_type = decentralized
 CRO = {
 	color = { 174  227  95 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { croat }
@@ -2871,7 +3155,8 @@ country_type = decentralized
 CYP = {
 	color = { 78  75  39 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { greek }
@@ -2882,7 +3167,8 @@ country_type = decentralized
 GRE = {
 	color = { 122  180  210 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { greek }	
@@ -2892,7 +3178,8 @@ country_type = decentralized
 ION = {
 	color = { 153  141  117 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { greek }	
@@ -2903,7 +3190,8 @@ country_type = decentralized
 MOL = {
 	color = { 136  157  23 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { romanian }
@@ -2914,7 +3202,8 @@ country_type = decentralized
 MON = {
 	color = { 39  108  140 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { serb }
@@ -2927,7 +3216,8 @@ ROM = {
 
 	valid_as_home_country_for_separatists = { always = no }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	capital = STATE_WALLACHIA
@@ -2937,7 +3227,8 @@ country_type = decentralized
 SER = {
 	color = { 166  72  57 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { serb }
@@ -2947,7 +3238,8 @@ country_type = decentralized
 SLO = {
 	color = { 65  91  126 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { slovene }
@@ -2958,7 +3250,8 @@ country_type = decentralized
 TUR = {
 	color = { 170  206  162 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { turkish }
@@ -2968,7 +3261,8 @@ country_type = decentralized
 WAL = {
 	color = { 161  126  128 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { romanian }
@@ -2979,7 +3273,8 @@ country_type = decentralized
 YUG = {
 	color = { 37 128 174 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	capital = STATE_NORTHERN_SERBIA 
@@ -2989,7 +3284,8 @@ country_type = decentralized
 ABU = {
 	color = { 113  112  96 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bedouin }
@@ -3000,7 +3296,8 @@ country_type = decentralized
 AFG = {
 	color = { 92  148  152 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { pashtun tajik }
@@ -3010,7 +3307,8 @@ country_type = decentralized
 ARM = {
 	color = { 128 63 128 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { armenian }
@@ -3021,7 +3319,8 @@ country_type = decentralized
 DAG = {
 	color = { 56 172 32 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { north_caucasian }
@@ -3032,7 +3331,8 @@ country_type = decentralized
 AZB = {
 	color = { 172 56 32 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { azerbaijani }
@@ -3043,7 +3343,8 @@ country_type = decentralized
 BUK = {
 	color = { 147  82  173 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { uzbek }
@@ -3053,7 +3354,8 @@ country_type = decentralized
 GEO = {
 	color = { 210  45  45 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { georgian }
@@ -3064,7 +3366,8 @@ country_type = decentralized
 HDJ = {
 	color = { 121  229  215 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	religion = sunni
 	
@@ -3075,7 +3378,8 @@ country_type = decentralized
 IRQ = {
 	color = { 122 132 110 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { mashriqi }
@@ -3085,7 +3389,8 @@ country_type = decentralized
 KHI = {
 	color = { 188  123  103 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { uzbek }
@@ -3095,7 +3400,8 @@ country_type = decentralized
 KOK = {
 	color = { 119  130  145 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { kirgiz }
@@ -3105,7 +3411,8 @@ country_type = decentralized
 KAZ = {
 	color = { 110 150 190 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { kazak }
@@ -3115,7 +3422,8 @@ country_type = decentralized
 MUG = {
 	color = { 48  96  48 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = empire
 	
 	cultures = { avadhi sindi kannada bengali }
@@ -3125,7 +3433,8 @@ country_type = decentralized
 NEJ = {
 	color = { 209 219 116}
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bedouin }
@@ -3136,7 +3445,8 @@ country_type = decentralized
 OMA = {
 	color = { 98  134  153 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bedouin }
@@ -3148,7 +3458,8 @@ country_type = decentralized
 PER = {
 	color = { 60 150 230 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = empire
 	
 	cultures = { persian }
@@ -3158,7 +3469,8 @@ country_type = decentralized
 JAB = {
 	color = { 183  62  62 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bedouin }
@@ -3168,7 +3480,8 @@ country_type = decentralized
 YEM = {
 	color = { 255  191  191 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { yemenite bedouin }
@@ -3179,7 +3492,8 @@ country_type = decentralized
 MAH = {
 	color = { 0  153  76 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bedouin yemenite }
@@ -3189,7 +3503,8 @@ country_type = decentralized
 KAT = {
 	color = { 79  152  64 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bedouin yemenite }
@@ -3199,7 +3514,8 @@ country_type = decentralized
 ZAI = {
 	color = { 153  76  0 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { yemenite bedouin }
@@ -3210,7 +3526,8 @@ country_type = decentralized
 LAH = {
 	color = { 209  41  41 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bedouin yemenite }
@@ -3221,7 +3538,8 @@ country_type = decentralized
 BHN = {
 	color = { 169  51  51 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bedouin }
@@ -3231,7 +3549,8 @@ country_type = decentralized
 HND = {
 	color = { 150 77 240 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = empire
 	
 	cultures = { kanauji marathi bihari tamil oriya gujarati }
@@ -3241,7 +3560,8 @@ country_type = decentralized
 AWA = {
 	color = { 119  130  145 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { avadhi }
@@ -3251,7 +3571,8 @@ country_type = decentralized
 BAS = {
 	color = { 110  173  129 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { telegu }
@@ -3261,7 +3582,8 @@ country_type = decentralized
 BER = {
 	color = { 120  77  119 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { gujarati }
@@ -3271,7 +3593,8 @@ country_type = decentralized
 BHO = {
 	color = { 154  129  35 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { marathi }
@@ -3281,7 +3604,8 @@ country_type = decentralized
 BIK = {
 	color = { 255  208  170 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { rajput }
@@ -3291,7 +3615,8 @@ country_type = decentralized
 BUN = {
 	color = { 23  114  143 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { kanauji }
@@ -3301,7 +3626,8 @@ country_type = decentralized
 GWA = {
 	color = { 157  200  42 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { marathi }
@@ -3311,7 +3637,8 @@ country_type = decentralized
 HYD = {
 	color = { 89  141  140 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { avadhi }
@@ -3322,7 +3649,8 @@ country_type = decentralized
 BGL = {
 	color = { 36  109  194 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bengali bihari }
@@ -3332,7 +3660,8 @@ country_type = decentralized
 IND = {
 	color = { 128  170  63 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { marathi }
@@ -3342,7 +3671,8 @@ country_type = decentralized
 JAI = {
 	color = { 79  89  182 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { rajput }
@@ -3352,7 +3682,8 @@ country_type = decentralized
 JAS = {
 	color = { 99  137  153 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { rajput }
@@ -3362,7 +3693,8 @@ country_type = decentralized
 JOD = {
 	color = { 104  207  140 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { rajput }
@@ -3372,7 +3704,8 @@ country_type = decentralized
 KAL = {
 	color = { 97  98  195 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { baluchi }
@@ -3382,7 +3715,8 @@ country_type = decentralized
 KAS = {
 	color = { 63  150  30 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { kashmiri }
@@ -3392,7 +3726,8 @@ country_type = decentralized
 KUT = {
 	color = { 199  160  139 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { gujarati }
@@ -3402,7 +3737,8 @@ country_type = decentralized
 LAD = {
 	color = { 49  175  191 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { tibetan }
@@ -3412,7 +3748,8 @@ country_type = decentralized
 MAK = {
 	color = { 219  146  162 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { baluchi }
@@ -3422,7 +3759,8 @@ country_type = decentralized
 MEW = {
 	color = { 209  251  255 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { rajput }
@@ -3432,7 +3770,8 @@ country_type = decentralized
 MYS = {
 	color = { 184  193  89 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { kannada }
@@ -3443,7 +3782,8 @@ country_type = decentralized
 NAG = {
 	color = { 120  148  140 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { marathi }
@@ -3454,7 +3794,8 @@ country_type = decentralized
 NEP = {
 	color = { 137  183  124 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { nepali }
@@ -3464,7 +3805,8 @@ country_type = decentralized
 ORI = {
 	color = { 210  106  47 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { oriya }
@@ -3475,7 +3817,8 @@ country_type = decentralized
 PAN = {
 	color = { 255  87  127 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { panjabi }
@@ -3486,7 +3829,8 @@ country_type = decentralized
 SIK = {
 	color = { 139  138  160 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { tibetan }
@@ -3496,7 +3840,8 @@ country_type = decentralized
 SIN = {
 	color = { 135  104  85 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { sindi }
@@ -3507,7 +3852,8 @@ country_type = decentralized
 TRA = {
 	color = { 134  166  117 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	capital = STATE_TRAVANCORE
@@ -3518,7 +3864,8 @@ country_type = decentralized
 ACE = {
 	color = { 73  152  76 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	capital = STATE_ACEH
@@ -3529,7 +3876,8 @@ country_type = decentralized
 BAL = {
 	color = { 201  97  74 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { balinese moluccan }
@@ -3539,7 +3887,8 @@ country_type = decentralized
 BHU = {
 	color = { 93  180  76 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { tibetan }
@@ -3549,7 +3898,8 @@ country_type = decentralized
 LAN = {
 	color = { 141  89  174 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { hakka }
@@ -3559,7 +3909,8 @@ country_type = decentralized
 BRU = {
 	color = { 41  89  174 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bornean }
@@ -3569,7 +3920,8 @@ country_type = decentralized
 BUR = {
 	color = { 109  168  127 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { burmese }
@@ -3579,7 +3931,8 @@ country_type = decentralized
 CAM = {
 	color = { 127  180  60 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { khmer }
@@ -3589,7 +3942,8 @@ country_type = decentralized
 CHI = {
 	color = { 252 185 61 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = empire
 	
 	cultures = { manchu han } 
@@ -3599,7 +3953,8 @@ country_type = decentralized
 DAI = {
 	color = { 136  117  90 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	religion = confucian
@@ -3611,7 +3966,8 @@ country_type = decentralized
 JAV = {
 	color = { 164  217  127 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { javan }
@@ -3622,7 +3978,8 @@ country_type = decentralized
 KOR = {
 	color = { 157  144  97 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { korean }
@@ -3632,7 +3989,8 @@ country_type = decentralized
 LAO = {
 	color = { 188 15 45 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { lao }
@@ -3643,7 +4001,8 @@ country_type = decentralized
 LUA = {
 	color = { 93  147  88 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { lao }
@@ -3654,7 +4013,8 @@ country_type = decentralized
 CHP = {
 	color = { 75 112 99 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { lao }
@@ -3664,7 +4024,8 @@ country_type = decentralized
 VIE = {
 	color = { 151 174 28 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { lao }
@@ -3674,7 +4035,8 @@ country_type = decentralized
 JOH = {
 	color = { 165  151  80 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	capital = STATE_MALAYA
@@ -3684,7 +4046,8 @@ country_type = decentralized
 SIA = {
 	color = { 88  137  172 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { thai }
@@ -3694,7 +4057,8 @@ country_type = decentralized
 CMI = {
 	color = { 17  16  203 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { thai shan }
@@ -3704,7 +4068,8 @@ country_type = decentralized
 TIB = {
 	color = { 65  127  186 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { tibetan }
@@ -3714,7 +4079,8 @@ country_type = decentralized
 MGL = {
 	color = { 255  224  124 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { mongol }
@@ -3724,7 +4090,8 @@ country_type = decentralized
 XIN = {
 	color = { 255  234  174 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { uighur }
@@ -3734,7 +4101,8 @@ country_type = decentralized
 PHI = {
 	color = { 92 87 122 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { filipino spanish }
@@ -3744,7 +4112,8 @@ country_type = decentralized
 MCH = {
 	color = { 255  254  124 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { manchu }
@@ -3755,7 +4124,8 @@ country_type = decentralized
 CAL = {
 	color = { 144  181  106 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { yankee mexican }
@@ -3765,7 +4135,8 @@ country_type = decentralized
 CAN = {
 	color = { 94  117  55 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { anglo_canadian franco_canadian }
@@ -3775,7 +4146,8 @@ country_type = decentralized
 CHE = {
 	color = { 105  145  40 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { cherokee }
@@ -3785,7 +4157,8 @@ country_type = decentralized
 COL = {
 	color = { 198  113  133 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	capital = STATE_BRITISH_COLUMBIA
@@ -3795,7 +4168,8 @@ country_type = decentralized
 COS = {
 	color = { 207 72 60 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { central_american }
@@ -3806,7 +4180,8 @@ country_type = decentralized
 CUB = {
 	color = { 87  192  204 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { caribeno }
@@ -3817,7 +4192,8 @@ country_type = decentralized
 DES = {
 	color = { 125  92  110 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { yankee dixie }
@@ -3827,7 +4203,8 @@ country_type = decentralized
 DOM = {
 	color = { 93  194  122 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { caribeno afro_caribeno }
@@ -3838,7 +4215,8 @@ country_type = decentralized
 ELS = {
 	color = { 0 47 94 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { central_american }
@@ -3849,7 +4227,8 @@ country_type = decentralized
 GUA = {
 	color = { 115 194 251 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { central_american }
@@ -3860,7 +4239,8 @@ country_type = decentralized
 ALT = {
 	color = { 115 251 194 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { central_american }
@@ -3870,7 +4250,8 @@ country_type = decentralized
 HAI = {
 	color = { 139  179  207 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { afro_antillean }
@@ -3880,7 +4261,8 @@ country_type = decentralized
 MEX = {
 	color = { 56 143 53 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	#173  242  175
 
 	tier = kingdom
@@ -3893,7 +4275,8 @@ country_type = decentralized
 MTC = {
 	color = { 221  186  163 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { metis }
@@ -3903,7 +4286,8 @@ country_type = decentralized
 HON = {
 	color = { 235 240 247 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { central_american }
@@ -3914,7 +4298,8 @@ country_type = decentralized
 NEN = {
 	color = { 166  224  85 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = grand_principality
 	
 	cultures = { yankee }
@@ -3924,7 +4309,8 @@ country_type = decentralized
 NEW = {
 	color = { 255  211  56 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { anglo_canadian }
@@ -3935,7 +4321,8 @@ country_type = decentralized
 NIC = {
 	color = { 34 88 186 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { central_american }
@@ -3946,7 +4333,8 @@ country_type = decentralized
 PNM = {
 	color = { 150  85  61 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { central_american }
@@ -3957,7 +4345,8 @@ country_type = decentralized
 QUE = {
 	color = { 194  140  86 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { franco_canadian }
@@ -3969,7 +4358,8 @@ country_type = decentralized
 HBC = {
 	color = { 99 91 69 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { anglo_canadian }
@@ -3979,7 +4369,8 @@ country_type = decentralized
 ONT = {
 	color = { 136 72 91 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { anglo_canadian }
@@ -3990,7 +4381,8 @@ country_type = decentralized
 NBS = {
 	color = { 235 196 128 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { anglo_canadian franco_canadian }
@@ -4000,7 +4392,8 @@ country_type = decentralized
 NVS = {
 	color = { 148 205 135 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { anglo_canadian }
@@ -4010,7 +4403,8 @@ country_type = decentralized
 TEX = {
 	color = { 4  144  178 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { dixie }
@@ -4021,7 +4415,8 @@ country_type = decentralized
 UCA = {
 	color = { 90 175 255 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	capital = STATE_SAN_SALVADOR
@@ -4031,7 +4426,8 @@ country_type = decentralized
 ARG = {
 	color = { 101  102  163 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { platinean }
@@ -4041,7 +4437,8 @@ country_type = decentralized
 BOL = {
 	color = { 219  182  182 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { south_andean }
@@ -4051,7 +4448,8 @@ country_type = decentralized
 BRZ = {
 	color = hsv360{ 143  75  61 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = empire
 	
 	cultures = { brazilian }
@@ -4061,7 +4459,8 @@ country_type = decentralized
 CHL = {
 	color = { 236  159  89 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { south_andean }
@@ -4071,7 +4470,8 @@ country_type = decentralized
 CLM = {
 	color = { 255  234  168 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { north_andean }
@@ -4081,7 +4481,8 @@ country_type = decentralized
 ECU = {
 	color = { 43  141  172 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { north_andean }
@@ -4092,7 +4493,8 @@ country_type = decentralized
 PEU = {
 	color = { 124  140  162 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { south_andean }
@@ -4102,7 +4504,8 @@ country_type = decentralized
 PRG = {
 	color = { 177  44  29 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { platinean guarani }
@@ -4112,7 +4515,8 @@ country_type = decentralized
 URU = {
 	color = { 131  101  85 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { platinean }
@@ -4123,7 +4527,8 @@ country_type = decentralized
 VNZ = {
 	color = { 255  176  140 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { north_andean }
@@ -4133,7 +4538,8 @@ country_type = decentralized
 ISR = {
 	color = { 150  212  214 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { ashkenazi sephardic }
@@ -4146,7 +4552,8 @@ BYZ = {
 	
 	valid_as_home_country_for_separatists = { always = no } # root = country to separate from
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { greek }	
@@ -4156,7 +4563,8 @@ country_type = decentralized
 ICL = {
 	color = { 62  129  155 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { icelandic }
@@ -4167,7 +4575,8 @@ country_type = decentralized
 ARA = {
 	color = { 66  111  19 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = empire
 	
 	cultures = { mashriqi bedouin misri yemenite }
@@ -4177,7 +4586,8 @@ country_type = decentralized
 UBD = {
 	color = { 142  140  84 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = grand_principality
 	
 	cultures = { latvian estonian lithuanian }
@@ -4187,7 +4597,8 @@ country_type = decentralized
 BYE = {
 	color = { 172  170  170 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { byelorussian }
@@ -4197,7 +4608,8 @@ country_type = decentralized
 PLC = {
 	color = { 219  31  62 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { polish lithuanian }
@@ -4207,7 +4619,8 @@ country_type = decentralized
 GCO = {
 	color = { 255  244  100 }
 	
-country_type = decentralized
+	country_type = colonial
+
 	tier = empire
 	
 	cultures = { north_andean }
@@ -4217,7 +4630,8 @@ country_type = decentralized
 JAN = {
 	color = { 17  225  48 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 
 	capital = STATE_NORTHERN_NORWAY
@@ -4227,7 +4641,8 @@ country_type = decentralized
 BIC = {
 	color = { 188  113  61 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { british }
@@ -4237,7 +4652,8 @@ country_type = decentralized
 BRI = {
 	color = { 215 195 225 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { breton }
@@ -4248,7 +4664,8 @@ country_type = decentralized
 PAT = {
 	color = { 196 25 10 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { patagonian }
@@ -4258,7 +4675,8 @@ country_type = decentralized
 THL = {
 	color = { 57 124 138 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { patagonian }
@@ -4268,7 +4686,8 @@ country_type = decentralized
 SLK = {
 	color = { 122 14 52 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { patagonian }
@@ -4278,7 +4697,8 @@ country_type = decentralized
 TNG = {
 	color = { 69 38 162 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { polynesian }
@@ -4288,7 +4708,8 @@ country_type = decentralized
 WIN = {
 	color = { 50  150  50 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = kingdom
 	
 	cultures = { afro_caribbean }
@@ -4298,7 +4719,8 @@ country_type = decentralized
 MAY = {
 	color = { 98 88 142 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { mayan }
@@ -4308,7 +4730,8 @@ country_type = decentralized
 IBE = {
 	color = { 250  181  0 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { spanish catalan portuguese basque galician }
@@ -4318,7 +4741,8 @@ country_type = decentralized
 ORG = {
 	color = { 138  80 126 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { yankee anglo_canadian }
@@ -4328,7 +4752,8 @@ country_type = decentralized
 COM = {
 	color = { 96 57 19 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { comanche }
@@ -4338,7 +4763,8 @@ country_type = decentralized
 SEQ = {
 	color = { 86 120 117 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { cherokee siouan }
@@ -4348,7 +4774,8 @@ country_type = decentralized
 DKT = {
 	color = { 68 14 98 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { dakota }
@@ -4358,7 +4785,8 @@ country_type = decentralized
 LKT = {
 	color = { 198 114 168 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { dakota }
@@ -4368,7 +4796,8 @@ country_type = decentralized
 NVJ = {
 	color = { 126 180 154 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { navajo }
@@ -4378,7 +4807,8 @@ country_type = decentralized
 ARP = {
 	color = { 223 204 125 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { siouan }
@@ -4388,7 +4818,8 @@ country_type = decentralized
 NZP = {
 	color = { 220 190 50 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { nez_perce }
@@ -4398,7 +4829,8 @@ country_type = decentralized
 ABS = {
 	color = { 199 102 22 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { siouan }
@@ -4408,7 +4840,8 @@ country_type = decentralized
 IRC = {
 	color = { 61 158 124 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 	
 	cultures = { cree siouan }
@@ -4418,7 +4851,8 @@ country_type = decentralized
 JAM = {
 	color = hsv360{ 88  87  33 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { afro_caribbean }
@@ -4428,7 +4862,8 @@ country_type = decentralized
 BAH = {
 	color = hsv360{ 189  100  55 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { afro_caribbean }
@@ -4439,7 +4874,8 @@ country_type = decentralized
 PCO = {
 	color = { 104  92  87 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { caribeno }
@@ -4450,7 +4886,8 @@ country_type = decentralized
 MKT = {
 	color = hsv{ 0.5  0.6  0.6 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { miskito afro_caribbean }
@@ -4460,7 +4897,8 @@ country_type = decentralized
 NAH = {
 	color = hsv360{ 130 100 52 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { nahua mixtec zapotec tarascan }
@@ -4470,7 +4908,8 @@ country_type = decentralized
 GRN = {
 	color = hsv360{ 130 80 52 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { danish inuit }
@@ -4481,7 +4920,8 @@ country_type = decentralized
 ANL = {
 	color = hsv360{ 82  87  78 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { spanish }
@@ -4492,7 +4932,8 @@ country_type = decentralized
 CAS = {
 	color = hsv360{ 51  67  78 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 	
 	cultures = { spanish }
@@ -4503,7 +4944,8 @@ country_type = decentralized
 SMI = { # Sapmi
 	color = { 28 146 136 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = city_state
 	
 	cultures = { sami }
@@ -4514,7 +4956,8 @@ country_type = decentralized
 MLT = { # Malta
 	color = { 28 146 136 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = city_state
 	
 	cultures = { maltese }
@@ -4525,7 +4968,8 @@ country_type = decentralized
 PRM = { # Perm
 	color = { 236 159 90 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 
 	cultures = { ugrian }
@@ -4536,7 +4980,8 @@ country_type = decentralized
 HZJ = { # Hazarajat
 	color = { 236 159 90 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 
 	cultures = { hazara }
@@ -4547,7 +4992,8 @@ country_type = decentralized
 TRC = { # Turkmenistan
 	color = { 165 117 208 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 
 	cultures = { turkmen }
@@ -4558,7 +5004,8 @@ country_type = decentralized
 SIB = { # Siberia
 	color = { 139 138 160 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = kingdom
 	cultures = { yakut siberian inuit buryat }
 	capital = STATE_TOMSK
@@ -4567,7 +5014,8 @@ country_type = decentralized
 YAK = { # Yakutia
 	color = { 131 176 131 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 
 	cultures = { yakut }
@@ -4578,7 +5026,8 @@ country_type = decentralized
 ASM = { # Assam
 	color = { 163 5 77 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { assamese }
@@ -4589,7 +5038,8 @@ country_type = decentralized
 MNP = { # Manipur
 	color = { 149 191 117 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { manipuri }
@@ -4600,7 +5050,8 @@ country_type = decentralized
 TOB = { # Toba
 	color = { 183 141 1 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { batak }
@@ -4611,7 +5062,8 @@ country_type = decentralized
 KLT = { # Kalimantan
 	color = { 193 164 142 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { bornean dayak }
@@ -4622,7 +5074,8 @@ country_type = decentralized
 HTH = { # Hanthawaddy
 	color = { 140 210 160 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { mon }
@@ -4633,7 +5086,8 @@ country_type = decentralized
 KRN = { # Karen
 	color = { 72 153 99 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { karen }
@@ -4644,7 +5098,8 @@ country_type = decentralized
 KHM = { # Khmu
 	color = { 244 237 202 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { khmu }
@@ -4655,7 +5110,8 @@ country_type = decentralized
 KHN = { # Kachin
 	color = { 130 186 198 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { kachin }
@@ -4666,7 +5122,8 @@ country_type = decentralized
 AIN = { # Ainu Mosir
 	color = { 201 197 124 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { ainu }
@@ -4677,7 +5134,8 @@ country_type = decentralized
 EZO = { # Ezo
 	color = { 129 40 147 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { japanese ainu }
@@ -4688,7 +5146,8 @@ country_type = decentralized
 QIA = { # Qian
 	color = { 0 103 165 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { miao }
@@ -4699,7 +5158,8 @@ country_type = decentralized
 FRS = { # Formosa
 	color = { 218 234 15 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { min }
@@ -4710,7 +5170,8 @@ country_type = decentralized
 
 YUN = { # Yunnan
 	color = { 245 245 220 }
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { yi }
@@ -4721,7 +5182,8 @@ country_type = decentralized
 
 YUE = { # Yue
 	color = { 89 113 223 }
-country_type = decentralized	tier = principality
+	country_type = unrecognized
+	tier = principality
 	cultures = { yue }
 	
 	capital = STATE_GUANGDONG
@@ -4730,7 +5192,8 @@ country_type = decentralized	tier = principality
 OAX = { # Oaxaca
 	color = { 158 118 120 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { zapotec mixtec }
@@ -4741,7 +5204,8 @@ country_type = decentralized
 MCO = { # Michoacan
 	color = { 158 18 20 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tarascan }
@@ -4752,7 +5216,8 @@ country_type = decentralized
 TWT = { # Tawantinsuyu
 	color = { 125 92 110 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { quechua }
@@ -4763,7 +5228,8 @@ country_type = decentralized
 AYM = { # Aymara
 	color = { 173 211 239 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { aimara }
@@ -4774,7 +5240,8 @@ country_type = decentralized
 WYU = { # Wayuu
 	color = { 40 96 65 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { guajiro }
@@ -4785,7 +5252,8 @@ country_type = decentralized
 TPI = { # Tupinamba
 	color = { 157 209 192 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { tupinamba }
@@ -4796,7 +5264,8 @@ country_type = decentralized
 PUE = { # Pueblo
 	color = { 162 128 8 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { pueblo }
@@ -4807,7 +5276,8 @@ country_type = decentralized
 NNV = { # Nunavut
 	color = { 205 214 216 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { inuit }
@@ -4818,7 +5288,8 @@ country_type = decentralized
 NVL = { # Navajoland
 	color = { 126 180 154 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { navajo }
@@ -4829,7 +5300,8 @@ country_type = decentralized
 ATB = { # Athabaska
 	color = { 88 105 137 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { athabaskan }
@@ -4840,7 +5312,8 @@ country_type = decentralized
 CSC = { # Cascadia
 	color = { 105 152 73 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { salish }
@@ -4851,7 +5324,8 @@ country_type = decentralized
 IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 	color = { 87 182 80 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { iroquoian }
@@ -4862,7 +5336,8 @@ country_type = decentralized
 CTF = { # the Council of Three Fires, Niswa-mishkodewinan
 	color = { 220 147 37 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { algonquian }
@@ -4873,7 +5348,8 @@ country_type = decentralized
 SLS = { # Salish
 	color = { 50 152 173 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 
 	cultures = { salish }
@@ -4884,7 +5360,8 @@ country_type = decentralized
 BNN = { # Bannock
 	color = { 129 56 7 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 
 	cultures = { paiute }
@@ -4895,7 +5372,8 @@ country_type = decentralized
 MSC = { # Muscogee
 	color = { 108 139 208 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 
 	cultures = { muskogean }
@@ -4906,7 +5384,8 @@ country_type = decentralized
 SML = { # Seminole
 	color = { 146 95 107 }
 
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { muskogean }
@@ -4919,7 +5398,8 @@ UTE = { # Ute
 	
 	cultures = { paiute }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	capital = STATE_UTAH
@@ -4930,7 +5410,8 @@ PWN = { # Pawnee
 	
 	cultures = { caddoan }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	capital = STATE_NEBRASKA
@@ -4941,7 +5422,8 @@ APC = { # Apacheria
 	
 	cultures = { apache }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	capital = STATE_NEW_MEXICO
@@ -4952,7 +5434,8 @@ BLF = { # Niitsitapi / Blackfoot Confederacy
 	
 	cultures = { siouan }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	capital = STATE_ALBERTA
@@ -4961,7 +5444,8 @@ country_type = decentralized
 CCM = { # O'odham Country
 	color = hsv{ 0.19 0.61 0.67 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { oodham }
@@ -4972,7 +5456,8 @@ country_type = decentralized
 ORN = { # Orinoco
 	color = hsv{ 0.28 0.79 0.47 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { cariban }
@@ -4983,7 +5468,8 @@ country_type = decentralized
 MUI = { # Muisca
 	color = { 162 182 64 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { muisca }
@@ -4994,7 +5480,8 @@ country_type = decentralized
 SRB = { # Sorbia
 	color = { 67 80 128 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { sorb }
@@ -5005,7 +5492,8 @@ country_type = decentralized
 YUC = {
 	color = { 20 142 20 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { mexican }
@@ -5015,7 +5503,8 @@ country_type = decentralized
 RIO = {
 	color = { 20 20 20 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { mexican }
@@ -5025,7 +5514,8 @@ country_type = decentralized
 PNI = {
 	color = hsv360{ 120  75  61 }
 	
-country_type = decentralized	
+	country_type = colonial
+	
 	tier = principality
 	
 	cultures = { sulista }
@@ -5035,7 +5525,8 @@ country_type = decentralized
 CEY = {
 	color = hsv360{ 0  70  61 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { sinhala }
@@ -5046,7 +5537,8 @@ country_type = decentralized
 BLH = {
 	color = { 125 47 47}
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = kingdom
 
 	cultures = { baluchi }
@@ -5056,7 +5548,8 @@ country_type = decentralized
 NGF = {
 	color = {41 37 37}
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 
 	cultures = { north_german}
@@ -5066,7 +5559,8 @@ country_type = decentralized
 SGF = {
 	color = { 176 18 7}
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = kingdom
 
 	cultures = { south_german}
@@ -5075,7 +5569,8 @@ country_type = decentralized
 
 OCC = {
 	color = { 101 50 253 }
-country_type = decentralized	tier = principality
+	country_type = recognized
+	tier = principality
 	cultures = { occitan }
 	capital = STATE_LANGUEDOC
 
@@ -5083,7 +5578,8 @@ country_type = decentralized	tier = principality
 
 TUV = {
 	color = { 68 242 236}
-country_type = decentralized	tier = principality
+	country_type = unrecognized
+	tier = principality
 	cultures = { tuvan }
 	capital = STATE_TUVA
 
@@ -5091,49 +5587,56 @@ country_type = decentralized	tier = principality
 
 COR = {
 	color = { 68 242 236}
-country_type = decentralized	tier = principality
+	country_type = recognized
+	tier = principality
 	cultures = { corsican }
 	capital = STATE_CORSICA
 }
 
 TNS = {
 	color = { 11 115 39 }
-country_type = decentralized	tier = principality
+	country_type = unrecognized
+	tier = principality
 	cultures = { siberian }
 	capital = STATE_UPPER_YENISEYSK
 }
 
 FER = {
  	color = { 147 25 25 }
-country_type = decentralized	tier = principality
+	country_type = unrecognized
+	tier = principality
 	cultures = { siberian inuit }
 	capital = STATE_TRANS_BAIKAL
 }
 
 IUS = {
 	color = { 11 115 39 }
-country_type = decentralized	tier = kingdom
+	country_type = recognized
+	tier = kingdom
 	cultures = { tatar bashkir udmurt mari chuvash mordvin }
 	capital = STATE_KAZAN
 }
 
 NCA = {
 	color = { 97 162 242 }
-country_type = decentralized	tier = principality
+	country_type = recognized
+	tier = principality
 	cultures = { north_caucasian }
 	capital = STATE_NORTH_CAUCASUS
 }
 
 DON = {
 	color = { 37 168 217 }
-country_type = decentralized	tier = principality
+	country_type = recognized
+	tier = principality
 	cultures = { russian ukrainian }
 	capital = STATE_ROSTOV
 }
 
 SYR = {
 	color = { 241 245 240 }
-country_type = decentralized	tier = principality
+	country_type = unrecognized
+	tier = principality
 	cultures = { mashriqi }
 	religion = sunni
 	capital = STATE_SYRIA
@@ -5141,84 +5644,96 @@ country_type = decentralized	tier = principality
 
 EOT = {
 	color = { 212 11 27 }
-country_type = decentralized	tier = principality
+	country_type = unrecognized
+	tier = principality
 	cultures = { mashriqi bedouin }
 	capital = STATE_TRANSJORDAN
 }
 
 LEB = {
 	color = { 18 201 27 }
-country_type = decentralized	tier = principality
+	country_type = unrecognized
+	tier = principality
 	cultures = { mashriqi }
 	capital = STATE_LEBANON
 }
 
 HNA = { #Hunan	
 	color = { 126 164 224 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han }
 	capital = STATE_HUNAN
 }
 
 AHU = { #Anhui
 	color = { 187 126 224 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han }
 	capital = STATE_SOUTHERN_ANHUI
 }
 
 ZHI = { #Zhili
 	color = { 207 64 88 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han }
 	capital = STATE_ZHILI
 }
 
 SHN = { #Shanxi
 	color = { 94 209 94 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han }
 	capital = STATE_SHANXI
 }
 
 GUI = { #Guizhou
 	color = { 37 102 37 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han}
 	capital = STATE_GUIZHOU
 }
 
 GNG = { #Guangxi
 	color = { 133 56 8 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han yue zhuang}
 	capital = STATE_GUANGXI
 }
 
 SIH = { #Sichuan
 	color = { 42 189 68 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han }
 	capital = STATE_SICHUAN
 }
 
 SHA = { #Shandong
 	color = { 189 113 42 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han }
 	capital = STATE_SHANDONG
 }
 
 XIB = {
 	color = { 68 144 212 }
-country_type = decentralized	tier = kingdom
+	country_type = unrecognized
+	tier = kingdom
 	cultures = { han tibetan }
 	capital = STATE_NINGXIA
 }
 
 TPG = {
 	color = { 100 150 20 }
-country_type = decentralized	tier = empire
+	country_type = unrecognized
+	tier = empire
 	cultures = { han hakka }
 	religion = protestant
 	capital = STATE_NANJING
@@ -5227,7 +5742,8 @@ country_type = decentralized	tier = empire
 GNI = {
 	color = { 73 139 166 }
 	
-country_type = decentralized	
+	country_type = decentralized
+	
 	tier = principality
 	
 	cultures = { guarani }
@@ -5237,7 +5753,8 @@ country_type = decentralized
 KUR = {
 	color = { 192 245 71 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = kingdom
 	
 	cultures = { kurdish }
@@ -5247,7 +5764,8 @@ country_type = decentralized
 GLI = {
 	color = { 125 243 255 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { galician }
@@ -5257,7 +5775,8 @@ country_type = decentralized
 PAL = {
 	color = { 0  142  76 }
 	
-country_type = decentralized	
+	country_type = unrecognized
+	
 	tier = principality
 	
 	cultures = { mashriqi }
@@ -5268,7 +5787,8 @@ country_type = decentralized
 TRH = { # Turkestan
 	color = { 213 0 39 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = empire
 	
 	cultures = { uzbek kirgiz kazak turkmen tajik uighur }
@@ -5279,7 +5799,8 @@ country_type = decentralized
 COB = {
 	color = { 180  137  148 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { north_german }
@@ -5290,7 +5811,8 @@ country_type = decentralized
 MEI = {
 	color = { 144  181  106 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { north_german }
@@ -5301,7 +5823,8 @@ country_type = decentralized
 WEI = {
 	color = { 69 188 45 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = grand_principality
 	
 	cultures = { north_german }
@@ -5312,7 +5835,8 @@ country_type = decentralized
 SCW = {
 	color = { 98 92 94 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { north_german }
@@ -5323,7 +5847,8 @@ country_type = decentralized
 HEK = {
 	color = { 150 55 75 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -5334,7 +5859,8 @@ country_type = decentralized
 LIP = {
 	color = { 203  62  185 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -5345,7 +5871,8 @@ country_type = decentralized
 SCM = {
 	color = { 25 155 155 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -5356,7 +5883,8 @@ country_type = decentralized
 MST = {
 	color = { 239  232  106 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = grand_principality
 	
 	cultures = { north_german }
@@ -5367,7 +5895,8 @@ country_type = decentralized
 HOH = {
 	color = { 48  169  96 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { south_german }
@@ -5378,7 +5907,8 @@ country_type = decentralized
 WLD = {
 	color = { 169  194  107 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -5389,7 +5919,8 @@ country_type = decentralized
 BHT = {
 	color = { 255  140  0 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	valid_as_home_country_for_separatists = { always = no }
 
 	tier = hegemony
@@ -5402,7 +5933,8 @@ country_type = decentralized
 UOM = {
 	color = { 0 39 76 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { yankee }
@@ -5414,7 +5946,8 @@ country_type = decentralized
 CIR = {
 	color = { 75 96 55 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { circassian }
@@ -5425,7 +5958,8 @@ country_type = decentralized
 CHC = {
 	color = { 35 52 48 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { chechen }
@@ -5436,7 +5970,8 @@ country_type = decentralized
 ASS = {
 	color = { 111 56 200 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = kingdom
 	
 	cultures = { assyrian }
@@ -5447,7 +5982,8 @@ country_type = decentralized
 KLM = {
 	color = { 238 220 89 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { kalmyk }
@@ -5458,7 +5994,8 @@ country_type = decentralized
 SCH = {
 	color = { 235  225  95 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german danish }
@@ -5469,7 +6006,8 @@ country_type = decentralized
 KZH = {
 	color = { 90 120 120 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { kazak }
@@ -5479,7 +6017,8 @@ country_type = decentralized
 UZH = {
 	color = { 70 100 80 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { kazak }
@@ -5489,7 +6028,8 @@ country_type = decentralized
 OZH = {
 	color = { 80 80 100 }
 	
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { kazak }
@@ -5499,7 +6039,8 @@ country_type = decentralized
 CAU = {
 	color = { 200 100 55 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { azerbaijani armenian georgian }
@@ -5509,7 +6050,8 @@ country_type = decentralized
 SAV = {
 	color = { 235 196 231 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	capital = STATE_SAVOY
@@ -5519,7 +6061,8 @@ country_type = decentralized
 RHE = {
 	color = { 5 85 5 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_german }
@@ -5530,7 +6073,8 @@ country_type = decentralized
 PRC = {
 	color = { 237 41 57 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { french }
@@ -5542,7 +6086,8 @@ country_type = decentralized
 KRL = {
 	color = { 22 63 26 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { karelian }
@@ -5552,7 +6097,8 @@ country_type = decentralized
 TAR = {
 	color = { 31 218 229 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { tatar }
@@ -5562,7 +6108,8 @@ country_type = decentralized
 BKR = {
 	color = { 71 219 129 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { bashkir }
@@ -5572,7 +6119,8 @@ country_type = decentralized
 BRY = {
 	color = { 50 50 120 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { buryat }
@@ -5582,7 +6130,8 @@ country_type = decentralized
 KMC = {
 	color = { 25 47 119 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { siberian }
@@ -5592,7 +6141,8 @@ country_type = decentralized
 CKC = {
 	color = { 99 236 240 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { siberian }
@@ -5602,7 +6152,8 @@ country_type = decentralized
 ALI = {
 	color = { 74 121 198 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { mongol }
@@ -5612,7 +6163,8 @@ country_type = decentralized
 URL = {
 	color = { 55 89 88 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { russian }
@@ -5622,7 +6174,8 @@ country_type = decentralized
 KNT = {
 	color = { 156 190 196 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { ugrian }
@@ -5632,7 +6185,8 @@ country_type = decentralized
 UDM = {
 	color = { 82 12 12 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { udmurt }
@@ -5642,7 +6196,8 @@ country_type = decentralized
 CHV = {
 	color = { 249 125 4 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { chuvash }
@@ -5652,7 +6207,8 @@ country_type = decentralized
 MRD = {
 	color = { 222 147 226 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { mordvin }
@@ -5662,7 +6218,8 @@ country_type = decentralized
 MRI = {
 	color = { 139 98 193 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { mari }
@@ -5672,7 +6229,8 @@ country_type = decentralized
 TJI = {
 	color = {45 85 45 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { tajik }
@@ -5682,7 +6240,8 @@ country_type = decentralized
 UZB = {
 	color = { 199 199 170 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { uzbek }
@@ -5692,7 +6251,8 @@ country_type = decentralized
 KYR = {
 	color = { 161 87 87 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { kirgiz }
@@ -5702,7 +6262,8 @@ country_type = decentralized
 PAU = {
 	color = { 69 103 77 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { paulista }
@@ -5712,7 +6273,8 @@ country_type = decentralized
 EQT = {
 	color = { 168 193 183 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { nordestino }
@@ -5722,7 +6284,8 @@ country_type = decentralized
 CTR = {
 	color = { 223 249 104 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { sulista }
@@ -5732,7 +6295,8 @@ country_type = decentralized
 MNG = {
 	color = { 32 191 148 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { brazilian }
@@ -5742,7 +6306,8 @@ country_type = decentralized
 BHI = {
 	color = { 197 206 191 }
 	
-country_type = decentralized	
+	country_type = recognized
+	
 	tier = principality
 	
 	cultures = { nordestino }
@@ -5751,42 +6316,48 @@ country_type = decentralized
 
 CNW = {
 	color = { 194 94 63}
-country_type = decentralized	tier = principality
+	country_type = recognized
+	tier = principality
 	cultures = { british }
 	capital = STATE_WEST_COUNTRY
 }
 
 FND = {
 	color = { 220 220 245 }
-country_type = decentralized	tier = hegemony
+	country_type = colonial
+	tier = hegemony
 	cultures = { north_andean south_andean }
 	capital = STATE_PANAMA
 }
 
 PBC = {
     color = { 234 107 163 }
-country_type = decentralized    tier = empire
+    country_type = colonial
+    tier = empire
     cultures = { south_andean }
     capital = STATE_LA_PAZ
 }
 
 IQU = {
     color = { 245 210 80 }
-country_type = decentralized    tier = principality
+    country_type = unrecognized
+    tier = principality
     cultures = { quechua }
     capital = STATE_ICA
 }
 
 NPU = {
     color = { 157 55 55 }
-country_type = decentralized    tier = principality
+    country_type = colonial
+    tier = principality
     cultures = { south_andean }
     capital = STATE_LIMA
 }
 
 SPU = {
     color = { 55 167 77 }
-country_type = decentralized    tier = principality
+    country_type = colonial
+    tier = principality
     cultures = { south_andean }
     capital = STATE_ICA
 }
@@ -5794,7 +6365,8 @@ country_type = decentralized    tier = principality
 RSM = {
 	color = { 110 10 45 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { north_italian }
@@ -5804,7 +6376,8 @@ country_type = decentralized
 HRE = {
 	color = { 250  250  245 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = hegemony
 	
 	cultures = { north_german south_german czech dutch flemish wallonian alemannic north_italian slovene }
@@ -5814,7 +6387,8 @@ country_type = decentralized
 UNL = {
 	color = { 255 118 28 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { dutch flemish wallonian }
@@ -5824,7 +6398,8 @@ country_type = decentralized
 RHN = {
 	color = { 77 165 128 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = empire
 	
 	cultures = { north_german south_german }
@@ -5834,7 +6409,8 @@ country_type = decentralized
 PLT = {
 	color = { 130  135  240 }
 	
-country_type = decentralized
+	country_type = colonial
+
 	tier = empire
 	
 	cultures = { platinean }
@@ -5844,7 +6420,8 @@ country_type = decentralized
 NCR = {
 	color = { 123 175 212 } #Carolina Blue. It pains me to do this as an NCSU alumnus.
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 	
 	cultures = { dixie }
@@ -5854,7 +6431,8 @@ country_type = decentralized
 SCR = {
 	color = { 245 102 0 }
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = city_state
 	
 	cultures = { dixie }
@@ -5864,7 +6442,8 @@ country_type = decentralized
 CLI = {
 	color = { 135 113 196 } 
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { dixie }
@@ -5874,7 +6453,8 @@ country_type = decentralized
 GRG = {
 	color = { 181 0 39 } 
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { dixie }
@@ -5885,7 +6465,8 @@ country_type = decentralized
 FLR = {
 	color = { 255 198 142 } 
 	
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 	
 	cultures = { dixie }
@@ -5895,7 +6476,8 @@ country_type = decentralized
 PAK = {
 	color = { 164 157 96 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = empire
 	
 	cultures = { kashmiri panjabi sindi baluchi pashtun }
@@ -5906,7 +6488,8 @@ country_type = decentralized
 TIS = {
 	color = { 190 133 82 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = empire
 	
 	cultures = { cherokee iroquoian siouan }
@@ -5916,7 +6499,8 @@ country_type = decentralized
 KAB = {
 	color = { 95 95 109 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { pashtun tajik }
@@ -5926,7 +6510,8 @@ country_type = decentralized
 KAN = {
 	color = { 71 113 193 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { pashtun tajik }
@@ -5936,7 +6521,8 @@ country_type = decentralized
 HER = {
 	color = { 80 135 113 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { pashtun persian }
@@ -5946,7 +6532,8 @@ country_type = decentralized
 CHT = {
 	color = { 96 193 182 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { kho }
@@ -5956,7 +6543,8 @@ country_type = decentralized
 MAI = {
 	color = { 204 210 3 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { uzbek turkmen }
@@ -5966,7 +6554,8 @@ country_type = decentralized
 KUN = {
 	color = { 153 76 0 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { uzbek tajik }
@@ -5976,7 +6565,8 @@ country_type = decentralized
 ARB = {
 	color = { 140 102 152 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { mashriqi }
@@ -5986,7 +6576,8 @@ country_type = decentralized
 BHW = {
 	color = { 93 148 107 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 	
 	cultures = { panjabi sindi }
@@ -5997,7 +6588,8 @@ country_type = decentralized
 TRM = { # Turkmenia
 	color = { 156 74 74 }
 
-country_type = decentralized
+	country_type = decentralized
+
 	tier = principality
 
 	cultures = { turkmen }
@@ -6008,7 +6600,8 @@ country_type = decentralized
 ABK = { # Abkhazia
 	color = { 92 188 73 }
 
-country_type = decentralized
+	country_type = recognized
+
 	tier = principality
 
 	cultures = { north_caucasian }
@@ -6019,7 +6612,8 @@ country_type = decentralized
 LUR = { # Luristan
 	color = { 207 213 47 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 
 	cultures = { luri }
@@ -6030,7 +6624,8 @@ country_type = decentralized
 MAZ = { # Mazandaran
 	color = { 217 144 88 }
 
-country_type = decentralized
+	country_type = unrecognized
+
 	tier = principality
 
 	cultures = { mazanderani }
