@@ -1,0 +1,71 @@
+﻿# root = state
+# on monthly pulse
+
+# check if variable exists
+aom_check_monster_number_variable_effect = {
+	if = {
+		limit = {
+			OR = {
+				NOT = {
+					exists = var:var_state_monster_number
+				}
+				var:var_state_monster_number < 0
+			}
+		}
+		set_variable = {
+			name = var_state_monster_number
+			value = 0
+		}
+	}
+}
+
+# apply growth
+aom_monster_number_grow_effect = {
+	change_variable = {
+		name = var_state_monster_number
+		add = value_state_monster_monthly_growth
+	}
+}
+
+# monter spreads to neirgboring states with few monsters
+aom_monster_spread_effect = {
+	if = {
+		limit = {
+			value_state_monster_number_living_capacity_ratio > 0.4
+		}
+		random_neighbouring_state = {
+			limit = {
+				value_state_monster_number_living_capacity_ratio < 0.2
+			}
+			PREV = {
+				# set migration number
+				set_variable = {
+					name = var_state_monster_migration_number
+					value = var:var_state_monster_number
+				}
+				change_variable = {
+					name = var_state_monster_migration_number
+					multiply = 0.1
+				}
+				# subtract state number 
+				change_variable = {
+					name = var_state_monster_number
+					subtract = var:var_state_monster_migration_number
+				}
+			}
+			change_variable = {
+				name = var_state_monster_number
+				add = prev.var:var_state_monster_migration_number
+			}
+		}
+	}
+}
+
+# monster brings devastration to agriculture
+aom_monster_rampant_modifier_effect = {
+	remove_modifier = modifier_rampant_monsters
+	add_modifier = {
+		name = modifier_rampant_monsters
+		
+	}
+}

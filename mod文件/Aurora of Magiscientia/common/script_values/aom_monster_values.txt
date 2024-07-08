@@ -1,0 +1,70 @@
+﻿value_state_monster_number = {
+	value = var:var_state_monster_number
+}
+
+value_state_monster_capacity_per_arable_land = {
+	value = 1000
+}
+
+value_state_monster_killing_capacity = {
+	value = 1
+}
+
+value_state_monster_max_capacity = {
+	value = arable_land
+	multiply = value_state_monster_capacity_per_arable_land
+}
+
+value_state_monster_number_max_cpacity_ratio = {
+	value = value_state_monster_number
+	divide = value_state_monster_max_capacity
+}
+
+value_state_monster_living_capacity = {
+	value = value_state_monster_max_capacity
+	subtract = value_state_monster_killing_capacity
+	min = 0
+}
+
+value_state_monster_number_living_capacity_ratio = {
+	value = value_state_monster_number
+	divide = value_state_monster_living_capacity
+}
+
+value_state_monster_monthly_growth_rate = {
+	value = 0.15
+}
+
+value_state_monster_monthly_growth = {
+	if = {
+		limit = {
+			value_state_monster_living_capacity > value_state_monster_number
+		}
+		value = {
+			value = value_state_monster_monthly_growth_rate
+			multiply = value_state_monster_number
+			multiply = {
+				value = 1
+				subtract = {
+					value = value_state_monster_number
+					divide = value_state_monster_living_capacity
+				}
+			} 
+		}
+	}
+	else = {
+		value = -1
+		multiply = value_state_monster_monthly_growth_rate
+		multiply = value_state_monster_number
+		multiply = {
+			value = 1
+			subtract = {
+				value = 1
+				subtract = {
+					value = value_state_monster_living_capacity
+					divide = value_state_monster_number
+				}
+			}
+		}
+	}
+}

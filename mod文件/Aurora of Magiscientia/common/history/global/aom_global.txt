@@ -3,17 +3,32 @@
 	# starup events for old empire countryies 
 	# change aristocrats into acane
 	every_country = {
-		limit = {
-			religion = rel:holy_church
-			OR = {
-				cu:romannia = {
-					is_primary_culture_of = root
-				}
-			}
-		}
 		trigger_event = {
 			id = aom_startup.1
 			days = 1
+		}
+	}
+
+	# monster mechanic
+	# set monster variables in every state
+	every_state = {
+		aom_check_monster_number_variable_effect = yes
+	}
+	# test effet to add monsters in swiss and NEP
+	c:SWI ?= {
+		every_scope_state = {
+			set_variable = {
+				name = var_state_monster_number
+				value = value_state_monster_max_capacity
+			}
+		}
+	}
+	c:NEP ?= {
+		every_scope_state = {
+			set_variable = {
+				name = var_state_monster_number
+				value = value_state_monster_max_capacity
+			}
 		}
 	}
 }

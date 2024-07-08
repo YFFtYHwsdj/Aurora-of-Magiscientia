@@ -1,0 +1,321 @@
+﻿#mobilization_option_few_magician = {
+#	texture = "gfx/interface/icons/production_method_icons/generic_concept_icon.dds"
+#	
+#	is_shown = {
+#		scope:military_formation = {
+#			aom_magicians_manpower_rate >= 0.05
+#		}
+#	}
+#
+#	possible = {
+#		scope:military_formation = {
+#			mf_has_magician_rate = {VALUE = 0.05}
+#		}
+#	}
+#
+#	
+#
+#	on_activate_while_mobilized = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	on_deactivate = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	upkeep_modifier = {
+#		goods_input_grain_add = 0.5
+#	}
+#
+#	unit_modifier = {
+#		unit_offense_add = 5
+#		unit_defense_add = 5
+#	}
+#
+#	ai_weight = {
+#		value = 5
+#	}
+#
+#	group = aom_magician_combat_formation
+#
+#}
+#
+#
+#mobilization_option_accesory_magician = {
+#	texture = "gfx/interface/icons/production_method_icons/generic_concept_icon.dds"
+#	
+#	is_shown = {
+#		scope:military_formation = {
+#			aom_magicians_manpower_rate >= 0.05
+#		}
+#	}
+#
+#	possible = {
+#		scope:military_formation = {
+#			mf_has_magician_rate = {VALUE = 0.20}
+#		}
+#	}
+#
+#	
+#
+#	on_activate_while_mobilized = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	on_deactivate = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	upkeep_modifier = {
+#		goods_input_grain_add = 0.5
+#	}
+#
+#	unit_modifier = {
+#		unit_offense_add = 15
+#		unit_defense_add = 15
+#	}
+#
+#	ai_weight = {
+#		value = 5
+#	}
+#
+#	group = aom_magician_combat_formation
+#
+#}
+#
+#mobilization_option_scaled_magician = {
+#	texture = "gfx/interface/icons/production_method_icons/generic_concept_icon.dds"
+#	
+#	is_shown = {
+#		scope:military_formation = {
+#			aom_magicians_manpower_rate >= 0.05
+#		}
+#	}
+#
+#	possible = {
+#		scope:military_formation = {
+#			mf_has_magician_rate = {VALUE = 0.35}
+#		}
+#	}
+#
+#	
+#
+#	on_activate_while_mobilized = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	on_deactivate = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	upkeep_modifier = {
+#		goods_input_grain_add = 0.5
+#	}
+#
+#	unit_modifier = {
+#		unit_offense_add = 15
+#		unit_defense_add = 15
+#	}
+#
+#	ai_weight = {
+#		value = 5
+#	}
+#
+#	group = aom_magician_combat_formation
+#
+#}
+#
+#mobilization_option_mainstream_magician = {
+#	texture = "gfx/interface/icons/production_method_icons/generic_concept_icon.dds"
+#	
+#	is_shown = {
+#		scope:military_formation = {
+#			aom_magicians_manpower_rate >= 0.05
+#		}
+#	}
+#
+#	possible = {
+#		scope:military_formation = {
+#			mf_has_magician_rate = {VALUE = 0.5}
+#		}
+#	}
+#
+#	
+#
+#	on_activate_while_mobilized = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	on_deactivate = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	upkeep_modifier = {
+#		goods_input_grain_add = 0.5
+#	}
+#
+#	unit_modifier = {
+#		unit_offense_add = 15
+#		unit_defense_add = 15
+#	}
+#
+#	ai_weight = {
+#		value = 5
+#	}
+#
+#	group = aom_magician_combat_formation
+#
+#}
+#
+#mobilization_option_mass_magician = {
+#	texture = "gfx/interface/icons/production_method_icons/generic_concept_icon.dds"
+#	
+#	is_shown = {
+#		scope:military_formation = {
+#			aom_magicians_manpower_rate >= 0.05
+#		}
+#	}
+#
+#	possible = {
+#		scope:military_formation = {
+#			mf_has_magician_rate = {VALUE = 0.65}
+#		}
+#	}
+#
+#	
+#
+#	on_activate_while_mobilized = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	on_deactivate = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	upkeep_modifier = {
+#		goods_input_grain_add = 0.5
+#	}
+#
+#	unit_modifier = {
+#		unit_offense_add = 15
+#		unit_defense_add = 15
+#	}
+#
+#	ai_weight = {
+#		value = 5
+#	}
+#
+#	group = aom_magician_combat_formation
+#
+#}
+#
+#mobilization_option_full_magician = {
+#	texture = "gfx/interface/icons/production_method_icons/generic_concept_icon.dds"
+#	
+#	
+#
+#	possible = {
+#		scope:military_formation = {
+#			mf_has_magician_rate = {VALUE = 0.8}
+#		}
+#	}
+#
+#	
+#
+#	on_activate_while_mobilized = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	on_deactivate = {
+#		custom_tooltip = {
+#			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+#			add_organization = {
+#				value = organization
+#				multiply = -0.5
+#			}
+#		}
+#	}
+#	
+#	upkeep_modifier = {
+#		goods_input_grain_add = 0.5
+#	}
+#
+#	unit_modifier = {
+#		unit_offense_add = 15
+#		unit_defense_add = 15
+#	}
+#	
+#
+#	ai_weight = {
+#		value = 5
+#	}
+#
+#	group = aom_magician_combat_formation
+#
+#}

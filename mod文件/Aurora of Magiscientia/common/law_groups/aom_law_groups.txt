@@ -1,0 +1,9 @@
+﻿law_group_magician_status = {
+	law_group_category = human_rights
+
+	enactment_approval_mult = 1.5
+	affected_by_regime_change = yes
+	
+	progressive_movement_chance = 10
+	regressive_movement_chance = 0.1
+}

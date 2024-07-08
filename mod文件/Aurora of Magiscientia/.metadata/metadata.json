@@ -7,37 +7,6 @@
   "tags": [ "Total Conversion" ],
   "relationships": [],
   "game_custom_data": {
-    "multiplayer_synchronized": true,
-    "replace_paths": [
-      "common/history/pops",
-      "common/history/ai",
-      "common/history/buildings",
-      "common/history/characters",
-      "common/history/conscription",
-      "common/history/countries",
-      "common/history/diplomacy",
-      "common/history/dipolomatic_plays",
-      "common/history/global",
-      "common/history/goverment_setup",
-      "common/history/goverments",
-      "common/history/interests",
-      "common/history/lobbies",
-      "common/history/military_deployment",
-      "common/history/millitary_formations",
-      "common/history/population",
-      "common/history/power_blocs",
-      "common/history/production_methods",
-      "common/history/states",
-      "common/history/trade_routes",
-      "common/on_actions",
-      "common/company_types",
-      "common/decisions",
-      "common/journal_entry_groups",
-      "common/strategic_regions",
-      "common/country_definitions",
-      "common/country_formation",
-      "common/country_creation",
-      "events"
-    ]
+    "multiplayer_synchronized": true
   }
 }

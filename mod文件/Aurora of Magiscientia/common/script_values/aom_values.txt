@@ -1,0 +1,47 @@
+﻿military_formation_total_manpower = {
+	value = 0
+	every_combat_unit = {
+		add = manpower
+	}
+	min = 0.001
+}
+
+
+military_combat_unit_building_magician_number = {
+	add = building.modifier:building_employment_magicians_add
+}
+
+military_combat_unit_building_non_offier_number = {
+	value = building.modifier:building_employment_magicians_add
+	add = biulding.modifier:building_employment_soldiers_add
+}
+
+military_combat_unit__magician_manpower = {
+	value = military_combat_unit_building_magician_number
+	divide = military_combat_unit_building_non_offier_number
+	multiply = manpower
+}
+
+
+military_formation_magician_manpower = {
+	value = 0
+	every_combat_unit = {
+		add = military_combat_unit__magician_manpower
+	}
+}
+
+aom_magicians_manpower_rate = {
+	value = military_formation_magician_manpower
+	divide = military_formation_total_manpower
+}
+
+
+
+aom_awakening_monthly_rate = {
+	value = 0
+	add = {
+		value = standard_of_living
+		multiply = 0.00001
+		max = 0.0002
+	}
+}

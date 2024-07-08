@@ -4,9 +4,6 @@
 aom_startup.1 = {
 	type = country_event
 	hidden = yes
-	trigger = {
-		
-	}
 
 	immediate = {
 		every_scope_pop = {
@@ -15,6 +12,32 @@ aom_startup.1 = {
 			}
 			change_pop_religion = {
 				target = rel:linegism
+				value = 1
+			}
+		}
+	}
+}
+
+# change magic pops without magical relighion into magical
+aom_startup.2 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		every_scope_pop = {
+			limit = {
+				NOT = {
+					religion = {
+						has_discrimination_trait = magic
+					}
+				}
+				OR  = {
+					is_pop_type = grand_magicians
+					is_pop_type = magicians
+				}
+			}
+			change_pop_religion = {
+				target = rel:arcane
 				value = 1
 			}
 		}

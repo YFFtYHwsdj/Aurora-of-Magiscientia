@@ -1,0 +1,3 @@
+﻿l_simp_chinese:
+ STATE_MONSTER_NUMBER: "#header 本地魔兽数量#!\n[State.MakeScope.ScriptValue('value_state_monster_number')|DV]"
+ STATE_MONSTER_NUMBER_DESC: "#header 本地魔兽数量:#!\n[State.MakeScope.ScriptValue('value_state_monster_number')|DV]"

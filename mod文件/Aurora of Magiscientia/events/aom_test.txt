@@ -1,0 +1,26 @@
+﻿namespace = aom_test
+
+aom_test.1 = {
+	type = country_event
+	hidden = yes
+
+
+	immediate = {
+		set_global_variable = {
+			name = test_global
+			value = 0
+		}
+		b:building_barracks = {
+			every_combat_unit = {
+				change_global_variable = {
+					name = test_global
+					add = 1
+				}
+			}
+		}
+		set_variable = {
+			name = test 
+			value = global_var:test_global
+		}
+	}
+}

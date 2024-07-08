@@ -1,0 +1,14 @@
+﻿building_employment_magicians_add = {
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+country_magicians_voting_power_add = {
+	decimals=1
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}

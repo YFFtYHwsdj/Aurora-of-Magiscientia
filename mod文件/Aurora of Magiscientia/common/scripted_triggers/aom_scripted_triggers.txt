@@ -1,11 +1,26 @@
-﻿pop_has_magic = {
-	OR = {
-		religion = rel:arcane
+﻿mf_has_magician_rate = {
+	trigger_if = {
+		limit = {
+			NOT = {
+				exists = scope:military_formation
+			}
+		}
+		save_temporary_scope_as = military_formation
+	}
+	custom_description = {
+		text = magician_manpower_rate
+		#subject = scope:military_formation
+		value = $VALUE$
+		aom_magicians_manpower_rate >= $VALUE$
 	}
 }
 
-country_is_in_western_empire = {
-	OR = {
-		this = c:PAS
+is_dicriminated_magicians = {
+	text = magician_accepted
+	AND = {
+		has_discrimination_trait = magic
+		scope:country = {
+			has_law = law_type:law_magician_discriminated
+		}
 	}
 }

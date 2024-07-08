@@ -27,7 +27,12 @@ law_state_religion = {
 	}
 	
 	religious_acceptance_rule = {
-		shares_heritage_trait_with_state_religion = scope:country
+		OR = {
+			is_state_religion = scope:country
+			NOT = {
+				is_dicriminated_magicians = yes
+			}
+		}
 	}
 	
 	modifier = {
@@ -140,7 +145,12 @@ law_freedom_of_conscience = {
 	}
 	
 	religious_acceptance_rule = {
-		shares_heritage_trait_with_state_religion = scope:country
+		OR = {
+			shares_heritage_trait_with_state_religion = scope:country
+			NOT = {
+				is_dicriminated_magicians = yes
+			}
+		}
 	}
 	
 	modifier = {
@@ -243,7 +253,9 @@ law_total_separation = {
 	}
 	
 	religious_acceptance_rule = {
-		always = yes
+		NOT = {
+			is_dicriminated_magicians = yes
+		}
 	}
 	
 	possible_political_movements = {
@@ -354,7 +366,12 @@ law_state_atheism = {
 	}
 	
 	religious_acceptance_rule = {
-		is_state_religion = scope:country
+		OR = {
+			is_state_religion = scope:country
+			NOT = {
+				is_dicriminated_magicians = yes
+			}
+		}
 	}
 	
 	possible_political_movements = {

@@ -1,0 +1,3 @@
+﻿l_simp_chinese:
+ MAGICIAN_MANPOWER_RATE_MORE_THAN: "[MilitaryFormation.GetName]中非[GetPopType('magicians').GetName]的[GetPopType('magicians').GetName]的比例至少#G $VALUE|%$#!（当前约#Y [MilitaryFormation.MakeScope.ScriptValue('aom_magicians_manpower_rate')|%]#!）"
+MAGICIAN_MANPOWER_RATE_LESS_THAN: "[MilitaryFormation.GetName]中非[GetPopType('magicians').GetName]的[GetPopType('magicians').GetName]的比例少于#G $VALUE|%$#!（当前约#Y [MilitaryFormation.MakeScope.ScriptValue('aom_magicians_manpower_rate')|%]#!）"

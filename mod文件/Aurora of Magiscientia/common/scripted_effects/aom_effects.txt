@@ -7,16 +7,9 @@
 				}
 			}
 		}
-		if = {
-			limit = {
-				culture = {
-					has_discrimination_trait = human_race
-				}
-			}
-			change_pop_religion = {
-				target = rel:arcane
-				value = 0.00001
-			}
+		change_pop_religion = {
+			target = rel:arcane
+			value = aom_awakening_monthly_rate
 		}
 	}
 }
