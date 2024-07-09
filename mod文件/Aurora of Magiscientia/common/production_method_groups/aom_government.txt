@@ -1,0 +1,10 @@
+﻿pmg_base_building_wizard_tower = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_traditional_research
+		pm_magic_theorem
+		pm_quantum_magic
+	}
+}

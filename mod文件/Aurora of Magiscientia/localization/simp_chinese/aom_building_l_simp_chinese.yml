@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+ building_wizard_tower: "法师塔"
+ building_wizard_tower_lens_option: "扩建$building_wizard_tower$"
+ pmg_base_building_wizard_tower: "研究理论"
+ pm_traditional_research: "传统研究"
+ pm_magic_theorem: "魔力定理"
+ pm_quantum_magic: "量子学说"
