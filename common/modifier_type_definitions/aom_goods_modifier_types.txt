@@ -1,0 +1,58 @@
+﻿goods_input_zro_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_zro_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_zro_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_groceries_add ={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_quests_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_quests_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_meat_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}

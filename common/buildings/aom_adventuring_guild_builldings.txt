@@ -9,6 +9,7 @@
 
 	production_method_groups = {
 		pmg_base_adventuring
+		pmg_magic_adventuring
 	}
 
 	ownership_type = self

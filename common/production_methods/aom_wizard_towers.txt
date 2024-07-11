@@ -1,4 +1,20 @@
-﻿pm_traditional_research = {
+﻿pm_magician_apprenticeship = {
+	texture = "gfx/interface/icons/production_method_icons/pm_magician_apprenticeship.dds"
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_magicians_add = 50
+			building_employment_grand_magicians_add = 10
+		}
+
+		unscaled = {
+			building_grand_magicians_shares_add = 10
+			building_magicians_shares_add = 1
+		}
+	}
+}
+
+pm_traditional_research = {
 	texture = "gfx/interface/icons/production_method_icons/traditional_research.dds"
 	
 	# country_modifiers = {
@@ -19,6 +35,7 @@
 			building_employment_magicians_add = 100
 			building_employment_grand_magicians_add = 10
 		}
+		
 	}
 	
 	state_modifiers = {

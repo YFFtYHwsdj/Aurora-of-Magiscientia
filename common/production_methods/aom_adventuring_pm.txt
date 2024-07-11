@@ -1,0 +1,40 @@
+﻿pm_base_adventuring = {
+	texture = "gfx/interface/icons/production_method_icons/muskets.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_small_arms_add = 5
+			goods_output_quests_add = 15
+			goods_output_zro_add = 2
+			goods_output_meat_add = 5
+		}
+		level_scaled = {
+			building_employment_adventurers_add = 5000
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_monster_killing_capibility_add = 5
+		}
+	}
+}
+
+pm_no_magic_used_adventuring = {
+	texture = "gfx/interface/icons/production_method_icons/no_magic_used.dds"
+}
+
+pm_magician_assisted_adventuring = {
+	texture = "gfx/interface/icons/production_method_icons/magician_assisted.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_zro_add = 1
+			goods_input_small_arms_add = -1
+		}
+		level_scaled = {
+			building_employment_magicians_add = 100
+			building_employment_adventurers_add = -1000
+		}
+	}
+}

@@ -76,7 +76,10 @@ aom_monster_rampant_modifier_effect = {
 }
 
 aom_overly_monster_hunting_modifier_effect = {
-	remove_modifier = modifier_overly_monster_hunting
+	remove_modifier = state_modifier_overly_monster_hunting
+	b:building_adventuring_guild = {
+		remove_modifier = building_modifier_overly_monster_hunting
+	}
 	if = {
 		limit = {
 			value_state_monster_killing_capacity > 0
@@ -84,8 +87,14 @@ aom_overly_monster_hunting_modifier_effect = {
 			value_state_monster_hunting_modifier_multiplier <= 1
 		}
 		add_modifier = {
-			name = modifier_overly_monster_hunting
+			name = state_modifier_overly_monster_hunting
 			multiplier = value_state_monster_hunting_modifier_multiplier
+		}
+		b:building_adventuring_guild = {
+			add_modifier = {
+				name = building_modifier_overly_monster_hunting
+				multiplier = PREV.value_state_monster_hunting_modifier_multiplier
+			}
 		}
 	}
 }

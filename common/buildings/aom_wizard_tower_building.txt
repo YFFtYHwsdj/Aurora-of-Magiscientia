@@ -11,7 +11,7 @@
 	# }
 
 	production_method_groups = {
-		pmg_base_building_wizard_tower
+		pmg_ownership_building_wizard_tower
 	}
 
 	investment_scores = {

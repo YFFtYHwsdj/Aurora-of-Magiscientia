@@ -29,17 +29,7 @@ state_monster_killing_capibility_add = {
 	}
 }
 
-# goods 
-
-goods_output_quests_add = {
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-
-goods_output_quests_mult = {
+building_adventuring_guild_output_mult = {
 	decimals=1
 	color=good
 	percent=yes

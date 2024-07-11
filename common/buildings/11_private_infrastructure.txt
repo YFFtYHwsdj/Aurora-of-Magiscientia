@@ -134,7 +134,7 @@ building_manor_house = {
 		bg_adventuring_score = {
 			group = "bg_adventuring"
 			score = {
-				value = 2.0
+				value = 1.0
 			}
 		}		
 		bg_manufacturing_score = {
@@ -266,7 +266,7 @@ building_financial_district = {
 		bg_adventuring_score = {
 			group = "bg_adventuring"
 			score = {
-				value = 4.0
+				value = 1.0
 			}
 		}
 		bg_manufacturing_score = {
