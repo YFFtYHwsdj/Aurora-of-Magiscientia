@@ -1,8 +1,0 @@
-﻿pmg_base_adventuring = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
-	production_methods = {
-		pm_base_adventuring
-	}
-	
-}

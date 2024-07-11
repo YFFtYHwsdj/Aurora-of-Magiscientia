@@ -6,19 +6,8 @@ value_state_monster_capacity_per_arable_land = {
 	value = 1000
 }
 
-value_state_monster_hunting_modifier_multiplier = {
-	value = 1
-	subtract = {
-		value = value_state_monster_number
-		divide = value_state_monster_killing_capacity
-		max = 1
-	}
-}
-
 value_state_monster_killing_capacity = {
-	value = 0
-	add = modifier:state_monster_killing_capibility_add
-	multiply = 1000
+	value = 1
 }
 
 value_state_monster_max_capacity = {
@@ -70,6 +59,7 @@ value_state_monster_monthly_growth = {
 		multiply = {
 			value = 1
 			subtract = {
+				value = 1
 				subtract = {
 					value = value_state_monster_living_capacity
 					divide = value_state_monster_number

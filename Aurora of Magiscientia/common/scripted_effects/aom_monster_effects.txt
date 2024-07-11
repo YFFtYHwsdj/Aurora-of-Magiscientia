@@ -64,28 +64,8 @@ aom_monster_spread_effect = {
 # monster brings devastration to agriculture
 aom_monster_rampant_modifier_effect = {
 	remove_modifier = modifier_rampant_monsters
-	if = {
-		limit = {
-			value_state_monster_number_max_cpacity_ratio > 0
-		}
-		add_modifier = {
-			name = modifier_rampant_monsters
-			multiplier = value_state_monster_number_max_cpacity_ratio
-		}
-	}
-}
-
-aom_overly_monster_hunting_modifier_effect = {
-	remove_modifier = modifier_overly_monster_hunting
-	if = {
-		limit = {
-			value_state_monster_killing_capacity > 0
-			value_state_monster_hunting_modifier_multiplier > 0
-			value_state_monster_hunting_modifier_multiplier <= 1
-		}
-		add_modifier = {
-			name = modifier_overly_monster_hunting
-			multiplier = value_state_monster_hunting_modifier_multiplier
-		}
+	add_modifier = {
+		name = modifier_rampant_monsters
+		
 	}
 }

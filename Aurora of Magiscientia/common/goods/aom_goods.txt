@@ -1,7 +1,18 @@
-﻿quests = {
-	texture = "gfx/interface/icons/goods_icons/gold.dds"
+﻿zro = {
+	texture = "gfx/interface/icons/goods_icons/zro.dds"
+	cost = 150
 	category = industrial
-	cost = 100
-	tradeable = no 
-	fixed_price = yes
+	
+	prestige_factor = 10
+}
+
+scroll = {
+	texture = "gfx/interface/icons/goods_icons/scroll.dds"
+	cost = 200
+	category = industrial
+	
+	prestige_factor = 10
+	
+	traded_quantity = 4
+	convoy_cost_multiplier = 1.5
 }
