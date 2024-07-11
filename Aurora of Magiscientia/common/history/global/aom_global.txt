@@ -14,6 +14,14 @@
 	every_state = {
 		aom_check_monster_number_variable_effect = yes
 	}
+	# create a 1-level advernturer guild in every state
+	every_state = {
+		create_building = {
+			building = building_adventuring_guild
+			reserves = 1
+			level = 1
+		}
+	}
 	# test effet to add monsters in swiss and NEP
 	c:SWI ?= {
 		every_scope_state = {

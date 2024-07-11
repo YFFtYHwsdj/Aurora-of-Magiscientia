@@ -24,11 +24,14 @@
 # is_shown_in_outliner = yes			If no, buildingtypes in this group will not show up in the outliner, this is for special stuff like the monuments
 # Manufacturing
 
-bg_magic_industry = {
-	parent_group = bg_manufacturing
+bg_adventuring = {
+	category = urban
+	cash_reserves_max = 5000
+	always_possible = yes
+	infrastructure_usage_per_level = 0
+	economy_of_scale = no
 
-	lens = magic_industry
-
-	urbanization = 20
-	infrastructure_usage_per_level = 1
+	should_auto_expand = {
+		default_auto_expand_rule = yes
+	}
 }
