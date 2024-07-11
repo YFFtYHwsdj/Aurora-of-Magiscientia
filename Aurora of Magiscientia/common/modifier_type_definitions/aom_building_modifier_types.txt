@@ -6,7 +6,7 @@
 	}
 }
 
-goods_output_groceries_add = 20={
+goods_output_groceries_add ={
 	decimals=1
 	color=good
 	game_data={
