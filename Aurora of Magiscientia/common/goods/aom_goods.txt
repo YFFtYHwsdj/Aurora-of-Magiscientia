@@ -1,4 +1,12 @@
-﻿zro = {
+﻿quests = {
+	texture = "gfx/interface/icons/goods_icons/gold.dds"
+	category = industrial
+	cost = 100
+	tradeable = no 
+	fixed_price = yes
+}
+
+zro = {
 	texture = "gfx/interface/icons/goods_icons/zro.dds"
 	cost = 150
 	category = industrial
