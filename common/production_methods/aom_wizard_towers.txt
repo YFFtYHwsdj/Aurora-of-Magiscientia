@@ -16,7 +16,7 @@
 		}	
 	
 		level_scaled = {
-			building_employment_magicians_add = 500
+			building_employment_magicians_add = 100
 			building_employment_grand_magicians_add = 10
 		}
 	}
@@ -46,8 +46,8 @@ pm_magic_theorem = {
 		}	
 	
 		level_scaled = {
-			building_employment_magicians_add = 500
-			building_employment_grand_magicians_add = 20
+			building_employment_magicians_add = 100
+			building_employment_grand_magicians_add = 10
 		}
 	}
 	
@@ -77,8 +77,8 @@ pm_quantum_magic = {
 		}	
 	
 		level_scaled = {
-			building_employment_magicians_add = 500
-			building_employment_grand_magicians_add = 50
+			building_employment_magicians_add = 100
+			building_employment_grand_magicians_add = 10
 		}
 	}
 	
