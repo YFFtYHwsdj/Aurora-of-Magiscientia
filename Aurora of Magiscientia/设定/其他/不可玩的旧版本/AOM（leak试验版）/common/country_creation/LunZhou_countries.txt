@@ -1,6 +1,0 @@
-﻿ICE = {
-	ai_will_do = { always = no }
-}
-ELN = {
-	ai_will_do = { always = no }
-}

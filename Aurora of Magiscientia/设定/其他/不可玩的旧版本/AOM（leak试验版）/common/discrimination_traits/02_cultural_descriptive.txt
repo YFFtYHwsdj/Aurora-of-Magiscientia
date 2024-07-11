@@ -1,3 +1,0 @@
-﻿screaming_sea_people = { }
-romance = { }
-diggers = { }

@@ -1,8 +1,0 @@
-﻿inflation_modifier = {
-    country_tax_income_add = 1
-}
-
-hyper_inflation_modifier = {
-    country_tax_income_add = 1
-    state_radicals_from_sol_change_mult = 1
-}

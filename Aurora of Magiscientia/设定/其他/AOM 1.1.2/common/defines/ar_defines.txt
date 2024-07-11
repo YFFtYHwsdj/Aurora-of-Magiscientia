@@ -1,3 +1,0 @@
-﻿NEconomy = {
-	GOODS_SHORTAGE_PENALTY_MAX = 0.95
-}

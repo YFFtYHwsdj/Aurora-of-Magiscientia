@@ -1,5 +1,0 @@
-﻿# 以1000k作为计算单位
-aom_mana_multiplier = {
-    value = var:target_population
-    divide = 1000000
-}

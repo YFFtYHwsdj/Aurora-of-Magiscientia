@@ -1,6 +1,0 @@
-﻿sacred_heritage = {
-	heritage = yes
-}
-wicked_heritage = {
-	heritage = yes
-}

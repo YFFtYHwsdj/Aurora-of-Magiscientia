@@ -1,5 +1,0 @@
-# 中央集权部门
-insititution_central_administration = {
-	icon = "gfx/interface/icons/institution_icons/police.dds"
-    background_texture = "gfx/interface/illustrations/institutions/police.dds"
-}

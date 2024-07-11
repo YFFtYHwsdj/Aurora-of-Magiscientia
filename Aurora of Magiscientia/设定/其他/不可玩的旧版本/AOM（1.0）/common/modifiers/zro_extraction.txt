@@ -1,5 +1,0 @@
-confessed_zro_exraction_modifier = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds"
-	country_tech_spread_mult = 5
-	country_weekly_innovation_mult = -0.8
-}

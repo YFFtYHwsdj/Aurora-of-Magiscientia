@@ -1,5 +1,0 @@
-﻿NWU = {
-	
-	
-	ai_will_do = { always = no }
-}

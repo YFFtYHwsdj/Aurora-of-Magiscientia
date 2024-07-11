@@ -1,4 +1,0 @@
-﻿building_group_bg_subsistence_agriculture_throughput_mult = {
-	good = yes
-	percent = yes
-}

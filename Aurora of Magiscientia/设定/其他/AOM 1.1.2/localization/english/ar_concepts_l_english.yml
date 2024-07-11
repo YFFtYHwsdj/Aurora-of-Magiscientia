@@ -1,8 +1,0 @@
-﻿l_english:
- concept_subsistence_building:0 "Small-scale Farms"
- concept_subsistence_buildings:1 "Small-scale Farms"
- concept_subsistence_building_farming:0 "Small-scale Farms"
- concept_subsistence_building_desc:2 "A set of [Concept('concept_building', '$concept_buildings$')] that perform family-based production of food and basic resource [Concept('concept_good','$concept_goods$')] and produces $gig$ as [concept_input_goods] for [concept_rural_industry]. They will operate on any unclaimed [concept_arable_land] and does not require manual [concept_construction]."
- concept_subsistence_building_desc_added:0 "[GetPopType('small_farmers').GetName]"
- concept_rural_industry:0 "Rual Industry"
- concept_rural_industry_desc:1 "Rural industry, different from urban industry, is a type of gig economy located in rural areas. Unlike normal [Concept('concept_building', '$concept_buildings$')], it will consume $gig$ as abstract presentation of surplus labor in rural areas."

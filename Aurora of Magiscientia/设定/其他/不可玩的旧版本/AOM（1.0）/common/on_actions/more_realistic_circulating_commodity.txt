@@ -1,5 +1,0 @@
-on_monthly_pulse_country = {
-    effect = {
-        cc_subsistence_output_change = yes
-    }
-} 

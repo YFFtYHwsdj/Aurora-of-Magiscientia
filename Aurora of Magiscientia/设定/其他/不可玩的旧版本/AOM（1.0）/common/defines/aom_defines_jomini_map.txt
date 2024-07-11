@@ -1,6 +1,0 @@
-NJominiMap = {
-	WORLD_EXTENTS_X = 8192
-	WORLD_EXTENTS_Y = 24					#This determines the max height of the world. Original settings = 25.5
-	WORLD_EXTENTS_Z = 3615
-	WATERLEVEL = 1.74						#Original Settings 3.7
-}
