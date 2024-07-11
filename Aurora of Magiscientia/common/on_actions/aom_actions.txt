@@ -16,6 +16,8 @@ aom_monster_growth_pulse = {
 		aom_check_monster_number_variable_effect = yes
 		aom_monster_number_grow_effect = yes
 		aom_monster_spread_effect = yes 
+		aom_monster_rampant_modifier_effect = yes
+		aom_overly_monster_hunting_modifier_effect = yes
 	}
 }
 
