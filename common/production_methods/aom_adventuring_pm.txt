@@ -5,7 +5,7 @@
 		workforce_scaled = {
 			goods_input_small_arms_add = 5
 			goods_output_quests_add = 15
-			goods_output_zro_add = 2
+			goods_output_zro_add = 1
 			goods_output_meat_add = 5
 		}
 		level_scaled = {
@@ -29,7 +29,6 @@ pm_magician_assisted_adventuring = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_zro_add = 1
 			goods_input_small_arms_add = -1
 		}
 		level_scaled = {

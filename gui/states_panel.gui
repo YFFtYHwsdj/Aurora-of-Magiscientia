@@ -1317,6 +1317,44 @@ types state_panel_types
 					blockoverride "name" {
 						text = "STATE_MONSTER_NUMBER"
 					}
+
+					blockoverride "navigation_button" {
+						button_icon_plus_action = {
+							position = { -5 5 }
+							size = { 25 25 }
+							parentanchor = top|right
+							datacontext = "[State.GetBuilding('building_adventuring_guild')]"
+							visible = "[IsValid( Building.QueueConstruction )]"
+							tooltip = "[Building.GetQueueConstructionTooltip]"
+							onclick = "[Execute( Building.QueueConstruction )]"
+						}
+					}
+				}
+
+				# AOM dispay for monster mechanics
+				state_panel_status_item_small = {
+					tooltip = "STATE_MONSTER_HUNTING_CAPABILITY_DESC"
+					alwaystransparent = no
+
+					blockoverride "texture" {
+						texture = "gfx/interface/icons/state_status_icons/state_adventuring_coverage.dds"
+					}
+
+					blockoverride "name" {
+						text = "STATE_MONSTER_HUNTING_CAPABILITY"
+					}
+
+					blockoverride "navigation_button" {
+						button_icon_plus_action = {
+							position = { -5 5 }
+							size = { 25 25 }
+							parentanchor = top|right
+							datacontext = "[State.GetBuilding('building_adventuring_guild')]"
+							visible = "[IsValid( Building.QueueConstruction )]"
+							tooltip = "[Building.GetQueueConstructionTooltip]"
+							onclick = "[Execute( Building.QueueConstruction )]"
+						}
+					}
 				}
 
 				state_panel_status_item_small = {

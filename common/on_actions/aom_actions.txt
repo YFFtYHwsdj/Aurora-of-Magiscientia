@@ -29,6 +29,6 @@ aom_monster_monthly_pulse = {
 
 aom_monster_yearly_pulse = {
 	effect = {
-		aom_apply_adventuring_guild_max_level_modifier_effect = yes
+		#aom_apply_adventuring_guild_max_level_modifier_effect = yes
 	}
 }

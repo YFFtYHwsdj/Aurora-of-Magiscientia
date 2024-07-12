@@ -1,3 +1,6 @@
 ﻿l_simp_chinese:
- STATE_MONSTER_NUMBER: "#header 本地魔兽数量#!\n[State.MakeScope.ScriptValue('value_state_monster_number')|DV]"
- STATE_MONSTER_NUMBER_DESC: "#header 本地魔兽数量:#!\n[State.MakeScope.ScriptValue('value_state_monster_number')|DV]"
+ state: "地区"
+ STATE_MONSTER_NUMBER: "#header 本地魔兽数量#!\n[State.MakeScope.ScriptValue('value_state_monster_number')|DV]/[State.MakeScope.ScriptValue('value_state_monster_living_capacity')|DV]"
+ STATE_MONSTER_NUMBER_DESC: "当前该$state$一共有[State.MakeScope.ScriptValue('value_state_monster_number')|DV]头魔兽，会向[State.MakeScope.ScriptValue('value_state_monster_living_capacity')|DV]变化。当本地魔兽数量过多时，会向魔兽数量较少且缺少魔兽狩猎能力的$state$迁移。"
+ STATE_MONSTER_HUNTING_CAPABILITY: "#header 魔兽狩猎能力#!\n[State.MakeScope.ScriptValue('value_state_monster_killing_capacity')|0v]/[State.MakeScope.ScriptValue('value_state_monster_max_capacity')|0v]"
+ STATE_MONSTER_HUNTING_CAPABILITY_DESC: "当前的魔兽狩猎能力为[State.MakeScope.ScriptValue('value_state_monster_killing_capacity')|0v]，最大需要[State.MakeScope.ScriptValue('value_state_monster_max_capacity')|0v]。冒险者公会建筑可以提供魔兽狩猎能力，但其产出收到魔兽数量影响。"

@@ -4,6 +4,8 @@
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_quests_add = 3
+			goods_output_zro_add = 0.2
+			goods_output_meat_add = 1
 		}
 		
 		level_scaled = {
