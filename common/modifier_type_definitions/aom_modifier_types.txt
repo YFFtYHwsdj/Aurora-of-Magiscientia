@@ -37,3 +37,12 @@ building_adventuring_guild_output_mult = {
 		ai_value=0
 	}
 }
+
+state_building_adventuring_guild_max_level_add = {
+	decimals=0
+	color=neutral
+	percent=no
+	game_data={
+		ai_value=0
+	}
+}

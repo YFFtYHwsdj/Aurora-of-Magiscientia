@@ -1,17 +1,23 @@
 ﻿on_monthly_pulse_state = {
 	on_actions = {
-		aom_pop_awakening_pulse 
-		aom_monster_growth_pulse
+		aom_pop_awakening_monthly_pulse 
+		aom_monster_monthly_pulse
 	}
 }
 
-aom_pop_awakening_pulse = {
+on_yearly_pulse_state = {
+	on_actions = {
+		aom_monster_yearly_pulse
+	}
+}
+
+aom_pop_awakening_monthly_pulse = {
 	effect = {
 		aom_pop_awakening_effect = yes
 	}
 }
 
-aom_monster_growth_pulse = {
+aom_monster_monthly_pulse = {
 	effect = {
 		aom_check_monster_number_variable_effect = yes
 		aom_monster_number_grow_effect = yes
@@ -21,3 +27,8 @@ aom_monster_growth_pulse = {
 	}
 }
 
+aom_monster_yearly_pulse = {
+	effect = {
+		aom_apply_adventuring_guild_max_level_modifier_effect = yes
+	}
+}

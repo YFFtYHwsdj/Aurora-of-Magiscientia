@@ -15,6 +15,12 @@ value_state_monster_hunting_modifier_multiplier = {
 	}
 }
 
+value_state_adventuring_guild_max_level = {
+	value = arable_land
+	multiply = 1.2 
+	round = yes
+}
+
 value_state_monster_killing_capacity = {
 	value = 0
 	add = modifier:state_monster_killing_capibility_add

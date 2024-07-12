@@ -1,6 +1,15 @@
 ﻿# root = state
 # on monthly pulse
 
+# apply max level modifier for adventuring guild
+aom_apply_adventuring_guild_max_level_modifier_effect = {
+	remove_modifier = state_modifier_adventuring_guild_max_level
+	add_modifier = {
+		name = state_modifier_adventuring_guild_max_level
+		multiplier = value_state_adventuring_guild_max_level
+	}
+}
+
 # check if variable exists
 aom_check_monster_number_variable_effect = {
 	if = {

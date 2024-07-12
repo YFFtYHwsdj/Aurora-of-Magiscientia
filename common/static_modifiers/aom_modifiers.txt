@@ -16,7 +16,6 @@
 
 building_modifier_overly_monster_hunting = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	goods_output_quests_mult = -1
 	goods_output_meat_mult = -1
 	goods_output_zro_mult = -1
 }
@@ -24,4 +23,10 @@ building_modifier_overly_monster_hunting = {
 state_modifier_overly_monster_hunting = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	building_adventuring_guild_output_mult = -1
+	goods_output_quests_mult = -1
+}
+
+state_modifier_adventuring_guild_max_level = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_building_adventuring_guild_max_level_add = 1
 }
